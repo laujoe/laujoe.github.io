@@ -11,10 +11,10 @@
     <loc>https://laujoe.github.io/p/search/</loc>
     <lastmod>2025-02-15T14:28:07+08:00</lastmod>
   </url><url>
-    <loc>https://laujoe.github.io/about-me/</loc>
+    <loc>https://laujoe.github.io/page/</loc>
     <lastmod>2025-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://laujoe.github.io/page/</loc>
+    <loc>https://laujoe.github.io/%E5%85%B3%E4%BA%8E-about/</loc>
     <lastmod>2025-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://laujoe.github.io/categories/</loc>
@@ -86,8 +86,10 @@
     <loc>https://laujoe.github.io/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://laujoe.github.io/links/</loc>
+    <loc>https://laujoe.github.io/%E9%93%BE%E6%8E%A5-links/</loc>
   </url><url>
     <loc>https://laujoe.github.io/search/</loc>
+  </url><url>
+    <loc>https://laujoe.github.io/photos/</loc>
   </url>
 </urlset>

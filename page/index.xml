@@ -6,13 +6,13 @@
         <description>Recent content in Pages on Lau Joe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>LauJoe Soar &amp; Freely All rights reserved.禁止转载。如需引用，请注明文章链接。</copyright>
+        <copyright>Lau Joe &amp; Soar Freely All rights reserved. 如需转载与引用，请注明文章链接及作者。</copyright>
         <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://laujoe.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>About ME</title>
-        <link>https://laujoe.github.io/about-me/</link>
+        <title>关于 | About</title>
+        <link>https://laujoe.github.io/%E5%85%B3%E4%BA%8E-about/</link>
         <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://laujoe.github.io/about-me/</guid>
+        <guid>https://laujoe.github.io/%E5%85%B3%E4%BA%8E-about/</guid>
         <description>&lt;h2 id=&#34;简介&#34;&gt;简介
 &lt;/h2&gt;&lt;p&gt;我是Lau Joe，目前就读于中国西安美术学院美术史论系，为2023级硕士研究生。运营有公益学术厂牌&lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt;，为厂牌主理人。&lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt;是坚持非营利公益属性的学理性厂牌，希望能够将有价值的资讯传播给大众。&lt;/p&gt;
 &lt;h2 id=&#34;个人成果&#34;&gt;个人成果
@@ -119,7 +119,7 @@
 </description>
         </item>
         <item>
-        <title>Archives</title>
+        <title>归档 | Archives</title>
         <link>https://laujoe.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
@@ -127,11 +127,11 @@
         <description></description>
         </item>
         <item>
-        <title>Links</title>
-        <link>https://laujoe.github.io/links/</link>
+        <title>链接 | Links</title>
+        <link>https://laujoe.github.io/%E9%93%BE%E6%8E%A5-links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://laujoe.github.io/links/</guid>
+        <guid>https://laujoe.github.io/%E9%93%BE%E6%8E%A5-links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -162,11 +162,19 @@
 </description>
         </item>
         <item>
-        <title>Search</title>
+        <title>搜索 | Search</title>
         <link>https://laujoe.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://laujoe.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>相册 | photos</title>
+        <link>https://laujoe.github.io/photos/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://laujoe.github.io/photos/</guid>
         <description></description>
         </item>
         
