@@ -24,7 +24,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;仓鼠资源&lt;br&gt;
-所存储的学术资源、影视资源、图像资源等内容.&lt;/p&gt;
+所存储的学术资源、影视资源、图像资源等内容。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;学术研究&lt;br&gt;
@@ -181,71 +181,11 @@
   
   var dataMap = new Map();
   
-    var key = &#34;2020-09-09&#34;;
+    var key = &#34;2023-12-27&#34;;
     var value = dataMap.get(key);
-    var wordCount =  961 ;
+    var wordCount =  3768 ;
     var link = &#34;/p/test-chinese/&#34;;
-    var title = &#34;Chinese Test&#34;;
-  
-    
-    if (value == null) {
-      dataMap.set(key, [{wordCount, link, title}]);
-    } else {
-      value.push({wordCount, link, title});
-    }
-    var key = &#34;2019-03-11&#34;;
-    var value = dataMap.get(key);
-    var wordCount =  570 ;
-    var link = &#34;/p/markdown-syntax-guide/&#34;;
-    var title = &#34;Markdown Syntax Guide&#34;;
-  
-    
-    if (value == null) {
-      dataMap.set(key, [{wordCount, link, title}]);
-    } else {
-      value.push({wordCount, link, title});
-    }
-    var key = &#34;2019-03-10&#34;;
-    var value = dataMap.get(key);
-    var wordCount =  385 ;
-    var link = &#34;/p/rich-content/&#34;;
-    var title = &#34;Rich Content&#34;;
-  
-    
-    if (value == null) {
-      dataMap.set(key, [{wordCount, link, title}]);
-    } else {
-      value.push({wordCount, link, title});
-    }
-    var key = &#34;2019-03-09&#34;;
-    var value = dataMap.get(key);
-    var wordCount =  269 ;
-    var link = &#34;/p/placeholder-text/&#34;;
-    var title = &#34;Placeholder Text&#34;;
-  
-    
-    if (value == null) {
-      dataMap.set(key, [{wordCount, link, title}]);
-    } else {
-      value.push({wordCount, link, title});
-    }
-    var key = &#34;2019-03-08&#34;;
-    var value = dataMap.get(key);
-    var wordCount =  121 ;
-    var link = &#34;/p/math-typesetting/&#34;;
-    var title = &#34;Math Typesetting&#34;;
-  
-    
-    if (value == null) {
-      dataMap.set(key, [{wordCount, link, title}]);
-    } else {
-      value.push({wordCount, link, title});
-    }
-    var key = &#34;2019-03-05&#34;;
-    var value = dataMap.get(key);
-    var wordCount =  133 ;
-    var link = &#34;/p/emoji-support/&#34;;
-    var title = &#34;Emoji Support&#34;;
+    var title = &#34;未来可期的生产力工具：Lattics&#34;;
   
     
     if (value == null) {
