@@ -15,7 +15,7 @@
         <guid>https://laujoe.github.io/%E5%85%B3%E4%BA%8E-about/</guid>
         <description>&lt;h2 id=&#34;简介&#34;&gt;简介
 &lt;/h2&gt;&lt;p&gt;我是Lau Joe，目前就读于中国西安美术学院美术史论系，是2023级硕士研究生。&lt;/p&gt;
-&lt;p&gt;我目前运营有公益学术厂牌 &lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt; ，担任厂牌主理人。 &lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt; 是坚持非营利公益属性的学理性厂牌，希望能够将有价值的资讯传播给大众。该博客是 &lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt; 的主页面,将会免费分享所有内容。出于传播考虑，部分内容会在少数派、微信公众号进行分享。&lt;/p&gt;
+&lt;p&gt;我目前运营有公益学术厂牌 &lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt; ，担任厂牌主理人。 &lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt; 是坚持非营利公益属性的学理性厂牌，希望能够将有价值的资讯传播给大众。该博客是 &lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt; 的主页面，将会免费分享所有内容。出于传播考虑，部分内容会在少数派、微信公众号进行分享。&lt;/p&gt;
 &lt;p&gt;目前 &lt;em&gt;&lt;strong&gt;Soar Freely&lt;/strong&gt;&lt;/em&gt; 运营有八个栏目:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -52,7 +52,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;个人成果&#34;&gt;个人成果
-&lt;/h2&gt;&lt;p&gt;我的主要研究兴趣在于中国美术史、东亚美术史，同时广泛涉猎各学科，目前正在进行跨学科研究。欢迎感兴趣的朋友一起交流分享。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;我的主要研究兴趣在于中国美术史、东亚美术史，同时广泛涉猎其他学科，目前正在进行跨学科研究。欢迎感兴趣的朋友一起交流分享。&lt;/p&gt;
 &lt;p&gt;个人成果目录主要列置个人的学术研究、学术会议等，作为个人学术成果的索引列表。&lt;/p&gt;
 &lt;h3 id=&#34;学术研究&#34;&gt;学术研究
 &lt;/h3&gt;&lt;p&gt;在报刊、期刊正式发表的文章。&lt;/p&gt;
@@ -181,10 +181,22 @@
   
   var dataMap = new Map();
   
+    var key = &#34;2024-01-25&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  3686 ;
+    var link = &#34;/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/&#34;;
+    var title = &#34;摆脱负担，迎接轻量美观的知识管理：我如何运用Anytype管理日常记录&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = &#34;2023-12-27&#34;;
     var value = dataMap.get(key);
     var wordCount =  3768 ;
-    var link = &#34;/p/test-chinese/&#34;;
+    var link = &#34;/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/&#34;;
     var title = &#34;未来可期的生产力工具：Lattics&#34;;
   
     
@@ -323,21 +335,196 @@
 </description>
         </item>
         <item>
+        <title>摆脱负担，迎接轻量美观的知识管理：我如何运用Anytype管理日常记录</title>
+        <link>https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;img src="https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-home.jpg" alt="Featured image of post 摆脱负担，迎接轻量美观的知识管理：我如何运用Anytype管理日常记录" /&gt;&lt;p&gt;熟悉 Soar Freely 的朋友应该了解「生产力祛魅」系列，这系列主要介绍我个人在 2023 年逐渐完善的生产力工作流体系。然而日常总会有诸多琐事、学术创作以及娱乐活动，精力很难涵盖如此繁复的信息浏览与记录，所以我对这套生产力工作流进行再反思。&lt;/p&gt;
+&lt;p&gt;通过反思，我发现办公工作流、知识工作流（信息、学习、创作）这两套主要体系，负担最重的有两处，第一处为日常记录，例如我日常看了哪些漫画、图书、影视作品，或者是撰写个人日记等，原来我将这些日常信息的记录分散于 Anytype 、 Obsidian 等软件。第二处为信息工作流，主要体现在对日常信息的了解与吸收，我将其划分为聚合媒介、新闻媒介、艺术、学术等多个领域，跨越多个软件。如今看来，并不便利。&lt;/p&gt;
+&lt;p&gt;因此，我对这两处进行有「大刀阔斧」的变动，希望摆脱原有的负担（时间成本、记录成本），使知识管理成为一个轻量、日常的事情。进一步讲，我原有的知识管理偏向学术化，而这种学术化带来的往往是大量的时间成本，同时带来更多的知识冗余，从而成为所谓的「电子仓鼠」。与一般存储影视、图片的行为不同，这些影视、图片都具有重温价值，然而大多数冗余的知识却没有这种价值，即具有时效性。假设我收藏了一个名为「 2023 年相机指南」的文章，如果我在 2026 年想要购买相机，那么这篇文章能够给我提供的助益则不免「滞后」， 2024 年、 2025 年也许出了更好用，更适合我的相机。&lt;/p&gt;
+&lt;p&gt;因此，我希望撰写这篇文章，介绍我就「日常记录」方面如何进行「摆脱负担，迎接轻量美观的知识管理」。这里所介绍的摆脱负担意指每位朋友都可以将其吸收归纳，每天仅需要十分钟至二十分钟时间（多数情况），即能将日常观看影视、图书、漫画，撰写日记等记录一网打尽，并能够在以后进行方便的管理与重温。&lt;/p&gt;
+&lt;h2 id=&#34;anytype&#34;&gt;Anytype
+&lt;/h2&gt;&lt;p&gt;关于 Anytype 、 SSPAI 站内已经有一些朋友进行介绍。截止至本文写作时期（ 2024-01-25 ），个人认为 Anytype 已经能够给予我较为舒服的日常使用体验。首先要说明的是， Anytype 的一些功能（包括本文所演示的多数功能）， Notion 能够做得更好，然而 Anytype 的数据都存储于本地（允许云端化），并且免费。还有网络问题，不通过科学手段，云端数据也能够较快同步。尤其是 Anytype 已经适配简体中文，符合多数人的阅读习惯。因此，我认为 Anytype 较 Notion 更符合大多数人的需要。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture01.jpg&#34;
+	width=&#34;3016&#34;
+	height=&#34;1658&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture01_hu_54cba19fa5f42436.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture01_hu_b9368f8f070474b7.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 01 Anytype -主页面&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;436px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;还有 Anytype 特色功能，官网其实有不少介绍，所以我在此进行简要叙述。 Anytype 由空间（ Space ）、关系（ Relation ）、类型（ Type ）、对象（ Object ）组成，空间内的关系、类型、对象都独属于空间，不与其他空间相混淆。我们可以将类型与关系视作底层逻辑，例如网页、图像、影视、待办、书签、笔记、文件、音频等等，这些都可以视作一个类型。类型由无数个关系组成。&lt;/p&gt;
+&lt;p&gt;例如我所创建的「影视类型」，我为其赋予了新的十三个关系，例如影视性质、影视类型、上映时间、首映国家等，并将这些关系以符合个人审美的设计处理，创建出符合类型的模板。每一个对象都需要赋予一个类型与一个模板，默认的模板是「空白」，你可以随意设置各种关系，创作各种文字。也可以为这种类型设置许多模板，例如图书，你可以根据流行小说、严肃文学、学术著作等不同分支设置不同的模板——前提是你有这个兴趣与时间精力。&lt;/p&gt;
+&lt;p&gt;因此，大多数朋友只需要搞清楚对象、类型（包括模板）、关系、空间这四个事物，就可以快速了解 Anytype 的底层逻辑与基本架构，从而创建起独属于自己的日常记录体系。&lt;/p&gt;
+&lt;h2 id=&#34;影视图书与漫画的记录体系&#34;&gt;影视、图书与漫画的记录体系
+&lt;/h2&gt;&lt;p&gt;有些朋友或许会认为「豆瓣」可以全面覆盖书影音的记录，这点我并不反对，然而有两个顾虑：其一，豆瓣的记录存于云端，而非本地，如果以后因特殊情况，豆瓣不能继续使用，那么仍要迁移数据，同时要考虑数据因不可抗力与特殊原因「丢失」、「空白」。就像某些音乐软件因为版权问题下架音乐，有些数据可能在我们未知时便「无影无踪」。其二，我所观看的某些影视、书籍、漫画等颇为小众，或者是豆瓣未有收录，对于这些作品，豆瓣便难以「全面覆盖」。&lt;/p&gt;
+&lt;p&gt;2023 年，我对影视、图书、漫画的记录堪称「繁琐」，尤其是导演、演员等信息，更是令我苦不堪言。今年一月初，我将原有体系推倒重来，最终设置为符合我个人审美并能长久运行的记录体系。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture02.jpg&#34;
+	width=&#34;1642&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture02_hu_e3009e4a3eb09a5c.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture02_hu_a36b5aeb586b5d83.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 02 Anytype -影视演示（1）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;影视记录的所有关系都遵循轻量级。首先是影视性质（例如真人电影、动画电影、电视剧集、动漫剧集、综艺节目、纪录片等）、影视类型（动作、悬疑、科幻等），这两个关系能够帮助我快速定位，我所观看影视的基本情况。上映时间、首映国家、影像时长则是我个人感兴趣的附加信息。平台链接，可以是豆瓣、IMDB等网站的链接，帮助我了解相关信息。个人评分以 10 分制，个人评价则是记录我看完影视的第一反应，例如「欣喜」、「无聊」、「刺激」、「神作」等，这些都可以自由设置。最后一栏（是否观看、年份、人员、时间、地点）则是记录我「如何观看」。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture03.jpg&#34;
+	width=&#34;1640&#34;
+	height=&#34;850&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture03_hu_a0391c2e8c7bc9e3.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture03_hu_fd3cea181240e7d6.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 03 Anytype -影视演示（2）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;463px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;也许有朋友会觉得这些关系仍显臃肿，不过这些关系设置本就因人而异，朋友们也可以精简或者增添更多自己喜欢的内容。还有海报位置，如果有朋友喜欢横板，也能够在一个「空白画布」上随意布置为横板。如果一种模板欠缺新鲜度，也可以创建多个模板随机使用，丰富日常体验。就我实际记录来看，一部影片信息的记录不会超过一分钟，如果我们一天看一部影片，用在记录的时间也不过是 1 分钟而已，然而这些标签能够帮助我们在月度、年度进行快速复盘。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture04.jpg&#34;
+	width=&#34;2358&#34;
+	height=&#34;1202&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture04_hu_4f90296701315d5e.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture04_hu_65422858449f493e.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 04 Anytype -影视演示（3）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;470px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;针对影视所进行的各种标签，都能够通过「过滤-筛选器」进行处理，如图所示，就是我所筛选出「我所看过的动作片，其中评分大于 6 」。除此，我也可以通过筛选器查看「 2023 年度看过的影片，评分大于 8 」等等，只要我设置了相应关系，都可以通过关系来进行筛选。通过这种设置，我可以自行筛选年度影片、评分最高的动作片等，这相较于豆瓣这些书影音记录软件更为自由，也更符合我的使用习惯。&lt;/p&gt;
+&lt;p&gt;Anytype 还支持多种视图，如图所示，我可以通过「日历视图」的「观看时间」来更为直观地审视我每月、每年看了多少部影片，哪月所看影片最多。也可以运用相簿视图，同时自定义显示信息， Anytype 就像是一个大型相册，让我随意浏览曾经看过的影片，从而快速定义我认为「不错」、「欣喜」的作品，方便我重温影片。&lt;/p&gt;
+&lt;p&gt;除观看过的影片，我也会记录「希望看的影片」，如图所示，我这里看的是「已观看」，还有「未观看」。如果我遇到一部很想看的影片，就可以直接新建对象，将名称填写完善。空暇时间，我就可以通过筛选「未观看」来寻找当时记录的感兴趣影片。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture05.jpg&#34;
+	width=&#34;2376&#34;
+	height=&#34;1546&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture05_hu_515d800f1a9ac955.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture05_hu_33b1d2e0ea2134f6.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 05 Anytype -影视演示（4）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;368px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;图书与漫画就视图、管理等方面与影视完全相同，不过在关系方面（自由设置）有所差异。如图所示，我首先是确定书籍性质、书籍类型，其次是时间、国家、作者、页数等基本信息，平台链接、评分、评价、年份、观看时间等则与影视相同。&lt;/p&gt;
+&lt;p&gt;在这些信息下方，依然有基本简介与简要评价，可以帮助我快速回忆这本书讲了什么，而我对这本书有何印象，读完之后的感想等。漫画其实能够归为图书类型，不过我平时看漫画较多，所以单独作为类型，在其中设置我所认为具有重要性的信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture06.jpg&#34;
+	width=&#34;1952&#34;
+	height=&#34;1332&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture06_hu_6031040b236001e8.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture06_hu_befe00d25f737ebc.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 06 Anytype -图书演示&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;146&#34;
+		data-flex-basis=&#34;351px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture07.jpg&#34;
+	width=&#34;1710&#34;
+	height=&#34;1178&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture07_hu_fb0816b5020ea08f.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture07_hu_7032acedb8623e2e.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 07 Anytype -图书演示&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;145&#34;
+		data-flex-basis=&#34;348px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;日记的记录体系&#34;&gt;日记的记录体系
+&lt;/h2&gt;&lt;p&gt;日记与影视、图书、漫画等不同，它具有独特的关系。如图所示，我的日记模板设置有专门的「封面」，从而更为赏心悦目。同时有六个基本关系，这六个基本关系为我以后管理、搜索日记提供有重要作用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture08.jpg&#34;
+	width=&#34;3016&#34;
+	height=&#34;1658&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture08_hu_308bc2729607e05b.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture08_hu_99dfcdcee5533d8.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 08 Anytype -日记演示（1）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;436px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;创作日期，顾名思义，即是日记的创作时间。今日心情则是记录每日心情的关系，我一般会在月度、年度将今日心情进行「筛选」，这样可以观察某月、某年整体心情的状况。天气情况是对天气的简单记录。今日行程主要是帮助我确定月度、年度的外出情况，不要过多居家或者是工作。重要性则是对这一天所做工作、所发生事件的记录，例如某天是我的毕业日期，订婚纪念日，购买车、房或者是重要物品的纪念日，或者这一天发生了对我来说十分重要的事情等，都可以用重要性来界定。&lt;/p&gt;
+&lt;p&gt;当这一年完成以后，我翻阅「重要性-重度」的日记，就可以回忆起我这一年所发生的重要事件，使生活更加清晰。今日计划一般是与我的日程管理软件 OmniFocus 挂钩，无论是学业还是工作，我每天都会有一些计划安排，如果我完成了这些计划安排，就会标注「完成」。这样一来，我就可以洞悉我的工作、计划完成情况，如果连续很长时间都没能完成，则提示我要适度修改计划，或者适度放松。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture09.jpg&#34;
+	width=&#34;1530&#34;
+	height=&#34;916&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture09_hu_5041662dc4a0a75d.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture09_hu_aeef5b2c9e8b57db.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 09 Anytype -日记演示（2）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;400px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如图所示，这是我日记的主体内容。一般来说，左侧为正文，右侧为双链。双链也是 Anytype 的重要功能，可以将任意的两个对象相互联系。在这天的日记，我简要叙述了所做的事情，然后提到了重温影片。那么我就在右边将我观看影片「影视类型」的对象直接进行索引，就可以快速定位当天我的文娱活动。同理，如果我一天内看完一本书、一部短篇漫画、一部电影，我都可以将这些内容记录下来，然后索引至今天。当然，这种索引因人而异，如果有些朋友不愿意这样麻烦，也不会影响记录。&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;Anytype 作为一款免费、支持中文的知识管理软件，同时支持本地存储，我认为它是目前最适合进行日常记录的轻量美观软件。在我看来，大多数人不是不愿意进行记录，而是缺乏时间进行记录，认为这是一件繁琐的事情。&lt;/p&gt;
+&lt;p&gt;Anytype 这套体系为我们快速记录日常生活的方方面面提供了平台，尤其是 Anytype 推出了「 ANY Experience Gallery 」（https://gallery.any.coop/），可以直接在网站下载其他人制作好的模板，其中包括日记、习惯追踪、图书馆、闪卡、会议笔记管理、电影库、旅行计划、学习中心、食谱表等各种模板。虽然我并不提倡「 All in One 」，然而就日常记录方面， Anytype 完全能满足我的全部需求。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture10.jpg&#34;
+	width=&#34;1268&#34;
+	height=&#34;880&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture10_hu_d7c2852141b2631.jpg 480w, https://laujoe.github.io/p/%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture10_hu_c31b7909079cee24.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Picture 10 Anytype-官网模板&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;345px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>未来可期的生产力工具：Lattics</title>
-        <link>https://laujoe.github.io/p/test-chinese/</link>
+        <link>https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/</link>
         <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://laujoe.github.io/p/test-chinese/</guid>
-        <description>&lt;img src="https://laujoe.github.io/p/test-chinese/Picture01.jpg" alt="Featured image of post 未来可期的生产力工具：Lattics" /&gt;&lt;p&gt;作为重度工具评测爱好者，我很喜欢尝试使用各式各样的生产力、效率工具来改善我的生产力工作流。熟悉我的朋友应该了解，我并不喜欢「All in One」，而是主张引入各式各样的软件来顺应原本的工作流，某一软件的「弃置」并不会影响我的整体生产力工作流。&lt;/p&gt;
+        <guid>https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/</guid>
+        <description>&lt;img src="https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-home.jpg" alt="Featured image of post 未来可期的生产力工具：Lattics" /&gt;&lt;p&gt;作为重度工具评测爱好者，我很喜欢尝试使用各式各样的生产力、效率工具来改善我的生产力工作流。熟悉我的朋友应该了解，我并不喜欢「All in One」，而是主张引入各式各样的软件来顺应原本的工作流，某一软件的「弃置」并不会影响我的整体生产力工作流。&lt;/p&gt;
 &lt;p&gt;然而在评测 Lattics 时，我认为这是一款比较特殊的软件，它有不少值得深度优化的地方，但是它本身已经能够实现一套逻辑足以自恰的整理、创作工作流，然而又不会影响我的整体生产力工作流。因此，我希望从创作过程切入，讨论我所理解的 Lattics 。&lt;/p&gt;
 &lt;h2 id=&#34;未来可期的文件管理工具&#34;&gt;未来可期的文件管理工具
 &lt;/h2&gt;&lt;p&gt;Lattics 内置「了解 Lattics 」这一简约而不简单的导航文档，在其中介绍了「类脑式」的知识管理与写作以及 Lattics 功能概览两方面内容，为刚接触 Lattics 的新朋友介绍了如何基本入门 Lattics 。同时内置「报告」、「论文」、「读书笔记」、「短文」、「诗歌」、「小说」六种名称的「文件夹」，新朋友可以根据这六种文件夹来分别管理个人的文件，不过还有很多地方值得进一步优化。&lt;/p&gt;
 &lt;p&gt;以「论文」为例，我在其中放置了 Pdf 、 Word 、 Excel 以及一些图像，对于 Pdf 与一般格式的图像文件， Lattics 都支持软件内部查看，然而对于较为大型（测试时，我采用的是 860 M 的 Pdf 文件）的文件时， Lattics 还是不免有较长的延迟情况。同样为860 M 的 Pdf 文件，我用 Devonthink 打开所需时间为 1 秒，然而 Lattics 却需要 5 秒。&lt;/p&gt;
 &lt;p&gt;除此， Word 、 Excel 文件还不支持软件内部查看，还需要通过外部软件进行查阅，这使得文件管理稍显效率低下。然而这些问题都能够通过后续更新进行优化、解决，目前已经足够支撑轻度的日常写作，而对于更多文件格式的支持会提高 Lattics 文件管理的上限，使其更具有普适性。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/test-chinese/Picture02.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01.jpg&#34;
 	width=&#34;2400&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://laujoe.github.io/p/test-chinese/Picture02_hu_cfca395480b84df1.jpg 480w, https://laujoe.github.io/p/test-chinese/Picture02_hu_f8321312a0122fd1.jpg 1024w&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01_hu_cfca395480b84df1.jpg 480w, https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01_hu_f8321312a0122fd1.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 01&#34;
@@ -361,10 +548,10 @@
 &lt;p&gt;从「文章」内图片可以导出这一情况，我们能够发现 Lattics 本身支持图片的导入导出，然而在进行具体文件的导出时，导出逻辑有所缺失——即它仅将「文章」导出，而将其他附件（主要是使用者导入的特殊格式文件）有所忽略。这样一来，便会造成体验时的割裂感，即我导入的文件（外来）与内置「文章」是两种运用逻辑，这两者并不能顺利的融洽为一。关于改进方式，我的建议是理顺导出逻辑，并且给予使用者一定的自由度——使用者可以根据选项自由选择是否将哪项、哪类导入文件同「文章」一齐导出。&lt;/p&gt;
 &lt;p&gt;在这里需要提到 Lattics 的思维导图功能（官方将其称作创作可视化），它的思维导图支持思维、情节、鸟瞰三种形式，适合不同情境下的具体运用。并且思维导图可以随意调整文件（包括上下层级、先后顺序），并会实时改变文件夹的目录状态。其中的文件还能够增加强调色，甚至还有自动布局功能，使管理更为方便。&lt;/p&gt;
 &lt;p&gt;这套思维导图功能十分好用，然而这里的问题与前者相似，都是缺乏外置导入文件与内置「文章」（卡片）的融洽结合。思维导图有「内容筛选」这一选项，然而其中仅有「文章」、「卡片」、「标签」三者，在我看来，开发者可以加入更多选项，将外置导入文件囊括进去。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/test-chinese/Picture03.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02.jpg&#34;
 	width=&#34;1558&#34;
 	height=&#34;1530&#34;
-	srcset=&#34;https://laujoe.github.io/p/test-chinese/Picture03_hu_da3590f87b0393b3.jpg 480w, https://laujoe.github.io/p/test-chinese/Picture03_hu_1d6ca7e325e27851.jpg 1024w&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02_hu_da3590f87b0393b3.jpg 480w, https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02_hu_1d6ca7e325e27851.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 02&#34;
@@ -381,10 +568,10 @@
 &lt;p&gt;我认为 Lattics 有三套主要的写作工具。&lt;/p&gt;
 &lt;p&gt;其一为「卡片」，使用者可以在「卡片库」写作各种各样的「卡片」，然后穿插在不同「文章」中。我个人认为这些「卡片」完全可以作为「灵感源泉」，当外出或者是阅读时，头脑突然闪过一些奇思妙想，就可以在卡片库中创作卡片，晚上将这些卡片重新梳理、复盘，或者撰写成短文。或是将「卡片库」当成「论文资料库」，例如我为了写作一篇论文翻阅了大量资料，我完全可以将这些资料的核心精华制作成卡片，然后在写作时随时阅览，或是添加至相关文章。因此，「卡片库」是一个适用于各种场景的「个人灵感库」，能够承载不同使用者的需求。&lt;/p&gt;
 &lt;p&gt;第二套写作工具为「图文分栏」（或文文分栏），我认为这很适合自媒体以及喜欢图文分享的朋友进行创作，或者是进行日记记录。以我为例，我有做日记的习惯（目前在 Obsidian 写日记），而 Lattics 这套颇为自由的图文分栏就可以让我将日常拍摄的照片以较为精致的方式展现出来，而后导出图片或 Pdf 格式，存储至 Devonthink 。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/test-chinese/Picture04.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03.jpg&#34;
 	width=&#34;1452&#34;
 	height=&#34;1540&#34;
-	srcset=&#34;https://laujoe.github.io/p/test-chinese/Picture04_hu_30a663c08f3b4ec8.jpg 480w, https://laujoe.github.io/p/test-chinese/Picture04_hu_87615094fd235daf.jpg 1024w&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03_hu_30a663c08f3b4ec8.jpg 480w, https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03_hu_87615094fd235daf.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 03&#34;
@@ -397,10 +584,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;还有一些自媒体用户或喜欢分享日常生活的朋友，以图文分栏形式记录生活、分享心得体会都是不错的途径。从专业学习角度来看， Lattics 的「图文分栏」也可以用来学习，例如我的学科专业为艺术学理论，平时需要阅览大量图片，而相关专业学生就可以用图文分栏形式摘录图片，写作相关的心得体会，进行专业学习。&lt;/p&gt;
 &lt;p&gt;第三套写作工具为「文章」，主要体现在「文章」中进行「块状」写作，即文章中的段落、图像、表格、代码、数学公式等内容都可以作为一个个「块」，这些「块」可以自由地进行拖拽移动，在文章内任意调整位置。这种块状写作并不少见，例如 Notion 、 Anytype 等软件均支持块状写作。然而 Lattics 这种块状写作更为丝滑，配合「卡片库」具有 1 + 1 大于 2 的效果。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/test-chinese/Picture05.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04.jpg&#34;
 	width=&#34;1008&#34;
 	height=&#34;1176&#34;
-	srcset=&#34;https://laujoe.github.io/p/test-chinese/Picture05_hu_c3d0ac7fc5d268f3.jpg 480w, https://laujoe.github.io/p/test-chinese/Picture05_hu_334124b47f1f7559.jpg 1024w&#34;
+	srcset=&#34;https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04_hu_c3d0ac7fc5d268f3.jpg 480w, https://laujoe.github.io/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04_hu_334124b47f1f7559.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 04&#34;
