@@ -43,7 +43,7 @@
 针对有价值、有创新的生产力工具进行测评与尝试。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;读书笔记&lt;br&gt;
+&lt;p&gt;阅读笔记&lt;br&gt;
 所关注书籍的摘录、批注内容。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -137,6 +137,7 @@
 &lt;p&gt;2023年&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;2023年8月&lt;/strong&gt;&lt;/em&gt;，2023第二届麻雀山国际青年学生学者论坛。&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;2023年9月&lt;/strong&gt;&lt;/em&gt;，第四届山西省大学生史学论坛。&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;2023年10月&lt;/strong&gt;&lt;/em&gt;，“‘一带一路’与世界汉学研究”国际学术研讨会。&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;2023年10月&lt;/strong&gt;&lt;/em&gt;，第二届全国影像史学大学生（含硕、博研究生）论坛会议。&lt;/li&gt;
@@ -148,7 +149,7 @@
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;2024年4月&lt;/strong&gt;&lt;/em&gt;，第一届厄巴纳-香槟大学亚洲研究研究生研讨会（The First Graduate Symposium on Asian Studies at Urbana- Champaign）。&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;2024年4月&lt;/strong&gt;&lt;/em&gt;，维斯康星大学麦迪逊分校全球亚洲研究生会议（Tenth Annual Trans-Asia Graduate Student Conference：Bridging Glocal Asias）。&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;2024年4月&lt;/strong&gt;&lt;/em&gt;，维斯康星大学麦迪逊分校第十届全球亚洲研究生会议（Tenth Annual Trans-Asia Graduate Student Conference：Bridging Glocal Asias）。&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;2024年10月&lt;/strong&gt;&lt;/em&gt;，2024年美国口述历史协会年会（ 2024 meeting of the Oral History Association）。&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;2024年10月&lt;/strong&gt;&lt;/em&gt;，辅仁大学宗教学研究所2024研究生论文发表会。&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;2024年10月&lt;/strong&gt;&lt;/em&gt;，第四届中国文化遗产保护国际会议。&lt;/li&gt;
@@ -198,6 +199,30 @@
     var wordCount =  3768 ;
     var link = &#34;/p/%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/&#34;;
     var title = &#34;未来可期的生产力工具：Lattics&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2020-01-01&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  1589 ;
+    var link = &#34;/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%88%98%E4%BD%93%E6%99%BA-%E5%BC%82%E8%BE%9E%E5%BD%95/&#34;;
+    var title = &#34;「古代典籍」刘体智 ：异辞录&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2020-01-01&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  679 ;
+    var link = &#34;/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%B0%88%E8%BF%81-%E5%8C%97%E6%B8%B8%E5%BD%95/&#34;;
+    var title = &#34;「古代典籍」谈迁 ：北游录&#34;;
   
     
     if (value == null) {
@@ -608,6 +633,151 @@
 &lt;p&gt;不过闪卡模式还存有一些不足，例如所有「文章」都会出现在闪卡中，这样一来，类似于标题这种「缺乏实际内容」的闪卡也会出现，对记忆背诵造成干扰。除此，闪卡的卡片还是集中在「文章」，缺少对外置导入文件的利用，这则需要开发者进一步优化。&lt;/p&gt;
 &lt;h2 id=&#34;总结&#34;&gt;总结
 &lt;/h2&gt;&lt;p&gt;本文对 Lattics 的一些重要功能做了评测，从整体来说， Lattics 是一款未来可期的生产力工具，它在文本写作体验已经颇为完善，能够给予不同类型的创作者较好的体验。然而作为定位于「类脑式知识管理笔记与写作」功能的工具， Lattics 在知识管理（主要是文件管理）方面存有不足，主要体现于外置导入文件的匮乏，其一为支持格式较少，其二为外置导入文件难以与内置「文章」（卡片）产生联系互动，从而导致工具在具体使用时存有割裂感。然而瑕不掩瑜， Lattics 确实是一款值得使用并纳入生产力工作流的软件，而这些缺陷则留待开发者后续更新、优化，最终将 Lattics 塑就为一款市场优品。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>「古代典籍」刘体智 ：异辞录</title>
+        <link>https://laujoe.github.io/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%88%98%E4%BD%93%E6%99%BA-%E5%BC%82%E8%BE%9E%E5%BD%95/</link>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://laujoe.github.io/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%88%98%E4%BD%93%E6%99%BA-%E5%BC%82%E8%BE%9E%E5%BD%95/</guid>
+        <description>&lt;img src="https://laujoe.github.io/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%88%98%E4%BD%93%E6%99%BA-%E5%BC%82%E8%BE%9E%E5%BD%95/homepage.jpg" alt="Featured image of post 「古代典籍」刘体智 ：异辞录" /&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;书籍名称&lt;/th&gt;
+          &lt;th&gt;异辞录&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;书籍性质&lt;/td&gt;
+          &lt;td&gt;古代典籍&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;书籍类型&lt;/td&gt;
+          &lt;td&gt;笔记小说&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;出版信息&lt;/td&gt;
+          &lt;td&gt;1997年12月，中国-北京：中华书局&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;作者信息&lt;/td&gt;
+          &lt;td&gt;刘体智（1879-1962），民国官员、藏书家。字晦之，晚号善斋老人，安徽庐江人，晚清重臣四川总督刘秉璋之子。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;关系链接&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/1042675/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/1042675/&lt;/a&gt;
+
+    
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;个人评价&lt;/td&gt;
+          &lt;td&gt;8 / 10   ⭐️⭐️⭐️⭐️&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;阅读时间&lt;/td&gt;
+          &lt;td&gt;不明，应是2019-2020年间。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;说明：此书乃我本科时，辅彭师记录校正。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;161-162页 卷二-237-康梁声名盛极而衰&lt;/code&gt;
+有为字长素，不知其何所取义；京城士夫习闻其言孔子之教，以为长于素王也。因而启超及顺德麦孟华悉被以嘉名，曰“超回”、曰“轶赐”。孟华主《知新报》，文气萧索，与其师同。更于肉食者，鄙薄过度，每一论出，毒詈丑诋，不遗余力。久之，读者由厌生倦，咸弃去。不半年间，康、梁之赫赫声名，渐如爝火矣。&lt;br&gt;
+有为进士改部曹，启超落第举子，不得意于仕进之路。求用于世，乃别出一途，以希自见，以广义言之，有志之士当如是矣。然二人寒士，自顾谋身之不暇，文仲恭侍御疏中，谓“曾拒其重贿”，言“台谏中，如杨深秀、宋伯鲁，皆受百金之月俸，为之爪牙”，殊属不近情理，故劾者愈众，而上信之愈深。侍御既贬，未几，礼部六堂同时并罢，以杨锐、林旭、刘光第、谭嗣同参预新政。稍涉机要，皆令四人拟诏，军机大臣不知也。及成，径达上所，军机大臣亦不知也。有为又请开懋勤殿置十友，隐夺政权，于是人人怨恨而大祸作矣。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;164-165页 卷二-242-清代学风之变&lt;/code&gt;
+国初人解经，引经注之别见者以示其精，而案头不可少之书，惟《注疏》一部。乾嘉人解经，引经文之他见者以炫其博，而唯一法门，非三代两汉之书不敢读。同时之儒者，或专攻小学，或避而孝子、史、地理，各有所长。自《经籍纂诂》出，为训诂之渊海；自《皇清经解》出，为经典之集林；自敷文阁刊《方舆纪要》，于地志一览无馀；自广雅堂辑《史学丛书》，于诸史各家咸备。于是人人可以掇拾，不废稽古之功。道、咸而下以及光、宣，学风一变而为钟鼎、石刻，作矜奇炫异、避熟就生之计。经史大义，置之度外。再变而为宋元旧板本，朽腐夏化为神奇。趋时之士各手一编，求其歧异之处，若国史馆之校对官，若书班房之对读生，不知学问为何事矣。世道愈趋愈劣，至于如此。等而下之，译书亦然。海禁开后，士大夫稍稍讲求新学，五台徐松龛译《瀛寰志略》，无锡薛叔耘作为《续编》，侯官林文忠译《四洲志》，邵阳魏默深益以历代史书及明以后岛志，钩稽贯串而为《海国图志》。其后译局盛开，京师之同文馆，上海之制造局，以及教会附设，如广学会、益智书局之类，译出西籍，不下数百种。鸿篇巨制，不乏其人，即天文、地舆、动植物、理化之类，何莫非专门之学。较之近作寥寥短篇，不可同年而语矣。至抄撮之教科书，犹之乎往日高头讲章，不在著述之列，当作别论。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;209页 卷四-312-伪造合影&lt;/code&gt;
+摄景之法极其浅近，两片相合尤轻而易举。光绪十年间，招商局得旗昌洋行业产，浸以盛大。李文忠以马建忠总办局务，沈能虎为副。建忠基之，密以能虎，与妓女合影献之。文忠雄才大略，本不以为罪，嗣见能虎，仅加斥责而已。能虎末秩微员，谒见上司，殊不敢对；文忠既未明言，尤难申诉。退而告人曰：“苟以傅相影加于其上，无不合也。”时传为笑柄。后二十年而有岑西林之事。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;254-255页 卷四-363-康有为谢恩可笑&lt;/code&gt;
+复辟之役，康有为简弼德院长。当时创举，用人不拘资格，于有为旧职，未之计及也。有为奉诏谢恩，&lt;strong&gt;以一品服色往，见者知其未脱草野之气，莫不匿笑&lt;/strong&gt;。当道不得已，赐以头品秩，有为奔走经年，他无所得，仅顶带荣身而已。时敌军露布曰：“&lt;strong&gt;将帅则乌云瘴气、几榻烟霞；谋臣则巧语花言，一群鹦鹉。”出于梁启超手，不为有为稍留余地&lt;/strong&gt;，无论知与不知皆哂焉。有为仕清，终未改节。暮年耽于古刻，游陕西，至某大庙，买得宋刊经典以归。运经汴洛道中，为土人所觉，诋为攘夺而追取之，其中什一已携至沪。有为故后，有好事者影印陕中宋藏，其所缺者，犹假诸有为之家，始成完璧云。&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>「古代典籍」谈迁 ：北游录</title>
+        <link>https://laujoe.github.io/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%B0%88%E8%BF%81-%E5%8C%97%E6%B8%B8%E5%BD%95/</link>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://laujoe.github.io/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%B0%88%E8%BF%81-%E5%8C%97%E6%B8%B8%E5%BD%95/</guid>
+        <description>&lt;img src="https://laujoe.github.io/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%B0%88%E8%BF%81-%E5%8C%97%E6%B8%B8%E5%BD%95/homepage.jpg" alt="Featured image of post 「古代典籍」谈迁 ：北游录" /&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;书籍名称&lt;/th&gt;
+          &lt;th&gt;北游录&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;书籍性质&lt;/td&gt;
+          &lt;td&gt;古代典籍&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;书籍类型&lt;/td&gt;
+          &lt;td&gt;笔记小说&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;出版信息&lt;/td&gt;
+          &lt;td&gt;1997年12月，中国-北京：中华书局&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;作者信息&lt;/td&gt;
+          &lt;td&gt;谈迁（1594-1658），史学家，原名以训，字仲木，号射父， 浙江海宁人。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;关系链接&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/1035623/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/1035623/&lt;/a&gt;
+
+    
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;个人评价&lt;/td&gt;
+          &lt;td&gt;8 / 10   ⭐️⭐️⭐️⭐️&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;阅读时间&lt;/td&gt;
+          &lt;td&gt;不明，应是2019-2020年间。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;说明：此书乃我本科时，辅彭师记录校正。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;374页&lt;/code&gt;
+【八旗】五代史。契丹初尝推一大人建旗鼓。以统八部。今清制亦如之。入燕之后。以汉人尽归之外城。其汉人投旗者不归也。分隶内城。正黄旗则辖正阳门德胜门。镶黄旗则辖东直门西直门。正蓝旗则辖宣武门。【元顺承门。】镶蓝旗则辖崇文门。【元海岱门。】正红旗则辖德胜门。镶红旗则辖阜成门。【元平则门。】正白旗则辖朝阳门。【元齐化门。】镶白旗则辖安定门。各旗下无论贵贱。各给田若干。收其租。不复给饷。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;375页&lt;/code&gt;
+【俸薪】满官支俸米不支薪。盖其内外大小家口。并登籍另给米。故本官所任见职。止支俸。汉官俸薪兼支。今甲午停秋冬二俸。&lt;strong&gt;有以停俸不停薪&lt;/strong&gt;。&lt;strong&gt;请支折薪银。以薪侈于俸也。如四品官季给三十金。俸纔十金耳&lt;/strong&gt;。内院不许。谓满官正在此论薪俸。何得滥也。明年。给俸不给薪矣。&lt;br&gt;
+批注：金=银。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;379页&lt;/code&gt;
+【蚌像】户部主事大兴李□。【侍郎奭棠弟。】榷浒墅关。尝出&lt;strong&gt;蚌壳大五六寸。内一真武像坐椅上。右手垂椅。左手□。龟虵承其足。黄灵官荷戟瞋目而侍。云气上绕。现四神将。各眉目如画。壳背镌高丽国王进。填以金&lt;/strong&gt;。本大内物落民间。以十缗得之。视隋文帝蛤蜊佛、宋晁无咎猪齿臼佛尤奇。物化之巧如此。【吴骏公先生说。】&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;414页&lt;/code&gt;
+【石兽】临清以南运河筑闸。闸左右镌石兽。虎首鳞身。四足五爪。盖天吴之类也。以厌水怪。&lt;br&gt;
+批注：厌胜。&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         <item>
