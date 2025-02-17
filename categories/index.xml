@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on Lau Joe</title>
+        <title>Categories on Lau Joe / Soar Freely</title>
         <link>https://laujoe.github.io/categories/</link>
-        <description>Recent content in Categories on Lau Joe</description>
+        <description>Recent content in Categories on Lau Joe / Soar Freely</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Lau Joe &amp; Soar Freely All rights reserved. 如需转载与引用，请注明文章链接及作者。</copyright>
@@ -46,6 +46,14 @@
         
         <guid>https://laujoe.github.io/categories/test-with-whitespaces/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>SF周刊</title>
+        <link>https://laujoe.github.io/categories/sf%E5%91%A8%E5%88%8A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://laujoe.github.io/categories/sf%E5%91%A8%E5%88%8A/</guid>
+        <description>&lt;img src="https://laujoe.github.io/categories/sf%E5%91%A8%E5%88%8A/studio-media-9DaOYUYnOls-unsplash.jpg" alt="Featured image of post SF周刊" /&gt;</description>
         </item>
         
     </channel>
