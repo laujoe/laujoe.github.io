@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Lau Joe &amp; Soar Freely All rights reserved. 如需转载与引用，请注明文章链接及作者。</copyright>
-        <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://laujoe.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Apr 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://laujoe.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于 | About</title>
         <link>https://laujoe.github.io/%E5%85%B3%E4%BA%8E-about/</link>
         <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
@@ -75,40 +75,6 @@
           &lt;td&gt;第8版&lt;/td&gt;
           &lt;td&gt;独作&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;pdf&#34; style=&#34;
-    padding-bottom: 66%;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid;
-&#34;&gt;
-    &lt;iframe
-        width=&#34;100%&#34;
-        height=&#34;100%&#34;
-        src=&#34;01.pdf&#34;
-        frameborder=&#34;0&#34;
-        allowfullscreen=&#34;&#34;
-        style=&#34;
-            position: absolute;
-            top: 0;
-            left: 0&#34; &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;序号&lt;/th&gt;
-          &lt;th&gt;成果名称&lt;/th&gt;
-          &lt;th&gt;发表载体&lt;/th&gt;
-          &lt;th&gt;发表时间&lt;/th&gt;
-          &lt;th&gt;页数&lt;/th&gt;
-          &lt;th&gt;作者位置&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;02&lt;/td&gt;
           &lt;td&gt;中国古代鸵鸟称谓考——《中国古代动物名称考》“鸵鸟”条目勘误&lt;/td&gt;
@@ -117,20 +83,6 @@
           &lt;td&gt;106-116页&lt;/td&gt;
           &lt;td&gt;独作&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;序号&lt;/th&gt;
-          &lt;th&gt;成果名称&lt;/th&gt;
-          &lt;th&gt;发表载体&lt;/th&gt;
-          &lt;th&gt;发表时间&lt;/th&gt;
-          &lt;th&gt;页数&lt;/th&gt;
-          &lt;th&gt;作者位置&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;03&lt;/td&gt;
           &lt;td&gt;历史性 国际性 时代性——“一带一路”美术创作的三种价值取向&lt;/td&gt;
@@ -139,40 +91,6 @@
           &lt;td&gt;4-11页&lt;/td&gt;
           &lt;td&gt;独作&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;pdf&#34; style=&#34;
-    padding-bottom: 66%;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid;
-&#34;&gt;
-    &lt;iframe
-        width=&#34;100%&#34;
-        height=&#34;100%&#34;
-        src=&#34;03.pdf&#34;
-        frameborder=&#34;0&#34;
-        allowfullscreen=&#34;&#34;
-        style=&#34;
-            position: absolute;
-            top: 0;
-            left: 0&#34; &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;序号&lt;/th&gt;
-          &lt;th&gt;成果名称&lt;/th&gt;
-          &lt;th&gt;发表载体&lt;/th&gt;
-          &lt;th&gt;发表时间&lt;/th&gt;
-          &lt;th&gt;页数&lt;/th&gt;
-          &lt;th&gt;作者位置&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;04&lt;/td&gt;
           &lt;td&gt;美国克利夫兰艺术博物馆藏战国蛇座凤鸟漆木鼓架考释&lt;/td&gt;
@@ -181,40 +99,6 @@
           &lt;td&gt;18-24页&lt;/td&gt;
           &lt;td&gt;独作&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;pdf&#34; style=&#34;
-    padding-bottom: 66%;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid;
-&#34;&gt;
-    &lt;iframe
-        width=&#34;100%&#34;
-        height=&#34;100%&#34;
-        src=&#34;04.pdf&#34;
-        frameborder=&#34;0&#34;
-        allowfullscreen=&#34;&#34;
-        style=&#34;
-            position: absolute;
-            top: 0;
-            left: 0&#34; &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;序号&lt;/th&gt;
-          &lt;th&gt;成果名称&lt;/th&gt;
-          &lt;th&gt;发表载体&lt;/th&gt;
-          &lt;th&gt;发表时间&lt;/th&gt;
-          &lt;th&gt;页数&lt;/th&gt;
-          &lt;th&gt;作者位置&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;05&lt;/td&gt;
           &lt;td&gt;东亚道教文献的流传与衍变——基于《玉枢宝经》插图本的探究&lt;/td&gt;
@@ -223,40 +107,6 @@
           &lt;td&gt;74-88页&lt;/td&gt;
           &lt;td&gt;独作&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;pdf&#34; style=&#34;
-    padding-bottom: 66%;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid;
-&#34;&gt;
-    &lt;iframe
-        width=&#34;100%&#34;
-        height=&#34;100%&#34;
-        src=&#34;05.pdf&#34;
-        frameborder=&#34;0&#34;
-        allowfullscreen=&#34;&#34;
-        style=&#34;
-            position: absolute;
-            top: 0;
-            left: 0&#34; &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;序号&lt;/th&gt;
-          &lt;th&gt;成果名称&lt;/th&gt;
-          &lt;th&gt;发表载体&lt;/th&gt;
-          &lt;th&gt;发表时间&lt;/th&gt;
-          &lt;th&gt;页数&lt;/th&gt;
-          &lt;th&gt;作者位置&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;06&lt;/td&gt;
           &lt;td&gt;现代中国形象的艺术诠释——基于杭州第十九届亚运会官方海报的探究&lt;/td&gt;
@@ -265,40 +115,6 @@
           &lt;td&gt;105-119页&lt;/td&gt;
           &lt;td&gt;一作&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;pdf&#34; style=&#34;
-    padding-bottom: 66%;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid;
-&#34;&gt;
-    &lt;iframe
-        width=&#34;100%&#34;
-        height=&#34;100%&#34;
-        src=&#34;06.pdf&#34;
-        frameborder=&#34;0&#34;
-        allowfullscreen=&#34;&#34;
-        style=&#34;
-            position: absolute;
-            top: 0;
-            left: 0&#34; &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;序号&lt;/th&gt;
-          &lt;th&gt;成果名称&lt;/th&gt;
-          &lt;th&gt;发表载体&lt;/th&gt;
-          &lt;th&gt;发表时间&lt;/th&gt;
-          &lt;th&gt;页数&lt;/th&gt;
-          &lt;th&gt;作者位置&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;07&lt;/td&gt;
           &lt;td&gt;价值定位、推广创新与文创衍生——文化强国背景下中国影像艺术的破局之路&lt;/td&gt;
@@ -307,40 +123,6 @@
           &lt;td&gt;17-23页&lt;/td&gt;
           &lt;td&gt;独作&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;pdf&#34; style=&#34;
-    padding-bottom: 66%;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid;
-&#34;&gt;
-    &lt;iframe
-        width=&#34;100%&#34;
-        height=&#34;100%&#34;
-        src=&#34;07.pdf&#34;
-        frameborder=&#34;0&#34;
-        allowfullscreen=&#34;&#34;
-        style=&#34;
-            position: absolute;
-            top: 0;
-            left: 0&#34; &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;序号&lt;/th&gt;
-          &lt;th&gt;成果名称&lt;/th&gt;
-          &lt;th&gt;发表载体&lt;/th&gt;
-          &lt;th&gt;发表时间&lt;/th&gt;
-          &lt;th&gt;页数&lt;/th&gt;
-          &lt;th&gt;作者位置&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;08&lt;/td&gt;
           &lt;td&gt;中国古代的“高尔夫”运动&lt;/td&gt;
@@ -351,26 +133,6 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;div class=&#34;pdf&#34; style=&#34;
-    padding-bottom: 66%;
-    position: relative;
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid;
-&#34;&gt;
-    &lt;iframe
-        width=&#34;100%&#34;
-        height=&#34;100%&#34;
-        src=&#34;08.pdf&#34;
-        frameborder=&#34;0&#34;
-        allowfullscreen=&#34;&#34;
-        style=&#34;
-            position: absolute;
-            top: 0;
-            left: 0&#34; &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
 &lt;h3 id=&#34;学术会议&#34;&gt;学术会议
 &lt;/h3&gt;&lt;p&gt;此处为受邀参与的学术会议。学习班等不列于此。&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;timeline__row&#34;&gt;
@@ -3341,7 +3103,7 @@
   
     var key = &#34;2025-04-13&#34;;
     var value = dataMap.get(key);
-    var wordCount =  35242 ;
+    var wordCount =  35278 ;
     var link = &#34;/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC6%E6%9C%9F/&#34;;
     var title = &#34;「SF周刊」2025年第6期&#34;;
   
@@ -4935,7 +4697,7 @@
     },
     visualMap: {
         min: 0,
-        max: 10,
+        max: 100,
         type: &#39;piecewise&#39;,
         orient: &#39;horizontal&#39;,
         left: &#39;center&#39;,
@@ -4945,7 +4707,7 @@
           
           color: [&#39;#7aa8744c&#39;, &#39;#7AA874&#39; ] 
         },
-        splitNumber: 4,
+        splitNumber: 5,
         text: [&#39;千字&#39;, &#39;&#39;],
         showLabel: true,
         itemGap: 20,
