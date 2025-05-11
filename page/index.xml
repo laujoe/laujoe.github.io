@@ -3101,6 +3101,18 @@
   
   var dataMap = new Map();
   
+    var key = &#34;2025-05-11&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  19733 ;
+    var link = &#34;/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC10%E6%9C%9F/&#34;;
+    var title = &#34;「SF周刊」2025年第10期&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = &#34;2025-05-03&#34;;
     var value = dataMap.get(key);
     var wordCount =  28975 ;
@@ -3334,6 +3346,18 @@
     var wordCount =  12756 ;
     var link = &#34;/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC1%E6%9C%9F/&#34;;
     var title = &#34;「SF周刊」2025年第1期&#34;;
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = &#34;2025-01-01&#34;;
+    var value = dataMap.get(key);
+    var wordCount =  2045 ;
+    var link = &#34;/p/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952025%E5%B9%B4%E6%96%87%E5%A8%B1%E6%BC%94%E5%87%BA%E8%A7%82%E7%9C%8B%E6%83%85%E5%86%B5/&#34;;
+    var title = &#34;【信息纪录】2025年文娱演出观看情况&#34;;
   
     
     if (value == null) {
