@@ -3472,6 +3472,18 @@
   
   var dataMap = new Map();
   
+    var key = "2025-06-08";
+    var value = dataMap.get(key);
+    var wordCount =  70439 ;
+    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC14%E6%9C%9F/";
+    var title = "「SF周刊」2025年第14期";
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-06-01";
     var value = dataMap.get(key);
     var wordCount =  26892 ;
@@ -5637,8 +5649,10 @@
         
             
         
-        发表了139篇文章 · 
-        总计1,360.11k字
+            
+        
+        发表了140篇文章 · 
+        总计1,430.55k字
     </section>
 
     <script>
