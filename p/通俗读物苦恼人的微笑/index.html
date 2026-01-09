@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://laujoe.github.io/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%8B%A6%E6%81%BC%E4%BA%BA%E7%9A%84%E5%BE%AE%E7%AC%91/'>
 
-<link rel="stylesheet" href="/scss/style.min.eb6d87c55c9bbcf14ca2487ba1ca8ce51c73b6c861f54ce456aac2b34bb1aafd.css"><meta property='og:title' content="「通俗读物」苦恼人的微笑">
+<link rel="stylesheet" href="/scss/style.min.15f5fff58b2529c782e67743bc7a8daf752f115314aeb092035e3def872b3a73.css"><meta property='og:title' content="「通俗读物」苦恼人的微笑">
 <meta property='og:description' content="胡昉著">
 <meta property='og:url' content='https://laujoe.github.io/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%8B%A6%E6%81%BC%E4%BA%BA%E7%9A%84%E5%BE%AE%E7%AC%91/'>
 <meta property='og:site_name' content='Lau Joe / Soar Freely'>
@@ -15,7 +15,7 @@
 <meta name="twitter:description" content="胡昉著"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://laujoe.github.io/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%8B%A6%E6%81%BC%E4%BA%BA%E7%9A%84%E5%BE%AE%E7%AC%91/homepage.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
-
+<link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
     </head>
     <body class="
     article-page
@@ -750,6 +750,8 @@ Machinima可以译为“游戏电影”或“引擎电影”，这个由“机�
     
 </article>
 
+
+
     
 
     
@@ -1310,22 +1312,271 @@ Machinima可以译为“游戏电影”或“引擎电影”，这个由“机�
         
             
         
-        发表了187篇文章 · 
-        总计1,924.94k字
+            
+        
+            
+        
+            
+        
+        发表了190篇文章 · 
+        总计1,931.53k字
     </section>
 
-    <script>
-        (function(u, c) {
-          var d = document, t = 'script', o = d.createElement(t),
-              s = d.getElementsByTagName(t)[0];
-          o.src = u;
-          if (c) { o.addEventListener('load', function(e) { c(e); }); }
-          s.parentNode.insertBefore(o, s);
-        })('//cdn.bootcss.com/pangu/4.0.7/pangu.min.js', function() {
-          pangu.spacingPage();
-        });
-    </script>
     
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    
+    const containerSelector = '.article-content';
+    
+    
+    
+    const regex1 = /([\u4e00-\u9fa5])([a-zA-Z0-9])/g;  
+    const regex2 = /([a-zA-Z0-9])([\u4e00-\u9fa5])/g;  
+
+    
+    function addSpaceToNode(node) {
+      
+      if (node.nodeType === 3) {
+        let text = node.data;
+        
+        if (text && /[\u4e00-\u9fa5]/.test(text) && /[a-zA-Z0-9]/.test(text)) {
+          
+          let newText = text.replace(regex1, '$1 $2').replace(regex2, '$1 $2');
+          if (newText !== text) {
+            node.data = newText;
+          }
+        }
+      } 
+      
+      else if (node.nodeType === 1) {
+        const tagName = node.tagName.toLowerCase();
+        if (tagName !== 'script' && tagName !== 'style' && tagName !== 'code' && tagName !== 'pre') {
+          
+          for (let i = node.childNodes.length - 1; i >= 0; i--) {
+            addSpaceToNode(node.childNodes[i]);
+          }
+        }
+      }
+    }
+
+    
+    const container = document.querySelector(containerSelector);
+    if (container) {
+      console.log('正在执行纯文本加空格优化...');
+      addSpaceToNode(container);
+      console.log('执行完毕，无副作用模式。');
+    }
+  });
+</script>
+
+<div class="quote-container">
+    <div class="quote-content">
+        <span class="quote-icon">“</span>
+        <p id="quote-text">正在提取思想碎片...</p>
+        <p id="quote-author" class="quote-author"></p>
+    </div>
+    
+    <div class="quote-actions">
+        <button id="copy-btn" title="复制到剪贴板" class="action-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        </button>
+        <button id="refresh-btn" title="换一句" class="action-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"></path><path d="M1 20v-6h6"></path><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+        </button>
+    </div>
+</div>
+
+<style>
+    .quote-container {
+        position: relative;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.6);  
+        border-radius: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        font-family: 'Georgia', 'Noto Serif SC', serif;  
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .quote-container {
+            background: rgba(30, 30, 30, 0.6);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: #e0e0e0;
+        }
+    }
+
+    .quote-container:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .quote-icon {
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        font-size: 4rem;
+        color: rgba(0, 0, 0, 0.1);
+        font-family: sans-serif;
+        line-height: 1;
+    }
+
+    .quote-content {
+        text-align: center;
+        margin-bottom: 1rem;
+        opacity: 0;  
+        transition: opacity 0.5s ease;
+    }
+
+    .quote-content.visible {
+        opacity: 1;
+    }
+
+    #quote-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 0 0 0.5rem 0;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+    }
+
+    .quote-author {
+        font-size: 0.9rem;
+        color: #888;
+        font-style: italic;
+        margin: 0;
+    }
+
+    .quote-author::before {
+        content: "—— ";
+    }
+
+    .quote-actions {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+    }
+
+    .quote-container:hover .quote-actions {
+        opacity: 1;
+    }
+
+    .action-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+        border-radius: 50%;
+        color: inherit;
+        transition: background 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .action-btn:hover {
+        background: rgba(0, 0, 0, 0.05);
+        color: #007bff;  
+    }
+
+    .action-btn:active {
+        transform: scale(0.95);
+    }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    
+    
+    const localQuotes = [
+        { text: "未经审视的人生是不值得过的。", author: "苏格拉底《申辩篇》" },
+        { text: "人不能两次踏进同一条河流。", author: "赫拉克利特《残篇》" },
+        { text: "我思故我在。", author: "笛卡尔《谈谈方法》" },
+        { text: "人只不过是一根芦苇，是自然界最脆弱的东西，但他是一根能思想的芦苇。", author: "帕斯卡《思想录》" },
+        { text: "位我上者，灿烂星空；道德律令，在我心中。", author: "康德《实践理性批判》" },
+        { text: "密涅瓦的猫头鹰要等到黄昏到来，才会起飞。", author: "黑格尔《法哲学原理》" },
+        { text: "人生就像钟摆，在痛苦和无聊之间摇摆。", author: "叔本华《作为意志和表象的世界》" },
+        { text: "那些杀不死我的，必将使我更强大。", author: "尼采《偶像的黄昏》" },
+        { text: "语言是存在的家园。", author: "海德格尔《关于人道主义的信》" },
+        { text: "我语言的界限，即我世界的界限。", author: "维特根斯坦《逻辑哲学论》" },
+        { text: "他人即地狱。", author: "萨特《禁闭》" },
+        { text: "必须想象西西弗斯是幸福的。", author: "加缪《西西弗神话》" },
+        { text: "人是生而自由的，却无往不在枷锁之中。", author: "卢梭《社会契约论》" },
+        { text: "知识就是力量。", author: "培根《沉思录》" },
+        { text: "平庸之恶（恶的平庸性）。", author: "汉娜·阿伦特《艾希曼在耶路撒冷》" },
+        { text: "哲学家们只是用不同的方式解释世界，而问题在于改变世界。", author: "马克思《关于费尔巴哈的提纲》" },
+        { text: "理性是，并且也应该是情感的奴隶。", author: "休谟《人性论》" },
+        { text: "这个世界的问题在于，聪明人充满疑惑，而傻瓜们坚信不疑。", author: "罗素《愚蠢的胜利》" },
+        { text: "人是天生的政治动物。", author: "亚里士多德《政治学》" },
+        { text: "我们以为自己是在观察大自然，其实只是在观察我们对大自然的提问方法。", author: "海森堡《物理学与哲学》" },
+        { text: "你的心灵拥有力量，而非外在的事件。意识到这一点，你将找到力量。", author: "马可·奥勒留《沉思录》" },
+        { text: "知是行之始，行是知之成。", author: "王阳明《传习录》" },
+        { text: "天地不仁，以万物为刍狗。", author: "老子《道德经》" },
+        { text: "相濡以沫，不如相忘于江湖。", author: "庄子《大宗师》" },
+        { text: "学而不思则罔，思而不学则殆。", author: "孔子《论语》" },
+        { text: "我步入丛林，因为我希望活得深刻，吸取生命中所有的精华。", author: "梭罗《瓦尔登湖》" },
+        { text: "生活只有向后看才能理解，但必须向前看才能生活。", author: "克尔凯郭尔《日记》" },
+        { text: "自由人最少想到死，他的智慧不是关于死的默念，而是关于生的沉思。", author: "斯宾诺莎《伦理学》" },
+        { text: "没有一座文明的丰碑，不是野蛮的见证。", author: "本雅明《历史哲学论纲》" },
+        { text: "在错误的生活中，不存在正确的生活方式。", author: "阿多诺《最低限度的道德》" }
+    ];
+
+
+    const quoteText = document.getElementById('quote-text');
+    const quoteAuthor = document.getElementById('quote-author');
+    const contentDiv = document.querySelector('.quote-content');
+    const refreshBtn = document.getElementById('refresh-btn');
+    const copyBtn = document.getElementById('copy-btn');
+
+    
+    function getRandomQuote() {
+        const randomIndex = Math.floor(Math.random() * localQuotes.length);
+        return localQuotes[randomIndex];
+    }
+
+    
+    function updateQuote() {
+        
+        contentDiv.classList.remove('visible');
+        
+        setTimeout(() => {
+            const quote = getRandomQuote();
+            quoteText.textContent = quote.text;
+            quoteAuthor.textContent = quote.author;
+            
+            contentDiv.classList.add('visible');
+        }, 300); 
+    }
+
+    
+    function copyQuote() {
+        const textToCopy = `${quoteText.textContent} —— ${quoteAuthor.textContent}`;
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            
+            const originalIcon = copyBtn.innerHTML;
+            copyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="color:green"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+            setTimeout(() => {
+                copyBtn.innerHTML = originalIcon;
+            }, 2000);
+        }).catch(err => {
+            console.error('无法复制', err);
+        });
+    }
+
+    
+    refreshBtn.addEventListener('click', updateQuote);
+    copyBtn.addEventListener('click', copyQuote);
+
+    
+    setTimeout(updateQuote, 100);
+});
+</script>
+
 </footer>
 
 
@@ -1598,8 +1849,6 @@ Machinima可以译为“游戏电影”或“引擎电影”，这个由“机�
   document.getElementById('runningdays').innerHTML = result;
  </script>
  
-
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>

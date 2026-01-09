@@ -6,15 +6,15 @@
 
 <link rel='canonical' href='https://laujoe.github.io/%E5%85%B3%E4%BA%8E-about/'>
 
-<link rel="stylesheet" href="/scss/style.min.eb6d87c55c9bbcf14ca2487ba1ca8ce51c73b6c861f54ce456aac2b34bb1aafd.css"><meta property='og:title' content="关于 | About">
+<link rel="stylesheet" href="/scss/style.min.15f5fff58b2529c782e67743bc7a8daf752f115314aeb092035e3def872b3a73.css"><meta property='og:title' content="关于 | About">
 <meta property='og:description' content="I'm Soar Freely, and you're welcome to get to know me.">
 <meta property='og:url' content='https://laujoe.github.io/%E5%85%B3%E4%BA%8E-about/'>
 <meta property='og:site_name' content='Lau Joe / Soar Freely'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2025-02-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-18T10:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2025-02-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-01-09T17:00:00&#43;00:00'/>
 <meta name="twitter:title" content="关于 | About">
 <meta name="twitter:description" content="I'm Soar Freely, and you're welcome to get to know me.">
     <link rel="shortcut icon" href="/favicon.ico" />
-
+<link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
     </head>
     <body class="
     article-page
@@ -303,6 +303,7 @@
   <ol>
     <li><a href="#简介">简介</a></li>
     <li><a href="#热力图像">热力图像</a></li>
+    <li><a href="#更新日志">更新日志</a></li>
   </ol>
 </nav>
         </div>
@@ -429,7 +430,7 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
   text-align: center;
   "
 ></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script>
+<script src="/js/echarts.min.js"></script>
 <script type="text/javascript">
   var chartDom = document.getElementById('heatmap');
   var myChart = echarts.init(chartDom);
@@ -444,12 +445,19 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
   
   
   
-  var dataMap = new Map();
+var dataMap = new Map();
   
-    var key = "2026-01-07";
+    
+    var key = "2026-01-07"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3661 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92\/";
+    
+    
     var title = "「工具经验」生产力祛魅 2026：构建一个“本地、稳定、可迁移”的数字堡垒";
   
     
@@ -458,10 +466,36 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-10-19";
+    
+    var key = "2025-12-17"; 
     var value = dataMap.get(key);
+    
+    
+    var wordCount =  1685 ;
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC34-42%E6%9C%9F%E5%90%88%E5%88%8A\/";
+    
+    
+    var title = "「SF周刊」2025年第34 - 42期(合刊)";
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    
+    var key = "2025-10-19"; 
+    var value = dataMap.get(key);
+    
+    
     var wordCount =  59482 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC33%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC33%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第33期";
   
     
@@ -470,10 +504,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-10-09";
+    
+    var key = "2025-10-09"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  44719 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC31-32%E6%9C%9F%E5%90%88%E5%88%8A/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC31-32%E6%9C%9F%E5%90%88%E5%88%8A\/";
+    
+    
     var title = "「SF周刊」2025年第31 32期(合刊)";
   
     
@@ -482,10 +523,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-10-01";
+    
+    var key = "2025-10-01"; 
     var value = dataMap.get(key);
-    var wordCount =  675 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%BB%8E%E8%8D%92%E8%AF%9E%E5%88%B0%E7%A7%91%E5%AD%A61619%E4%B8%96%E7%BA%AA%E8%A5%BF%E6%96%B9%E7%B2%BE%E7%A5%9E%E7%96%BE%E7%97%85%E6%B2%BB%E7%96%97%E7%9A%84%E8%89%BA%E6%9C%AF%E5%8F%99%E4%BA%8B/";
+    
+    
+    var wordCount =  656 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%BB%8E%E8%8D%92%E8%AF%9E%E5%88%B0%E7%A7%91%E5%AD%A61619%E4%B8%96%E7%BA%AA%E8%A5%BF%E6%96%B9%E7%B2%BE%E7%A5%9E%E7%96%BE%E7%97%85%E6%B2%BB%E7%96%97%E7%9A%84%E8%89%BA%E6%9C%AF%E5%8F%99%E4%BA%8B\/";
+    
+    
     var title = "「学术研究」从荒诞到科学：16—19世纪西方精神疾病治疗的艺术叙事";
   
     
@@ -494,10 +542,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-09-26";
+    
+    var key = "2025-09-26"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  31039 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC29-30%E6%9C%9F%E5%90%88%E5%88%8A/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC29-30%E6%9C%9F%E5%90%88%E5%88%8A\/";
+    
+    
     var title = "「SF周刊」2025年第29 30期(合刊)";
   
     
@@ -506,10 +561,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-09-26";
+    
+    var key = "2025-09-26"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  357 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A5%BD%E5%BF%83%E5%8A%A8%E5%A5%BD%E4%B8%8A%E5%A4%B4%E7%A3%95%E7%9A%84cp%E6%9D%80%E7%96%AF%E4%BA%86/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A5%BD%E5%BF%83%E5%8A%A8%E5%A5%BD%E4%B8%8A%E5%A4%B4%E7%A3%95%E7%9A%84cp%E6%9D%80%E7%96%AF%E4%BA%86\/";
+    
+    
     var title = "「通俗读物」好心动！好上头！磕的cp杀疯了";
   
     
@@ -518,10 +580,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-09-20";
+    
+    var key = "2025-09-20"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  435 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E9%95%BF%E5%AD%90%E5%85%84%E5%A6%B9%E6%A8%A1%E6%8B%9F%E6%88%91%E4%BA%BA%E7%94%9F%E6%B3%AA%E5%B4%A9/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E9%95%BF%E5%AD%90%E5%85%84%E5%A6%B9%E6%A8%A1%E6%8B%9F%E6%88%91%E4%BA%BA%E7%94%9F%E6%B3%AA%E5%B4%A9\/";
+    
+    
     var title = "「通俗读物」长子：兄妹模拟我人生，泪崩";
   
     
@@ -530,10 +599,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-09-15";
+    
+    var key = "2025-09-15"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  66645 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC27-28%E6%9C%9F%E5%90%88%E5%88%8A/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC27-28%E6%9C%9F%E5%90%88%E5%88%8A\/";
+    
+    
     var title = "「SF周刊」2025年第27 28期(合刊)";
   
     
@@ -542,10 +618,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-09-10";
+    
+    var key = "2025-09-10"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  385 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%8D%81%E5%85%AB%E5%B2%81%E5%A4%AA%E5%A5%B6%E5%A5%B6%E4%BB%8A%E5%A4%A9%E4%B9%9F%E5%9C%A8%E6%B8%85%E7%90%86%E9%97%A8%E6%88%B7/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%8D%81%E5%85%AB%E5%B2%81%E5%A4%AA%E5%A5%B6%E5%A5%B6%E4%BB%8A%E5%A4%A9%E4%B9%9F%E5%9C%A8%E6%B8%85%E7%90%86%E9%97%A8%E6%88%B7\/";
+    
+    
     var title = "「通俗读物」十八岁太奶奶今天也在清理门户";
   
     
@@ -554,10 +637,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-09-10";
+    
+    var key = "2025-09-10"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  337 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%88%91%E7%A9%BF%E8%B6%8A%E8%80%8C%E5%B7%B2%E8%87%B3%E4%BA%8E%E5%85%A8%E7%90%83%E7%9B%B4%E6%92%AD%E5%9B%B4%E8%A7%82/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%88%91%E7%A9%BF%E8%B6%8A%E8%80%8C%E5%B7%B2%E8%87%B3%E4%BA%8E%E5%85%A8%E7%90%83%E7%9B%B4%E6%92%AD%E5%9B%B4%E8%A7%82\/";
+    
+    
     var title = "「通俗读物」我，穿越而已，至于全球直播围观？";
   
     
@@ -566,10 +656,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-09-01";
+    
+    var key = "2025-09-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  36847 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC25-26%E6%9C%9F%E5%90%88%E5%88%8A/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC25-26%E6%9C%9F%E5%90%88%E5%88%8A\/";
+    
+    
     var title = "「SF周刊」2025年第25 26期(合刊)";
   
     
@@ -578,10 +675,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-08-19";
+    
+    var key = "2025-08-19"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  28982 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC24%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC24%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第24期";
   
     
@@ -590,10 +694,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-08-12";
+    
+    var key = "2025-08-12"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  235 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%BB%96%E5%8D%A7%E5%BA%95%E4%BA%8C%E5%8D%81%E5%B9%B4%E5%8D%B4%E8%A2%AB%E5%85%A8%E5%91%98%E5%AE%A1%E5%88%A4%E6%97%A0%E6%81%B6%E4%B8%8D%E4%BD%9C/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%BB%96%E5%8D%A7%E5%BA%95%E4%BA%8C%E5%8D%81%E5%B9%B4%E5%8D%B4%E8%A2%AB%E5%85%A8%E5%91%98%E5%AE%A1%E5%88%A4%E6%97%A0%E6%81%B6%E4%B8%8D%E4%BD%9C\/";
+    
+    
     var title = "「通俗读物」他，卧底二十年，却被全员审判无恶不作？";
   
     
@@ -602,10 +713,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-08-11";
+    
+    var key = "2025-08-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  11516 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC22-23%E6%9C%9F%E5%90%88%E5%88%8A/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC22-23%E6%9C%9F%E5%90%88%E5%88%8A\/";
+    
+    
     var title = "「SF周刊」2025年第22 23期(合刊)";
   
     
@@ -614,10 +732,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-07-29";
+    
+    var key = "2025-07-29"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  19732 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC21%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC21%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第21期";
   
     
@@ -626,10 +751,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-07-21";
+    
+    var key = "2025-07-21"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  13535 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC20%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC20%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第20期";
   
     
@@ -638,10 +770,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-07-14";
+    
+    var key = "2025-07-14"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  56648 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC18-19%E6%9C%9F%E5%90%88%E5%88%8A/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC18-19%E6%9C%9F%E5%90%88%E5%88%8A\/";
+    
+    
     var title = "「SF周刊」2025年第18 19期(合刊)";
   
     
@@ -650,10 +789,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-06-30";
+    
+    var key = "2025-06-30"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  7361 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC17%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC17%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第17期";
   
     
@@ -662,10 +808,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-06-22";
+    
+    var key = "2025-06-22"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  14268 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC16%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC16%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第16期";
   
     
@@ -674,10 +827,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-06-15";
+    
+    var key = "2025-06-15"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  11276 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC15%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC15%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第15期";
   
     
@@ -686,10 +846,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-06-08";
+    
+    var key = "2025-06-08"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  70439 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC14%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC14%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第14期";
   
     
@@ -698,10 +865,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-06-01";
+    
+    var key = "2025-06-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  26892 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC13%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC13%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第13期";
   
     
@@ -710,10 +884,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-05-25";
+    
+    var key = "2025-05-25"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  34117 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC12%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC12%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第12期";
   
     
@@ -722,10 +903,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-05-20";
+    
+    var key = "2025-05-20"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  434 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A5%87%E8%B4%A7%E5%85%B1%E5%85%AB%E5%86%8C/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A5%87%E8%B4%A7%E5%85%B1%E5%85%AB%E5%86%8C\/";
+    
+    
     var title = "「通俗读物」奇货(共八册)";
   
     
@@ -734,10 +922,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-05-18";
+    
+    var key = "2025-05-18"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  26611 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC11%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC11%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第11期";
   
     
@@ -746,10 +941,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-05-11";
+    
+    var key = "2025-05-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  19733 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC10%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC10%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第10期";
   
     
@@ -758,10 +960,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-05-03";
+    
+    var key = "2025-05-03"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  28975 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC9%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC9%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第9期";
   
     
@@ -770,10 +979,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-05-03";
+    
+    var key = "2025-05-03"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  430 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E9%9B%BE%E5%9F%8B/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E9%9B%BE%E5%9F%8B\/";
+    
+    
     var title = "「通俗读物」雾埋";
   
     
@@ -782,10 +998,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-05-02";
+    
+    var key = "2025-05-02"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  452 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%B8%8A%E5%B2%AD%E6%9D%91%E7%9A%84%E8%B0%8B%E6%9D%80/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%B8%8A%E5%B2%AD%E6%9D%91%E7%9A%84%E8%B0%8B%E6%9D%80\/";
+    
+    
     var title = "「通俗读物」上岭村的谋杀";
   
     
@@ -794,10 +1017,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-04-30";
+    
+    var key = "2025-04-30"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  559 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%85%A8%E7%9F%A5%E8%AF%BB%E8%80%85%E8%A7%86%E8%A7%92/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%85%A8%E7%9F%A5%E8%AF%BB%E8%80%85%E8%A7%86%E8%A7%92\/";
+    
+    
     var title = "「通俗读物」全知读者视角";
   
     
@@ -806,10 +1036,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-04-26";
+    
+    var key = "2025-04-26"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  22975 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC8%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC8%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第8期";
   
     
@@ -818,10 +1055,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-04-20";
+    
+    var key = "2025-04-20"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  39317 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC7%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC7%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第7期";
   
     
@@ -830,10 +1074,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-04-13";
+    
+    var key = "2025-04-13"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  35278 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC6%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC6%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第6期";
   
     
@@ -842,10 +1093,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-04-06";
+    
+    var key = "2025-04-06"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  28098 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC5%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC5%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第5期";
   
     
@@ -854,10 +1112,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-04-05";
+    
+    var key = "2025-04-05"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  879 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E9%82%AA%E6%81%B6%E5%82%AC%E7%9C%A0%E5%B8%88%E4%B8%89%E9%83%A8%E6%9B%B2/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E9%82%AA%E6%81%B6%E5%82%AC%E7%9C%A0%E5%B8%88%E4%B8%89%E9%83%A8%E6%9B%B2\/";
+    
+    
     var title = "「通俗读物」邪恶催眠师三部曲";
   
     
@@ -866,10 +1131,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-30";
+    
+    var key = "2025-03-30"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  55792 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC4%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC4%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第4期";
   
     
@@ -878,10 +1150,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-26";
+    
+    var key = "2025-03-26"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  752 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%9A%97%E9%BB%91%E8%80%85%E5%9B%9B%E9%83%A8%E6%9B%B2/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%9A%97%E9%BB%91%E8%80%85%E5%9B%9B%E9%83%A8%E6%9B%B2\/";
+    
+    
     var title = "「通俗读物」暗黑者四部曲";
   
     
@@ -890,10 +1169,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-23";
+    
+    var key = "2025-03-23"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  88438 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC3%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC3%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第3期";
   
     
@@ -902,10 +1188,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-18";
+    
+    var key = "2025-03-18"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  703 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%91%A8%E6%B5%A9%E6%99%96%E6%81%90%E6%80%96%E4%B8%89%E9%83%A8%E6%9B%B2/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%91%A8%E6%B5%A9%E6%99%96%E6%81%90%E6%80%96%E4%B8%89%E9%83%A8%E6%9B%B2\/";
+    
+    
     var title = "「通俗读物」周浩晖恐怖三部曲";
   
     
@@ -914,10 +1207,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-15";
+    
+    var key = "2025-03-15"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  58580 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC2%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC2%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第2期";
   
     
@@ -926,10 +1226,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-14";
+    
+    var key = "2025-03-14"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  556 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E7%81%B5%E8%88%B9/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E7%81%B5%E8%88%B9\/";
+    
+    
     var title = "「通俗读物」幽灵船";
   
     
@@ -938,10 +1245,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-11";
+    
+    var key = "2025-03-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  570 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%80%AA%E7%94%BB%E8%B0%9C%E6%A1%88/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%80%AA%E7%94%BB%E8%B0%9C%E6%A1%88\/";
+    
+    
     var title = "「通俗读物」怪画谜案";
   
     
@@ -950,10 +1264,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-11";
+    
+    var key = "2025-03-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  405 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%AF%86%E7%A0%81%E6%B8%B8%E6%88%8F/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%AF%86%E7%A0%81%E6%B8%B8%E6%88%8F\/";
+    
+    
     var title = "「通俗读物」密码游戏";
   
     
@@ -962,10 +1283,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-06";
+    
+    var key = "2025-03-06"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  426 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%80%AA%E5%B1%8B%E8%B0%9C%E6%A1%88/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%80%AA%E5%B1%8B%E8%B0%9C%E6%A1%88\/";
+    
+    
     var title = "「通俗读物」怪屋谜案";
   
     
@@ -974,10 +1302,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-04";
+    
+    var key = "2025-03-04"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  676 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BC%82%E6%B5%B7/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BC%82%E6%B5%B7\/";
+    
+    
     var title = "「通俗读物」异海";
   
     
@@ -986,10 +1321,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-02";
+    
+    var key = "2025-03-02"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  612 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%9B%87%E5%9F%8E/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%9B%87%E5%9F%8E\/";
+    
+    
     var title = "「通俗读物」蛇城";
   
     
@@ -998,10 +1340,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-03-01";
+    
+    var key = "2025-03-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  12756 ;
-    var link = "/p/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC1%E6%9C%9F/";
+    
+    
+    var link = "\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC1%E6%9C%9F\/";
+    
+    
     var title = "「SF周刊」2025年第1期";
   
     
@@ -1010,10 +1359,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-02-15";
+    
+    var key = "2025-02-15"; 
     var value = dataMap.get(key);
-    var wordCount =  1183 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E6%80%BB%E8%A7%88lau-joe-%E5%AD%A6%E6%9C%AF%E6%88%90%E6%9E%9C%E4%B8%80%E8%A7%88/";
+    
+    
+    var wordCount =  3753 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E6%80%BB%E8%A7%88lau-joe-%E5%AD%A6%E6%9C%AF%E6%88%90%E6%9E%9C%E4%B8%80%E8%A7%88\/";
+    
+    
     var title = "「学术总览」Lau Joe 学术成果一览";
   
     
@@ -1022,10 +1378,55 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2025-01-01";
+    
+    var key = "2025-01-18"; 
     var value = dataMap.get(key);
+    
+    
+    var wordCount =  475 ;
+    
+    
+    var link = "\/p\/%E8%AE%BA%E5%9D%9B%E4%BA%A4%E6%B5%81soar-freely2025%E6%96%B0%E5%B9%B4%E4%BA%A4%E6%B5%81%E4%BC%9A\/";
+    
+    
+    var title = "「论坛交流」Soar Freely（2025）新年交流会";
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    
+    var key = "2025-01-18"; 
+    var value = dataMap.get(key);
+    
+    
+    var wordCount =  1452 ;
+    
+    
+    var link = "\/p\/%E5%8F%82%E8%80%83%E6%8C%87%E4%BB%A4%E5%BA%93\/";
+    
+    
+    var title = "参考指令库";
+  
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    
+    var key = "2025-01-01"; 
+    var value = dataMap.get(key);
+    
+    
     var wordCount =  3438 ;
-    var link = "/p/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952025%E5%B9%B4%E6%96%87%E5%A8%B1%E6%BC%94%E5%87%BA%E8%A7%82%E7%9C%8B%E6%83%85%E5%86%B5/";
+    
+    
+    var link = "\/p\/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952025%E5%B9%B4%E6%96%87%E5%A8%B1%E6%BC%94%E5%87%BA%E8%A7%82%E7%9C%8B%E6%83%85%E5%86%B5\/";
+    
+    
     var title = "「信息纪录」2025年文娱演出观看情况";
   
     
@@ -1034,10 +1435,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-11-19";
+    
+    var key = "2024-11-19"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  26048 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%80%A7%E7%9A%84%E8%B5%B7%E6%BA%90%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%80%A7%E9%9D%A9%E5%91%BD%E7%9A%84%E5%8E%86%E5%8F%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%80%A7%E7%9A%84%E8%B5%B7%E6%BA%90%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%80%A7%E9%9D%A9%E5%91%BD%E7%9A%84%E5%8E%86%E5%8F%B2\/";
+    
+    
     var title = "「学术著作」性的起源：第一次性革命的历史";
   
     
@@ -1046,10 +1454,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-11-13";
+    
+    var key = "2024-11-13"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  6998 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BD%B1/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BD%B1\/";
+    
+    
     var title = "「通俗读物」影";
   
     
@@ -1058,10 +1473,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-11-12";
+    
+    var key = "2024-11-12"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  10952 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BE%9E%E6%BC%A2%E5%9F%8E%E5%88%B0%E7%87%95%E4%BA%AC%E6%9C%9D%E9%AE%AE%E4%BD%BF%E8%80%85%E7%9C%BC%E4%B8%AD%E7%9A%84%E6%9D%B1%E4%BA%9E%E4%B8%96%E7%95%8C/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BE%9E%E6%BC%A2%E5%9F%8E%E5%88%B0%E7%87%95%E4%BA%AC%E6%9C%9D%E9%AE%AE%E4%BD%BF%E8%80%85%E7%9C%BC%E4%B8%AD%E7%9A%84%E6%9D%B1%E4%BA%9E%E4%B8%96%E7%95%8C\/";
+    
+    
     var title = "「学术著作」從漢城到燕京：朝鮮使者眼中的東亞世界";
   
     
@@ -1070,10 +1492,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-11-01";
+    
+    var key = "2024-11-01"; 
     var value = dataMap.get(key);
-    var wordCount =  390 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E7%9A%84%E9%AB%98%E5%B0%94%E5%A4%AB%E8%BF%90%E5%8A%A8/";
+    
+    
+    var wordCount =  365 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E7%9A%84%E9%AB%98%E5%B0%94%E5%A4%AB%E8%BF%90%E5%8A%A8\/";
+    
+    
     var title = "「学术研究」中国古代的“高尔夫”运动";
   
     
@@ -1082,10 +1511,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-30";
+    
+    var key = "2024-10-30"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  434 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%9C%AB%E6%97%A5%E9%A2%84%E8%A8%80/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%9C%AB%E6%97%A5%E9%A2%84%E8%A8%80\/";
+    
+    
     var title = "「通俗读物」末日预言";
   
     
@@ -1094,10 +1530,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-27";
+    
+    var key = "2024-10-27"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  764 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%9B%BD%E5%AE%B6%E5%85%AC%E8%AF%89/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%9B%BD%E5%AE%B6%E5%85%AC%E8%AF%89\/";
+    
+    
     var title = "「通俗读物」国家公诉";
   
     
@@ -1106,10 +1549,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-21";
+    
+    var key = "2024-10-21"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  512 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E5%86%A5%E6%80%AA%E8%B0%883%E8%87%B4%E5%91%BD%E4%B9%8B%E6%97%85/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E5%86%A5%E6%80%AA%E8%B0%883%E8%87%B4%E5%91%BD%E4%B9%8B%E6%97%85\/";
+    
+    
     var title = "「通俗读物」幽冥怪谈3：致命之旅";
   
     
@@ -1118,10 +1568,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-18";
+    
+    var key = "2024-10-18"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  434 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E5%86%A5%E6%80%AA%E8%B0%881%E5%A4%9C%E8%AF%9D/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E5%86%A5%E6%80%AA%E8%B0%881%E5%A4%9C%E8%AF%9D\/";
+    
+    
     var title = "「通俗读物」幽冥怪谈1：夜话";
   
     
@@ -1130,10 +1587,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-17";
+    
+    var key = "2024-10-17"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  558 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E5%86%A5%E6%80%AA%E8%B0%882%E6%AD%BB%E4%BA%A1%E7%BA%A6%E5%AE%9A/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%B9%BD%E5%86%A5%E6%80%AA%E8%B0%882%E6%AD%BB%E4%BA%A1%E7%BA%A6%E5%AE%9A\/";
+    
+    
     var title = "「通俗读物」幽冥怪谈2：死亡约定";
   
     
@@ -1142,10 +1606,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-11";
+    
+    var key = "2024-10-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2921 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E4%BD%A0%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E8%87%AA%E5%BB%BA%E6%9C%AC%E5%9C%B0%E9%9F%B3%E4%B9%90%E5%BA%93%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%9C%AC%E5%9C%B0%E9%9F%B3%E4%B9%90%E5%BA%93/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E4%BD%A0%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E8%87%AA%E5%BB%BA%E6%9C%AC%E5%9C%B0%E9%9F%B3%E4%B9%90%E5%BA%93%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%9C%AC%E5%9C%B0%E9%9F%B3%E4%B9%90%E5%BA%93\/";
+    
+    
     var title = "「工具经验」你为什么需要自建本地音乐库？如何搭建属于自己的本地音乐库？";
   
     
@@ -1154,10 +1625,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-08";
+    
+    var key = "2024-10-08"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  500 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BF%85%E9%A1%BB%E7%8A%AF%E8%A7%84%E7%9A%84%E6%B8%B8%E6%88%8F%E9%87%8D%E5%90%AF/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BF%85%E9%A1%BB%E7%8A%AF%E8%A7%84%E7%9A%84%E6%B8%B8%E6%88%8F%E9%87%8D%E5%90%AF\/";
+    
+    
     var title = "「通俗读物」必须犯规的游戏·重启";
   
     
@@ -1166,11 +1644,18 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-01";
+    
+    var key = "2024-10-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  603 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BF%85%E9%A1%BB%E7%8A%AF%E8%A7%84%E7%9A%84%E6%B8%B8%E6%88%8F-1/14%E7%AC%AC%E4%B8%80%E5%AD%A3/";
-    var title = "「通俗读物」必须犯规的游戏 1/14第一季";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BF%85%E9%A1%BB%E7%8A%AF%E8%A7%84%E7%9A%84%E6%B8%B8%E6%88%8F-1\/14%E7%AC%AC%E4%B8%80%E5%AD%A3\/";
+    
+    
+    var title = "「通俗读物」必须犯规的游戏 1\/14第一季";
   
     
     if (value == null) {
@@ -1178,10 +1663,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-10-01";
+    
+    var key = "2024-10-01"; 
     var value = dataMap.get(key);
-    var wordCount =  449 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%BB%B7%E5%80%BC%E5%AE%9A%E4%BD%8D%E6%8E%A8%E5%B9%BF%E5%88%9B%E6%96%B0%E4%B8%8E%E6%96%87%E5%88%9B%E8%A1%8D%E7%94%9F%E6%96%87%E5%8C%96%E5%BC%BA%E5%9B%BD%E8%83%8C%E6%99%AF%E4%B8%8B%E4%B8%AD%E5%9B%BD%E5%BD%B1%E5%83%8F%E8%89%BA%E6%9C%AF%E7%9A%84%E7%A0%B4%E5%B1%80%E4%B9%8B%E8%B7%AF/";
+    
+    
+    var wordCount =  424 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%BB%B7%E5%80%BC%E5%AE%9A%E4%BD%8D%E6%8E%A8%E5%B9%BF%E5%88%9B%E6%96%B0%E4%B8%8E%E6%96%87%E5%88%9B%E8%A1%8D%E7%94%9F%E6%96%87%E5%8C%96%E5%BC%BA%E5%9B%BD%E8%83%8C%E6%99%AF%E4%B8%8B%E4%B8%AD%E5%9B%BD%E5%BD%B1%E5%83%8F%E8%89%BA%E6%9C%AF%E7%9A%84%E7%A0%B4%E5%B1%80%E4%B9%8B%E8%B7%AF\/";
+    
+    
     var title = "「学术研究」价值定位、推广创新与文创衍生——文化强国背景下中国影像艺术的破局之路";
   
     
@@ -1190,10 +1682,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-09-22";
+    
+    var key = "2024-09-22"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  364 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%AD%BB%E4%BA%A1%E6%B8%B8%E6%88%8F/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%AD%BB%E4%BA%A1%E6%B8%B8%E6%88%8F\/";
+    
+    
     var title = "「通俗读物」死亡游戏";
   
     
@@ -1202,10 +1701,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-09-22";
+    
+    var key = "2024-09-22"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  671 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BC%82%E5%85%BD%E8%BF%B7%E5%9F%8E/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%BC%82%E5%85%BD%E8%BF%B7%E5%9F%8E\/";
+    
+    
     var title = "「通俗读物」异兽迷城";
   
     
@@ -1214,10 +1720,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-09-11";
+    
+    var key = "2024-09-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  585 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E7%BB%9D%E5%AF%B9%E6%9D%83%E5%8A%9B/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E7%BB%9D%E5%AF%B9%E6%9D%83%E5%8A%9B\/";
+    
+    
     var title = "「通俗读物」绝对权力";
   
     
@@ -1226,10 +1739,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-08-04";
+    
+    var key = "2024-08-04"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  564 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%88%91%E4%B8%BB%E6%B2%89%E6%B5%AE/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%88%91%E4%B8%BB%E6%B2%89%E6%B5%AE\/";
+    
+    
     var title = "「通俗读物」我主沉浮";
   
     
@@ -1238,10 +1758,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-06-01";
+    
+    var key = "2024-06-01"; 
     var value = dataMap.get(key);
-    var wordCount =  642 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%9C%E4%BA%9A%E9%81%93%E6%95%99%E6%96%87%E7%8C%AE%E7%9A%84%E6%B5%81%E4%BC%A0%E4%B8%8E%E8%A1%8D%E5%8F%98%E5%9F%BA%E4%BA%8E%E7%8E%89%E6%9E%A2%E5%AE%9D%E7%BB%8F%E6%8F%92%E5%9B%BE%E6%9C%AC%E7%9A%84%E6%8E%A2%E7%A9%B6/";
+    
+    
+    var wordCount =  615 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%9C%E4%BA%9A%E9%81%93%E6%95%99%E6%96%87%E7%8C%AE%E7%9A%84%E6%B5%81%E4%BC%A0%E4%B8%8E%E8%A1%8D%E5%8F%98%E5%9F%BA%E4%BA%8E%E7%8E%89%E6%9E%A2%E5%AE%9D%E7%BB%8F%E6%8F%92%E5%9B%BE%E6%9C%AC%E7%9A%84%E6%8E%A2%E7%A9%B6\/";
+    
+    
     var title = "「学术研究」东亚道教文献的流传与衍变—基于《玉枢宝经》插图本的探究";
   
     
@@ -1250,10 +1777,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-06-01";
+    
+    var key = "2024-06-01"; 
     var value = dataMap.get(key);
-    var wordCount =  490 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%BE%8E%E5%9B%BD%E5%85%8B%E5%88%A9%E5%A4%AB%E5%85%B0%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E6%88%98%E5%9B%BD%E8%9B%87%E5%BA%A7%E5%87%A4%E9%B8%9F%E6%BC%86%E6%9C%A8%E9%BC%93%E6%9E%B6%E8%80%83%E9%87%8A/";
+    
+    
+    var wordCount =  466 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%BE%8E%E5%9B%BD%E5%85%8B%E5%88%A9%E5%A4%AB%E5%85%B0%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E6%88%98%E5%9B%BD%E8%9B%87%E5%BA%A7%E5%87%A4%E9%B8%9F%E6%BC%86%E6%9C%A8%E9%BC%93%E6%9E%B6%E8%80%83%E9%87%8A\/";
+    
+    
     var title = "「学术研究」美国克利夫兰艺术博物馆藏战国蛇座凤鸟漆木鼓架考释";
   
     
@@ -1262,10 +1796,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-06-01";
+    
+    var key = "2024-06-01"; 
     var value = dataMap.get(key);
-    var wordCount =  571 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%8E%B0%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%BD%A2%E8%B1%A1%E7%9A%84%E8%89%BA%E6%9C%AF%E8%AF%A0%E9%87%8A%E5%9F%BA%E4%BA%8E%E6%9D%AD%E5%B7%9E%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B1%8A%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%AE%98%E6%96%B9%E6%B5%B7%E6%8A%A5%E7%9A%84%E6%8E%A2%E7%A9%B6/";
+    
+    
+    var wordCount =  800 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%8E%B0%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%BD%A2%E8%B1%A1%E7%9A%84%E8%89%BA%E6%9C%AF%E8%AF%A0%E9%87%8A%E5%9F%BA%E4%BA%8E%E6%9D%AD%E5%B7%9E%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B1%8A%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%AE%98%E6%96%B9%E6%B5%B7%E6%8A%A5%E7%9A%84%E6%8E%A2%E7%A9%B6\/";
+    
+    
     var title = "「学术研究」现代中国形象的艺术诠释——基于杭州第十九届亚运会官方海报的探究";
   
     
@@ -1274,10 +1815,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-04-25";
+    
+    var key = "2024-04-25"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  323 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%A7%84%E5%88%99%E6%80%AA%E8%B0%88%E5%BC%80%E5%B1%80%E6%9B%BF%E5%AE%A4%E5%8F%8B%E7%85%A7%E9%A1%BE%E5%A5%B3%E5%8F%8B/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%A7%84%E5%88%99%E6%80%AA%E8%B0%88%E5%BC%80%E5%B1%80%E6%9B%BF%E5%AE%A4%E5%8F%8B%E7%85%A7%E9%A1%BE%E5%A5%B3%E5%8F%8B\/";
+    
+    
     var title = "「通俗读物」规则怪谈：开局替室友照顾女友";
   
     
@@ -1286,10 +1834,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-04-20";
+    
+    var key = "2024-04-20"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  898 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E8%A1%A8%E4%B8%8E%E6%9C%9F%E5%88%8A%E8%B5%84%E6%96%99%E5%BA%93/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E8%A1%A8%E4%B8%8E%E6%9C%9F%E5%88%8A%E8%B5%84%E6%96%99%E5%BA%93\/";
+    
+    
     var title = "「工具经验」论文写作表与期刊资料库";
   
     
@@ -1298,10 +1853,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-04-01";
+    
+    var key = "2024-04-01"; 
     var value = dataMap.get(key);
-    var wordCount =  513 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E5%8E%86%E5%8F%B2%E6%80%A7-%E5%9B%BD%E9%99%85%E6%80%A7-%E6%97%B6%E4%BB%A3%E6%80%A7%E4%B8%80%E5%B8%A6%E4%B8%80%E8%B7%AF%E7%BE%8E%E6%9C%AF%E5%88%9B%E4%BD%9C%E7%9A%84%E4%B8%89%E7%A7%8D%E4%BB%B7%E5%80%BC%E5%8F%96%E5%90%91/";
+    
+    
+    var wordCount =  492 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E5%8E%86%E5%8F%B2%E6%80%A7-%E5%9B%BD%E9%99%85%E6%80%A7-%E6%97%B6%E4%BB%A3%E6%80%A7%E4%B8%80%E5%B8%A6%E4%B8%80%E8%B7%AF%E7%BE%8E%E6%9C%AF%E5%88%9B%E4%BD%9C%E7%9A%84%E4%B8%89%E7%A7%8D%E4%BB%B7%E5%80%BC%E5%8F%96%E5%90%91\/";
+    
+    
     var title = "「学术研究」历史性 国际性 时代性——一带一路美术创作的三种价值取向";
   
     
@@ -1310,10 +1872,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-03-19";
+    
+    var key = "2024-03-19"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  322 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%B6%85%E7%BA%A7%E6%83%8A%E6%82%9A%E7%9B%B4%E6%92%AD/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%B6%85%E7%BA%A7%E6%83%8A%E6%82%9A%E7%9B%B4%E6%92%AD\/";
+    
+    
     var title = "「通俗读物」超级惊悚直播";
   
     
@@ -1322,10 +1891,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-03-03";
+    
+    var key = "2024-03-03"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  6306 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97\/";
+    
+    
     var title = "「工具经验」探索与研究——艺术学硕士的「成长路径」心得";
   
     
@@ -1334,10 +1910,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-03-01";
+    
+    var key = "2024-03-01"; 
     var value = dataMap.get(key);
-    var wordCount =  513 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E9%B8%B5%E9%B8%9F%E7%A7%B0%E8%B0%93%E8%80%83%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%8A%A8%E7%89%A9%E5%90%8D%E7%A7%B0%E8%80%83%E9%B8%B5%E9%B8%9F%E6%9D%A1%E7%9B%AE%E5%8B%98%E8%AF%AF/";
+    
+    
+    var wordCount =  486 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E9%B8%B5%E9%B8%9F%E7%A7%B0%E8%B0%93%E8%80%83%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%8A%A8%E7%89%A9%E5%90%8D%E7%A7%B0%E8%80%83%E9%B8%B5%E9%B8%9F%E6%9D%A1%E7%9B%AE%E5%8B%98%E8%AF%AF\/";
+    
+    
     var title = "「学术研究」中国古代鸵鸟称谓考——《中国古代动物名称考》“鸵鸟”条目勘误";
   
     
@@ -1346,10 +1929,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-02-20";
+    
+    var key = "2024-02-20"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  277 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A4%A7%E5%91%A8%E7%9A%87%E6%97%8F/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A4%A7%E5%91%A8%E7%9A%87%E6%97%8F\/";
+    
+    
     var title = "「通俗读物」大周皇族";
   
     
@@ -1358,10 +1948,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-02-15";
+    
+    var key = "2024-02-15"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  441 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A4%AA%E7%99%BD%E9%87%91%E6%98%9F%E6%9C%89%E7%82%B9%E7%83%A6/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%A4%AA%E7%99%BD%E9%87%91%E6%98%9F%E6%9C%89%E7%82%B9%E7%83%A6\/";
+    
+    
     var title = "「通俗读物」太白金星有点烦";
   
     
@@ -1370,10 +1967,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-01-29";
+    
+    var key = "2024-01-29"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  10984 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%9C%9D%E9%AE%AE%E7%9A%84%E5%9B%B0%E5%A2%83%E5%9C%A8%E6%97%A5%E6%B8%85%E4%B9%8B%E9%96%93%E8%BF%BD%E6%B1%82%E7%8D%A8%E7%AB%8B%E8%87%AA%E4%B8%BB%E7%9A%84%E6%AD%B7%E5%8F%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%9C%9D%E9%AE%AE%E7%9A%84%E5%9B%B0%E5%A2%83%E5%9C%A8%E6%97%A5%E6%B8%85%E4%B9%8B%E9%96%93%E8%BF%BD%E6%B1%82%E7%8D%A8%E7%AB%8B%E8%87%AA%E4%B8%BB%E7%9A%84%E6%AD%B7%E5%8F%B2\/";
+    
+    
     var title = "「学术著作」朝鮮的困境──在日清之間追求獨立自主的歷史";
   
     
@@ -1382,10 +1986,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-01-28";
+    
+    var key = "2024-01-28"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  5685 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%92%AC%E6%96%87%E5%9A%BC%E5%AD%97%E5%B9%B4%E5%BA%A6%E5%8D%81%E5%A4%A7%E6%B5%81%E8%A1%8C%E8%AF%AD20082021/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E5%92%AC%E6%96%87%E5%9A%BC%E5%AD%97%E5%B9%B4%E5%BA%A6%E5%8D%81%E5%A4%A7%E6%B5%81%E8%A1%8C%E8%AF%AD20082021\/";
+    
+    
     var title = "「通俗读物」《咬文嚼字》年度十大流行语（2008—2021）";
   
     
@@ -1394,10 +2005,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-01-25";
+    
+    var key = "2024-01-25"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3686 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95\/";
+    
+    
     var title = "「工具经验」摆脱负担，迎接轻量美观的知识管理：我如何运用Anytype管理日常记录";
   
     
@@ -1406,10 +2024,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-01-17";
+    
+    var key = "2024-01-17"; 
     var value = dataMap.get(key);
-    var wordCount =  399 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E5%B1%95%E7%8E%B0%E4%B8%BA%E6%97%B6%E4%BB%A3%E8%80%8C%E8%AE%BE%E8%AE%A1%E7%9A%84%E8%89%BA%E6%9C%AF%E6%84%BF%E6%99%AF%E8%AF%84%E6%B1%AA%E5%A4%A7%E4%BC%9F-%E6%97%A0%E4%B8%AD%E7%94%9F%E6%9C%89-%E8%AE%BE%E8%AE%A1%E7%9A%84%E8%89%BA%E6%9C%AF/";
+    
+    
+    var wordCount =  373 ;
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E5%B1%95%E7%8E%B0%E4%B8%BA%E6%97%B6%E4%BB%A3%E8%80%8C%E8%AE%BE%E8%AE%A1%E7%9A%84%E8%89%BA%E6%9C%AF%E6%84%BF%E6%99%AF%E8%AF%84%E6%B1%AA%E5%A4%A7%E4%BC%9F-%E6%97%A0%E4%B8%AD%E7%94%9F%E6%9C%89-%E8%AE%BE%E8%AE%A1%E7%9A%84%E8%89%BA%E6%9C%AF\/";
+    
+    
     var title = "「学术研究」展现“为时代而设计”的艺术愿景——评汪大伟 《无中生有： 设计的艺术》";
   
     
@@ -1418,10 +2043,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2024-01-07";
+    
+    var key = "2024-01-07"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  515 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%97%A0%E4%B8%AD%E7%94%9F%E6%9C%89%E8%AE%BE%E8%AE%A1%E7%9A%84%E8%89%BA%E6%9C%AF/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%97%A0%E4%B8%AD%E7%94%9F%E6%9C%89%E8%AE%BE%E8%AE%A1%E7%9A%84%E8%89%BA%E6%9C%AF\/";
+    
+    
     var title = "「学术著作」无中生有：设计的艺术";
   
     
@@ -1430,10 +2062,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-12-27";
+    
+    var key = "2023-12-27"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3768 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics\/";
+    
+    
     var title = "「工具经验」未来可期的生产力工具：Lattics";
   
     
@@ -1442,10 +2081,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-12-25";
+    
+    var key = "2023-12-25"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  548 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%A5%BF%E8%A1%8C%E7%BA%AA/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%A5%BF%E8%A1%8C%E7%BA%AA\/";
+    
+    
     var title = "「通俗读物」西行纪";
   
     
@@ -1454,10 +2100,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-10-09";
+    
+    var key = "2023-10-09"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  5453 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%86%99%E4%BD%9C%E7%AC%AC%E4%BA%8C%E6%9C%9F-%E4%BF%A1%E6%81%AF/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%86%99%E4%BD%9C%E7%AC%AC%E4%BA%8C%E6%9C%9F-%E4%BF%A1%E6%81%AF\/";
+    
+    
     var title = "「工具经验-零基础写作」——第二期 信息";
   
     
@@ -1466,10 +2119,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-08-17";
+    
+    var key = "2023-08-17"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4781 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%BA%94%E8%8A%82%E6%80%BB%E7%BB%93%E5%8F%8A%E8%A1%A5%E5%85%85/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%BA%94%E8%8A%82%E6%80%BB%E7%BB%93%E5%8F%8A%E8%A1%A5%E5%85%85\/";
+    
+    
     var title = "「工具经验-生产力祛魅」——一位社科工作者如何重塑工作流 第五节：总结及补充";
   
     
@@ -1478,10 +2138,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-08-11";
+    
+    var key = "2023-08-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2160 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84\/";
+    
+    
     var title = "「工具经验」可见用心，但仍有美中不足——Nuphy Air60 V1测评";
   
     
@@ -1490,10 +2157,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-08-11";
+    
+    var key = "2023-08-11"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3912 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E7%97%85%E4%BB%A5%E5%90%8E%E6%88%91%E5%A6%82%E4%BD%95%E6%94%BE%E8%BD%BB%E6%9D%BE/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E7%97%85%E4%BB%A5%E5%90%8E%E6%88%91%E5%A6%82%E4%BD%95%E6%94%BE%E8%BD%BB%E6%9D%BE\/";
+    
+    
     var title = "「工具经验」生病以后，我如何「放轻松」";
   
     
@@ -1502,10 +2176,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-08-03";
+    
+    var key = "2023-08-03"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  23030 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%B8%AD%E5%9B%BD%E5%89%A9%E5%A5%B3%E8%B0%83%E6%9F%A5%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E9%83%A8%E5%89%A9%E5%A5%B3%E7%9C%9F%E5%AE%9E%E7%94%9F%E6%B4%BB%E5%9B%BE%E6%99%AF%E8%B0%83%E6%9F%A5%E5%AE%9E%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%B8%AD%E5%9B%BD%E5%89%A9%E5%A5%B3%E8%B0%83%E6%9F%A5%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E9%83%A8%E5%89%A9%E5%A5%B3%E7%9C%9F%E5%AE%9E%E7%94%9F%E6%B4%BB%E5%9B%BE%E6%99%AF%E8%B0%83%E6%9F%A5%E5%AE%9E%E5%BD%95\/";
+    
+    
     var title = "「通俗读物」中国剩女调查：国内第一部剩女真实生活图景调查实录";
   
     
@@ -1514,10 +2195,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-08-01";
+    
+    var key = "2023-08-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  36902 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%87%BA%E5%9C%9F%E6%96%87%E7%8D%BB%E8%88%87%E6%97%A9%E6%9C%9F%E9%81%93%E6%95%99/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%87%BA%E5%9C%9F%E6%96%87%E7%8D%BB%E8%88%87%E6%97%A9%E6%9C%9F%E9%81%93%E6%95%99\/";
+    
+    
     var title = "「学术著作」出土文獻與早期道教";
   
     
@@ -1526,10 +2214,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-31";
+    
+    var key = "2023-07-31"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  29115 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%8F%81%E8%8B%B1%E9%AB%94%E5%88%B6%E7%9A%84%E9%99%B7%E9%98%B1%E7%A4%BE%E6%9C%83%E8%8F%81%E8%8B%B1%E7%82%BA%E4%BD%95%E6%88%90%E7%82%BA%E5%A8%81%E8%84%85%E5%B9%B3%E7%AD%89%E6%AD%A3%E7%BE%A9%E5%8A%A9%E9%95%B7%E8%B2%A7%E5%AF%8C%E4%B8%8D%E5%9D%87%E7%94%9A%E8%87%B3%E5%8F%8D%E5%99%AC%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%BA%E6%B0%91%E5%85%AC%E6%95%B5/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%8F%81%E8%8B%B1%E9%AB%94%E5%88%B6%E7%9A%84%E9%99%B7%E9%98%B1%E7%A4%BE%E6%9C%83%E8%8F%81%E8%8B%B1%E7%82%BA%E4%BD%95%E6%88%90%E7%82%BA%E5%A8%81%E8%84%85%E5%B9%B3%E7%AD%89%E6%AD%A3%E7%BE%A9%E5%8A%A9%E9%95%B7%E8%B2%A7%E5%AF%8C%E4%B8%8D%E5%9D%87%E7%94%9A%E8%87%B3%E5%8F%8D%E5%99%AC%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%BA%E6%B0%91%E5%85%AC%E6%95%B5\/";
+    
+    
     var title = "「学术著作」菁英體制的陷阱：社會菁英為何成為威脅平等正義、助長貧富不均，甚至反噬自己的人民公敵？";
   
     
@@ -1538,10 +2233,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-25";
+    
+    var key = "2023-07-25"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  18978 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%A2%AB%E6%8B%90%E5%8D%96%E5%A9%9A%E8%BF%81%E5%A6%87%E5%A5%B3%E8%AE%BF%E8%B0%88%E5%AE%9E%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%A2%AB%E6%8B%90%E5%8D%96%E5%A9%9A%E8%BF%81%E5%A6%87%E5%A5%B3%E8%AE%BF%E8%B0%88%E5%AE%9E%E5%BD%95\/";
+    
+    
     var title = "「学术著作」被拐卖婚迁妇女访谈实录";
   
     
@@ -1550,10 +2252,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-25";
+    
+    var key = "2023-07-25"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  22140 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A4%A9%E6%96%87%E5%AD%A6%E5%AE%B6%E7%9A%84%E5%A5%B3%E5%B7%AB%E6%A1%88%E5%BC%80%E6%99%AE%E5%8B%92%E4%B8%BA%E6%AF%8D%E6%B4%97%E6%B1%A1%E4%B9%8B%E6%88%98/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A4%A9%E6%96%87%E5%AD%A6%E5%AE%B6%E7%9A%84%E5%A5%B3%E5%B7%AB%E6%A1%88%E5%BC%80%E6%99%AE%E5%8B%92%E4%B8%BA%E6%AF%8D%E6%B4%97%E6%B1%A1%E4%B9%8B%E6%88%98\/";
+    
+    
     var title = "「学术著作」天文学家的女巫案：开普勒为母洗污之战";
   
     
@@ -1562,10 +2271,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-22";
+    
+    var key = "2023-07-22"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  23992 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E4%B9%8B%E7%88%B1%E6%83%85%E5%AF%B9%E4%B8%AD%E5%8D%8E%E5%B8%9D%E5%9B%BD%E6%95%B0%E7%99%BE%E5%B9%B4%E6%9D%A5%E6%96%87%E5%AD%A6%E4%BD%9C%E5%93%81%E4%B8%AD%E7%88%B1%E6%83%85%E9%97%AE%E9%A2%98%E7%9A%84%E7%A0%94%E7%A9%B6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E4%B9%8B%E7%88%B1%E6%83%85%E5%AF%B9%E4%B8%AD%E5%8D%8E%E5%B8%9D%E5%9B%BD%E6%95%B0%E7%99%BE%E5%B9%B4%E6%9D%A5%E6%96%87%E5%AD%A6%E4%BD%9C%E5%93%81%E4%B8%AD%E7%88%B1%E6%83%85%E9%97%AE%E9%A2%98%E7%9A%84%E7%A0%94%E7%A9%B6\/";
+    
+    
     var title = "「学术著作」中国之爱情：对中华帝国数百年来文学作品中爱情问题的研究";
   
     
@@ -1574,10 +2290,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-21";
+    
+    var key = "2023-07-21"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  21736 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%87%91%E6%A6%9C%E9%A2%98%E5%90%8D%E4%B9%8B%E5%90%8E%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%87%BA%E8%B7%AF%E5%88%86%E5%8C%96%E4%B9%8B%E8%B0%9C/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%87%91%E6%A6%9C%E9%A2%98%E5%90%8D%E4%B9%8B%E5%90%8E%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%87%BA%E8%B7%AF%E5%88%86%E5%8C%96%E4%B9%8B%E8%B0%9C\/";
+    
+    
     var title = "「学术著作」金榜题名之后：大学生出路分化之谜";
   
     
@@ -1586,10 +2309,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-21";
+    
+    var key = "2023-07-21"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  34836 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%8B%8F%E8%81%94%E7%9A%84%E5%A4%96%E5%AE%BE%E5%95%86%E5%BA%97%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%B8%9A%E5%8C%96%E6%89%80%E9%9C%80%E7%9A%84%E9%BB%84%E9%87%91/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%8B%8F%E8%81%94%E7%9A%84%E5%A4%96%E5%AE%BE%E5%95%86%E5%BA%97%E4%B8%BA%E4%BA%86%E5%B7%A5%E4%B8%9A%E5%8C%96%E6%89%80%E9%9C%80%E7%9A%84%E9%BB%84%E9%87%91\/";
+    
+    
     var title = "「学术著作」苏联的外宾商店：为了工业化所需的黄金";
   
     
@@ -1598,10 +2328,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-19";
+    
+    var key = "2023-07-19"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  24699 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BA%A2%E9%9B%A8%E4%B8%80%E4%B8%AA%E4%B8%AD%E5%9B%BD%E5%8E%BF%E5%9F%9F%E4%B8%83%E4%B8%AA%E4%B8%96%E7%BA%AA%E7%9A%84%E6%9A%B4%E5%8A%9B%E5%8F%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BA%A2%E9%9B%A8%E4%B8%80%E4%B8%AA%E4%B8%AD%E5%9B%BD%E5%8E%BF%E5%9F%9F%E4%B8%83%E4%B8%AA%E4%B8%96%E7%BA%AA%E7%9A%84%E6%9A%B4%E5%8A%9B%E5%8F%B2\/";
+    
+    
     var title = "「学术著作」红雨：一个中国县域七个世纪的暴力史";
   
     
@@ -1610,10 +2347,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-19";
+    
+    var key = "2023-07-19"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  42479 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%BA%81%E5%8B%95%E7%9A%84%E4%BA%A1%E9%AD%82%E5%A4%AA%E5%B9%B3%E5%A4%A9%E5%9C%8B%E6%88%B0%E7%88%AD%E7%9A%84%E6%9A%B4%E5%8A%9B%E5%A4%B1%E5%BA%8F%E8%88%87%E6%AD%BB%E4%BA%A1/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%BA%81%E5%8B%95%E7%9A%84%E4%BA%A1%E9%AD%82%E5%A4%AA%E5%B9%B3%E5%A4%A9%E5%9C%8B%E6%88%B0%E7%88%AD%E7%9A%84%E6%9A%B4%E5%8A%9B%E5%A4%B1%E5%BA%8F%E8%88%87%E6%AD%BB%E4%BA%A1\/";
+    
+    
     var title = "「学术著作」躁動的亡魂：太平天國戰爭的暴力、失序與死亡";
   
     
@@ -1622,10 +2366,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-18";
+    
+    var key = "2023-07-18"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  11562 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%85%AC%E4%B8%BB%E4%B9%8B%E6%AD%BB%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%B3%95%E5%BE%8B%E5%8F%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%85%AC%E4%B8%BB%E4%B9%8B%E6%AD%BB%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%B3%95%E5%BE%8B%E5%8F%B2\/";
+    
+    
     var title = "「学术著作」公主之死：你所不知道的中国法律史";
   
     
@@ -1634,10 +2385,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-17";
+    
+    var key = "2023-07-17"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  42100 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BC%82%E5%9B%BD%E4%BA%8B%E7%89%A9%E7%9A%84%E8%BD%AC%E8%AF%91%E8%BF%91%E4%BB%A3%E4%B8%8A%E6%B5%B7%E7%9A%84%E8%B7%91%E9%A9%AC%E8%B7%91%E7%8B%97%E5%92%8C%E5%9B%9E%E5%8A%9B%E7%90%83%E8%B5%9B/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BC%82%E5%9B%BD%E4%BA%8B%E7%89%A9%E7%9A%84%E8%BD%AC%E8%AF%91%E8%BF%91%E4%BB%A3%E4%B8%8A%E6%B5%B7%E7%9A%84%E8%B7%91%E9%A9%AC%E8%B7%91%E7%8B%97%E5%92%8C%E5%9B%9E%E5%8A%9B%E7%90%83%E8%B5%9B\/";
+    
+    
     var title = "「学术著作」异国事物的转译：近代上海的跑马、跑狗和回力球赛";
   
     
@@ -1646,10 +2404,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-16";
+    
+    var key = "2023-07-16"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  803 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%83%85%E8%89%B2%E6%9C%9D%E9%AE%AE%E9%82%A3%E4%BA%9B%E8%A2%AB%E8%BF%AB%E5%BF%8D%E5%8F%97%E5%A3%93%E6%8A%91%E7%9A%84%E9%9F%93%E5%9C%8B%E8%BF%91%E4%BB%A3%E6%80%A7%E6%85%BE%E5%AF%A6%E9%8C%84/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%83%85%E8%89%B2%E6%9C%9D%E9%AE%AE%E9%82%A3%E4%BA%9B%E8%A2%AB%E8%BF%AB%E5%BF%8D%E5%8F%97%E5%A3%93%E6%8A%91%E7%9A%84%E9%9F%93%E5%9C%8B%E8%BF%91%E4%BB%A3%E6%80%A7%E6%85%BE%E5%AF%A6%E9%8C%84\/";
+    
+    
     var title = "「通俗读物」情色朝鮮：那些被迫忍受、壓抑的韓國近代性慾實錄";
   
     
@@ -1658,10 +2423,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-15";
+    
+    var key = "2023-07-15"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3132 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard\/";
+    
+    
     var title = "「工具经验」数数最近的新鲜效率工具：Rendevoz、AFFiNE、Memo、Google Bard";
   
     
@@ -1670,10 +2442,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-12";
+    
+    var key = "2023-07-12"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  424 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BC%82%E9%97%BB%E5%BD%95%E9%82%A3%E4%BA%9B%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E7%A5%9E%E7%A7%98%E4%BA%8B%E4%BB%B6/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BC%82%E9%97%BB%E5%BD%95%E9%82%A3%E4%BA%9B%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E7%A5%9E%E7%A7%98%E4%BA%8B%E4%BB%B6\/";
+    
+    
     var title = "「通俗读物」中国古代异闻录：那些历史上的神秘事件";
   
     
@@ -1682,10 +2461,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-07-09";
+    
+    var key = "2023-07-09"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  5724 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E5%9B%9B%E8%8A%82%E7%9F%A5%E8%AF%86%E5%B7%A5%E4%BD%9C%E6%B5%81/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E5%9B%9B%E8%8A%82%E7%9F%A5%E8%AF%86%E5%B7%A5%E4%BD%9C%E6%B5%81\/";
+    
+    
     var title = "「工具经验-生产力祛魅」——一位社科工作者如何重塑工作流 第四节：知识工作流";
   
     
@@ -1694,10 +2480,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-06-24";
+    
+    var key = "2023-06-24"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3305 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%BB%99%E9%AB%98%E8%80%83%E5%AD%A6%E7%94%9F%E7%9A%84%E5%BF%97%E6%84%BF%E6%8C%87%E5%8D%97%E5%8F%8A%E5%A4%A7%E5%AD%A6%E6%80%9D%E8%80%83/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%BB%99%E9%AB%98%E8%80%83%E5%AD%A6%E7%94%9F%E7%9A%84%E5%BF%97%E6%84%BF%E6%8C%87%E5%8D%97%E5%8F%8A%E5%A4%A7%E5%AD%A6%E6%80%9D%E8%80%83\/";
+    
+    
     var title = "「工具经验」给高考学生的志愿指南及大学思考";
   
     
@@ -1706,10 +2499,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-06-14";
+    
+    var key = "2023-06-14"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3512 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%89%E8%8A%82%E5%8A%9E%E5%85%AC%E5%B7%A5%E4%BD%9C%E6%B5%81/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%89%E8%8A%82%E5%8A%9E%E5%85%AC%E5%B7%A5%E4%BD%9C%E6%B5%81\/";
+    
+    
     var title = "「工具经验-生产力祛魅」——一位社科工作者如何重塑工作流 第三节：办公工作流";
   
     
@@ -1718,10 +2518,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-05-25";
+    
+    var key = "2023-05-25"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3793 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%86%99%E4%BD%9C%E7%AC%AC%E4%B8%80%E6%9C%9F-%E9%98%85%E8%AF%BB/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%86%99%E4%BD%9C%E7%AC%AC%E4%B8%80%E6%9C%9F-%E9%98%85%E8%AF%BB\/";
+    
+    
     var title = "「工具经验-零基础写作」——第一期 阅读";
   
     
@@ -1730,10 +2537,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-05-23";
+    
+    var key = "2023-05-23"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2191 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E8%AE%BA%E6%96%87%E4%BA%8C%E4%B8%89%E4%BA%8B%E6%88%91%E7%9A%84%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E8%AE%BA/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E8%AE%BA%E6%96%87%E4%BA%8C%E4%B8%89%E4%BA%8B%E6%88%91%E7%9A%84%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E8%AE%BA\/";
+    
+    
     var title = "「工具经验」论文二三事——我的论文写作方法论";
   
     
@@ -1742,10 +2556,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-04-17";
+    
+    var key = "2023-04-17"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  21286 ;
-    var link = "/p/%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E9%B9%BF%E7%A5%9E%E6%AD%8C/";
+    
+    
+    var link = "\/p\/%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E9%B9%BF%E7%A5%9E%E6%AD%8C\/";
+    
+    
     var title = "「文学创作」鹿神歌";
   
     
@@ -1754,10 +2575,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-02-27";
+    
+    var key = "2023-02-27"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4348 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%BA%8C%E8%8A%82%E5%88%86%E7%B1%BB%E6%B3%95/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%BA%8C%E8%8A%82%E5%88%86%E7%B1%BB%E6%B3%95\/";
+    
+    
     var title = "「工具经验-生产力祛魅」——一位社科工作者如何重塑工作流 第二节：分类法";
   
     
@@ -1766,10 +2594,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2023-02-19";
+    
+    var key = "2023-02-19"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4884 ;
-    var link = "/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%80%E8%8A%82%E6%80%BB%E8%A7%88/";
+    
+    
+    var link = "\/p\/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%80%E8%8A%82%E6%80%BB%E8%A7%88\/";
+    
+    
     var title = "「工具经验-生产力祛魅」——一位社科工作者如何重塑工作流 第一节：总览";
   
     
@@ -1778,10 +2613,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  5856 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%9F%8F%E6%9E%97%E4%B8%80%E5%BA%A7%E5%9F%8E%E5%B8%82%E7%9A%84%E9%9B%95%E5%83%8F/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%9F%8F%E6%9E%97%E4%B8%80%E5%BA%A7%E5%9F%8E%E5%B8%82%E7%9A%84%E9%9B%95%E5%83%8F\/";
+    
+    
     var title = "「通俗读物」柏林：一座城市的雕像";
   
     
@@ -1790,10 +2632,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  646 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%88%91%E7%88%B1%E6%97%B6%E5%B0%9A%E4%BD%86%E8%BF%99%E4%B9%9F%E6%98%AF%E6%88%91%E6%89%80%E8%AE%A8%E5%8E%8C%E7%9A%84/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E6%88%91%E7%88%B1%E6%97%B6%E5%B0%9A%E4%BD%86%E8%BF%99%E4%B9%9F%E6%98%AF%E6%88%91%E6%89%80%E8%AE%A8%E5%8E%8C%E7%9A%84\/";
+    
+    
     var title = "「通俗读物」我爱时尚，但这也是我所讨厌的";
   
     
@@ -1802,10 +2651,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2958 ;
-    var link = "/p/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952021-2023%E5%B9%B4%E7%94%B5%E5%BD%B1%E8%A7%82%E7%9C%8B%E8%AE%B0%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952021-2023%E5%B9%B4%E7%94%B5%E5%BD%B1%E8%A7%82%E7%9C%8B%E8%AE%B0%E5%BD%95\/";
+    
+    
     var title = "「信息纪录」2021-2023年电影观看记录";
   
     
@@ -1814,10 +2670,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4747 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%82%8A%E5%8D%80%E6%AD%B7%E5%8F%B2%E8%88%87%E4%B8%BB%E9%AB%94%E6%80%A7%E5%BD%A2%E5%A1%91/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%82%8A%E5%8D%80%E6%AD%B7%E5%8F%B2%E8%88%87%E4%B8%BB%E9%AB%94%E6%80%A7%E5%BD%A2%E5%A1%91\/";
+    
+    
     var title = "「学术著作」邊區歷史與主體性形塑";
   
     
@@ -1826,10 +2689,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  5211 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%BB%8E%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%88%B0%E5%90%8E%E5%86%B7%E6%88%98%E4%BA%9A%E6%B4%B2%E7%9A%84%E6%94%BF%E6%B2%BB%E8%AE%B0%E5%BF%86%E4%B8%8E%E5%8E%86%E5%8F%B2%E5%8F%99%E4%BA%8B-%E5%9B%BD%E9%99%85%E5%AD%A6%E6%9C%AF%E7%A0%94%E8%AE%A8%E4%BC%9A%E8%AE%BA%E6%96%87%E9%9B%86/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%BB%8E%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%88%B0%E5%90%8E%E5%86%B7%E6%88%98%E4%BA%9A%E6%B4%B2%E7%9A%84%E6%94%BF%E6%B2%BB%E8%AE%B0%E5%BF%86%E4%B8%8E%E5%8E%86%E5%8F%B2%E5%8F%99%E4%BA%8B-%E5%9B%BD%E9%99%85%E5%AD%A6%E6%9C%AF%E7%A0%94%E8%AE%A8%E4%BC%9A%E8%AE%BA%E6%96%87%E9%9B%86\/";
+    
+    
     var title = "「学术著作」从近现代到后冷战：亚洲的政治记忆与历史叙事 国际学术研讨会论文集";
   
     
@@ -1838,10 +2708,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4755 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A4%A7%E9%99%86%E7%9A%84%E7%A5%9E%E8%AF%9D%E5%85%83%E5%9C%B0%E7%90%86%E5%AD%A6%E6%89%B9%E5%88%A4/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A4%A7%E9%99%86%E7%9A%84%E7%A5%9E%E8%AF%9D%E5%85%83%E5%9C%B0%E7%90%86%E5%AD%A6%E6%89%B9%E5%88%A4\/";
+    
+    
     var title = "「学术著作」大陆的神话：元地理学批判";
   
     
@@ -1850,10 +2727,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  27564 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%81%B6%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%8E%86%E7%A8%8B%E4%B8%80%E7%A7%8D%E6%B5%AA%E6%BC%AB%E4%B8%BB%E4%B9%89%E8%A7%A3%E8%AF%BB/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%81%B6%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%8E%86%E7%A8%8B%E4%B8%80%E7%A7%8D%E6%B5%AA%E6%BC%AB%E4%B8%BB%E4%B9%89%E8%A7%A3%E8%AF%BB\/";
+    
+    
     var title = "「学术著作」恶的美学历程：一种浪漫主义解读";
   
     
@@ -1862,10 +2746,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  11829 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B5%AE%E7%94%9F%E5%8F%96%E4%B9%89%E5%AF%B9%E5%8D%8E%E5%8C%97%E6%9F%90%E5%8E%BF%E8%87%AA%E6%9D%80%E7%8E%B0%E8%B1%A1%E7%9A%84%E6%96%87%E5%8C%96%E8%A7%A3%E8%AF%BB/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B5%AE%E7%94%9F%E5%8F%96%E4%B9%89%E5%AF%B9%E5%8D%8E%E5%8C%97%E6%9F%90%E5%8E%BF%E8%87%AA%E6%9D%80%E7%8E%B0%E8%B1%A1%E7%9A%84%E6%96%87%E5%8C%96%E8%A7%A3%E8%AF%BB\/";
+    
+    
     var title = "「学术著作」浮生取义：对华北某县自杀现象的文化解读";
   
     
@@ -1874,10 +2765,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  33420 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BB%8F%E5%85%B8%E8%BD%AC%E5%8C%96%E4%B8%8E%E6%98%8E%E6%B8%85%E5%8F%99%E4%BA%8B%E6%96%87%E5%AD%A6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BB%8F%E5%85%B8%E8%BD%AC%E5%8C%96%E4%B8%8E%E6%98%8E%E6%B8%85%E5%8F%99%E4%BA%8B%E6%96%87%E5%AD%A6\/";
+    
+    
     var title = "「学术著作」经典转化与明清叙事文学";
   
     
@@ -1886,10 +2784,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  14746 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8E%86%E5%8F%B2%E7%9A%84%E7%BB%88%E7%BB%93%E4%B8%8E%E6%9C%80%E5%90%8E%E7%9A%84%E4%BA%BA/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8E%86%E5%8F%B2%E7%9A%84%E7%BB%88%E7%BB%93%E4%B8%8E%E6%9C%80%E5%90%8E%E7%9A%84%E4%BA%BA\/";
+    
+    
     var title = "「学术著作」历史的终结与最后的人";
   
     
@@ -1898,10 +2803,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  58623 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8E%86%E5%8F%B2%E7%A4%BE%E4%BC%9A%E5%AD%A6%E6%89%8B%E5%86%8C/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8E%86%E5%8F%B2%E7%A4%BE%E4%BC%9A%E5%AD%A6%E6%89%8B%E5%86%8C\/";
+    
+    
     var title = "「学术著作」历史社会学手册";
   
     
@@ -1910,10 +2822,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  5533 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BE%8E%E6%9C%AF%E7%A5%9E%E8%AF%9D%E4%B8%8E%E7%A5%AD%E7%A5%80/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BE%8E%E6%9C%AF%E7%A5%9E%E8%AF%9D%E4%B8%8E%E7%A5%AD%E7%A5%80\/";
+    
+    
     var title = "「学术著作」美术、神话与祭祀";
   
     
@@ -1922,10 +2841,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  13251 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BE%8E%E6%9C%AF%E5%8F%B2%E5%8D%81%E8%AE%AE/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BE%8E%E6%9C%AF%E5%8F%B2%E5%8D%81%E8%AE%AE\/";
+    
+    
     var title = "「学术著作」美术史十议";
   
     
@@ -1934,10 +2860,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  9205 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%98%8E%E4%BB%A3%E7%9A%84%E8%A7%86%E8%A7%89%E4%B8%8E%E5%9B%BE%E5%83%8F%E6%80%A7/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%98%8E%E4%BB%A3%E7%9A%84%E8%A7%86%E8%A7%89%E4%B8%8E%E5%9B%BE%E5%83%8F%E6%80%A7\/";
+    
+    
     var title = "「学术著作」明代的视觉与图像性";
   
     
@@ -1946,10 +2879,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  13661 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%84%92%E9%87%8A%E9%81%93%E4%B8%8E%E4%B8%AD%E5%9B%BD%E6%B0%91%E4%BF%97/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%84%92%E9%87%8A%E9%81%93%E4%B8%8E%E4%B8%AD%E5%9B%BD%E6%B0%91%E4%BF%97\/";
+    
+    
     var title = "「学术著作」儒释道与中国民俗";
   
     
@@ -1958,10 +2898,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  11847 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%8A%E6%B5%B7%E6%91%A9%E7%99%BB%E4%B8%80%E7%A7%8D%E6%96%B0%E9%83%BD%E5%B8%82%E6%96%87%E5%8C%96%E5%9C%A8%E4%B8%8A%E6%B5%B71930-1945%E4%BF%AE%E8%AE%A2%E7%89%88/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%8A%E6%B5%B7%E6%91%A9%E7%99%BB%E4%B8%80%E7%A7%8D%E6%96%B0%E9%83%BD%E5%B8%82%E6%96%87%E5%8C%96%E5%9C%A8%E4%B8%8A%E6%B5%B71930-1945%E4%BF%AE%E8%AE%A2%E7%89%88\/";
+    
+    
     var title = "「学术著作」上海摩登：一种新都市文化在上海（1930-1945）（修订版）";
   
     
@@ -1970,10 +2917,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2605 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%A6%96%E5%9F%9F%E4%BA%A4%E6%9C%83%E4%B8%AD%E7%9A%84%E5%84%92%E5%AD%B8%E8%BF%91%E4%BB%A3%E7%9A%84%E7%99%BC%E5%B1%95/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%A6%96%E5%9F%9F%E4%BA%A4%E6%9C%83%E4%B8%AD%E7%9A%84%E5%84%92%E5%AD%B8%E8%BF%91%E4%BB%A3%E7%9A%84%E7%99%BC%E5%B1%95\/";
+    
+    
     var title = "「学术著作」視域交會中的儒學：近代的發展";
   
     
@@ -1982,10 +2936,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1144 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B0%B4%E4%B8%8E%E6%A2%A6%E8%AE%BA%E7%89%A9%E8%B4%A8%E7%9A%84%E6%83%B3%E8%B1%A1/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B0%B4%E4%B8%8E%E6%A2%A6%E8%AE%BA%E7%89%A9%E8%B4%A8%E7%9A%84%E6%83%B3%E8%B1%A1\/";
+    
+    
     var title = "「学术著作」水与梦：论物质的想象";
   
     
@@ -1994,10 +2955,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1271 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%9B%BE%E5%83%8F%E8%AF%81%E5%8F%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%9B%BE%E5%83%8F%E8%AF%81%E5%8F%B2\/";
+    
+    
     var title = "「学术著作」图像证史";
   
     
@@ -2006,10 +2974,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  5220 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%9F%A5%E8%AF%86%E9%95%9C%E5%83%8F%E4%B8%8E%E4%B9%A6%E5%86%99/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%9F%A5%E8%AF%86%E9%95%9C%E5%83%8F%E4%B8%8E%E4%B9%A6%E5%86%99\/";
+    
+    
     var title = "「学术著作」知识镜像与书写";
   
     
@@ -2018,10 +2993,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  18597 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E7%8E%AF%E5%A2%83%E5%8F%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E7%8E%AF%E5%A2%83%E5%8F%B2\/";
+    
+    
     var title = "「学术著作」中国环境史";
   
     
@@ -2030,10 +3012,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2677 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E4%B8%89%E5%8D%81%E5%A4%A7%E5%8F%91%E6%98%8E/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E4%B8%89%E5%8D%81%E5%A4%A7%E5%8F%91%E6%98%8E\/";
+    
+    
     var title = "「学术著作」中国三十大发明";
   
     
@@ -2042,10 +3031,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  858 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%87%8D%E5%90%AF%E6%94%B9%E9%9D%A9%E8%AE%AE%E6%94%BF%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%94%B9%E9%9D%A9%E4%BA%8C%E5%8D%81%E8%AE%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%87%8D%E5%90%AF%E6%94%B9%E9%9D%A9%E8%AE%AE%E6%94%BF%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%94%B9%E9%9D%A9%E4%BA%8C%E5%8D%81%E8%AE%B2\/";
+    
+    
     var title = "「学术著作」重启改革议政：中国经济改革二十讲";
   
     
@@ -2054,10 +3050,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2021-01-01";
+    
+    var key = "2021-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4260 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%87%AA%E7%94%B1%E7%9A%84%E5%88%9B%E9%80%A0%E4%B8%8E%E7%90%86%E6%80%A7%E7%9A%84%E8%B1%A1%E5%BE%81/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%87%AA%E7%94%B1%E7%9A%84%E5%88%9B%E9%80%A0%E4%B8%8E%E7%90%86%E6%80%A7%E7%9A%84%E8%B1%A1%E5%BE%81\/";
+    
+    
     var title = "「学术著作」自由的创造与理性的象征";
   
     
@@ -2066,10 +3069,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  11669 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E6%8A%B1%E6%9C%B4%E5%AD%90%E5%86%85%E7%AF%87%E6%A0%A1%E9%87%8A/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E6%8A%B1%E6%9C%B4%E5%AD%90%E5%86%85%E7%AF%87%E6%A0%A1%E9%87%8A\/";
+    
+    
     var title = "「古代典籍」抱朴子内篇校释";
   
     
@@ -2078,10 +3088,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  791 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%8C%97%E6%B8%B8%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%8C%97%E6%B8%B8%E5%BD%95\/";
+    
+    
     var title = "「古代典籍」北游录";
   
     
@@ -2090,10 +3107,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1370 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%B7%A2%E6%9E%97%E7%AC%94%E8%B0%88/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%B7%A2%E6%9E%97%E7%AC%94%E8%B0%88\/";
+    
+    
     var title = "「古代典籍」巢林笔谈";
   
     
@@ -2102,10 +3126,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  643 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%80%81%E5%AD%90%E5%85%A8%E8%AF%91/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%80%81%E5%AD%90%E5%85%A8%E8%AF%91\/";
+    
+    
     var title = "「古代典籍」老子全译";
   
     
@@ -2114,10 +3145,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  44856 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%85%A8%E5%94%90%E6%96%87/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%85%A8%E5%94%90%E6%96%87\/";
+    
+    
     var title = "「古代典籍」全唐文";
   
     
@@ -2126,10 +3164,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1119 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E4%B9%A1%E8%A8%80%E8%A7%A3%E9%A2%90-%E5%90%B4%E4%B8%8B%E8%B0%9A%E8%81%94/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E4%B9%A1%E8%A8%80%E8%A7%A3%E9%A2%90-%E5%90%B4%E4%B8%8B%E8%B0%9A%E8%81%94\/";
+    
+    
     var title = "「古代典籍」乡言解颐 吴下谚联";
   
     
@@ -2138,10 +3183,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1048 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E9%A2%9C%E6%B0%8F%E5%AE%B6%E8%AE%AD/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E9%A2%9C%E6%B0%8F%E5%AE%B6%E8%AE%AD\/";
+    
+    
     var title = "「古代典籍」颜氏家训";
   
     
@@ -2150,10 +3202,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4779 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E6%AA%90%E6%9B%9D%E6%9D%82%E8%AE%B0-%E7%AB%B9%E5%8F%B6%E4%BA%AD%E6%9D%82%E8%AE%B0/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E6%AA%90%E6%9B%9D%E6%9D%82%E8%AE%B0-%E7%AB%B9%E5%8F%B6%E4%BA%AD%E6%9D%82%E8%AE%B0\/";
+    
+    
     var title = "「古代典籍」檐曝杂记 竹叶亭杂记";
   
     
@@ -2162,10 +3221,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  553 ;
-    var link = "/p/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E4%BB%AA%E7%A4%BC/";
+    
+    
+    var link = "\/p\/%E5%8F%A4%E4%BB%A3%E5%85%B8%E7%B1%8D%E4%BB%AA%E7%A4%BC\/";
+    
+    
     var title = "「古代典籍」仪礼";
   
     
@@ -2174,10 +3240,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1472 ;
-    var link = "/p/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%8B%8C%E6%A5%9A%E6%96%8B%E9%9A%8F%E7%AC%94%E7%BB%AD%E7%AC%94%E4%B8%89%E7%AC%94%E5%9B%9B%E7%AC%94%E4%BA%94%E7%AC%94/";
+    
+    
+    var link = "\/p\/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E8%8B%8C%E6%A5%9A%E6%96%8B%E9%9A%8F%E7%AC%94%E7%BB%AD%E7%AC%94%E4%B8%89%E7%AC%94%E5%9B%9B%E7%AC%94%E4%BA%94%E7%AC%94\/";
+    
+    
     var title = "「近代典籍」苌楚斋随笔：续笔、三笔、四笔、五笔";
   
     
@@ -2186,10 +3259,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2716 ;
-    var link = "/p/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E9%83%8E%E6%BD%9C%E7%BA%AA%E9%97%BB%E5%88%9D%E7%AC%94-%E4%BA%8C%E7%AC%94-%E4%B8%89%E7%AC%94/";
+    
+    
+    var link = "\/p\/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E9%83%8E%E6%BD%9C%E7%BA%AA%E9%97%BB%E5%88%9D%E7%AC%94-%E4%BA%8C%E7%AC%94-%E4%B8%89%E7%AC%94\/";
+    
+    
     var title = "「近代典籍」郎潜纪闻初笔 二笔 三笔";
   
     
@@ -2198,10 +3278,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  550 ;
-    var link = "/p/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E9%83%8E%E6%BD%9C%E7%BA%AA%E9%97%BB%E5%9B%9B%E7%AC%94/";
+    
+    
+    var link = "\/p\/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E9%83%8E%E6%BD%9C%E7%BA%AA%E9%97%BB%E5%9B%9B%E7%AC%94\/";
+    
+    
     var title = "「近代典籍」郎潜纪闻四笔";
   
     
@@ -2210,10 +3297,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1720 ;
-    var link = "/p/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%BC%82%E8%BE%9E%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E8%BF%91%E4%BB%A3%E5%85%B8%E7%B1%8D%E5%BC%82%E8%BE%9E%E5%BD%95\/";
+    
+    
     var title = "「近代典籍」异辞录";
   
     
@@ -2222,10 +3316,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2020-01-01";
+    
+    var key = "2020-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2578 ;
-    var link = "/p/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952020%E5%B9%B4%E7%94%B5%E5%BD%B1%E8%A7%82%E7%9C%8B%E8%AE%B0%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952020%E5%B9%B4%E7%94%B5%E5%BD%B1%E8%A7%82%E7%9C%8B%E8%AE%B0%E5%BD%95\/";
+    
+    
     var title = "「信息纪录」2020年电影观看记录";
   
     
@@ -2234,10 +3335,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2018-01-01";
+    
+    var key = "2018-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  16662 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%94%B5%E5%BD%B1%E5%89%A7%E5%9C%BA%E5%92%8C%E8%BF%90%E5%8A%A8/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%94%B5%E5%BD%B1%E5%89%A7%E5%9C%BA%E5%92%8C%E8%BF%90%E5%8A%A8\/";
+    
+    
     var title = "「学术著作」电影，剧场和运动";
   
     
@@ -2246,10 +3354,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2018-01-01";
+    
+    var key = "2018-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  9483 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%B9%B4%E4%BB%A3%E5%AD%A6-chronology/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%B9%B4%E4%BB%A3%E5%AD%A6-chronology\/";
+    
+    
     var title = "「学术著作」年代学 Chronology";
   
     
@@ -2258,10 +3373,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2018-01-01";
+    
+    var key = "2018-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  11455 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%80%E7%A7%8D%E7%8B%AC%E7%AB%8B%E8%AE%BA%E8%BF%B0/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%80%E7%A7%8D%E7%8B%AC%E7%AB%8B%E8%AE%BA%E8%BF%B0\/";
+    
+    
     var title = "「学术著作」一种独立论述";
   
     
@@ -2270,10 +3392,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  12000 ;
-    var link = "/p/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%8B%A6%E6%81%BC%E4%BA%BA%E7%9A%84%E5%BE%AE%E7%AC%91/";
+    
+    
+    var link = "\/p\/%E9%80%9A%E4%BF%97%E8%AF%BB%E7%89%A9%E8%8B%A6%E6%81%BC%E4%BA%BA%E7%9A%84%E5%BE%AE%E7%AC%91\/";
+    
+    
     var title = "「通俗读物」苦恼人的微笑";
   
     
@@ -2282,10 +3411,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  6437 ;
-    var link = "/p/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952017-2019%E5%B9%B4%E7%94%B5%E5%BD%B1%E8%A7%82%E7%9C%8B%E8%AE%B0%E5%BD%95/";
+    
+    
+    var link = "\/p\/%E4%BF%A1%E6%81%AF%E7%BA%AA%E5%BD%952017-2019%E5%B9%B4%E7%94%B5%E5%BD%B1%E8%A7%82%E7%9C%8B%E8%AE%B0%E5%BD%95\/";
+    
+    
     var title = "「信息纪录」2017-2019年电影观看记录";
   
     
@@ -2294,10 +3430,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3062 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C20%E4%B8%96%E7%BA%AA%E4%B8%AD%E5%9B%BD%E6%96%87%E5%AD%A6%E7%BB%8F%E9%AA%8C/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C20%E4%B8%96%E7%BA%AA%E4%B8%AD%E5%9B%BD%E6%96%87%E5%AD%A6%E7%BB%8F%E9%AA%8C\/";
+    
+    
     var title = "「学术著作」20世纪中国文学经验";
   
     
@@ -2306,10 +3449,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1564 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9A%84%E5%84%92%E5%AE%B6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9A%84%E5%84%92%E5%AE%B6\/";
+    
+    
     var title = "「学术著作」波士顿的儒家";
   
     
@@ -2318,10 +3468,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  2180 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%9C%E4%BA%9A%E8%AE%BA%E6%97%A5%E6%9C%AC%E7%8E%B0%E4%BB%A3%E6%89%B9%E5%88%A4%E6%80%9D%E6%83%B3/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%9C%E4%BA%9A%E8%AE%BA%E6%97%A5%E6%9C%AC%E7%8E%B0%E4%BB%A3%E6%89%B9%E5%88%A4%E6%80%9D%E6%83%B3\/";
+    
+    
     var title = "「学术著作」东亚论——日本现代批判思想";
   
     
@@ -2330,10 +3487,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1148 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%96%AF%E7%99%AB%E4%B8%8E%E6%96%87%E6%98%8E%E7%90%86%E6%80%A7%E6%97%B6%E4%BB%A3%E7%9A%84%E7%96%AF%E7%99%AB%E5%8F%B2/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%96%AF%E7%99%AB%E4%B8%8E%E6%96%87%E6%98%8E%E7%90%86%E6%80%A7%E6%97%B6%E4%BB%A3%E7%9A%84%E7%96%AF%E7%99%AB%E5%8F%B2\/";
+    
+    
     var title = "「学术著作」疯癫与文明：理性时代的疯癫史";
   
     
@@ -2342,10 +3506,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  992 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8F%A4%E5%85%B8%E7%9A%84%E7%AB%8B%E6%B3%95%E8%AF%97%E6%94%BF%E6%B2%BB%E5%93%B2%E5%AD%A6%E4%B8%BB%E9%A2%98%E7%A0%94%E7%A9%B6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8F%A4%E5%85%B8%E7%9A%84%E7%AB%8B%E6%B3%95%E8%AF%97%E6%94%BF%E6%B2%BB%E5%93%B2%E5%AD%A6%E4%B8%BB%E9%A2%98%E7%A0%94%E7%A9%B6\/";
+    
+    
     var title = "「学术著作」古典的“立法诗”——政治哲学主题研究";
   
     
@@ -2354,10 +3525,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  4208 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%90%8E%E5%8F%91%E5%B1%95%E5%9B%BD%E5%AE%B6%E7%9A%84%E7%8E%B0%E4%BB%A3%E6%80%A7%E9%97%AE%E9%A2%98/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%90%8E%E5%8F%91%E5%B1%95%E5%9B%BD%E5%AE%B6%E7%9A%84%E7%8E%B0%E4%BB%A3%E6%80%A7%E9%97%AE%E9%A2%98\/";
+    
+    
     var title = "「学术著作」后发展国家的现代性问题";
   
     
@@ -2366,10 +3544,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1382 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8D%8E%E5%A4%8F%E5%8E%86%E5%8F%B2%E7%9A%84%E9%87%8D%E6%9E%84/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%8D%8E%E5%A4%8F%E5%8E%86%E5%8F%B2%E7%9A%84%E9%87%8D%E6%9E%84\/";
+    
+    
     var title = "「学术著作」华夏历史的重构";
   
     
@@ -2378,10 +3563,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1872 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B1%9F%E6%9D%91%E7%BB%8F%E6%B5%8E/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%B1%9F%E6%9D%91%E7%BB%8F%E6%B5%8E\/";
+    
+    
     var title = "「学术著作」江村经济";
   
     
@@ -2390,10 +3582,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  3600 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%87%91%E7%BF%BC-%E4%B8%AD%E5%9B%BD%E5%AE%B6%E6%97%8F%E5%88%B6%E5%BA%A6%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6%E7%A0%94%E7%A9%B6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E9%87%91%E7%BF%BC-%E4%B8%AD%E5%9B%BD%E5%AE%B6%E6%97%8F%E5%88%B6%E5%BA%A6%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6%E7%A0%94%E7%A9%B6\/";
+    
+    
     var title = "「学术著作」金翼 ：中国家族制度的社会学研究";
   
     
@@ -2402,10 +3601,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  971 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%BF%91%E4%BB%A3%E4%B8%AD%E5%9B%BD%E6%96%87%E5%8C%96%E8%AF%B8%E9%97%AE%E9%A2%98%E5%A2%9E%E8%AE%A2%E6%9C%AC/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%BF%91%E4%BB%A3%E4%B8%AD%E5%9B%BD%E6%96%87%E5%8C%96%E8%AF%B8%E9%97%AE%E9%A2%98%E5%A2%9E%E8%AE%A2%E6%9C%AC\/";
+    
+    
     var title = "「学术著作」近代中国文化诸问题（增订本）";
   
     
@@ -2414,10 +3620,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  9871 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BB%8F%E5%AD%A6%E6%94%BF%E6%B2%BB%E4%B8%8E%E7%8E%B0%E4%BB%A3%E4%B8%AD%E5%9B%BD/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%BB%8F%E5%AD%A6%E6%94%BF%E6%B2%BB%E4%B8%8E%E7%8E%B0%E4%BB%A3%E4%B8%AD%E5%9B%BD\/";
+    
+    
     var title = "「学术著作」经学、政治与现代中国";
   
     
@@ -2426,10 +3639,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1067 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%AE%BA%E5%9F%8E%E5%B8%82%E4%BC%9F%E5%A4%A7%E8%87%B3%E5%B0%8A%E4%B9%8B%E5%9B%A0%E7%94%B1/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%AE%BA%E5%9F%8E%E5%B8%82%E4%BC%9F%E5%A4%A7%E8%87%B3%E5%B0%8A%E4%B9%8B%E5%9B%A0%E7%94%B1\/";
+    
+    
     var title = "「学术著作」论城市伟大至尊之因由";
   
     
@@ -2438,10 +3658,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1462 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%AE%BA%E7%8A%AF%E7%BD%AA%E4%B8%8E%E5%88%91%E7%BD%9A/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%AE%BA%E7%8A%AF%E7%BD%AA%E4%B8%8E%E5%88%91%E7%BD%9A\/";
+    
+    
     var title = "「学术著作」论犯罪与刑罚";
   
     
@@ -2450,10 +3677,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  772 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%98%8E%E5%A0%82%E5%88%B6%E5%BA%A6%E6%BA%90%E6%B5%81%E8%80%83/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%98%8E%E5%A0%82%E5%88%B6%E5%BA%A6%E6%BA%90%E6%B5%81%E8%80%83\/";
+    
+    
     var title = "「学术著作」明堂制度源流考";
   
     
@@ -2462,10 +3696,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1005 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%BA%BA%E6%B8%B8%E6%88%8F%E8%80%85-%E5%AF%B9%E6%96%87%E5%8C%96%E4%B8%AD%E6%B8%B8%E6%88%8F%E5%9B%A0%E7%B4%A0%E7%9A%84%E7%A0%94%E7%A9%B6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%BA%BA%E6%B8%B8%E6%88%8F%E8%80%85-%E5%AF%B9%E6%96%87%E5%8C%96%E4%B8%AD%E6%B8%B8%E6%88%8F%E5%9B%A0%E7%B4%A0%E7%9A%84%E7%A0%94%E7%A9%B6\/";
+    
+    
     var title = "「学术著作」人：游戏者 对文化中游戏因素的研究";
   
     
@@ -2474,10 +3715,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1461 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%BA%BA%E7%B1%BB%E5%AD%A6%E4%B8%8E%E7%8E%B0%E4%BB%A3%E7%94%9F%E6%B4%BB/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%BA%BA%E7%B1%BB%E5%AD%A6%E4%B8%8E%E7%8E%B0%E4%BB%A3%E7%94%9F%E6%B4%BB\/";
+    
+    
     var title = "「学术著作」人类学与现代生活";
   
     
@@ -2486,10 +3734,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  882 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A3%B0%E4%B8%9C%E5%87%BB%E8%A5%BF/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A3%B0%E4%B8%9C%E5%87%BB%E8%A5%BF\/";
+    
+    
     var title = "「学术著作」声东击西";
   
     
@@ -2498,10 +3753,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  666 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%A7%86%E5%9F%9F%E5%8F%98%E5%8C%96%E4%B8%AD%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%96%87%E4%B8%8E%E6%80%9D%E6%83%B3%E4%B8%96%E7%95%8C/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%A7%86%E5%9F%9F%E5%8F%98%E5%8C%96%E4%B8%AD%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%96%87%E4%B8%8E%E6%80%9D%E6%83%B3%E4%B8%96%E7%95%8C\/";
+    
+    
     var title = "「学术著作」视域变化中的中国人文与思想世界";
   
     
@@ -2510,10 +3772,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  6428 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%96%87%E5%8C%96%E4%BA%BA%E7%B1%BB%E5%AD%A6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%96%87%E5%8C%96%E4%BA%BA%E7%B1%BB%E5%AD%A6\/";
+    
+    
     var title = "「学术著作」文化人类学";
   
     
@@ -2522,10 +3791,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  14175 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%96%87%E5%8C%96%E4%BA%BA%E7%B1%BB%E5%AD%A6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%96%87%E5%8C%96%E4%BA%BA%E7%B1%BB%E5%AD%A6\/";
+    
+    
     var title = "「学术著作」文化人类学";
   
     
@@ -2534,10 +3810,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1006 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E5%BF%83%E7%90%86%E5%AD%A6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E5%BF%83%E7%90%86%E5%AD%A6\/";
+    
+    
     var title = "「学术著作」文学创作心理学";
   
     
@@ -2546,10 +3829,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  886 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%8E%B0%E4%BB%A3%E6%80%A7%E5%8D%B1%E6%9C%BA%E4%B8%8E%E6%96%87%E5%8C%96%E5%AF%BB%E6%A0%B9/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%8E%B0%E4%BB%A3%E6%80%A7%E5%8D%B1%E6%9C%BA%E4%B8%8E%E6%96%87%E5%8C%96%E5%AF%BB%E6%A0%B9\/";
+    
+    
     var title = "「学术著作」现代性危机与文化寻根";
   
     
@@ -2558,10 +3848,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  882 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B9%A1%E6%9D%91%E5%BD%B1%E8%A7%86%E7%94%9F%E6%B4%BB/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B9%A1%E6%9D%91%E5%BD%B1%E8%A7%86%E7%94%9F%E6%B4%BB\/";
+    
+    
     var title = "「学术著作」乡村·影视·生活";
   
     
@@ -2570,10 +3867,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1756 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%83%B3%E8%B1%A1%E5%BC%82%E5%9F%9F%E8%AF%BB%E6%9D%8E%E6%9C%9D%E6%9C%9D%E9%B2%9C%E6%B1%89%E6%96%87%E7%87%95%E8%A1%8C%E6%96%87%E7%8C%AE%E6%9C%AD%E8%AE%B0/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E6%83%B3%E8%B1%A1%E5%BC%82%E5%9F%9F%E8%AF%BB%E6%9D%8E%E6%9C%9D%E6%9C%9D%E9%B2%9C%E6%B1%89%E6%96%87%E7%87%95%E8%A1%8C%E6%96%87%E7%8C%AE%E6%9C%AD%E8%AE%B0\/";
+    
+    
     var title = "「学术著作」想象异域：读李朝朝鲜汉文燕行文献札记";
   
     
@@ -2582,10 +3886,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  530 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BD%A2%E8%B1%A1%E8%AF%97%E5%AD%A6%E5%8E%9F%E7%90%86/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BD%A2%E8%B1%A1%E8%AF%97%E5%AD%A6%E5%8E%9F%E7%90%86\/";
+    
+    
     var title = "「学术著作」形象诗学原理";
   
     
@@ -2594,10 +3905,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1577 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BE%90%E5%A4%8D%E8%A7%82%E8%AE%BA%E7%BB%8F%E5%AD%A6%E5%8F%B2%E4%BA%8C%E7%A7%8D/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%BE%90%E5%A4%8D%E8%A7%82%E8%AE%BA%E7%BB%8F%E5%AD%A6%E5%8F%B2%E4%BA%8C%E7%A7%8D\/";
+    
+    
     var title = "「学术著作」徐复观论经学史二种";
   
     
@@ -2606,10 +3924,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  726 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A4%9C%E9%97%B4%E7%9A%84%E6%88%98%E6%96%971617%E4%B8%96%E7%BA%AA%E7%9A%84%E5%B7%AB%E6%9C%AF%E5%92%8C%E5%86%9C%E4%B8%9A%E5%B4%87%E6%8B%9C/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E5%A4%9C%E9%97%B4%E7%9A%84%E6%88%98%E6%96%971617%E4%B8%96%E7%BA%AA%E7%9A%84%E5%B7%AB%E6%9C%AF%E5%92%8C%E5%86%9C%E4%B8%9A%E5%B4%87%E6%8B%9C\/";
+    
+    
     var title = "「学术著作」夜间的战斗：16、17世纪的巫术和农业崇拜";
   
     
@@ -2618,10 +3943,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  497 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%AF%AD%E8%A8%80%E5%92%8C%E5%8E%86%E5%8F%B2%E6%8F%8F%E5%86%99%E6%9B%B2%E8%A7%A3%E6%95%85%E4%BA%8B/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E8%AF%AD%E8%A8%80%E5%92%8C%E5%8E%86%E5%8F%B2%E6%8F%8F%E5%86%99%E6%9B%B2%E8%A7%A3%E6%95%85%E4%BA%8B\/";
+    
+    
     var title = "「学术著作」语言和历史描写——曲解故事";
   
     
@@ -2630,10 +3962,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  1703 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%9F%A5%E8%AF%86%E4%B9%8B%E9%94%9A/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E7%9F%A5%E8%AF%86%E4%B9%8B%E9%94%9A\/";
+    
+    
     var title = "「学术著作」知识之锚";
   
     
@@ -2642,10 +3981,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  919 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E7%9A%84%E9%AD%85%E5%8A%9B%E8%B6%8B%E4%B9%8B%E8%8B%A5%E9%B9%9C%E7%9A%84%E8%A5%BF%E6%96%B9%E4%BD%9C%E5%AE%B6%E4%B8%8E%E6%94%B6%E8%97%8F%E5%AE%B6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%9B%BD%E7%9A%84%E9%AD%85%E5%8A%9B%E8%B6%8B%E4%B9%8B%E8%8B%A5%E9%B9%9C%E7%9A%84%E8%A5%BF%E6%96%B9%E4%BD%9C%E5%AE%B6%E4%B8%8E%E6%94%B6%E8%97%8F%E5%AE%B6\/";
+    
+    
     var title = "「学术著作」中国的魅力：趋之若鹜的西方作家与收藏家";
   
     
@@ -2654,10 +4000,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  891 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%96%87%E4%B8%8E%E5%BD%93%E4%BB%8A%E4%B8%96%E7%95%8C/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%96%87%E4%B8%8E%E5%BD%93%E4%BB%8A%E4%B8%96%E7%95%8C\/";
+    
+    
     var title = "「学术著作」中华人文与当今世界";
   
     
@@ -2666,10 +4019,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2017-01-01";
+    
+    var key = "2017-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  642 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%8D%8E%E6%96%87%E5%8C%96%E4%B8%8E%E6%B5%B7%E5%B3%A1%E4%B8%A4%E5%B2%B8%E6%B1%89%E6%B0%91%E6%97%8F%E7%A0%94%E7%A9%B6/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%AD%E5%8D%8E%E6%96%87%E5%8C%96%E4%B8%8E%E6%B5%B7%E5%B3%A1%E4%B8%A4%E5%B2%B8%E6%B1%89%E6%B0%91%E6%97%8F%E7%A0%94%E7%A9%B6\/";
+    
+    
     var title = "「学术著作」中华文化与海峡两岸汉民族研究";
   
     
@@ -2678,10 +4038,17 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
     } else {
       value.push({wordCount, link, title});
     }
-    var key = "2016-01-01";
+    
+    var key = "2016-01-01"; 
     var value = dataMap.get(key);
+    
+    
     var wordCount =  892 ;
-    var link = "/p/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%87%E5%8E%86%E5%8D%81%E4%BA%94%E5%B9%B4/";
+    
+    
+    var link = "\/p\/%E5%AD%A6%E6%9C%AF%E8%91%97%E4%BD%9C%E4%B8%87%E5%8E%86%E5%8D%81%E4%BA%94%E5%B9%B4\/";
+    
+    
     var title = "「学术著作」万历十五年";
   
     
@@ -2817,6 +4184,1100 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
 });
 </script> 
 
+<h2 id="更新日志">更新日志
+</h2>
+
+
+ 
+
+
+
+
+ 
+
+
+<div class="hugo-updatetime-item type-released" style="--ut-color: #10b981;">
+    <div class="ut-marker">
+        <div class="ut-line"></div>
+        <div class="ut-icon-box">
+            
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            
+        </div>
+    </div>
+
+    <div class="ut-content">
+        <div class="ut-header">
+            <div class="ut-info">
+                <span class="ut-version" onclick="navigator.clipboard.writeText('v1.0.0');alert('版本号已复制！')" title="点击复制">
+                    v1.0.0
+                </span>
+                <span class="ut-date">2025-02-15</span>
+            </div>
+            
+            
+            <div class="ut-tags">
+                
+                <span class="ut-tag">正式版</span>
+                
+            </div>
+            
+        </div>
+
+        
+
+        <div class="ut-body">
+            <ul>
+<li>Soar Freely第一次搭建起独立平台，得以自由分享信息资讯。</li>
+<li>完成核心功能开发。</li>
+</ul>
+
+        </div>
+
+        
+    </div>
+</div>
+
+<style>
+     
+    .hugo-updatetime-item {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        padding-bottom: 2rem;
+        
+         
+        font-family: inherit;
+    }
+
+     
+    .ut-marker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+        width: 40px;
+    }
+
+    .ut-line {
+        position: absolute;
+        top: 40px;
+        bottom: 0;
+        width: 2px;
+        background: #e5e7eb;
+        z-index: 0;
+    }
+    .hugo-updatetime-item:last-child .ut-line { display: none; }
+
+    .type-planning .ut-line {
+        border-left: 2px dashed #e5e7eb;
+        background: transparent;
+    }
+
+    .ut-icon-box {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid var(--ut-color);
+        color: var(--ut-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        box-shadow: 0 0 0 4px #fff; 
+    }
+
+    .ut-icon-box svg { width: 18px; height: 18px; }
+
+     
+    .ut-content {
+        flex: 1;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.06);
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+        transition: transform 0.2s, box-shadow 0.2s;
+        position: relative;
+    }
+    
+    .ut-content:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+        border-color: var(--ut-color);
+    }
+
+     
+    .ut-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .ut-version {
+        font-size: 1.9rem;  
+        font-weight: 800;
+        color: var(--ut-color);
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+    }
+    .ut-version:hover { text-decoration: underline; }
+
+    .ut-date {
+        font-size: 1.7rem;  
+        color: #9ca3af;
+        margin-left: 12px;
+    }
+
+     
+    .ut-tags { display: flex; gap: 8px; }
+    .ut-tag {
+        font-size: 14px;  
+        padding: 4px 12px;
+        border-radius: 20px;
+        background: rgba(0,0,0,0.05);
+        color: #666;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .ut-title {
+        margin: 0 0 12px 0;
+        font-size: 1.6rem;  
+        color: #1f2937;
+    }
+
+    .ut-body {
+        font-size: 1.5rem;  
+        color: #4b5563;
+        line-height: 1.7;
+    }
+    .ut-body ul { padding-left: 20px; margin: 0; }
+    .ut-body li { margin-bottom: 6px; }
+
+     
+    .ut-progress-wrapper {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px dashed #eee;
+    }
+    .ut-progress-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;  
+        color: #6b7280;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    .ut-progress-bar-bg {
+        height: 10px;  
+        background: #f3f4f6;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .ut-progress-bar-fill {
+        height: 100%;
+        background: var(--ut-color);
+        border-radius: 5px;
+        transition: width 1s ease-in-out;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .ut-content { background: #1f2937; border-color: #374151; }
+        .ut-title { color: #f3f4f6; }
+        .ut-body { color: #d1d5db; }
+        .ut-icon-box { background: #1f2937; box-shadow: 0 0 0 4px #111827; }
+        .ut-tag { background: rgba(255,255,255,0.1); color: #ccc; }
+        .ut-progress-bar-bg { background: #374151; }
+    }
+</style>
+
+
+
+ 
+
+
+
+
+ 
+
+
+<div class="hugo-updatetime-item type-released" style="--ut-color: #10b981;">
+    <div class="ut-marker">
+        <div class="ut-line"></div>
+        <div class="ut-icon-box">
+            
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            
+        </div>
+    </div>
+
+    <div class="ut-content">
+        <div class="ut-header">
+            <div class="ut-info">
+                <span class="ut-version" onclick="navigator.clipboard.writeText('v1.3.0');alert('版本号已复制！')" title="点击复制">
+                    v1.3.0
+                </span>
+                <span class="ut-date">2025-02 - 2025-10</span>
+            </div>
+            
+            
+            <div class="ut-tags">
+                
+                <span class="ut-tag">新功能</span>
+                
+                <span class="ut-tag">新栏目</span>
+                
+            </div>
+            
+        </div>
+
+        
+
+        <div class="ut-body">
+            <ul>
+<li>逐步增加所设置栏目。</li>
+<li>逐步增加各种方便阅读的新功能，增强阅读体验。</li>
+</ul>
+
+        </div>
+
+        
+    </div>
+</div>
+
+<style>
+     
+    .hugo-updatetime-item {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        padding-bottom: 2rem;
+        
+         
+        font-family: inherit;
+    }
+
+     
+    .ut-marker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+        width: 40px;
+    }
+
+    .ut-line {
+        position: absolute;
+        top: 40px;
+        bottom: 0;
+        width: 2px;
+        background: #e5e7eb;
+        z-index: 0;
+    }
+    .hugo-updatetime-item:last-child .ut-line { display: none; }
+
+    .type-planning .ut-line {
+        border-left: 2px dashed #e5e7eb;
+        background: transparent;
+    }
+
+    .ut-icon-box {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid var(--ut-color);
+        color: var(--ut-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        box-shadow: 0 0 0 4px #fff; 
+    }
+
+    .ut-icon-box svg { width: 18px; height: 18px; }
+
+     
+    .ut-content {
+        flex: 1;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.06);
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+        transition: transform 0.2s, box-shadow 0.2s;
+        position: relative;
+    }
+    
+    .ut-content:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+        border-color: var(--ut-color);
+    }
+
+     
+    .ut-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .ut-version {
+        font-size: 1.9rem;  
+        font-weight: 800;
+        color: var(--ut-color);
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+    }
+    .ut-version:hover { text-decoration: underline; }
+
+    .ut-date {
+        font-size: 1.7rem;  
+        color: #9ca3af;
+        margin-left: 12px;
+    }
+
+     
+    .ut-tags { display: flex; gap: 8px; }
+    .ut-tag {
+        font-size: 14px;  
+        padding: 4px 12px;
+        border-radius: 20px;
+        background: rgba(0,0,0,0.05);
+        color: #666;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .ut-title {
+        margin: 0 0 12px 0;
+        font-size: 1.6rem;  
+        color: #1f2937;
+    }
+
+    .ut-body {
+        font-size: 1.5rem;  
+        color: #4b5563;
+        line-height: 1.7;
+    }
+    .ut-body ul { padding-left: 20px; margin: 0; }
+    .ut-body li { margin-bottom: 6px; }
+
+     
+    .ut-progress-wrapper {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px dashed #eee;
+    }
+    .ut-progress-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;  
+        color: #6b7280;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    .ut-progress-bar-bg {
+        height: 10px;  
+        background: #f3f4f6;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .ut-progress-bar-fill {
+        height: 100%;
+        background: var(--ut-color);
+        border-radius: 5px;
+        transition: width 1s ease-in-out;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .ut-content { background: #1f2937; border-color: #374151; }
+        .ut-title { color: #f3f4f6; }
+        .ut-body { color: #d1d5db; }
+        .ut-icon-box { background: #1f2937; box-shadow: 0 0 0 4px #111827; }
+        .ut-tag { background: rgba(255,255,255,0.1); color: #ccc; }
+        .ut-progress-bar-bg { background: #374151; }
+    }
+</style>
+
+
+
+ 
+
+
+
+
+ 
+
+     
+
+
+<div class="hugo-updatetime-item type-beta" style="--ut-color: #f59e0b;">
+    <div class="ut-marker">
+        <div class="ut-line"></div>
+        <div class="ut-icon-box">
+            
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+            
+        </div>
+    </div>
+
+    <div class="ut-content">
+        <div class="ut-header">
+            <div class="ut-info">
+                <span class="ut-version" onclick="navigator.clipboard.writeText('v2.0.0 beta 01');alert('版本号已复制！')" title="点击复制">
+                    v2.0.0 beta 01
+                </span>
+                <span class="ut-date">2026-01-07 - 2026-01-09</span>
+            </div>
+            
+            
+            <div class="ut-tags">
+                
+                <span class="ut-tag">已上线</span>
+                
+                <span class="ut-tag">测试中</span>
+                
+            </div>
+            
+        </div>
+
+        
+        <h4 class="ut-title">2.0正式版代号「罗曼蒂克」，主要进行全方位的优化</h4>
+        
+
+        <div class="ut-body">
+            <ul>
+<li>修复了热力图像等Bug。</li>
+<li>重新设计「学术研究」等栏目结构，增强阅读体验。</li>
+<li>增加底部「每日一言」设计。</li>
+<li>关于 | About 页面增加更新日志。</li>
+<li><strong>注意</strong>：「学术研究」栏目目前已经支持迅速定位Pdf下载、Doi号查询等功能。</li>
+</ul>
+
+        </div>
+
+        
+    </div>
+</div>
+
+<style>
+     
+    .hugo-updatetime-item {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        padding-bottom: 2rem;
+        
+         
+        font-family: inherit;
+    }
+
+     
+    .ut-marker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+        width: 40px;
+    }
+
+    .ut-line {
+        position: absolute;
+        top: 40px;
+        bottom: 0;
+        width: 2px;
+        background: #e5e7eb;
+        z-index: 0;
+    }
+    .hugo-updatetime-item:last-child .ut-line { display: none; }
+
+    .type-planning .ut-line {
+        border-left: 2px dashed #e5e7eb;
+        background: transparent;
+    }
+
+    .ut-icon-box {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid var(--ut-color);
+        color: var(--ut-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        box-shadow: 0 0 0 4px #fff; 
+    }
+
+    .ut-icon-box svg { width: 18px; height: 18px; }
+
+     
+    .ut-content {
+        flex: 1;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.06);
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+        transition: transform 0.2s, box-shadow 0.2s;
+        position: relative;
+    }
+    
+    .ut-content:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+        border-color: var(--ut-color);
+    }
+
+     
+    .ut-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .ut-version {
+        font-size: 1.9rem;  
+        font-weight: 800;
+        color: var(--ut-color);
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+    }
+    .ut-version:hover { text-decoration: underline; }
+
+    .ut-date {
+        font-size: 1.7rem;  
+        color: #9ca3af;
+        margin-left: 12px;
+    }
+
+     
+    .ut-tags { display: flex; gap: 8px; }
+    .ut-tag {
+        font-size: 14px;  
+        padding: 4px 12px;
+        border-radius: 20px;
+        background: rgba(0,0,0,0.05);
+        color: #666;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .ut-title {
+        margin: 0 0 12px 0;
+        font-size: 1.6rem;  
+        color: #1f2937;
+    }
+
+    .ut-body {
+        font-size: 1.5rem;  
+        color: #4b5563;
+        line-height: 1.7;
+    }
+    .ut-body ul { padding-left: 20px; margin: 0; }
+    .ut-body li { margin-bottom: 6px; }
+
+     
+    .ut-progress-wrapper {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px dashed #eee;
+    }
+    .ut-progress-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;  
+        color: #6b7280;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    .ut-progress-bar-bg {
+        height: 10px;  
+        background: #f3f4f6;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .ut-progress-bar-fill {
+        height: 100%;
+        background: var(--ut-color);
+        border-radius: 5px;
+        transition: width 1s ease-in-out;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .ut-content { background: #1f2937; border-color: #374151; }
+        .ut-title { color: #f3f4f6; }
+        .ut-body { color: #d1d5db; }
+        .ut-icon-box { background: #1f2937; box-shadow: 0 0 0 4px #111827; }
+        .ut-tag { background: rgba(255,255,255,0.1); color: #ccc; }
+        .ut-progress-bar-bg { background: #374151; }
+    }
+</style>
+
+
+
+ 
+
+
+
+
+ 
+
+     
+
+
+<div class="hugo-updatetime-item type-planning" style="--ut-color: #6366f1;">
+    <div class="ut-marker">
+        <div class="ut-line"></div>
+        <div class="ut-icon-box">
+            
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            
+        </div>
+    </div>
+
+    <div class="ut-content">
+        <div class="ut-header">
+            <div class="ut-info">
+                <span class="ut-version" onclick="navigator.clipboard.writeText('v2.0.0 beta 02');alert('版本号已复制！')" title="点击复制">
+                    v2.0.0 beta 02
+                </span>
+                <span class="ut-date">2026-01</span>
+            </div>
+            
+            
+            <div class="ut-tags">
+                
+                <span class="ut-tag">近期上线</span>
+                
+            </div>
+            
+        </div>
+
+        
+
+        <div class="ut-body">
+            <ul>
+<li>恢复「SF周刊」的更新，并同步推出目录索引功能。同时进一步重新构建「SF周刊」的结构，进一步增强阅读体验。</li>
+<li>「工具经验」栏目所有文章的重新组织与优化，增强阅读体验。</li>
+</ul>
+
+        </div>
+
+        
+        <div class="ut-progress-wrapper">
+            <div class="ut-progress-label">
+                <span>开发进度</span>
+                <span>30%</span>
+            </div>
+            <div class="ut-progress-bar-bg">
+                <div class="ut-progress-bar-fill" style="width: 30%;"></div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<style>
+     
+    .hugo-updatetime-item {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        padding-bottom: 2rem;
+        
+         
+        font-family: inherit;
+    }
+
+     
+    .ut-marker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+        width: 40px;
+    }
+
+    .ut-line {
+        position: absolute;
+        top: 40px;
+        bottom: 0;
+        width: 2px;
+        background: #e5e7eb;
+        z-index: 0;
+    }
+    .hugo-updatetime-item:last-child .ut-line { display: none; }
+
+    .type-planning .ut-line {
+        border-left: 2px dashed #e5e7eb;
+        background: transparent;
+    }
+
+    .ut-icon-box {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid var(--ut-color);
+        color: var(--ut-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        box-shadow: 0 0 0 4px #fff; 
+    }
+
+    .ut-icon-box svg { width: 18px; height: 18px; }
+
+     
+    .ut-content {
+        flex: 1;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.06);
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+        transition: transform 0.2s, box-shadow 0.2s;
+        position: relative;
+    }
+    
+    .ut-content:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+        border-color: var(--ut-color);
+    }
+
+     
+    .ut-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .ut-version {
+        font-size: 1.9rem;  
+        font-weight: 800;
+        color: var(--ut-color);
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+    }
+    .ut-version:hover { text-decoration: underline; }
+
+    .ut-date {
+        font-size: 1.7rem;  
+        color: #9ca3af;
+        margin-left: 12px;
+    }
+
+     
+    .ut-tags { display: flex; gap: 8px; }
+    .ut-tag {
+        font-size: 14px;  
+        padding: 4px 12px;
+        border-radius: 20px;
+        background: rgba(0,0,0,0.05);
+        color: #666;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .ut-title {
+        margin: 0 0 12px 0;
+        font-size: 1.6rem;  
+        color: #1f2937;
+    }
+
+    .ut-body {
+        font-size: 1.5rem;  
+        color: #4b5563;
+        line-height: 1.7;
+    }
+    .ut-body ul { padding-left: 20px; margin: 0; }
+    .ut-body li { margin-bottom: 6px; }
+
+     
+    .ut-progress-wrapper {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px dashed #eee;
+    }
+    .ut-progress-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;  
+        color: #6b7280;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    .ut-progress-bar-bg {
+        height: 10px;  
+        background: #f3f4f6;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .ut-progress-bar-fill {
+        height: 100%;
+        background: var(--ut-color);
+        border-radius: 5px;
+        transition: width 1s ease-in-out;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .ut-content { background: #1f2937; border-color: #374151; }
+        .ut-title { color: #f3f4f6; }
+        .ut-body { color: #d1d5db; }
+        .ut-icon-box { background: #1f2937; box-shadow: 0 0 0 4px #111827; }
+        .ut-tag { background: rgba(255,255,255,0.1); color: #ccc; }
+        .ut-progress-bar-bg { background: #374151; }
+    }
+</style>
+
+
+
+ 
+
+
+
+
+ 
+
+     
+
+
+<div class="hugo-updatetime-item type-planning" style="--ut-color: #6366f1;">
+    <div class="ut-marker">
+        <div class="ut-line"></div>
+        <div class="ut-icon-box">
+            
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            
+        </div>
+    </div>
+
+    <div class="ut-content">
+        <div class="ut-header">
+            <div class="ut-info">
+                <span class="ut-version" onclick="navigator.clipboard.writeText('v2.0.0 Dev');alert('版本号已复制！')" title="点击复制">
+                    v2.0.0 Dev
+                </span>
+                <span class="ut-date">预计 2026-02 - 2026-05</span>
+            </div>
+            
+            
+            <div class="ut-tags">
+                
+                <span class="ut-tag">开发中</span>
+                
+            </div>
+            
+        </div>
+
+        
+        <h4 class="ut-title">「罗曼蒂克」</h4>
+        
+
+        <div class="ut-body">
+            继续2.0版本在各方面的全面优化，为不同栏目进行专门化设计等。
+        </div>
+
+        
+        <div class="ut-progress-wrapper">
+            <div class="ut-progress-label">
+                <span>开发进度</span>
+                <span>10%</span>
+            </div>
+            <div class="ut-progress-bar-bg">
+                <div class="ut-progress-bar-fill" style="width: 10%;"></div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<style>
+     
+    .hugo-updatetime-item {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        padding-bottom: 2rem;
+        
+         
+        font-family: inherit;
+    }
+
+     
+    .ut-marker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+        width: 40px;
+    }
+
+    .ut-line {
+        position: absolute;
+        top: 40px;
+        bottom: 0;
+        width: 2px;
+        background: #e5e7eb;
+        z-index: 0;
+    }
+    .hugo-updatetime-item:last-child .ut-line { display: none; }
+
+    .type-planning .ut-line {
+        border-left: 2px dashed #e5e7eb;
+        background: transparent;
+    }
+
+    .ut-icon-box {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid var(--ut-color);
+        color: var(--ut-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        box-shadow: 0 0 0 4px #fff; 
+    }
+
+    .ut-icon-box svg { width: 18px; height: 18px; }
+
+     
+    .ut-content {
+        flex: 1;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.06);
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+        transition: transform 0.2s, box-shadow 0.2s;
+        position: relative;
+    }
+    
+    .ut-content:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+        border-color: var(--ut-color);
+    }
+
+     
+    .ut-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .ut-version {
+        font-size: 1.9rem;  
+        font-weight: 800;
+        color: var(--ut-color);
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+    }
+    .ut-version:hover { text-decoration: underline; }
+
+    .ut-date {
+        font-size: 1.7rem;  
+        color: #9ca3af;
+        margin-left: 12px;
+    }
+
+     
+    .ut-tags { display: flex; gap: 8px; }
+    .ut-tag {
+        font-size: 14px;  
+        padding: 4px 12px;
+        border-radius: 20px;
+        background: rgba(0,0,0,0.05);
+        color: #666;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .ut-title {
+        margin: 0 0 12px 0;
+        font-size: 1.6rem;  
+        color: #1f2937;
+    }
+
+    .ut-body {
+        font-size: 1.5rem;  
+        color: #4b5563;
+        line-height: 1.7;
+    }
+    .ut-body ul { padding-left: 20px; margin: 0; }
+    .ut-body li { margin-bottom: 6px; }
+
+     
+    .ut-progress-wrapper {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px dashed #eee;
+    }
+    .ut-progress-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;  
+        color: #6b7280;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    .ut-progress-bar-bg {
+        height: 10px;  
+        background: #f3f4f6;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .ut-progress-bar-fill {
+        height: 100%;
+        background: var(--ut-color);
+        border-radius: 5px;
+        transition: width 1s ease-in-out;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .ut-content { background: #1f2937; border-color: #374151; }
+        .ut-title { color: #f3f4f6; }
+        .ut-body { color: #d1d5db; }
+        .ut-icon-box { background: #1f2937; box-shadow: 0 0 0 4px #111827; }
+        .ut-tag { background: rgba(255,255,255,0.1); color: #ccc; }
+        .ut-progress-bar-bg { background: #374151; }
+    }
+</style>
 
 </section>
 
@@ -2846,13 +5307,15 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
 
 
         <span>
-            最后修改于 2025-10-18 10:00:00
+            最后修改于 2026-01-09 17:00:00
         </span>
     </section></footer>
 
 
     
 </article>
+
+
 
     
 
@@ -3285,22 +5748,271 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
         
             
         
-        发表了187篇文章 · 
-        总计1,924.94k字
+            
+        
+            
+        
+            
+        
+        发表了190篇文章 · 
+        总计1,931.53k字
     </section>
 
-    <script>
-        (function(u, c) {
-          var d = document, t = 'script', o = d.createElement(t),
-              s = d.getElementsByTagName(t)[0];
-          o.src = u;
-          if (c) { o.addEventListener('load', function(e) { c(e); }); }
-          s.parentNode.insertBefore(o, s);
-        })('//cdn.bootcss.com/pangu/4.0.7/pangu.min.js', function() {
-          pangu.spacingPage();
-        });
-    </script>
     
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    
+    const containerSelector = '.article-content';
+    
+    
+    
+    const regex1 = /([\u4e00-\u9fa5])([a-zA-Z0-9])/g;  
+    const regex2 = /([a-zA-Z0-9])([\u4e00-\u9fa5])/g;  
+
+    
+    function addSpaceToNode(node) {
+      
+      if (node.nodeType === 3) {
+        let text = node.data;
+        
+        if (text && /[\u4e00-\u9fa5]/.test(text) && /[a-zA-Z0-9]/.test(text)) {
+          
+          let newText = text.replace(regex1, '$1 $2').replace(regex2, '$1 $2');
+          if (newText !== text) {
+            node.data = newText;
+          }
+        }
+      } 
+      
+      else if (node.nodeType === 1) {
+        const tagName = node.tagName.toLowerCase();
+        if (tagName !== 'script' && tagName !== 'style' && tagName !== 'code' && tagName !== 'pre') {
+          
+          for (let i = node.childNodes.length - 1; i >= 0; i--) {
+            addSpaceToNode(node.childNodes[i]);
+          }
+        }
+      }
+    }
+
+    
+    const container = document.querySelector(containerSelector);
+    if (container) {
+      console.log('正在执行纯文本加空格优化...');
+      addSpaceToNode(container);
+      console.log('执行完毕，无副作用模式。');
+    }
+  });
+</script>
+
+<div class="quote-container">
+    <div class="quote-content">
+        <span class="quote-icon">“</span>
+        <p id="quote-text">正在提取思想碎片...</p>
+        <p id="quote-author" class="quote-author"></p>
+    </div>
+    
+    <div class="quote-actions">
+        <button id="copy-btn" title="复制到剪贴板" class="action-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        </button>
+        <button id="refresh-btn" title="换一句" class="action-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"></path><path d="M1 20v-6h6"></path><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+        </button>
+    </div>
+</div>
+
+<style>
+    .quote-container {
+        position: relative;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.6);  
+        border-radius: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        font-family: 'Georgia', 'Noto Serif SC', serif;  
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .quote-container {
+            background: rgba(30, 30, 30, 0.6);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: #e0e0e0;
+        }
+    }
+
+    .quote-container:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .quote-icon {
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        font-size: 4rem;
+        color: rgba(0, 0, 0, 0.1);
+        font-family: sans-serif;
+        line-height: 1;
+    }
+
+    .quote-content {
+        text-align: center;
+        margin-bottom: 1rem;
+        opacity: 0;  
+        transition: opacity 0.5s ease;
+    }
+
+    .quote-content.visible {
+        opacity: 1;
+    }
+
+    #quote-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 0 0 0.5rem 0;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+    }
+
+    .quote-author {
+        font-size: 0.9rem;
+        color: #888;
+        font-style: italic;
+        margin: 0;
+    }
+
+    .quote-author::before {
+        content: "—— ";
+    }
+
+    .quote-actions {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+    }
+
+    .quote-container:hover .quote-actions {
+        opacity: 1;
+    }
+
+    .action-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+        border-radius: 50%;
+        color: inherit;
+        transition: background 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .action-btn:hover {
+        background: rgba(0, 0, 0, 0.05);
+        color: #007bff;  
+    }
+
+    .action-btn:active {
+        transform: scale(0.95);
+    }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    
+    
+    const localQuotes = [
+        { text: "未经审视的人生是不值得过的。", author: "苏格拉底《申辩篇》" },
+        { text: "人不能两次踏进同一条河流。", author: "赫拉克利特《残篇》" },
+        { text: "我思故我在。", author: "笛卡尔《谈谈方法》" },
+        { text: "人只不过是一根芦苇，是自然界最脆弱的东西，但他是一根能思想的芦苇。", author: "帕斯卡《思想录》" },
+        { text: "位我上者，灿烂星空；道德律令，在我心中。", author: "康德《实践理性批判》" },
+        { text: "密涅瓦的猫头鹰要等到黄昏到来，才会起飞。", author: "黑格尔《法哲学原理》" },
+        { text: "人生就像钟摆，在痛苦和无聊之间摇摆。", author: "叔本华《作为意志和表象的世界》" },
+        { text: "那些杀不死我的，必将使我更强大。", author: "尼采《偶像的黄昏》" },
+        { text: "语言是存在的家园。", author: "海德格尔《关于人道主义的信》" },
+        { text: "我语言的界限，即我世界的界限。", author: "维特根斯坦《逻辑哲学论》" },
+        { text: "他人即地狱。", author: "萨特《禁闭》" },
+        { text: "必须想象西西弗斯是幸福的。", author: "加缪《西西弗神话》" },
+        { text: "人是生而自由的，却无往不在枷锁之中。", author: "卢梭《社会契约论》" },
+        { text: "知识就是力量。", author: "培根《沉思录》" },
+        { text: "平庸之恶（恶的平庸性）。", author: "汉娜·阿伦特《艾希曼在耶路撒冷》" },
+        { text: "哲学家们只是用不同的方式解释世界，而问题在于改变世界。", author: "马克思《关于费尔巴哈的提纲》" },
+        { text: "理性是，并且也应该是情感的奴隶。", author: "休谟《人性论》" },
+        { text: "这个世界的问题在于，聪明人充满疑惑，而傻瓜们坚信不疑。", author: "罗素《愚蠢的胜利》" },
+        { text: "人是天生的政治动物。", author: "亚里士多德《政治学》" },
+        { text: "我们以为自己是在观察大自然，其实只是在观察我们对大自然的提问方法。", author: "海森堡《物理学与哲学》" },
+        { text: "你的心灵拥有力量，而非外在的事件。意识到这一点，你将找到力量。", author: "马可·奥勒留《沉思录》" },
+        { text: "知是行之始，行是知之成。", author: "王阳明《传习录》" },
+        { text: "天地不仁，以万物为刍狗。", author: "老子《道德经》" },
+        { text: "相濡以沫，不如相忘于江湖。", author: "庄子《大宗师》" },
+        { text: "学而不思则罔，思而不学则殆。", author: "孔子《论语》" },
+        { text: "我步入丛林，因为我希望活得深刻，吸取生命中所有的精华。", author: "梭罗《瓦尔登湖》" },
+        { text: "生活只有向后看才能理解，但必须向前看才能生活。", author: "克尔凯郭尔《日记》" },
+        { text: "自由人最少想到死，他的智慧不是关于死的默念，而是关于生的沉思。", author: "斯宾诺莎《伦理学》" },
+        { text: "没有一座文明的丰碑，不是野蛮的见证。", author: "本雅明《历史哲学论纲》" },
+        { text: "在错误的生活中，不存在正确的生活方式。", author: "阿多诺《最低限度的道德》" }
+    ];
+
+
+    const quoteText = document.getElementById('quote-text');
+    const quoteAuthor = document.getElementById('quote-author');
+    const contentDiv = document.querySelector('.quote-content');
+    const refreshBtn = document.getElementById('refresh-btn');
+    const copyBtn = document.getElementById('copy-btn');
+
+    
+    function getRandomQuote() {
+        const randomIndex = Math.floor(Math.random() * localQuotes.length);
+        return localQuotes[randomIndex];
+    }
+
+    
+    function updateQuote() {
+        
+        contentDiv.classList.remove('visible');
+        
+        setTimeout(() => {
+            const quote = getRandomQuote();
+            quoteText.textContent = quote.text;
+            quoteAuthor.textContent = quote.author;
+            
+            contentDiv.classList.add('visible');
+        }, 300); 
+    }
+
+    
+    function copyQuote() {
+        const textToCopy = `${quoteText.textContent} —— ${quoteAuthor.textContent}`;
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            
+            const originalIcon = copyBtn.innerHTML;
+            copyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="color:green"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+            setTimeout(() => {
+                copyBtn.innerHTML = originalIcon;
+            }, 2000);
+        }).catch(err => {
+            console.error('无法复制', err);
+        });
+    }
+
+    
+    refreshBtn.addEventListener('click', updateQuote);
+    copyBtn.addEventListener('click', copyQuote);
+
+    
+    setTimeout(updateQuote, 100);
+});
+</script>
+
 </footer>
 
 
@@ -3573,8 +6285,6 @@ Lau Joe的学术研究成果，包括已经正式发表的学术成果。</p>
   document.getElementById('runningdays').innerHTML = result;
  </script>
  
-
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
