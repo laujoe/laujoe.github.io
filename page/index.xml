@@ -101,25 +101,6 @@ var dataMap = new Map();
       value.push({wordCount, link, title});
     }
     
-    var key = &#34;2025-12-17&#34;; 
-    var value = dataMap.get(key);
-    
-    
-    var wordCount =  1685 ;
-    
-    
-    var link = &#34;\/p\/sf%E5%91%A8%E5%88%8A2025%E5%B9%B4%E7%AC%AC34-42%E6%9C%9F%E5%90%88%E5%88%8A\/&#34;;
-    
-    
-    var title = &#34;「SF周刊」2025年第34 - 42期(合刊)&#34;;
-  
-    
-    if (value == null) {
-      dataMap.set(key, [{wordCount, link, title}]);
-    } else {
-      value.push({wordCount, link, title});
-    }
-    
     var key = &#34;2025-10-19&#34;; 
     var value = dataMap.get(key);
     
@@ -1024,25 +1005,6 @@ var dataMap = new Map();
     
     
     var title = &#34;「论坛交流」Soar Freely（2025）新年交流会&#34;;
-  
-    
-    if (value == null) {
-      dataMap.set(key, [{wordCount, link, title}]);
-    } else {
-      value.push({wordCount, link, title});
-    }
-    
-    var key = &#34;2025-01-18&#34;; 
-    var value = dataMap.get(key);
-    
-    
-    var wordCount =  1452 ;
-    
-    
-    var link = &#34;\/p\/%E5%8F%82%E8%80%83%E6%8C%87%E4%BB%A4%E5%BA%93\/&#34;;
-    
-    
-    var title = &#34;参考指令库&#34;;
   
     
     if (value == null) {
