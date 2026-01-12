@@ -412,13 +412,508 @@
     <section class="article-content">
     
     
-    <p><code>温馨提示</code>  作者为苹果全家桶用户，所用软件多为苹果生态独有，但Windows系统存有替代品。</p>
+     <div class="hugo-info-card" style="--theme-color: #e63946;">
+    <div class="card-header">
+        <div class="card-icon-box">
+            <svg class="card-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+        </div>
+
+        <div class="card-meta">
+            <span class="card-nature">温馨提示</span>
+            <h3 class="card-name">作者为苹果全家桶用户，所用软件多为苹果生态独有，但Windows系统存有替代品。</h3>
+        </div>
+    </div>
+
+    
+    <div class="card-body">
+        
+    </div>
+    
+</div>
+
+<style>
+    .hugo-info-card {
+         
+        --cc-bg-card: #ffffff;
+        --cc-bg-header: linear-gradient(to right, rgba(255,255,255,0.9), rgba(249,250,251,1));
+        --cc-bg-body: #ffffff;
+        
+        --cc-border: rgba(0,0,0,0.08);
+        --cc-border-bottom: rgba(0,0,0,0.03);
+        
+        --cc-shadow: 0 8px 20px rgba(0,0,0,0.04);
+        --cc-shadow-hover: 0 12px 25px rgba(0,0,0,0.08);
+        
+        --cc-text-name: #2c3e50;
+        --cc-text-body: #4a5568;
+        
+        --cc-nature-bg: rgba(0, 0, 0, 0.05);
+        --cc-nature-text: var(--theme-color);  
+
+        background: var(--cc-bg-card);
+        border-radius: 12px;
+        border: 1px solid var(--cc-border);
+        box-shadow: var(--cc-shadow);
+        margin: 2rem 0;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s, border-color 0.3s;
+        
+         
+        font-family: inherit; 
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme="light"]) .hugo-info-card {
+            --cc-bg-card: #1e1e1e;
+            --cc-bg-header: #252525;
+            --cc-bg-body: #1e1e1e;
+            
+            --cc-border: #333333;
+            --cc-border-bottom: #333333;
+            
+            --cc-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            --cc-shadow-hover: 0 12px 25px rgba(0,0,0,0.5);
+            
+            --cc-text-name: #f0f0f0;
+            --cc-text-body: #cccccc;
+            
+            --cc-nature-bg: rgba(255,255,255,0.1);
+            --cc-nature-text: #ffffff;  
+        }
+    }
+
+    html[data-scheme="dark"] .hugo-info-card {
+        --cc-bg-card: #1e1e1e;
+        --cc-bg-header: #252525;
+        --cc-bg-body: #1e1e1e;
+        
+        --cc-border: #333333;
+        --cc-border-bottom: #333333;
+        
+        --cc-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        --cc-shadow-hover: 0 12px 25px rgba(0,0,0,0.5);
+        
+        --cc-text-name: #f0f0f0;
+        --cc-text-body: #cccccc;
+        
+        --cc-nature-bg: rgba(255,255,255,0.1);
+        --cc-nature-text: #ffffff;
+    }
+
+    .hugo-info-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--cc-shadow-hover);
+    }
+
+     
+    .card-header {
+        display: flex;
+        align-items: center;
+        padding: 20px 24px;
+        background: var(--cc-bg-header);
+        border-bottom: 1px solid var(--cc-border-bottom);
+        transition: background 0.3s, border-color 0.3s;
+    }
+
+     
+    .card-icon-box {
+        width: 48px;
+        height: 48px;
+        background: var(--theme-color);  
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 18px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        flex-shrink: 0;
+    }
+
+    .card-svg {
+        width: 24px;
+        height: 24px;
+        color: #fff;
+    }
+
+    .card-meta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+    }
+
+     
+    .card-nature {
+        display: inline-block;
+        background: var(--cc-nature-bg);
+        color: var(--cc-nature-text);
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        width: fit-content;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .card-name {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: var(--cc-text-name);
+        line-height: 1.2;
+        transition: color 0.3s;
+    }
+
+     
+    .card-body {
+        padding: 20px 24px;
+        color: var(--cc-text-body);
+        font-size: 1rem;
+        line-height: 1.7;
+        background: var(--cc-bg-body);
+        transition: background 0.3s, color 0.3s;
+    }
+    
+    .card-body p { margin-bottom: 0; }
+    .card-body p + p { margin-top: 1em; }
+</style>
 <p>关于生产力工具，少数派不少朋友都有所介绍，甚至有些朋友过于重视工具，陷入了所谓「工具致瘾」（Productivity Porn）。</p>
 <p>我很欣赏Anne-Laure Le Cunff的观点，她认为：</p>
-<blockquote>
-<p>我们提高生产力的愿望可能会变成对生产力内容的有害成瘾：一种被称为生产力色情的现象。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><br>
-— <cite>Anne-Laure Le Cunff</cite></p>
-</blockquote>
+
+
+
+
+
+<div class="excerpt-card" id="excerpt-1" style="border-left-color: #e0a82e;">
+    
+    <div class="ec-bg-icon" style="color: #e0a82e;">“</div>
+
+    <div class="ec-header">
+        <div class="ec-tags">
+            
+            <span class="ec-tag" style="background: #e0a82e15; color: #e0a82e;">
+                #Study
+            </span>
+            
+        </div>
+        
+        
+        <div class="ec-actions">
+            
+            
+            <button class="ec-btn copy-btn" aria-label="复制摘抄" title="复制内容">
+                <svg class="icon-copy" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <svg class="icon-check" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="ec-content">
+        我们提高生产力的愿望可能会变成对生产力内容的有害成瘾：一种被称为生产力色情的现象。
+    </div>
+
+    
+    <div class="ec-footer">
+        <div class="ec-line"></div>
+        <div class="ec-meta-row">
+            <div class="ec-info-left">
+                
+                
+                    <span class="ec-item">
+                        <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        
+                            Anne-Laure Le Cunff
+                        
+                    </span>
+                
+
+                
+                
+                    <span class="ec-item">
+                        <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                        
+                            《From productivity porn to mindful productivity》
+                        
+                    </span>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<style>
+    .excerpt-card {
+         
+        --ec-bg-card: #fcfcfc;
+        --ec-border: #e1e4e8;
+        --ec-shadow: 0 8px 24px rgba(0,0,0,0.04);
+        --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.08);
+        
+        --ec-text-content: #1a1a1a;
+        --ec-text-meta: #666666;
+        --ec-line: #eaecef;
+        
+        --ec-btn-bg: rgba(0,0,0,0.03);
+        --ec-btn-text: #999999;
+        --ec-btn-hover-bg: rgba(0,0,0,0.08);
+        --ec-btn-hover-text: #333333;
+        
+        --ec-bg-icon-opacity: 0.06;
+        --ec-link-hover: #0366d6;
+        
+        position: relative;
+        background: var(--ec-bg-card);
+        border: 1px solid var(--ec-border);
+        border-left-width: 6px;
+        border-left-style: solid; 
+        border-radius: 12px;
+        margin: 3rem 0;
+        padding: 24px 32px 30px;
+        box-shadow: var(--ec-shadow);
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s, border-color 0.3s;
+        font-family: inherit;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme="light"]) .excerpt-card {
+            --ec-bg-card: #1e1e1e;
+            --ec-border: #333333;
+            --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
+            --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
+            
+            --ec-text-content: #f0f0f0;
+            --ec-text-meta: #aaaaaa;
+            --ec-line: #333333;
+            
+            --ec-btn-bg: rgba(255,255,255,0.05);
+            --ec-btn-text: #777777;
+            --ec-btn-hover-bg: rgba(255,255,255,0.15);
+            --ec-btn-hover-text: #ffffff;
+            
+            --ec-bg-icon-opacity: 0.04;
+        }
+    }
+
+    html[data-scheme="dark"] .excerpt-card {
+        --ec-bg-card: #1e1e1e;
+        --ec-border: #333333;
+        --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
+        
+        --ec-text-content: #f0f0f0;
+        --ec-text-meta: #aaaaaa;
+        --ec-line: #333333;
+        
+        --ec-btn-bg: rgba(255,255,255,0.05);
+        --ec-btn-text: #777777;
+        --ec-btn-hover-bg: rgba(255,255,255,0.15);
+        --ec-btn-hover-text: #ffffff;
+        
+        --ec-bg-icon-opacity: 0.04;
+    }
+
+    .excerpt-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--ec-shadow-hover);
+    }
+
+    .ec-bg-icon {
+        position: absolute;
+        top: -25px;
+        right: 20px;
+        font-size: 120px;
+        font-family: serif;
+        opacity: var(--ec-bg-icon-opacity);  
+        pointer-events: none;
+        line-height: 1;
+        z-index: 0;
+    }
+
+     
+    .ec-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 2;
+        min-height: 28px;
+    }
+
+    .ec-tags { display: flex; gap: 8px; }
+
+    .ec-tag {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 6px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+     
+    .ec-actions {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .ec-btn {
+        background: var(--ec-btn-bg);
+        border: none;
+        cursor: pointer;
+        color: var(--ec-btn-text);
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none; 
+    }
+    .ec-btn:hover {
+        background: var(--ec-btn-hover-bg);
+        color: var(--ec-btn-hover-text);
+        transform: translateY(-1px);
+    }
+    .ec-btn.copy-btn.copied {
+        color: #28a745 !important;
+        background: rgba(40, 167, 69, 0.1);
+    }
+
+     
+    .ec-content {
+        position: relative;
+        z-index: 1;
+        font-family: inherit;
+        font-size: 1.75rem; 
+        line-height: 1.6;  
+        color: var(--ec-text-content);
+        font-style: normal;
+        margin-bottom: 15px;
+        font-weight: 500;
+        transition: color 0.3s;
+    }
+    
+    .ec-content p { margin-bottom: 0; }
+    .ec-content p + p { margin-top: 0.8em; }
+
+     
+    .ec-footer {
+        position: relative;
+        z-index: 1;
+        margin-top: 30px;
+    }
+
+    .ec-line {
+        height: 1px;
+        background: var(--ec-line);
+        margin-bottom: 12px;
+        width: 100%;
+        transition: background 0.3s;
+    }
+
+    .ec-meta-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 14px;
+        color: var(--ec-text-meta);
+        transition: color 0.3s;
+    }
+
+    .ec-info-left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .ec-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .ec-icon-small { opacity: 0.7; }
+
+     
+    .ec-link-text {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px dashed transparent;
+        transition: all 0.2s;
+    }
+    .ec-link-text:hover {
+        color: var(--hover-color, var(--ec-link-hover));
+        border-bottom-color: var(--hover-color, var(--ec-link-hover));
+    }
+    .ec-link-text.linked { 
+        color: var(--hover-color, var(--ec-link-hover));
+        border-bottom-color: rgba(0,0,0,0.15);
+    }
+
+    @media (max-width: 600px) {
+        .ec-content {
+            font-size: 1.4rem;
+            line-height: 1.6;
+        }
+        .excerpt-card { padding: 20px 24px; }
+        .ec-meta-row { flex-direction: column; align-items: flex-start; gap: 8px; }
+    }
+</style>
+
+<script>
+    (function() {
+        const cardId = "excerpt-1";
+        const card = document.getElementById(cardId);
+        if (!card) return;
+
+        const copyBtn = card.querySelector('.copy-btn');
+        if(!copyBtn) return; 
+
+        const iconCopy = copyBtn.querySelector('.icon-copy');
+        const iconCheck = copyBtn.querySelector('.icon-check');
+        const content = card.querySelector('.ec-content');
+        
+        
+        const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
+
+        copyBtn.addEventListener('click', () => {
+            let textToCopy = content.innerText.trim();
+            if (authorText) {
+                textToCopy += `\n\n—— ${authorText}`;
+            }
+
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                iconCopy.style.display = 'none';
+                iconCheck.style.display = 'block';
+                copyBtn.classList.add('copied');
+
+                setTimeout(() => {
+                    iconCopy.style.display = 'block';
+                    iconCheck.style.display = 'none';
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                console.error('复制失败:', err);
+                alert("复制失败，请手动复制");
+            });
+        });
+    })();
+</script>
 <p>按照Cunff的观点，生产力色情所提供的愿景为人们展现了一套「超人」的规划，例如不切实际的要求（按照固定时间进行邮件检阅，完善日历）、不切实际的结果（借助工具能够将一件事情很快完成，此处主要针对「噱头」的宣传）以及「像导师一样的角色」（这类角色标榜自己已经将生产力工具运用得出神入化，然而却难以实现复刻）。从某种角度来谈，「工具致瘾」本质上就是对于生产力色情的追求，希望达到「绝对效率」的美丽幻境。</p>
 <p>我从中学开始，就有意积累自己的数据库，直至今日，我已经存储有20T的学术资源，以备研究所用。同时涉猎大量的效率软件，从Windows至MacOS，使用过上百款生产力工具，然而除却少数精品，多数软件并不能节省我的时间，反而会浪费我的精力。因此，从去年开始，我决定拿出一年时间，将市场上有助于社科研究的生产力工具进行试用，从而塑造一套能够持续运行的生产力工作流。而这系列文章，就是我所交出的答卷。第一篇文章，我将对目前所完善的工作流进行介绍，而后面的文章则针对不同的工作流阐述我个人的心得与技巧。</p>
 <h2 id="工作流过程">工作流过程
@@ -580,14 +1075,18 @@
 		data-flex-grow="138"
 		data-flex-basis="332px"
 	
-> <img src="/20230219-Picture11.jpg"
-	
-	
-	
+> <img src="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%80%E8%8A%82%E6%80%BB%E8%A7%88/20230219-Picture11.jpg"
+	width="1920"
+	height="1080"
+	srcset="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%80%E8%8A%82%E6%80%BB%E8%A7%88/20230219-Picture11_hu_50d26e433722316e.jpg 480w, /p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%80%E8%8A%82%E6%80%BB%E8%A7%88/20230219-Picture11_hu_5896423ae094f801.jpg 1024w"
 	loading="lazy"
 	
 		alt="「Marginnote」的OCR效果"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
 	
 ></p>
 <p>（1.3）特殊信息：前两种信息基本上是文本信息，然而还有图片、音乐、视频、书签（数据库）等特殊信息。我每天都会在Pixiv、CNU等平台阅览艺术作品，有助于观赏或研究的都会保存至本地的Eagle，有研究价值的则放至Tropy。音乐与视频，我基本都是放在专门的移动硬盘或者云盘。书签的话，我一般是用Safari阅读日常资讯，所以基本没有书签。Chrome则专门做了书签分类，如果遇到很好的网站，就会加入进去，组成我个人的研究数据库。</p>
@@ -673,14 +1172,6 @@
 </h2><p>这篇文章，仅是对我生产力工作流的一个简单介绍，其中有许多软件都有可挖掘的闪光点，而这正是我将它们纳入工作流的原因。我认为，可以广泛运用软件，然而核心在于它能够匹配你的工作流，并且具有「抵御风险」的特性。例如Obsidian、Devonthink、Eagle等，这些都具有本地存储功能，能够「抵御风险」。而ABBYY、Vflat、Xmind等这种辅助创作的工具，没必要追求“唯一”，而是选择好用的、便捷的，因为它最终生产的材料会归档在你的本地。</p>
 <p>进一步说，这套工作流最需要倚靠「分类」，也就是将自己的所有讯息都以类别分好归档，从而梳理清楚自己的逻辑脉络。除此，还有书籍整理、文娱资源管理与归纳等各种需要注意的地方，关于这些，我会在后面的文章进行详细讲解。
  </p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Anne-Laure Le Cunff：《From productivity porn to mindful productivity》&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 
 </section>
 
@@ -1283,7 +1774,7 @@
             
         
         发表了188篇文章 · 
-        总计1,928.39k字
+        总计1,932.26k字
     </section>
 
     

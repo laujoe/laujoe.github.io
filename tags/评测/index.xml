@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Lau Joe &amp; Soar Freely All rights reserved. 如需转载与引用，请注明文章链接及作者。</copyright>
-        <lastBuildDate>Wed, 27 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laujoe.github.io/tags/%E8%AF%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 11 Jan 2026 01:00:00 +0000</lastBuildDate><atom:link href="https://laujoe.github.io/tags/%E8%AF%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>「工具经验」未来可期的生产力工具：Lattics</title>
         <link>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/</link>
         <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
@@ -165,22 +165,378 @@
         <guid>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/</guid>
         <description>&lt;img src="https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-home.jpg" alt="Featured image of post 「工具经验」数数最近的新鲜效率工具：Rendevoz、AFFiNE、Memo、Google Bard" /&gt;&lt;p&gt;虽然我已经形成了一套颇为固定的办公、知识工作流，但我依然经常关注新兴的效率软件。尤其是在人工智能技术浪潮来临的现代社会，许多效率软件都主打「Ai加持」，在功能上有所创新。因此，这篇文章主要谈谈我最近关注的效率软件，希望为各位朋友提供借鉴。&lt;/p&gt;
 &lt;h2 id=&#34;rendevoz&#34;&gt;Rendevoz
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;(1)软件定位&lt;/code&gt; 双链笔记、知识网络&lt;br&gt;
-&lt;code&gt;(2)软件优势&lt;/code&gt; 本地化、较为完善的知识管理体系&lt;br&gt;
-&lt;code&gt;(3)网站链接&lt;/code&gt; &lt;a class=&#34;link&#34; href=&#34;https://rendevoz.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://rendevoz.com/&lt;/a&gt;
+&lt;/h2&gt;
+
+
+
+
+
+ 
+
+
+
+
+   
+ 
+
+&lt;div class=&#34;sw-card&#34;&gt;
+    
+    &lt;div class=&#34;sw-header&#34;&gt;
+        &lt;div class=&#34;sw-icon-box&#34;&gt;
+            
+                &lt;span class=&#34;sw-icon-placeholder&#34;&gt;R&lt;/span&gt;
+            
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-info&#34;&gt;
+            &lt;h3 class=&#34;sw-title&#34;&gt;Rendevoz&lt;/h3&gt;
+            
+            &lt;div class=&#34;sw-meta-row&#34;&gt;
+                
+                &lt;div class=&#34;sw-rating&#34; title=&#34;推荐指数: 3.5/5&#34;&gt;
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star half&#34; viewBox=&#34;0 0 24 24&#34;&gt;
+                                &lt;path fill=&#34;#e5e7eb&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;
+                                &lt;path fill=&#34;currentColor&#34; d=&#34;M12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z&#34;/&gt;
+                            &lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star empty&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                &lt;/div&gt;
+                &lt;span class=&#34;sw-license&#34;&gt;免费 / 有收费版&lt;/span&gt;
+            &lt;/div&gt;
+
+            
+            
+            &lt;div class=&#34;sw-tags-row&#34;&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;双链笔记&lt;/span&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;知识网络&lt;/span&gt;
+                
+            &lt;/div&gt;
+            
+        &lt;/div&gt;
+
+        
+        &lt;a href=&#34;https://rendevoz.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;sw-btn&#34;&gt;
+            访问官网
+            &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+        &lt;/a&gt;
+        
+    &lt;/div&gt;
 
     
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
+    
+    &lt;div class=&#34;sw-brief-container&#34;&gt;
+        &lt;div class=&#34;sw-brief-content&#34;&gt;
+            &lt;span class=&#34;sw-brief-icon&#34;&gt;“&lt;/span&gt;
+            优势在于本地化，以及较为完善的知识管理体系等。
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
 
-&lt;br&gt;
-&lt;code&gt;(4)支持平台&lt;/code&gt; MacOS、Windows&lt;br&gt;
-&lt;code&gt;(5)基本介绍&lt;/code&gt; 按照官方的说明，Rendevoz「提供了一种简便高效的方式来搭建您自己的知识库。借助强大的电子书与网页阅读器，笔记工具与可视化白板等工具打通从知识收集到管理整个工作流。通过将知识拆分成一个个小的节点，并随意将它们整合，链接，以此创建独属于您的知识网络。」简而言之，使用者可以将Rendevoz视作一个专门的数据库，能够根据需要创建笔记、白板、PDF、视频、网页等「实体」，并且在不同实体之间创建联系。&lt;/p&gt;
+    
+    &lt;div class=&#34;sw-platforms&#34;&gt;
+        &lt;span class=&#34;sw-label&#34;&gt;支持平台：&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;Windows&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;macOS&lt;/span&gt;
+        
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;sw-content&#34;&gt;
+        &lt;ul&gt;
+&lt;li&gt;按照官方的说明，Rendevoz「提供了一种简便高效的方式来搭建您自己的知识库。借助强大的电子书与网页阅读器，笔记工具与可视化白板等工具打通从知识收集到管理整个工作流。通过将知识拆分成一个个小的节点，并随意将它们整合，链接，以此创建独属于您的知识网络。」&lt;/li&gt;
+&lt;li&gt;简而言之，使用者可以将Rendevoz视作一个专门的数据库，能够根据需要创建笔记、白板、PDF、视频、网页等「实体」，并且在不同实体之间创建联系。&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;sw-comparison&#34;&gt;
+        &lt;div class=&#34;sw-comp-col sw-pros&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title pro&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M22 11.08V12a10 10 0 1 1-5.93-9.14&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;22 4 12 14.01 9 11.01&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                优势
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;适合专题性研究&lt;/li&gt;
+                
+                    &lt;li&gt;适合专业课学习或备考&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-comp-col sw-cons&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title con&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34;&gt;&lt;/circle&gt;&lt;line x1=&#34;15&#34; y1=&#34;9&#34; x2=&#34;9&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;9&#34; y1=&#34;9&#34; x2=&#34;15&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+                不足
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;目前各类功能都有Bug&lt;/li&gt;
+                
+                    &lt;li&gt;占用存储空间较多&lt;/li&gt;
+                
+                    &lt;li&gt;跨软件交际能力较差&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .sw-card {
+         
+        --sw-bg-card: #ffffff;
+        --sw-border: rgba(0,0,0,0.08);
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.03);
+        
+        --sw-title: #000000;
+        --sw-content: #4a5568;
+        --sw-label: #666666;
+        
+        --sw-bg-icon: #f0f2f5;
+        --sw-border-icon: rgba(0,0,0,0.05);
+        --sw-icon-placeholder: #3a7bd5;
+        
+        --sw-bg-license: #f3f4f6;
+        --sw-text-license: #666666;
+        
+        --sw-bg-tag: #f1f5f9;
+        --sw-text-tag: #475569;
+        
+        --sw-btn-bg: #3a7bd5;
+        --sw-btn-text: #ffffff;
+        
+        --sw-bg-comp: #f8f9fa;
+        --sw-text-li: #555555;
+        --sw-li-bullet: #cccccc;
+        
+        --sw-star-empty: #e5e7eb;
+        
+         
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.08);
+        --sw-text-feature-tag: #3a7bd5;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.15);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.03), transparent);
+        --sw-brief-border: #3a7bd5;
+        --sw-brief-text: #4a5568;
+        --sw-brief-icon: #3a7bd5;
+
+        background: var(--sw-bg-card);
+        border: 1px solid var(--sw-border);
+        border-radius: 16px;
+        padding: 24px;
+        margin: 3rem 0;
+        box-shadow: var(--sw-shadow);
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        font-family: inherit;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .sw-card {
+            --sw-bg-card: #1e1e1e;
+            --sw-border: #333333;
+            --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            
+            --sw-title: #ffffff;
+            --sw-content: #d1d5db;
+            --sw-label: #999999;
+            
+            --sw-bg-icon: #2d2d2d;
+            --sw-border-icon: #333333;
+            
+            --sw-bg-license: #333333;
+            --sw-text-license: #999999;
+            
+            --sw-bg-tag: #333333;
+            --sw-text-tag: #aaaaaa;
+            
+            --sw-bg-comp: #252525;
+            --sw-text-li: #aaaaaa;
+            --sw-li-bullet: #666666;
+            
+            --sw-star-empty: #4b5563;
+            
+             
+            --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+            --sw-text-feature-tag: #60a5fa;
+            --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+            
+            --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+            --sw-brief-border: #60a5fa;
+            --sw-brief-text: #cbd5e1;
+            --sw-brief-icon: #60a5fa;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .sw-card {
+        --sw-bg-card: #1e1e1e;
+        --sw-border: #333333;
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        
+        --sw-title: #ffffff;
+        --sw-content: #d1d5db;
+        --sw-label: #999999;
+        
+        --sw-bg-icon: #2d2d2d;
+        --sw-border-icon: #333333;
+        
+        --sw-bg-license: #333333;
+        --sw-text-license: #999999;
+        
+        --sw-bg-tag: #333333;
+        --sw-text-tag: #aaaaaa;
+        
+        --sw-bg-comp: #252525;
+        --sw-text-li: #aaaaaa;
+        --sw-li-bullet: #666666;
+        
+        --sw-star-empty: #4b5563;
+        
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+        --sw-text-feature-tag: #60a5fa;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+        --sw-brief-border: #60a5fa;
+        --sw-brief-text: #cbd5e1;
+        --sw-brief-icon: #60a5fa;
+    }
+
+    .sw-card:hover {
+        border-color: #3a7bd5;
+        box-shadow: 0 8px 25px rgba(58, 123, 213, 0.1);
+    }
+    
+    .sw-header { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 12px; }
+    .sw-icon-box {
+        width: 72px; height: 72px; border-radius: 14px; overflow: hidden; flex-shrink: 0;
+        background: var(--sw-bg-icon); display: flex; align-items: center; justify-content: center;
+        border: 1px solid var(--sw-border-icon);
+        transition: background 0.3s;
+    }
+    .sw-icon-box img { width: 100%; height: 100%; object-fit: cover; margin: 0; }
+    .sw-icon-placeholder { font-size: 28px; font-weight: bold; color: var(--sw-icon-placeholder); }
+    
+    .sw-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+    .sw-title { margin: 0 !important; font-size: 1.8rem; line-height: 1.2; color: var(--sw-title); transition: color 0.3s; }
+    .sw-meta-row { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+    
+    .sw-rating { color: #f59e0b; display: flex; align-items: center; }
+    .sw-star { width: 16px; height: 16px; }
+    .sw-star.empty { color: var(--sw-star-empty); }
+    .sw-star.half path[fill=&#34;#e5e7eb&#34;] { fill: var(--sw-star-empty); }
+    
+    .sw-license { background: var(--sw-bg-license); color: var(--sw-text-license); padding: 2px 8px; border-radius: 4px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+    
+     
+    .sw-tags-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+    .sw-feature-tag {
+        font-size: 1.3rem;
+        padding: 2px 10px;
+        border-radius: 20px;
+        background: var(--sw-bg-feature-tag);
+        color: var(--sw-text-feature-tag);
+        border: 1px solid var(--sw-border-feature-tag);
+        font-weight: 500;
+        line-height: 1.4;
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    .sw-btn {
+        background: var(--sw-btn-bg); color: var(--sw-btn-text) !important; text-decoration: none !important;
+        padding: 8px 16px; border-radius: 20px; font-size: 1rem; font-weight: 500;
+        display: flex; align-items: center; gap: 6px; transition: opacity 0.2s;
+        flex-shrink: 0; margin-top: 4px;
+    }
+    .sw-btn:hover { opacity: 0.9; }
+    .sw-btn svg { width: 14px; height: 14px; }
+
+     
+    .sw-brief-container {
+        margin: 10px 0 20px 0;
+        padding: 12px 16px;
+        background: var(--sw-brief-bg);
+        border-left: 4px solid var(--sw-brief-border);
+        border-radius: 0 8px 8px 0;
+        transition: border-color 0.3s;
+    }
+    .sw-brief-content {
+        font-size: 1.3rem;
+        color: var(--sw-brief-text);
+        font-style: italic;
+        line-height: 1.6;
+        position: relative;
+        transition: color 0.3s;
+    }
+    .sw-brief-icon {
+        color: var(--sw-brief-icon);
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-right: 4px;
+        vertical-align: -2px;
+        line-height: 1;
+        transition: color 0.3s;
+    }
+
+     
+    .sw-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 16px; font-size: 1.2rem; color: var(--sw-label); transition: color 0.3s; }
+    .sw-label { color: var(--sw-label); }
+    .sw-tag { background: var(--sw-bg-tag); color: var(--sw-text-tag); padding: 2px 8px; border-radius: 6px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+
+     
+    .sw-content { color: var(--sw-content); line-height: 1.7; margin-bottom: 20px; font-size: 1.3rem; transition: color 0.3s; }
+    .sw-content ul { padding-left: 20px; margin: 0.5rem 0; }
+
+     
+    .sw-comparison { display: flex; gap: 20px; background: var(--sw-bg-comp); border-radius: 12px; padding: 20px; transition: background 0.3s; }
+    .sw-comp-col { flex: 1; }
+    .sw-comp-title { 
+        margin: 0 0 10px 0 !important; font-size: 1.3rem; display: flex; align-items: center; gap: 8px; 
+    }
+    .sw-comp-title.pro { color: #10b981; }
+    .sw-comp-title.con { color: #ef4444; }
+    .sw-comp-title svg { width: 18px; height: 18px; }
+    
+    .sw-comp-col ul { list-style: none; padding: 0; margin: 0; }
+    .sw-comp-col li { 
+        position: relative; padding-left: 16px; margin-bottom: 6px; font-size: 1.2rem; color: var(--sw-text-li); transition: color 0.3s;
+    }
+    .sw-comp-col li::before {
+        content: &#34;•&#34;; position: absolute; left: 0; color: var(--sw-li-bullet);
+    }
+
+    @media (max-width: 600px) {
+        .sw-header { flex-wrap: wrap; }
+        .sw-btn { width: 100%; justify-content: center; margin-top: 8px; }
+        .sw-comparison { flex-direction: column; }
+    }
+&lt;/style&gt;
+&lt;p&gt;在具体使用过程中，我发现该软件的亮点与不足，接下来分而论之。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture01.jpg&#34;
 	width=&#34;1070&#34;
 	height=&#34;851&#34;
@@ -195,9 +551,8 @@
 		data-flex-basis=&#34;301px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;在具体使用过程中，我发现该软件的亮点与不足，接下来分而论之。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(6)亮点&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;当我第一次见到这款软件时，他给我最直观的感受是「质性研究软件」与「双链笔记软件」的结合体。对我而言，这款软件很适合「专题研究」以及「专业学习」。例如备考教师资格证，我能够将相关的PDF、网课视频放至其中。尤其是视频的播放与笔记，让我想起前段时间在sspai进行宣传的「VideoNotes」。&lt;/p&gt;
+&lt;h3 id=&#34;亮点&#34;&gt;亮点
+&lt;/h3&gt;&lt;p&gt;当我第一次见到这款软件时，他给我最直观的感受是「质性研究软件」与「双链笔记软件」的结合体。对我而言，这款软件很适合「专题研究」以及「专业学习」。例如备考教师资格证，我能够将相关的PDF、网课视频放至其中。尤其是视频的播放与笔记，让我想起前段时间在sspai进行宣传的「VideoNotes」。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture02.jpg&#34;
 	width=&#34;2858&#34;
 	height=&#34;1542&#34;
@@ -241,12 +596,11 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然而在上传视频时，我发现有的视频能够播放，有的视频却不能播放，不太清楚具体情况。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(7)不足&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;其一，在Rendevoz软件内所打开的文件，都会在软件内部生成一份复制。目前这项功能并不能通过「设置」自由选择，从某种角度会占用更多内存。&lt;/p&gt;
+&lt;h3 id=&#34;不足&#34;&gt;不足
+&lt;/h3&gt;&lt;p&gt;其一，在Rendevoz软件内所打开的文件，都会在软件内部生成一份复制。目前这项功能并不能通过「设置」自由选择，从某种角度会占用更多内存。&lt;/p&gt;
 &lt;p&gt;其二，目前尚未添加「建立多个数据库」这类功能，也就是所有文件全部呈现于单一数据库。因此，如果我希望通过Rendevoz进行两个不太相同的专题，这两个专题的资料就会混在一起，从而不利于聚焦。【开发者在群内回应，该功能会在日后添加。】&lt;/p&gt;
-&lt;p&gt;其三，目前并不能进行「跨软件交际」这一功能。例如我在Apple图库，Devonthink等其他软件拖动图片或者PDF到Rendevoz内，Rendevoz并不能读取这些文件。然而Obsidian、Goodnotes、Omnioutliner等软件已经支持这种跨软件交际。
-其四，Rendevoz的PDF阅读体验薄弱。&lt;/p&gt;
-&lt;p&gt;例如我在Devonthink里打开一个PDF文件（默认打开方式是预览），MacOS13已经支持自动识别图片里的文字，因此，我可以十分便捷地进行制、粘贴乃至翻译等操作。尤其是在Devonthink打开文档，我可以将选中的文字以各种操作。然而Rendevoz内的文档并不能提供这些操作，尤其是其将「翻译」作为一个付费点，而我已经有「Easydict」与MacOS系统默认翻译，完全足够创作所需。因此，目前的Rendevoz很难融入我的工作流。&lt;/p&gt;
+&lt;p&gt;其三，目前并不能进行「跨软件交际」这一功能。例如我在Apple图库，Devonthink等其他软件拖动图片或者PDF到Rendevoz内，Rendevoz并不能读取这些文件。然而Obsidian、Goodnotes、Omnioutliner等软件已经支持这种跨软件交际。&lt;/p&gt;
+&lt;p&gt;其四，Rendevoz的PDF阅读体验薄弱。例如我在Devonthink里打开一个PDF文件（默认打开方式是预览），MacOS13已经支持自动识别图片里的文字，因此，我可以十分便捷地进行制、粘贴乃至翻译等操作。尤其是在Devonthink打开文档，我可以将选中的文字以各种操作。然而Rendevoz内的文档并不能提供这些操作，尤其是其将「翻译」作为一个付费点，而我已经有「Easydict」与MacOS系统默认翻译，完全足够创作所需。因此，目前的Rendevoz很难融入我的工作流。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture05.jpg&#34;
 	width=&#34;2060&#34;
 	height=&#34;1470&#34;
@@ -277,24 +631,379 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;affine&#34;&gt;AFFiNE
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;(1)软件定位&lt;/code&gt; 笔记软件、类Notion&lt;br&gt;
-&lt;code&gt;(2)软件优势&lt;/code&gt; 本地化、开源、注重隐私、可视化&lt;br&gt;
-&lt;code&gt;(3)网站链接&lt;/code&gt; &lt;a class=&#34;link&#34; href=&#34;https://affine.pro/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://affine.pro/&lt;/a&gt;
+&lt;/h2&gt;
+
+
+
+
+
+ 
+
+
+
+
+   
+ 
+
+&lt;div class=&#34;sw-card&#34;&gt;
+    
+    &lt;div class=&#34;sw-header&#34;&gt;
+        &lt;div class=&#34;sw-icon-box&#34;&gt;
+            
+                &lt;span class=&#34;sw-icon-placeholder&#34;&gt;A&lt;/span&gt;
+            
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-info&#34;&gt;
+            &lt;h3 class=&#34;sw-title&#34;&gt;AFFiNE&lt;/h3&gt;
+            
+            &lt;div class=&#34;sw-meta-row&#34;&gt;
+                
+                &lt;div class=&#34;sw-rating&#34; title=&#34;推荐指数: 4/5&#34;&gt;
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star empty&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                &lt;/div&gt;
+                &lt;span class=&#34;sw-license&#34;&gt;免费 / 有收费版&lt;/span&gt;
+            &lt;/div&gt;
+
+            
+            
+            &lt;div class=&#34;sw-tags-row&#34;&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;笔记软件&lt;/span&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;类Notion&lt;/span&gt;
+                
+            &lt;/div&gt;
+            
+        &lt;/div&gt;
+
+        
+        &lt;a href=&#34;https://affine.pro/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;sw-btn&#34;&gt;
+            访问官网
+            &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+        &lt;/a&gt;
+        
+    &lt;/div&gt;
 
     
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
+    
+    &lt;div class=&#34;sw-brief-container&#34;&gt;
+        &lt;div class=&#34;sw-brief-content&#34;&gt;
+            &lt;span class=&#34;sw-brief-icon&#34;&gt;“&lt;/span&gt;
+            优势在于本地化、开源、注重隐私、可视化等方面。
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
 
-&lt;br&gt;
-&lt;code&gt;(4)支持平台&lt;/code&gt; MacOS、Windows&lt;br&gt;
-&lt;code&gt;(5)基本介绍&lt;/code&gt; AFFiNE在介绍时以「Notion与Miro的替换方案」作为招牌，主张将写作、绘图以及计划融入一体。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(6)亮点&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;其一，AFFiNE有所谓「Workspace」（工作区）的概念，用户可以根据需要创建任意工作区来进行工作，从而划分不同专题的具体研究。&lt;/p&gt;
+    
+    &lt;div class=&#34;sw-platforms&#34;&gt;
+        &lt;span class=&#34;sw-label&#34;&gt;支持平台：&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;Windows&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;macOS&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;Linux&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;iOS&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;Android&lt;/span&gt;
+        
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;sw-content&#34;&gt;
+        &lt;ul&gt;
+&lt;li&gt;AFFiNE在介绍时以「Notion与Miro的替换方案」作为招牌，主张将写作、绘图以及计划融入一体。&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;sw-comparison&#34;&gt;
+        &lt;div class=&#34;sw-comp-col sw-pros&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title pro&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M22 11.08V12a10 10 0 1 1-5.93-9.14&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;22 4 12 14.01 9 11.01&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                优势
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;主打工作区概念，有层次感&lt;/li&gt;
+                
+                    &lt;li&gt;适用性广泛&lt;/li&gt;
+                
+                    &lt;li&gt;对中文支持较好&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-comp-col sw-cons&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title con&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34;&gt;&lt;/circle&gt;&lt;line x1=&#34;15&#34; y1=&#34;9&#34; x2=&#34;9&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;9&#34; y1=&#34;9&#34; x2=&#34;15&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+                不足
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;Bug较多&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .sw-card {
+         
+        --sw-bg-card: #ffffff;
+        --sw-border: rgba(0,0,0,0.08);
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.03);
+        
+        --sw-title: #000000;
+        --sw-content: #4a5568;
+        --sw-label: #666666;
+        
+        --sw-bg-icon: #f0f2f5;
+        --sw-border-icon: rgba(0,0,0,0.05);
+        --sw-icon-placeholder: #3a7bd5;
+        
+        --sw-bg-license: #f3f4f6;
+        --sw-text-license: #666666;
+        
+        --sw-bg-tag: #f1f5f9;
+        --sw-text-tag: #475569;
+        
+        --sw-btn-bg: #3a7bd5;
+        --sw-btn-text: #ffffff;
+        
+        --sw-bg-comp: #f8f9fa;
+        --sw-text-li: #555555;
+        --sw-li-bullet: #cccccc;
+        
+        --sw-star-empty: #e5e7eb;
+        
+         
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.08);
+        --sw-text-feature-tag: #3a7bd5;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.15);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.03), transparent);
+        --sw-brief-border: #3a7bd5;
+        --sw-brief-text: #4a5568;
+        --sw-brief-icon: #3a7bd5;
+
+        background: var(--sw-bg-card);
+        border: 1px solid var(--sw-border);
+        border-radius: 16px;
+        padding: 24px;
+        margin: 3rem 0;
+        box-shadow: var(--sw-shadow);
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        font-family: inherit;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .sw-card {
+            --sw-bg-card: #1e1e1e;
+            --sw-border: #333333;
+            --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            
+            --sw-title: #ffffff;
+            --sw-content: #d1d5db;
+            --sw-label: #999999;
+            
+            --sw-bg-icon: #2d2d2d;
+            --sw-border-icon: #333333;
+            
+            --sw-bg-license: #333333;
+            --sw-text-license: #999999;
+            
+            --sw-bg-tag: #333333;
+            --sw-text-tag: #aaaaaa;
+            
+            --sw-bg-comp: #252525;
+            --sw-text-li: #aaaaaa;
+            --sw-li-bullet: #666666;
+            
+            --sw-star-empty: #4b5563;
+            
+             
+            --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+            --sw-text-feature-tag: #60a5fa;
+            --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+            
+            --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+            --sw-brief-border: #60a5fa;
+            --sw-brief-text: #cbd5e1;
+            --sw-brief-icon: #60a5fa;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .sw-card {
+        --sw-bg-card: #1e1e1e;
+        --sw-border: #333333;
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        
+        --sw-title: #ffffff;
+        --sw-content: #d1d5db;
+        --sw-label: #999999;
+        
+        --sw-bg-icon: #2d2d2d;
+        --sw-border-icon: #333333;
+        
+        --sw-bg-license: #333333;
+        --sw-text-license: #999999;
+        
+        --sw-bg-tag: #333333;
+        --sw-text-tag: #aaaaaa;
+        
+        --sw-bg-comp: #252525;
+        --sw-text-li: #aaaaaa;
+        --sw-li-bullet: #666666;
+        
+        --sw-star-empty: #4b5563;
+        
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+        --sw-text-feature-tag: #60a5fa;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+        --sw-brief-border: #60a5fa;
+        --sw-brief-text: #cbd5e1;
+        --sw-brief-icon: #60a5fa;
+    }
+
+    .sw-card:hover {
+        border-color: #3a7bd5;
+        box-shadow: 0 8px 25px rgba(58, 123, 213, 0.1);
+    }
+    
+    .sw-header { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 12px; }
+    .sw-icon-box {
+        width: 72px; height: 72px; border-radius: 14px; overflow: hidden; flex-shrink: 0;
+        background: var(--sw-bg-icon); display: flex; align-items: center; justify-content: center;
+        border: 1px solid var(--sw-border-icon);
+        transition: background 0.3s;
+    }
+    .sw-icon-box img { width: 100%; height: 100%; object-fit: cover; margin: 0; }
+    .sw-icon-placeholder { font-size: 28px; font-weight: bold; color: var(--sw-icon-placeholder); }
+    
+    .sw-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+    .sw-title { margin: 0 !important; font-size: 1.8rem; line-height: 1.2; color: var(--sw-title); transition: color 0.3s; }
+    .sw-meta-row { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+    
+    .sw-rating { color: #f59e0b; display: flex; align-items: center; }
+    .sw-star { width: 16px; height: 16px; }
+    .sw-star.empty { color: var(--sw-star-empty); }
+    .sw-star.half path[fill=&#34;#e5e7eb&#34;] { fill: var(--sw-star-empty); }
+    
+    .sw-license { background: var(--sw-bg-license); color: var(--sw-text-license); padding: 2px 8px; border-radius: 4px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+    
+     
+    .sw-tags-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+    .sw-feature-tag {
+        font-size: 1.3rem;
+        padding: 2px 10px;
+        border-radius: 20px;
+        background: var(--sw-bg-feature-tag);
+        color: var(--sw-text-feature-tag);
+        border: 1px solid var(--sw-border-feature-tag);
+        font-weight: 500;
+        line-height: 1.4;
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    .sw-btn {
+        background: var(--sw-btn-bg); color: var(--sw-btn-text) !important; text-decoration: none !important;
+        padding: 8px 16px; border-radius: 20px; font-size: 1rem; font-weight: 500;
+        display: flex; align-items: center; gap: 6px; transition: opacity 0.2s;
+        flex-shrink: 0; margin-top: 4px;
+    }
+    .sw-btn:hover { opacity: 0.9; }
+    .sw-btn svg { width: 14px; height: 14px; }
+
+     
+    .sw-brief-container {
+        margin: 10px 0 20px 0;
+        padding: 12px 16px;
+        background: var(--sw-brief-bg);
+        border-left: 4px solid var(--sw-brief-border);
+        border-radius: 0 8px 8px 0;
+        transition: border-color 0.3s;
+    }
+    .sw-brief-content {
+        font-size: 1.3rem;
+        color: var(--sw-brief-text);
+        font-style: italic;
+        line-height: 1.6;
+        position: relative;
+        transition: color 0.3s;
+    }
+    .sw-brief-icon {
+        color: var(--sw-brief-icon);
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-right: 4px;
+        vertical-align: -2px;
+        line-height: 1;
+        transition: color 0.3s;
+    }
+
+     
+    .sw-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 16px; font-size: 1.2rem; color: var(--sw-label); transition: color 0.3s; }
+    .sw-label { color: var(--sw-label); }
+    .sw-tag { background: var(--sw-bg-tag); color: var(--sw-text-tag); padding: 2px 8px; border-radius: 6px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+
+     
+    .sw-content { color: var(--sw-content); line-height: 1.7; margin-bottom: 20px; font-size: 1.3rem; transition: color 0.3s; }
+    .sw-content ul { padding-left: 20px; margin: 0.5rem 0; }
+
+     
+    .sw-comparison { display: flex; gap: 20px; background: var(--sw-bg-comp); border-radius: 12px; padding: 20px; transition: background 0.3s; }
+    .sw-comp-col { flex: 1; }
+    .sw-comp-title { 
+        margin: 0 0 10px 0 !important; font-size: 1.3rem; display: flex; align-items: center; gap: 8px; 
+    }
+    .sw-comp-title.pro { color: #10b981; }
+    .sw-comp-title.con { color: #ef4444; }
+    .sw-comp-title svg { width: 18px; height: 18px; }
+    
+    .sw-comp-col ul { list-style: none; padding: 0; margin: 0; }
+    .sw-comp-col li { 
+        position: relative; padding-left: 16px; margin-bottom: 6px; font-size: 1.2rem; color: var(--sw-text-li); transition: color 0.3s;
+    }
+    .sw-comp-col li::before {
+        content: &#34;•&#34;; position: absolute; left: 0; color: var(--sw-li-bullet);
+    }
+
+    @media (max-width: 600px) {
+        .sw-header { flex-wrap: wrap; }
+        .sw-btn { width: 100%; justify-content: center; margin-top: 8px; }
+        .sw-comparison { flex-direction: column; }
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;亮点-1&#34;&gt;亮点
+&lt;/h3&gt;&lt;p&gt;其一，AFFiNE有所谓「Workspace」（工作区）的概念，用户可以根据需要创建任意工作区来进行工作，从而划分不同专题的具体研究。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture07.jpg&#34;
 	width=&#34;2000&#34;
 	height=&#34;1600&#34;
@@ -365,27 +1074,378 @@
 		data-flex-basis=&#34;430px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(7)不足&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;AFFiNE目前还处于研发阶段，因此还是存有不少Bug以及不完善之处。例如不能通过拖动桌面上的文档以添加文件，必须通过AFFiNE的添加文档操作。还有前文所谈「搜索」，虽然能够索引到具有相同文字的页面，但是点进去并不能直接导航至文字处，而是在页面开始处等。&lt;/p&gt;
+&lt;h3 id=&#34;不足-1&#34;&gt;不足
+&lt;/h3&gt;&lt;p&gt;AFFiNE目前还处于研发阶段，因此还是存有不少Bug以及不完善之处。例如不能通过拖动桌面上的文档以添加文件，必须通过AFFiNE的添加文档操作。还有前文所谈「搜索」，虽然能够索引到具有相同文字的页面，但是点进去并不能直接导航至文字处，而是在页面开始处等。&lt;/p&gt;
 &lt;h2 id=&#34;memo&#34;&gt;Memo
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;(1)软件定位&lt;/code&gt; 视频、博客转文字、字幕&lt;br&gt;
-&lt;code&gt;(2)软件优势&lt;/code&gt; Ai驱动&lt;br&gt;
-&lt;code&gt;(3)网站链接&lt;/code&gt; &lt;a class=&#34;link&#34; href=&#34;https://wev.notion.site/Memo-AI-4654690d15724d60b5eadac1c169c59a&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wev.notion.site/Memo-AI-4654690d15724d60b5eadac1c169c59a&lt;/a&gt;
+&lt;/h2&gt;
+
+
+
+
+
+ 
+
+
+
+
+   
+ 
+
+&lt;div class=&#34;sw-card&#34;&gt;
+    
+    &lt;div class=&#34;sw-header&#34;&gt;
+        &lt;div class=&#34;sw-icon-box&#34;&gt;
+            
+                &lt;span class=&#34;sw-icon-placeholder&#34;&gt;M&lt;/span&gt;
+            
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-info&#34;&gt;
+            &lt;h3 class=&#34;sw-title&#34;&gt;Memo&lt;/h3&gt;
+            
+            &lt;div class=&#34;sw-meta-row&#34;&gt;
+                
+                &lt;div class=&#34;sw-rating&#34; title=&#34;推荐指数: 3/5&#34;&gt;
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star empty&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star empty&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                &lt;/div&gt;
+                &lt;span class=&#34;sw-license&#34;&gt;免费 / 有收费版&lt;/span&gt;
+            &lt;/div&gt;
+
+            
+            
+            &lt;div class=&#34;sw-tags-row&#34;&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;视频&lt;/span&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;博客转文字&lt;/span&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;字幕&lt;/span&gt;
+                
+            &lt;/div&gt;
+            
+        &lt;/div&gt;
+
+        
+        &lt;a href=&#34;https://memo.ac/zh/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;sw-btn&#34;&gt;
+            访问官网
+            &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+        &lt;/a&gt;
+        
+    &lt;/div&gt;
 
     
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
+    
+    &lt;div class=&#34;sw-brief-container&#34;&gt;
+        &lt;div class=&#34;sw-brief-content&#34;&gt;
+            &lt;span class=&#34;sw-brief-icon&#34;&gt;“&lt;/span&gt;
+            优势在于Ai驱动。
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
 
-&lt;br&gt;
-&lt;code&gt;(4)支持平台&lt;/code&gt; MacOS、Windows&lt;br&gt;
-&lt;code&gt;(5)基本介绍&lt;/code&gt; Memo是一个通过本地Ai模型从而将视频、博客转为文字、字幕的软件。其实最近这类软件并不少，例如MacWhisper，模型更为全面，功能更为丰富。然而MacWhisper的价格并不算低廉，并欠缺对中文的支持。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(6)亮点&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;其一，Memo软件内部提供Youtube、Podcast的下载窗口。如图所示，我将一首歌曲的Youtube链接复制在下载窗口，很快就出现相关信息及转换状况，能够帮助我一键转换。&lt;/p&gt;
+    
+    &lt;div class=&#34;sw-platforms&#34;&gt;
+        &lt;span class=&#34;sw-label&#34;&gt;支持平台：&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;Windows&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;macOS&lt;/span&gt;
+        
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;sw-content&#34;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Memo是一个通过本地Ai模型从而将视频、博客转为文字、字幕的软件。其实最近这类软件并不少，例如MacWhisper，模型更为全面，功能更为丰富。然而MacWhisper的价格并不算低廉，并欠缺对中文的支持。&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;sw-comparison&#34;&gt;
+        &lt;div class=&#34;sw-comp-col sw-pros&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title pro&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M22 11.08V12a10 10 0 1 1-5.93-9.14&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;22 4 12 14.01 9 11.01&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                优势
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;对Youtube等链接支持较好，一键直达&lt;/li&gt;
+                
+                    &lt;li&gt;未来会更新较多功能&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-comp-col sw-cons&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title con&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34;&gt;&lt;/circle&gt;&lt;line x1=&#34;15&#34; y1=&#34;9&#34; x2=&#34;9&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;9&#34; y1=&#34;9&#34; x2=&#34;15&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+                不足
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;目前转换效果仍有不足之处，准确率较低&lt;/li&gt;
+                
+                    &lt;li&gt;能耗压力较大&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .sw-card {
+         
+        --sw-bg-card: #ffffff;
+        --sw-border: rgba(0,0,0,0.08);
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.03);
+        
+        --sw-title: #000000;
+        --sw-content: #4a5568;
+        --sw-label: #666666;
+        
+        --sw-bg-icon: #f0f2f5;
+        --sw-border-icon: rgba(0,0,0,0.05);
+        --sw-icon-placeholder: #3a7bd5;
+        
+        --sw-bg-license: #f3f4f6;
+        --sw-text-license: #666666;
+        
+        --sw-bg-tag: #f1f5f9;
+        --sw-text-tag: #475569;
+        
+        --sw-btn-bg: #3a7bd5;
+        --sw-btn-text: #ffffff;
+        
+        --sw-bg-comp: #f8f9fa;
+        --sw-text-li: #555555;
+        --sw-li-bullet: #cccccc;
+        
+        --sw-star-empty: #e5e7eb;
+        
+         
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.08);
+        --sw-text-feature-tag: #3a7bd5;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.15);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.03), transparent);
+        --sw-brief-border: #3a7bd5;
+        --sw-brief-text: #4a5568;
+        --sw-brief-icon: #3a7bd5;
+
+        background: var(--sw-bg-card);
+        border: 1px solid var(--sw-border);
+        border-radius: 16px;
+        padding: 24px;
+        margin: 3rem 0;
+        box-shadow: var(--sw-shadow);
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        font-family: inherit;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .sw-card {
+            --sw-bg-card: #1e1e1e;
+            --sw-border: #333333;
+            --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            
+            --sw-title: #ffffff;
+            --sw-content: #d1d5db;
+            --sw-label: #999999;
+            
+            --sw-bg-icon: #2d2d2d;
+            --sw-border-icon: #333333;
+            
+            --sw-bg-license: #333333;
+            --sw-text-license: #999999;
+            
+            --sw-bg-tag: #333333;
+            --sw-text-tag: #aaaaaa;
+            
+            --sw-bg-comp: #252525;
+            --sw-text-li: #aaaaaa;
+            --sw-li-bullet: #666666;
+            
+            --sw-star-empty: #4b5563;
+            
+             
+            --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+            --sw-text-feature-tag: #60a5fa;
+            --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+            
+            --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+            --sw-brief-border: #60a5fa;
+            --sw-brief-text: #cbd5e1;
+            --sw-brief-icon: #60a5fa;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .sw-card {
+        --sw-bg-card: #1e1e1e;
+        --sw-border: #333333;
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        
+        --sw-title: #ffffff;
+        --sw-content: #d1d5db;
+        --sw-label: #999999;
+        
+        --sw-bg-icon: #2d2d2d;
+        --sw-border-icon: #333333;
+        
+        --sw-bg-license: #333333;
+        --sw-text-license: #999999;
+        
+        --sw-bg-tag: #333333;
+        --sw-text-tag: #aaaaaa;
+        
+        --sw-bg-comp: #252525;
+        --sw-text-li: #aaaaaa;
+        --sw-li-bullet: #666666;
+        
+        --sw-star-empty: #4b5563;
+        
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+        --sw-text-feature-tag: #60a5fa;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+        --sw-brief-border: #60a5fa;
+        --sw-brief-text: #cbd5e1;
+        --sw-brief-icon: #60a5fa;
+    }
+
+    .sw-card:hover {
+        border-color: #3a7bd5;
+        box-shadow: 0 8px 25px rgba(58, 123, 213, 0.1);
+    }
+    
+    .sw-header { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 12px; }
+    .sw-icon-box {
+        width: 72px; height: 72px; border-radius: 14px; overflow: hidden; flex-shrink: 0;
+        background: var(--sw-bg-icon); display: flex; align-items: center; justify-content: center;
+        border: 1px solid var(--sw-border-icon);
+        transition: background 0.3s;
+    }
+    .sw-icon-box img { width: 100%; height: 100%; object-fit: cover; margin: 0; }
+    .sw-icon-placeholder { font-size: 28px; font-weight: bold; color: var(--sw-icon-placeholder); }
+    
+    .sw-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+    .sw-title { margin: 0 !important; font-size: 1.8rem; line-height: 1.2; color: var(--sw-title); transition: color 0.3s; }
+    .sw-meta-row { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+    
+    .sw-rating { color: #f59e0b; display: flex; align-items: center; }
+    .sw-star { width: 16px; height: 16px; }
+    .sw-star.empty { color: var(--sw-star-empty); }
+    .sw-star.half path[fill=&#34;#e5e7eb&#34;] { fill: var(--sw-star-empty); }
+    
+    .sw-license { background: var(--sw-bg-license); color: var(--sw-text-license); padding: 2px 8px; border-radius: 4px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+    
+     
+    .sw-tags-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+    .sw-feature-tag {
+        font-size: 1.3rem;
+        padding: 2px 10px;
+        border-radius: 20px;
+        background: var(--sw-bg-feature-tag);
+        color: var(--sw-text-feature-tag);
+        border: 1px solid var(--sw-border-feature-tag);
+        font-weight: 500;
+        line-height: 1.4;
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    .sw-btn {
+        background: var(--sw-btn-bg); color: var(--sw-btn-text) !important; text-decoration: none !important;
+        padding: 8px 16px; border-radius: 20px; font-size: 1rem; font-weight: 500;
+        display: flex; align-items: center; gap: 6px; transition: opacity 0.2s;
+        flex-shrink: 0; margin-top: 4px;
+    }
+    .sw-btn:hover { opacity: 0.9; }
+    .sw-btn svg { width: 14px; height: 14px; }
+
+     
+    .sw-brief-container {
+        margin: 10px 0 20px 0;
+        padding: 12px 16px;
+        background: var(--sw-brief-bg);
+        border-left: 4px solid var(--sw-brief-border);
+        border-radius: 0 8px 8px 0;
+        transition: border-color 0.3s;
+    }
+    .sw-brief-content {
+        font-size: 1.3rem;
+        color: var(--sw-brief-text);
+        font-style: italic;
+        line-height: 1.6;
+        position: relative;
+        transition: color 0.3s;
+    }
+    .sw-brief-icon {
+        color: var(--sw-brief-icon);
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-right: 4px;
+        vertical-align: -2px;
+        line-height: 1;
+        transition: color 0.3s;
+    }
+
+     
+    .sw-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 16px; font-size: 1.2rem; color: var(--sw-label); transition: color 0.3s; }
+    .sw-label { color: var(--sw-label); }
+    .sw-tag { background: var(--sw-bg-tag); color: var(--sw-text-tag); padding: 2px 8px; border-radius: 6px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+
+     
+    .sw-content { color: var(--sw-content); line-height: 1.7; margin-bottom: 20px; font-size: 1.3rem; transition: color 0.3s; }
+    .sw-content ul { padding-left: 20px; margin: 0.5rem 0; }
+
+     
+    .sw-comparison { display: flex; gap: 20px; background: var(--sw-bg-comp); border-radius: 12px; padding: 20px; transition: background 0.3s; }
+    .sw-comp-col { flex: 1; }
+    .sw-comp-title { 
+        margin: 0 0 10px 0 !important; font-size: 1.3rem; display: flex; align-items: center; gap: 8px; 
+    }
+    .sw-comp-title.pro { color: #10b981; }
+    .sw-comp-title.con { color: #ef4444; }
+    .sw-comp-title svg { width: 18px; height: 18px; }
+    
+    .sw-comp-col ul { list-style: none; padding: 0; margin: 0; }
+    .sw-comp-col li { 
+        position: relative; padding-left: 16px; margin-bottom: 6px; font-size: 1.2rem; color: var(--sw-text-li); transition: color 0.3s;
+    }
+    .sw-comp-col li::before {
+        content: &#34;•&#34;; position: absolute; left: 0; color: var(--sw-li-bullet);
+    }
+
+    @media (max-width: 600px) {
+        .sw-header { flex-wrap: wrap; }
+        .sw-btn { width: 100%; justify-content: center; margin-top: 8px; }
+        .sw-comparison { flex-direction: column; }
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;亮点-2&#34;&gt;亮点
+&lt;/h3&gt;&lt;p&gt;其一，Memo软件内部提供Youtube、Podcast的下载窗口。如图所示，我将一首歌曲的Youtube链接复制在下载窗口，很快就出现相关信息及转换状况，能够帮助我一键转换。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture12.jpg&#34;
 	width=&#34;2266&#34;
 	height=&#34;1426&#34;
@@ -415,8 +1475,8 @@
 		data-flex-basis=&#34;684px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(7)不足&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;作为语音转文字的工具，朋友们最关注的是其转换效果。就歌词识别而言，Memo较MacWhisper（免费模型）要好一些，虽然仍存不准确之处，但多数已经能识别准确。&lt;/p&gt;
+&lt;h3 id=&#34;不足-2&#34;&gt;不足
+&lt;/h3&gt;&lt;p&gt;作为语音转文字的工具，朋友们最关注的是其转换效果。就歌词识别而言，Memo较MacWhisper（免费模型）要好一些，虽然仍存不准确之处，但多数已经能识别准确。&lt;/p&gt;
 &lt;p&gt;我分别用Tiny、Large这两种模型对同一首歌曲进行识别。按照官方的说明，Tiny属于识别速度快然而准确率较差的模型。Large则是识别速度慢而准确率较好的模型。然而在具体测试中，结果并不能令我满意。&lt;/p&gt;
 &lt;p&gt;测试歌曲「法老-我想」时长4分14秒，Tiny模型用时19秒，Large模型用时4分4秒。通过MacOS的「活动监视器」，两种模型在运行时的能耗都在「6000-9000」（一般来说，腾讯会议的能耗为900-1200，炉石传说的能耗为700-1200）。笔者所用的电脑为Mac M1 Pro（8+14），在模型运行时将散热风扇转速调至最高，整体温度仍然在85~90度之间。&lt;/p&gt;
 &lt;p&gt;综合同段时间的歌词准确率，我发现两种模型几乎确实存在较大差别。Large模型基本能识别每一句歌词，而Tiny识别的歌词更像是「短语」，准确率并不高，甚至可以用「灾难」来形容。&lt;/p&gt;
@@ -449,22 +1509,368 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;google-ai-bard&#34;&gt;Google Ai Bard
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;(1)软件定位&lt;/code&gt; 交流聊天机器人&lt;br&gt;
-&lt;code&gt;(2)软件优势&lt;/code&gt; Google支持&lt;br&gt;
-&lt;code&gt;(3)网站链接&lt;/code&gt; &lt;a class=&#34;link&#34; href=&#34;https://ai.google/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://ai.google/&lt;/a&gt;
+&lt;/h2&gt;
+
+
+
+
+
+ 
+
+
+
+
+   
+ 
+
+&lt;div class=&#34;sw-card&#34;&gt;
+    
+    &lt;div class=&#34;sw-header&#34;&gt;
+        &lt;div class=&#34;sw-icon-box&#34;&gt;
+            
+                &lt;span class=&#34;sw-icon-placeholder&#34;&gt;G&lt;/span&gt;
+            
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-info&#34;&gt;
+            &lt;h3 class=&#34;sw-title&#34;&gt;Google Ai Bard&lt;/h3&gt;
+            
+            &lt;div class=&#34;sw-meta-row&#34;&gt;
+                
+                &lt;div class=&#34;sw-rating&#34; title=&#34;推荐指数: 3.5/5&#34;&gt;
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star filled&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star half&#34; viewBox=&#34;0 0 24 24&#34;&gt;
+                                &lt;path fill=&#34;#e5e7eb&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;
+                                &lt;path fill=&#34;currentColor&#34; d=&#34;M12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z&#34;/&gt;
+                            &lt;/svg&gt;
+                        
+                    
+                        
+                            &lt;svg class=&#34;sw-star empty&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z&#34;/&gt;&lt;/svg&gt;
+                        
+                    
+                &lt;/div&gt;
+                &lt;span class=&#34;sw-license&#34;&gt;免费 / 有收费版&lt;/span&gt;
+            &lt;/div&gt;
+
+            
+            
+            &lt;div class=&#34;sw-tags-row&#34;&gt;
+                
+                    &lt;span class=&#34;sw-feature-tag&#34;&gt;交流聊天机器人&lt;/span&gt;
+                
+            &lt;/div&gt;
+            
+        &lt;/div&gt;
+
+        
+        &lt;a href=&#34;https://ai.google/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;sw-btn&#34;&gt;
+            访问官网
+            &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+        &lt;/a&gt;
+        
+    &lt;/div&gt;
 
     
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
+    
+    &lt;div class=&#34;sw-brief-container&#34;&gt;
+        &lt;div class=&#34;sw-brief-content&#34;&gt;
+            &lt;span class=&#34;sw-brief-icon&#34;&gt;“&lt;/span&gt;
+            优势在于Google支持。
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
 
-&lt;br&gt;
-&lt;code&gt;(4)支持平台&lt;/code&gt; 网页&lt;br&gt;
-&lt;code&gt;(5)基本介绍&lt;/code&gt; 作为对标ChatGPT的人工智能交流聊天机器人，Google Bard的表现并不如意。以下我将通过中文的交流互动，对比两者的具体表现。&lt;/p&gt;
+    
+    &lt;div class=&#34;sw-platforms&#34;&gt;
+        &lt;span class=&#34;sw-label&#34;&gt;支持平台：&lt;/span&gt;
+        
+            &lt;span class=&#34;sw-tag&#34;&gt;Web&lt;/span&gt;
+        
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;sw-content&#34;&gt;
+        &lt;ul&gt;
+&lt;li&gt;作为对标ChatGPT的人工智能交流聊天机器人，Google Bard的表现并不如意。以下我将通过中文的交流互动，对比两者的具体表现。&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;sw-comparison&#34;&gt;
+        &lt;div class=&#34;sw-comp-col sw-pros&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title pro&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M22 11.08V12a10 10 0 1 1-5.93-9.14&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;22 4 12 14.01 9 11.01&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                优势
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;期待未来有更好表现&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;sw-comp-col sw-cons&#34;&gt;
+            &lt;h4 class=&#34;sw-comp-title con&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34;&gt;&lt;/circle&gt;&lt;line x1=&#34;15&#34; y1=&#34;9&#34; x2=&#34;9&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;9&#34; y1=&#34;9&#34; x2=&#34;15&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+                不足
+            &lt;/h4&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;对关键信息的识别较差&lt;/li&gt;
+                
+                    &lt;li&gt;随机性较强&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .sw-card {
+         
+        --sw-bg-card: #ffffff;
+        --sw-border: rgba(0,0,0,0.08);
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.03);
+        
+        --sw-title: #000000;
+        --sw-content: #4a5568;
+        --sw-label: #666666;
+        
+        --sw-bg-icon: #f0f2f5;
+        --sw-border-icon: rgba(0,0,0,0.05);
+        --sw-icon-placeholder: #3a7bd5;
+        
+        --sw-bg-license: #f3f4f6;
+        --sw-text-license: #666666;
+        
+        --sw-bg-tag: #f1f5f9;
+        --sw-text-tag: #475569;
+        
+        --sw-btn-bg: #3a7bd5;
+        --sw-btn-text: #ffffff;
+        
+        --sw-bg-comp: #f8f9fa;
+        --sw-text-li: #555555;
+        --sw-li-bullet: #cccccc;
+        
+        --sw-star-empty: #e5e7eb;
+        
+         
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.08);
+        --sw-text-feature-tag: #3a7bd5;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.15);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.03), transparent);
+        --sw-brief-border: #3a7bd5;
+        --sw-brief-text: #4a5568;
+        --sw-brief-icon: #3a7bd5;
+
+        background: var(--sw-bg-card);
+        border: 1px solid var(--sw-border);
+        border-radius: 16px;
+        padding: 24px;
+        margin: 3rem 0;
+        box-shadow: var(--sw-shadow);
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        font-family: inherit;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .sw-card {
+            --sw-bg-card: #1e1e1e;
+            --sw-border: #333333;
+            --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            
+            --sw-title: #ffffff;
+            --sw-content: #d1d5db;
+            --sw-label: #999999;
+            
+            --sw-bg-icon: #2d2d2d;
+            --sw-border-icon: #333333;
+            
+            --sw-bg-license: #333333;
+            --sw-text-license: #999999;
+            
+            --sw-bg-tag: #333333;
+            --sw-text-tag: #aaaaaa;
+            
+            --sw-bg-comp: #252525;
+            --sw-text-li: #aaaaaa;
+            --sw-li-bullet: #666666;
+            
+            --sw-star-empty: #4b5563;
+            
+             
+            --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+            --sw-text-feature-tag: #60a5fa;
+            --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+            
+            --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+            --sw-brief-border: #60a5fa;
+            --sw-brief-text: #cbd5e1;
+            --sw-brief-icon: #60a5fa;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .sw-card {
+        --sw-bg-card: #1e1e1e;
+        --sw-border: #333333;
+        --sw-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        
+        --sw-title: #ffffff;
+        --sw-content: #d1d5db;
+        --sw-label: #999999;
+        
+        --sw-bg-icon: #2d2d2d;
+        --sw-border-icon: #333333;
+        
+        --sw-bg-license: #333333;
+        --sw-text-license: #999999;
+        
+        --sw-bg-tag: #333333;
+        --sw-text-tag: #aaaaaa;
+        
+        --sw-bg-comp: #252525;
+        --sw-text-li: #aaaaaa;
+        --sw-li-bullet: #666666;
+        
+        --sw-star-empty: #4b5563;
+        
+        --sw-bg-feature-tag: rgba(58, 123, 213, 0.15);
+        --sw-text-feature-tag: #60a5fa;
+        --sw-border-feature-tag: rgba(58, 123, 213, 0.3);
+        
+        --sw-brief-bg: linear-gradient(to right, rgba(58, 123, 213, 0.1), transparent);
+        --sw-brief-border: #60a5fa;
+        --sw-brief-text: #cbd5e1;
+        --sw-brief-icon: #60a5fa;
+    }
+
+    .sw-card:hover {
+        border-color: #3a7bd5;
+        box-shadow: 0 8px 25px rgba(58, 123, 213, 0.1);
+    }
+    
+    .sw-header { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 12px; }
+    .sw-icon-box {
+        width: 72px; height: 72px; border-radius: 14px; overflow: hidden; flex-shrink: 0;
+        background: var(--sw-bg-icon); display: flex; align-items: center; justify-content: center;
+        border: 1px solid var(--sw-border-icon);
+        transition: background 0.3s;
+    }
+    .sw-icon-box img { width: 100%; height: 100%; object-fit: cover; margin: 0; }
+    .sw-icon-placeholder { font-size: 28px; font-weight: bold; color: var(--sw-icon-placeholder); }
+    
+    .sw-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+    .sw-title { margin: 0 !important; font-size: 1.8rem; line-height: 1.2; color: var(--sw-title); transition: color 0.3s; }
+    .sw-meta-row { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+    
+    .sw-rating { color: #f59e0b; display: flex; align-items: center; }
+    .sw-star { width: 16px; height: 16px; }
+    .sw-star.empty { color: var(--sw-star-empty); }
+    .sw-star.half path[fill=&#34;#e5e7eb&#34;] { fill: var(--sw-star-empty); }
+    
+    .sw-license { background: var(--sw-bg-license); color: var(--sw-text-license); padding: 2px 8px; border-radius: 4px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+    
+     
+    .sw-tags-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+    .sw-feature-tag {
+        font-size: 1.3rem;
+        padding: 2px 10px;
+        border-radius: 20px;
+        background: var(--sw-bg-feature-tag);
+        color: var(--sw-text-feature-tag);
+        border: 1px solid var(--sw-border-feature-tag);
+        font-weight: 500;
+        line-height: 1.4;
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    .sw-btn {
+        background: var(--sw-btn-bg); color: var(--sw-btn-text) !important; text-decoration: none !important;
+        padding: 8px 16px; border-radius: 20px; font-size: 1rem; font-weight: 500;
+        display: flex; align-items: center; gap: 6px; transition: opacity 0.2s;
+        flex-shrink: 0; margin-top: 4px;
+    }
+    .sw-btn:hover { opacity: 0.9; }
+    .sw-btn svg { width: 14px; height: 14px; }
+
+     
+    .sw-brief-container {
+        margin: 10px 0 20px 0;
+        padding: 12px 16px;
+        background: var(--sw-brief-bg);
+        border-left: 4px solid var(--sw-brief-border);
+        border-radius: 0 8px 8px 0;
+        transition: border-color 0.3s;
+    }
+    .sw-brief-content {
+        font-size: 1.3rem;
+        color: var(--sw-brief-text);
+        font-style: italic;
+        line-height: 1.6;
+        position: relative;
+        transition: color 0.3s;
+    }
+    .sw-brief-icon {
+        color: var(--sw-brief-icon);
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-right: 4px;
+        vertical-align: -2px;
+        line-height: 1;
+        transition: color 0.3s;
+    }
+
+     
+    .sw-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 16px; font-size: 1.2rem; color: var(--sw-label); transition: color 0.3s; }
+    .sw-label { color: var(--sw-label); }
+    .sw-tag { background: var(--sw-bg-tag); color: var(--sw-text-tag); padding: 2px 8px; border-radius: 6px; font-size: 1.3rem; transition: background 0.3s, color 0.3s; }
+
+     
+    .sw-content { color: var(--sw-content); line-height: 1.7; margin-bottom: 20px; font-size: 1.3rem; transition: color 0.3s; }
+    .sw-content ul { padding-left: 20px; margin: 0.5rem 0; }
+
+     
+    .sw-comparison { display: flex; gap: 20px; background: var(--sw-bg-comp); border-radius: 12px; padding: 20px; transition: background 0.3s; }
+    .sw-comp-col { flex: 1; }
+    .sw-comp-title { 
+        margin: 0 0 10px 0 !important; font-size: 1.3rem; display: flex; align-items: center; gap: 8px; 
+    }
+    .sw-comp-title.pro { color: #10b981; }
+    .sw-comp-title.con { color: #ef4444; }
+    .sw-comp-title svg { width: 18px; height: 18px; }
+    
+    .sw-comp-col ul { list-style: none; padding: 0; margin: 0; }
+    .sw-comp-col li { 
+        position: relative; padding-left: 16px; margin-bottom: 6px; font-size: 1.2rem; color: var(--sw-text-li); transition: color 0.3s;
+    }
+    .sw-comp-col li::before {
+        content: &#34;•&#34;; position: absolute; left: 0; color: var(--sw-li-bullet);
+    }
+
+    @media (max-width: 600px) {
+        .sw-header { flex-wrap: wrap; }
+        .sw-btn { width: 100%; justify-content: center; margin-top: 8px; }
+        .sw-comparison { flex-direction: column; }
+    }
+&lt;/style&gt;
 &lt;p&gt;我以「改写龟兔赛跑这一故事」这一问题分别问与Google Bard、ChatGPT。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture16.jpg&#34;
 	width=&#34;2202&#34;

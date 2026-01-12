@@ -13,10 +13,256 @@
         <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
         
         <guid>https://laujoe.github.io/p/%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E9%B9%BF%E7%A5%9E%E6%AD%8C/</guid>
-        <description>&lt;img src="https://laujoe.github.io/p/%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E9%B9%BF%E7%A5%9E%E6%AD%8C/homepage.jpg" alt="Featured image of post 「文学创作」鹿神歌" /&gt;&lt;p&gt;Thank Cover of this article by 张文智 《鹿神歌》 2020 纸本综合材料&lt;/p&gt;
-&lt;h2 id=&#34;第一卷-青莲旧事&#34;&gt;第一卷 青莲旧事
-&lt;/h2&gt;&lt;h3 id=&#34;第一章-鹿神歌之谜&#34;&gt;第一章 《鹿神歌》之谜
-&lt;/h3&gt;&lt;p&gt;“我叫柳羽，是清宁省青莲市博物研究院的研究员。之所以写下这篇日记，是因为我遇到了超出人类理解范畴的事情——梦境里癫狂至死的小说作家、现实里离奇失踪的好友。一页画有诡异纹样的符纸，其上附有一张如何进行时空穿梭的说明。&lt;/p&gt;
+        <description>&lt;img src="https://laujoe.github.io/p/%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E9%B9%BF%E7%A5%9E%E6%AD%8C/homepage.jpg" alt="Featured image of post 「文学创作」鹿神歌" /&gt; &lt;div class=&#34;hugo-info-card&#34; style=&#34;--theme-color: #27ae60;&#34;&gt;
+    &lt;div class=&#34;card-header&#34;&gt;
+        &lt;div class=&#34;card-icon-box&#34;&gt;
+            &lt;svg class=&#34;card-svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+                &lt;path d=&#34;M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z&#34;&gt;&lt;/path&gt;
+            &lt;/svg&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;card-meta&#34;&gt;
+            &lt;span class=&#34;card-nature&#34;&gt;致谢&lt;/span&gt;
+            &lt;h3 class=&#34;card-name&#34;&gt;诚挚感谢艺术家张文智授权使用作品《鹿神歌》，2020年，纸本综合材料。&lt;/h3&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;card-body&#34;&gt;
+        
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .hugo-info-card {
+         
+        --cc-bg-card: #ffffff;
+        --cc-bg-header: linear-gradient(to right, rgba(255,255,255,0.9), rgba(249,250,251,1));
+        --cc-bg-body: #ffffff;
+        
+        --cc-border: rgba(0,0,0,0.08);
+        --cc-border-bottom: rgba(0,0,0,0.03);
+        
+        --cc-shadow: 0 8px 20px rgba(0,0,0,0.04);
+        --cc-shadow-hover: 0 12px 25px rgba(0,0,0,0.08);
+        
+        --cc-text-name: #2c3e50;
+        --cc-text-body: #4a5568;
+        
+        --cc-nature-bg: rgba(0, 0, 0, 0.05);
+        --cc-nature-text: var(--theme-color);  
+
+        background: var(--cc-bg-card);
+        border-radius: 12px;
+        border: 1px solid var(--cc-border);
+        box-shadow: var(--cc-shadow);
+        margin: 2rem 0;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s, border-color 0.3s;
+        
+         
+        font-family: inherit; 
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .hugo-info-card {
+            --cc-bg-card: #1e1e1e;
+            --cc-bg-header: #252525;
+            --cc-bg-body: #1e1e1e;
+            
+            --cc-border: #333333;
+            --cc-border-bottom: #333333;
+            
+            --cc-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            --cc-shadow-hover: 0 12px 25px rgba(0,0,0,0.5);
+            
+            --cc-text-name: #f0f0f0;
+            --cc-text-body: #cccccc;
+            
+            --cc-nature-bg: rgba(255,255,255,0.1);
+            --cc-nature-text: #ffffff;  
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .hugo-info-card {
+        --cc-bg-card: #1e1e1e;
+        --cc-bg-header: #252525;
+        --cc-bg-body: #1e1e1e;
+        
+        --cc-border: #333333;
+        --cc-border-bottom: #333333;
+        
+        --cc-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        --cc-shadow-hover: 0 12px 25px rgba(0,0,0,0.5);
+        
+        --cc-text-name: #f0f0f0;
+        --cc-text-body: #cccccc;
+        
+        --cc-nature-bg: rgba(255,255,255,0.1);
+        --cc-nature-text: #ffffff;
+    }
+
+    .hugo-info-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--cc-shadow-hover);
+    }
+
+     
+    .card-header {
+        display: flex;
+        align-items: center;
+        padding: 20px 24px;
+        background: var(--cc-bg-header);
+        border-bottom: 1px solid var(--cc-border-bottom);
+        transition: background 0.3s, border-color 0.3s;
+    }
+
+     
+    .card-icon-box {
+        width: 48px;
+        height: 48px;
+        background: var(--theme-color);  
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 18px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        flex-shrink: 0;
+    }
+
+    .card-svg {
+        width: 24px;
+        height: 24px;
+        color: #fff;
+    }
+
+    .card-meta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+    }
+
+     
+    .card-nature {
+        display: inline-block;
+        background: var(--cc-nature-bg);
+        color: var(--cc-nature-text);
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        width: fit-content;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .card-name {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: var(--cc-text-name);
+        line-height: 1.2;
+        transition: color 0.3s;
+    }
+
+     
+    .card-body {
+        padding: 20px 24px;
+        color: var(--cc-text-body);
+        font-size: 1rem;
+        line-height: 1.7;
+        background: var(--cc-bg-body);
+        transition: background 0.3s, color 0.3s;
+    }
+    
+    .card-body p { margin-bottom: 0; }
+    .card-body p + p { margin-top: 1em; }
+&lt;/style&gt;
+&lt;h2 id=&#34;volume-01-青莲旧事&#34;&gt;Volume 01 青莲旧事
+&lt;/h2&gt;&lt;h3 id=&#34;chapter-01-鹿神歌之谜&#34;&gt;Chapter 01 《鹿神歌》之谜
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 01 《鹿神歌》之谜&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2577 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ 在这一周时间，卫江升陷入了离奇的幻境——他与一只名叫「Ku-Lin-Zhu-Ye」的梅花鹿交谈，这只梅花鹿上知天文、下知地理，古今中外，无所不精。它向卫江升表明，它乃世间鹿神，为世间走兽之统领。 ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;“我叫柳羽，是清宁省青莲市博物研究院的研究员。之所以写下这篇日记，是因为我遇到了超出人类理解范畴的事情——梦境里癫狂至死的小说作家、现实里离奇失踪的好友。一页画有诡异纹样的符纸，其上附有一张如何进行时空穿梭的说明。&lt;/p&gt;
 &lt;p&gt;还有一揲以《鹿神歌》为主题的打印材料，似乎是这些杂乱无章而又异常疯狂事件的起源。它们将我的平静生活冲撞地七零八碎，甚至让我怀疑自己是否真实存在——请原谅如此夸张的措辞，但现实已经将我秉持的科学精神瓦解。&lt;/p&gt;
 &lt;p&gt;在讲述《鹿神歌》以前，我希望为各位介绍我的同事兼挚友——林学智，美国哈佛大学社会学系的博士。他聪慧敏锐，谨慎谦虚，待人真诚，虽然有些古板，但仍可称为君子。&lt;/p&gt;
 &lt;p&gt;他近年专注于清宁省赫敏族萨满的民俗学调查，并于二零二七年二月前往和国天理大学访学以寻找相关材料。四月二十三日，他向我邮递了一封信件，并附有几则资料——他对科技敬而远之，仅通过纸质邮件来进行交流。在信件中，他只提到目前的研究方向是一位赫敏族萨满的神奇经历，并向我请教青莲市图书馆是否存有一部名为《清宁见闻志》的民国笔记。&lt;/p&gt;
@@ -26,14 +272,22 @@
 &lt;p&gt;卫江升醒来以后，他的头脑中凭空出现多则文意神秘的歌谣。他能够流畅地吟唱，仿若与生俱来的天赋。从此，卫江升贯彻鹿神的旨意。他乘坐火车游历各省，途中吟唱晦涩难懂的歌谣，他将其称为鹿神歌。&lt;/p&gt;
 &lt;p&gt;每当他遇见动物尸体，便跪在尸体前虔诚祈祷，同时吟诵晦涩的诗歌以作纪念。之后将动物毛皮剥下，以稻草填充，制成标本。关于这些标本的去处，文献里没有明确记载。但林学智发现青莲市博物馆尚存有一件梅花鹿标本，或许出于卫江升之手。&lt;/p&gt;
 &lt;p&gt;收到林学智的材料后，我立即前往青莲市图书馆寻找《清宁见闻志》，最终在尚未对外公布的古籍室内见到一本残破的线装古籍。笔记作者名为陈备，活跃于民国时期，是清宁省明顺市的一位矿坑管理人员。根据序言，陈备年少时赴清宁省立学校读书，后为躲避战乱，寻求安稳，故谋求关系在矿坑做管理工作。至于《清宁见闻志》，则是他的个人日记。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E6%96%87%E5%AD%A6%E5%88%9B%E4%BD%9C%E9%B9%BF%E7%A5%9E%E6%AD%8C/lushenge-01.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;《清宁见闻志》&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;根据陈备的记载，在一九二一年八月二十四日，一位披头散发，衣服满是补丁的老汉来到矿坑。只见他跪在矿坑前痛哭不止，而后念诵奇怪诗歌。陈备本想驱赶他，但在接近他时却感受不到臭气，反而传来奇异香味。其时世道荒乱，奇人异士颇多，陈备亦略有耳闻，故不敢多加惊扰。&lt;/p&gt;
 &lt;p&gt;该老汉跪在矿坑处，吟唱晦涩的歌谣，连续三天时间不吃不喝。吟唱结束之际，矿坑上方天空突然有成群苍鹰飞来盘旋，其景甚为骇人。陈备见状，高呼神迹。老汉来到陈备面前，声音沙哑，感谢陈备未驱逐他，并且以鹿神之名赐福陈备平顺安康。&lt;/p&gt;
 &lt;p&gt;陈备大喜，询问老汉姓名。老汉听后淡淡一笑，仅言俗名江升，而后不见。后来陈备寻求朋友追寻线索，才知老汉已在清宁省多个地方吟诵诗歌，且神异频出，追寻者甚蕃。&lt;/p&gt;
 &lt;p&gt;陈备感念老汉，为其子取名为“念升”，正如老汉所祝福，陈备于乱世并未受波折，并且十分长寿，至九十三岁于睡梦安详离世。&lt;/p&gt;
 &lt;p&gt;事情至此并未结束，一九二一年八月二十四日的记录下方存有一行铅笔字的痕迹，直接将《鹿神歌》推向神秘学的研究范畴。这行铅笔字虽然被橡皮擦抹，但依稀可见。经过仔细辨认，内容如下：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;陈备，祭品，邪鹿接引。念升，病入膏肓。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;陈备，祭品，邪鹿接引。念升，病入膏肓。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;面对这两种截然不同而又充满神话色彩的叙事，我的兴趣油然而发。我向林学智邮寄了《清宁见闻志》的影印材料以及个人理解，并请求林学智分享更多信息。&lt;/p&gt;
 &lt;p&gt;整个五月，我都在焦急地等待林学智的回信。当时的我并未料到，梦魇已在此时张开利爪，将我笼罩其中。自从五月九日起，我每天晚上都会梦见一位名叫林铭的小说作家。然而在梦境中，我仅作为旁观者去观察他的生活。&lt;/p&gt;
 &lt;p&gt;虽然林铭有一份较为稳定的文稿工作，但他却郁郁寡欢，并患上了严重的抑郁症。因为他经常遇到违背常理而难以解释的奇事，例如走在街上看到商场顶楼缠绕有巨大怪木，但路人却熟视无睹。坐在公交车上遇见没有手的残疾人，却看到售票员笑吟吟地从空中接过钱币。&lt;/p&gt;
@@ -43,9 +297,348 @@
 &lt;p&gt;作为旁观者的我无法理解林铭，但是能够清晰感知到他的痛苦以及疯狂。他像是看到了一种超出人类理解范畴的神秘存在。在书写的时候，林铭喃喃地念着难解的语句，例如“犴做衣”、“踏罡斗”等，其涵义晦暗不明。在即将猝死以前，林铭恢复了神志，他一笔一画，十分虔诚地写下了极为清楚的三个字：鹿神歌。&lt;/p&gt;
 &lt;p&gt;我难以用寻常的言词形容那种深切的恐惧心理，从深夜惊醒的我坐在书桌前，反复地翻看林学智的资料。最终我强行说服自己，这只不过是“日有所思，夜有所梦”，以及我平日经常阅读如“克苏鲁神话”般的文学作品，从而产生了这荒诞的梦境。&lt;/p&gt;
 &lt;p&gt;然而我的心理防线最终还是被研究院院长的一通电话击破，乃至崩塌。天理大学的工作人员向院致函，询问是否有林学智的消息——他已经失踪三周了。”&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第三版稿 修订于2023-04-28&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第二章-柳风的调查&#34;&gt;第二章 柳风的调查
-&lt;/h3&gt;&lt;p&gt;我疲惫地放下纸笔，桌前的圆镜映出一张苍白而又憔悴的脸庞。充满血丝的无神双眼，密密麻麻的散碎胡须，已无往日的意气风发，近日接连不断的诡异事件耗费了我大量心力。我抬头看了看万年历，今日是二零二七年六月九日，距收到林学智失踪的通知已经过了十天时间。&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第三版稿 修订于2023-04-28
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-02-柳风的调查&#34;&gt;Chapter 02 柳风的调查
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 02 柳风的调查&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2196 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ 在信件中，林学智提到自十九世纪起，一个被称作「公平会」的神秘组织潜伏在和国东京。公平会信仰一尊被称作「Cen-Ji-Ni」的神秘存在，而这尊存在与华国「鹿神」存在重要关联。 ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;我疲惫地放下纸笔，桌前的圆镜映出一张苍白而又憔悴的脸庞。充满血丝的无神双眼，密密麻麻的散碎胡须，已无往日的意气风发，近日接连不断的诡异事件耗费了我大量心力。我抬头看了看万年历，今日是二零二七年六月九日，距收到林学智失踪的通知已经过了十天时间。&lt;/p&gt;
 &lt;p&gt;当博物研究院收到公函时，便立刻报警。警方同研究院合作，先后派遣多批人员赶赴和国天理大学进行调查。然而林学智仿若凭空消失——和人称之为“神隐”，在五月九日之后，没有人，甚至没有监控再记录有林学智的任何痕迹。&lt;/p&gt;
 &lt;p&gt;根据天理大学的信息，林学智四月中旬便前往东京搜集资料，之后未有任何信件传来。五月九日的监控显示，林学智上午九点前往东京大学图书馆，下午三点左右离开。奇怪的是，他像是故意躲避监控。关于他的最后行踪，定格于东京郊外的深林。&lt;/p&gt;
 &lt;p&gt;五月二十九日，东京大学图书馆的管理人员发现林学智还未取走打印资料，拨打留存电话也无人回应，故联系天理大学询问情况。天理大学意识到事情的严重性，于五月三十日来函询问林学智的行踪。在得到否定答案后，博物研究院与天理大学立刻报警，两国协商并组成调研队追查林学智的下落。&lt;/p&gt;
@@ -70,9 +663,348 @@
 &lt;p&gt;“这些还是无法解释鹿神歌之谜。”我叹了口气，“目前的线索都断了。院里告诉我，调研队没有找到任何与林铭、陈备、陈念升有关的信息。至于《清宁见闻志》，图书馆的工作人员只能确定这本书很早就存放在古籍库，但相关信息一概不知。”&lt;/p&gt;
 &lt;p&gt;“那我们岂不是无路可走了。”柳风皱了皱眉。&lt;/p&gt;
 &lt;p&gt;“还有最后一条路。”我抬头望向书房，做出了那个疯狂的决定。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第三版稿 修订于2023-05-24&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第三章-诡异的鹦鹉&#34;&gt;第三章 诡异的鹦鹉
-&lt;/h3&gt;&lt;p&gt;1916年1月3日，青莲城铁路列车站。寒风凛凛，落叶萧瑟。街上行人步履匆匆，难见笑颜。此时正处于和国占领期间，铁路列车站亦由和国殖民政府统筹修建，目前已初具规模，已经在清宁省内以及较远的萍林省通行。&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第三版稿 修订于2023-05-24
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-03-诡异的鹦鹉&#34;&gt;Chapter 03 诡异的鹦鹉
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 03 诡异的鹦鹉&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2545 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ 这只鹦鹉通体呈现银灰色，腹部羽色较淡，应该是非洲灰鹦鹉。非洲灰鹦鹉的智力较高，在古罗马被视作贵族的象征。只见这只灰鹦鹉目光炯炯，虹膜红黄色相间，看见我们一行人走来，还扑腾扑腾翅膀，神采奕奕，仿若人类。 ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;1916年1月3日，青莲城铁路列车站。寒风凛凛，落叶萧瑟。街上行人步履匆匆，难见笑颜。此时正处于和国占领期间，铁路列车站亦由和国殖民政府统筹修建，目前已初具规模，已经在清宁省内以及较远的萍林省通行。&lt;/p&gt;
 &lt;p&gt;我抖了抖披肩的落叶，叹了口气，转头看向柳风，只见他还在逗着咕咕，一副乐天派的模样。&lt;/p&gt;
 &lt;p&gt;经过一系列的整备，我准备在二零二七年七月三日进行时空回溯。其过程并不繁琐，根据说明，我只需要在特制纸张上写有回溯的时间地点，而后将其点燃，一分钟后便会产生时空隧道。在忐忑不安又激动的氛围里，我和柳风亲眼见证了一道古朴大门凭空出现，而后将我们席卷其中——因此咕咕也穿越了。&lt;/p&gt;
 &lt;p&gt;虽然没有发生意外情况，但我仍然不敢放松警惕。1916年处于华国的民国时期，此时军阀当道，民不聊生，稍不注意便会横出事端。&lt;/p&gt;
@@ -131,9 +1063,348 @@
 &lt;p&gt;待我们一行人离去后，老者旁边的灰鹦鹉沉声道，“江升，你没有多少时间可活了。”&lt;/p&gt;
 &lt;p&gt;“那个男的是变数。”被称为江升的老者再也压制不住，吐出一口鲜血，“他不属于这个世界，破局人或许就是他。”&lt;/p&gt;
 &lt;p&gt;“为了这个可能，你替他死了一次。”灰鹦鹉喃喃道，“希望如此吧。”&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第三版稿 修订于2023-08-17&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第四章-和美饭店&#34;&gt;第四章 和美饭店
-&lt;/h3&gt;&lt;p&gt;“羽哥，你怎么这就走了。”柳风跟在我身后，“那只鹦鹉说得不清不楚，还没弄明白呢。”&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第三版稿 修订于2023-08-17
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-04-和美饭店&#34;&gt;Chapter 04 和美饭店
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 04 和美饭店&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2264 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ 三层至六层分别为“兴”、“旺”、“和”、“美”四种客房，各层因品级不同而别有洞天。例如三层“兴”字号楼层仅有棋牌室，而四层“旺”字号楼层在此基础上还配有咖啡厅。第七层是饭店工作人员的专用楼层，不知道其具体情况。 ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;“羽哥，你怎么这就走了。”柳风跟在我身后，“那只鹦鹉说得不清不楚，还没弄明白呢。”&lt;/p&gt;
 &lt;p&gt;“先找个地方住下吧。”我摆摆手，叹了口气，“那老板和鹦鹉怕是付出了沉重代价。”&lt;/p&gt;
 &lt;p&gt;“原来如此。”柳风点点头，心有余悸，“那只鹦鹉的模样太恐怖了。”&lt;/p&gt;
 &lt;p&gt;此时我轻皱眉头，我清楚地记得，他回溯时空来到青莲市的时间是1月3日下午四点，当时行人虽然不多，但还算热闹。如今已是六点，但街上鲜有行人，就连小摊贩也寻找不见。&lt;/p&gt;
@@ -172,17 +1443,354 @@
 &lt;p&gt;“感谢客人，感谢客人。”翠翠直接跪下，想要磕头，柳风赶忙拉住她。&lt;/p&gt;
 &lt;p&gt;“切记，不要告诉别人，我们的信息。”我安抚翠翠的情绪，“你有困难就找我们，我们会帮你。”&lt;/p&gt;
 &lt;p&gt;待翠翠离开，我的情绪愈发沉重，只觉庞大的乌云遮住我的视线，难以看清前路方向。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第三版稿 修订于2023-09-02&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第五章-守灵人&#34;&gt;第五章 守灵人
-&lt;/h3&gt;&lt;p&gt;夜已深，青莲城沿溪二街的一座小院落，里面坐落着一间低矮的平房。&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第三版稿 修订于2023-09-02
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-05-守灵人&#34;&gt;Chapter 05 守灵人
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 05 守灵人&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2526 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ “He-Rui-Sa……He-Rui-Sa。”阴影低吟道，它的声音极为尖锐，宛如地狱，像是汇聚了这世间一切的嘈杂以及罪恶。老汉的脖颈直接被利爪撕碎，怀里的葫芦跌落在地，只留一道清旷的声响。 ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;夜已深，青莲城沿溪二街的一座小院落，里面坐落着一间低矮的平房。&lt;/p&gt;
 &lt;p&gt;房间充满着阴暗和宁静，四周弥漫着深邃无比的黑暗，仿佛吸收了所有光彩。房间里的物品与家具仿佛被黑暗吞噬，甚至无法感知到它们的存在。&lt;/p&gt;
 &lt;p&gt;被称为江升的算命摊老者坐在房间的正中心，双目紧闭，喃喃低语：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“He-Rui-Sa，传奇拥有神力，异于众。&lt;br&gt;
-He-Rui-Sa，独身越过荒野，照亮途。&lt;br&gt;
-He-Rui-Sa，割去青色长发，证奇妙。&lt;br&gt;
-He-Rui-Sa，双手解锁缰绳，沐风霜。”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;He-Rui-Sa，传奇拥有神力，异于众。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;He-Rui-Sa，独身越过荒野，照亮途。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;He-Rui-Sa，割去青色长发，证奇妙。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;He-Rui-Sa，双手解锁缰绳，沐风霜。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;当老者念完“沐风霜”三字时，有一道月光仿佛突破窗户原有的阻隔，直透房间。光晕轻轻地柔和地洒落在地板上。月光缓缓挪动，仿佛在墙上欢呼跳跃，如一层轻纱舞动，散出淡淡光芒。&lt;/p&gt;
 &lt;p&gt;老者缓缓站起，睁开眼睛，静静地看着窗外，“我还能活一年时间。”老者十分淡然，像是已经看透了死亡。&lt;/p&gt;
 &lt;p&gt;“He-Rui-Sa无所不知。”墙壁逐渐显现出一只鹦鹉的身形，而后鹦鹉展开羽翼，费力地飞到房间窗台，甚至差点摔倒，“但是也无能为力。”&lt;/p&gt;
@@ -201,16 +1809,14 @@ He-Rui-Sa，双手解锁缰绳，沐风霜。”&lt;/p&gt;
 &lt;p&gt;由阴影汇聚的实体缓缓站起，它像是一团黑烟缭绕而成的人形，脸面没有任何人类性质的器官，只存有类似鲶鱼的两只眼睛和一只布满牙齿的鱼嘴。&lt;/p&gt;
 &lt;p&gt;它的眼睛散发出一种阴冷的黑色光芒，毫无规律地转动，似乎在散播这世间的恶意。鱼嘴则以某种特定的规律转动，黑色的鱼齿嘴让人感觉甚是恐怖。&lt;/p&gt;
 &lt;p&gt;阴影缓缓转头，冷冷地注视着眼前的老汉，干硬的嘴巴别扭地露出一个惨惨的微笑。&lt;/p&gt;
-&lt;p&gt;　“He-Rui-Sa……He-Rui-Sa。”阴影低吟道，它的声音极为尖锐，宛如地狱，像是汇聚了这世间一切的嘈杂以及罪恶。老汉的脖颈直接被利爪撕碎，怀里的葫芦跌落在地，只留一道清旷的声响。&lt;/p&gt;
+&lt;p&gt;“He-Rui-Sa……He-Rui-Sa。”阴影低吟道，它的声音极为尖锐，宛如地狱，像是汇聚了这世间一切的嘈杂以及罪恶。老汉的脖颈直接被利爪撕碎，怀里的葫芦跌落在地，只留一道清旷的声响。&lt;/p&gt;
 &lt;p&gt;“来了。”老者话音刚落，原本在街道的阴影如瞬移般出现在房间内，狠辣的血爪扑向老者的心脏。&lt;/p&gt;
 &lt;p&gt;“He-Rui-Sa，护。”老者将鹦鹉搂进怀里，迅速低吟道，“天地凝固，护佑我等。”&lt;/p&gt;
 &lt;p&gt;老者说完后，他的身边出现了淡绿色的光圈，阴影的血爪并没有穿透光圈，反而被震到房外。老者恨恨地看着房外的阴影，“阴魂不散。”&lt;/p&gt;
 &lt;p&gt;“和我一起回去吧，He-Rui-Sa。”&lt;/p&gt;
 &lt;p&gt;“该死的邪道。”老者强压怒火，看了看怀中的鹦鹉。鹦鹉的眼睛紧闭，有血液缓缓流出。原本凌乱的羽翼已然软弱无力，再无生机。老者痛苦地看着鹦鹉，而后像是下定决心一般，以极快的速度吟唱晦涩不明的歌谣：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;He-Rui-Sa，诸邪退。魂魄断，命数绝。&lt;br&gt;
-He-Rui-Sa，高声祈请。以心血，子嗣延绵。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;He-Rui-Sa，诸邪退。魂魄断，命数绝。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;He-Rui-Sa，高声祈请。以心血，子嗣延绵。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;阴影虽听不清老者的歌谣，但亦知不能让老者完成吟唱，故疾冲向前，双爪并挥。但老者语速更快，当吟唱完毕之时，老者竟然在返老还童。&lt;/p&gt;
 &lt;p&gt;他的头发不再苍白，替以洋溢生命气息的黑色。眼睛也不复浑浊模样，散发着神异的光辉。背部也缓缓挺直，身体变得轻盈无比。&lt;/p&gt;
 &lt;p&gt;老者看向前来袭击的阴影，眉头微皱，左手轻柔地抱着鹦鹉，而后慢慢抬起右手。原本静谧的夜空突然传来阵阵微风，老者的右手手臂有节奏地按照逆时针方向环绕，微风不断地收缩与凝聚在手臂周围，并形成强烈的气流，其中闪烁着微微绿光。&lt;/p&gt;
@@ -221,9 +1827,348 @@ He-Rui-Sa，高声祈请。以心血，子嗣延绵。&lt;/p&gt;
 &lt;p&gt;“He-Rui-Sa。”阴影沉声说道，“还残留有如此力量。”&lt;/p&gt;
 &lt;p&gt;说完，阴影即消失不见。&lt;/p&gt;
 &lt;p&gt;第二天，沿溪二街居民的不安与恐慌响彻了整个青莲城。守备队赶到时才发现，负责沿溪二街的打更人已经惨死在街上，脖颈被捏得粉碎。而打更人靠近的那户院落内到处都是鲜血，院内的五口人全部被残忍杀害，如同人间炼狱，在最显眼的门口处，挂着一只田园犬的尸体。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第三版稿 修订于2023-09-02&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第六章-尔灵山&#34;&gt;第六章 尔灵山
-&lt;/h3&gt;&lt;p&gt;夜晚的帷幕缓缓拉开，朱雀街的和美饭店显得十分宁静。在6006房间，一盏茶油灯轻轻摇曳。被后世称为“银行家台灯”的煤油灯在二三十年代才进入华国视野，此时流行的照明工具仍是流传已久的茶油灯。&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第三版稿 修订于2023-09-02
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-06-尔灵山&#34;&gt;Chapter 06 尔灵山
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 06 尔灵山&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2274 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ “尔灵山应该是指二零三高地。”柳风激动道，“当时我去博物馆找资料，在青莲市地方志看到了相关介绍。1904年，雄人与和人在青莲城外的古顺地区展开了激战，古顺地区有一个制高点，叫做二零三高地。后来和人取得了胜利，他们的指挥官在二零三高地建了一座小型纪念塔，还提了首诗，其中提到了尔灵山。” ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;夜晚的帷幕缓缓拉开，朱雀街的和美饭店显得十分宁静。在6006房间，一盏茶油灯轻轻摇曳。被后世称为“银行家台灯”的煤油灯在二三十年代才进入华国视野，此时流行的照明工具仍是流传已久的茶油灯。&lt;/p&gt;
 &lt;p&gt;茶油点灯，较其余油脂更为明亮，且散发出阵阵香味，为古代文人所推崇。故有诗云，“道人结屋云深处，自捣茶油供佛灯。”&lt;/p&gt;
 &lt;p&gt;摇曳的灯火使房间变得朦胧而温馨，传递出一种古朴而优雅的氛围。投射在墙上的灯光勾勒出深邃的影子，颇具神秘感。柳羽与柳风对坐于床榻，其上有一茶几，各置一杯清茶，从阳台传来阵阵微风，香气四溢，别有意境。&lt;/p&gt;
 &lt;p&gt;“风，你有什么发现吗？”我无意识地用手指轻轻敲打桌沿，目光聚焦于茶几散放的几张纸张与一个小型录音笔。倘若仔细查阅，会发现纸张所录的文字为算命摊老板的言语，旁边还用小字标注老板的行为。&lt;/p&gt;
@@ -259,9 +2204,348 @@ He-Rui-Sa，高声祈请。以心血，子嗣延绵。&lt;/p&gt;
 &lt;p&gt;“它出现了！它出现了！”咕咕的叫声极为凄厉。&lt;/p&gt;
 &lt;p&gt;“谁出现了！”我被吓了一跳，“一只猫竟然会说话！”&lt;/p&gt;
 &lt;p&gt;“邪鱼，Cen-Ji-Ni！”&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第三版稿 修订于2023-10-09&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第七章-和国邪鱼&#34;&gt;第七章 和国邪鱼
-&lt;/h3&gt;&lt;p&gt;经过我与柳风的慰藉，咕咕终于稳定了情绪，但还是一脸忌惮。&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第三版稿 修订于2023-10-09
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-07-和国邪鱼&#34;&gt;Chapter 07 和国邪鱼
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 07 和国邪鱼&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2207 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ 在1854～1855年间，江户城发生有上百次不同程度的地震晃动。在1855年11月，一场剧烈的地震来袭，使江户城笼罩在黑暗之中，有上万人因此受伤与死亡。而咕咕正是因此，才莫名开启神智，看见那折磨它长达百年的梦魇——Cen-Ji-Ni。 ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;经过我与柳风的慰藉，咕咕终于稳定了情绪，但还是一脸忌惮。&lt;/p&gt;
 &lt;p&gt;“咕咕，别害怕，有我在。”柳风扬了扬手臂。咕咕无奈地摇摇头，眼前不算粗壮甚至有些孱弱的手臂并不能给予它安全感，不过紧张的气氛亦随之冲淡，不似刚才那般恐慌。&lt;/p&gt;
 &lt;p&gt;“咕咕，你怎么会说话，以及你刚才大喊的邪鱼Cen-Ji-Ni是什么？”我温柔地抚摸着咕咕毛茸茸的大头，咕咕强稳心神，沉默了一会儿，深深地叹了口气，而后讲述了那段不堪回忆的岁月。&lt;/p&gt;
 &lt;p&gt;咕咕自称“道行深厚的千年猫妖”，纯属给自己贴金，然而它确实存活了很久，概有两百年。据咕咕回忆，它最初是和国江户城一只好吃懒做的大橘猫，被城里一户较为富裕的商家抚养，生活颇为惬意。&lt;/p&gt;
@@ -288,9 +2572,348 @@ He-Rui-Sa，高声祈请。以心血，子嗣延绵。&lt;/p&gt;
 &lt;p&gt;在鱼儿欢呼“Cen-Ji-Ni”的声音中，咕咕再次陷入了虚无。不知过了多久，它看到面前有光，透着光，它看到深山之中有一间小屋。里面有一些穿着黑色长袍，戴着鲶鱼面具的人类。他们跪拜在一幅鲶绘画像面前，虔诚地说着令人不快的咒语。&lt;/p&gt;
 &lt;p&gt;那只鲶绘所描绘的场景，与咕咕所看见的极为相似。在一片深远的黑色海洋，中央有着一只巨大的鲶鱼怪兽，那只怪兽敞开血盆大口，里面跳跃着无数只黑色的鱼儿，它们的身体缠绕着血红线条。&lt;/p&gt;
 &lt;p&gt;就在此时，那些鲶鱼面具的人类仿佛感知到咕咕的存在，不约而同地转过身来。他们的声音沙哑，传达出令人难以忍受的恶意，“Cen-Ji-Ni。”&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第三版稿 修订于2023-10-09&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第八章-呼唤神之名&#34;&gt;第八章 呼唤神之名
-&lt;/h3&gt;&lt;p&gt;咕咕说到此处时，身体止不住地战栗。柳风将咕咕抱进怀里，不再多言。过了一会儿，咕咕调节好内心的情绪，轻声道，“我清楚地记得，那些人类朝我慢慢走来，边走边喊Cen-Ji-Ni。当时我极为害怕，却不知如何脱身。”&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第三版稿 修订于2023-10-09
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-08-呼唤神之名&#34;&gt;Chapter 08 呼唤神之名
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 08 呼唤神之名&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2300 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ “有人，在呼喊神之名。” ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;咕咕说到此处时，身体止不住地战栗。柳风将咕咕抱进怀里，不再多言。过了一会儿，咕咕调节好内心的情绪，轻声道，“我清楚地记得，那些人类朝我慢慢走来，边走边喊Cen-Ji-Ni。当时我极为害怕，却不知如何脱身。”&lt;/p&gt;
 &lt;p&gt;“幸运的是，当时我直接被吓晕了，我不知道后面发生了什么。”咕咕难得露出一丝笑容，即使其中包含了太多苦涩，“我醒来时，发现自己还在那片树林里。我赶忙跑回家，发现江户城已经尸横遍野——地震来了。”&lt;/p&gt;
 &lt;p&gt;“我的主人也死了，包括我最喜欢的小主人，纱雾。”咕咕的思绪似乎飘向远方，以及那遥远的过去。它还记得纱雾在烟火大会时穿着抚子色的浴衣，洋溢着青春的气息。纱雾抱着咕咕，共同望向远方的烟火，那恬静的笑容至今还刻在它的灵魂深处。&lt;/p&gt;
 &lt;p&gt;烟火大会起源于1733年在隅田川举行的水神节。当时关西、江户地区流行饥荒与瘟疫，为了慰藉死者与祛除疫病，人们在水神节放起烟花，后来逐渐独立，成为夏季的标志性活动。&lt;/p&gt;
@@ -324,9 +2947,348 @@ He-Rui-Sa，高声祈请。以心血，子嗣延绵。&lt;/p&gt;
 &lt;p&gt;柳羽说完，房间内陷入了沉默。柳风抱着咕咕，不知在想些什么。柳羽则是转过身，静静地看着窗外。&lt;/p&gt;
 &lt;p&gt;然而他们并不知晓，在青莲城外的一座和人驻军区域，其中有一座小院，内有一群身着黑色长袍、戴着鱼脸面具的人们正在集会。其中一位黑袍人或是首领，其长袍左上角佩戴有一枚黑色圆纹的徽章，他仿佛听到了柳羽等人的对话，眼睛穿破时空阻隔，怔怔地注视着朱雀街和美饭店的方向。&lt;/p&gt;
 &lt;p&gt;“有人，在呼喊神之名。”&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第二版稿 修订于2023-04-25&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第九章-沿溪惨案&#34;&gt;第九章 沿溪惨案
-&lt;/h3&gt;&lt;p&gt;1916年1月4日九点，即柳羽等人来到青莲城的第二天。旭日初升，为这寒冷的冬日带来些许温暖。然而不见平日清晨熙熙攘攘的热闹氛围，街道上十分冷清，鲜有人迹。&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第二版稿 修订于2023-04-25
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;chapter-09-沿溪惨案&#34;&gt;Chapter 09 沿溪惨案
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+&lt;article class=&#34;novel-container&#34;&gt;
+    
+    &lt;header class=&#34;novel-header&#34;&gt;
+        
+            &lt;div class=&#34;novel-volume&#34;&gt;Volume 01 青莲旧事&lt;/div&gt;
+        
+
+        
+            &lt;span class=&#34;novel-chapter-num&#34;&gt;Chapter 09 沿溪惨案&lt;/span&gt;
+        
+
+        &lt;h1 class=&#34;novel-title&#34;&gt;&lt;/h1&gt;
+        
+        &lt;div class=&#34;novel-meta&#34;&gt;
+            
+                &lt;span class=&#34;novel-meta-item location&#34;&gt;
+                    &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;10&#34; r=&#34;3&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
+                    中国，河北，保定
+                &lt;/span&gt;
+            
+            &lt;span class=&#34;novel-meta-item wordcount&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;14 2 14 8 20 8&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;16&#34; y1=&#34;13&#34; x2=&#34;8&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;17&#34; x2=&#34;8&#34; y2=&#34;17&#34;&gt;&lt;/line&gt;&lt;polyline points=&#34;10 9 9 9 8 9&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+                本章约 2285 字
+            &lt;/span&gt;
+        &lt;/div&gt;
+
+        
+            &lt;div class=&#34;novel-summary&#34;&gt;
+                “ “鱼眼，鱼嘴。”柳风轻轻念道，声音逐渐忐忑，“那条邪鱼真的在华国，甚至就在青莲城。” ”
+            &lt;/div&gt;
+        
+    &lt;/header&gt;
+
+    
+    &lt;div class=&#34;novel-content&#34;&gt;
+        
+        &lt;p&gt;1916年1月4日九点，即柳羽等人来到青莲城的第二天。旭日初升，为这寒冷的冬日带来些许温暖。然而不见平日清晨熙熙攘攘的热闹氛围，街道上十分冷清，鲜有人迹。&lt;/p&gt;
 &lt;p&gt;柳羽等人因挑灯夜谈，颇为疲倦，起得较晚。当他们前往酒店一层餐厅用餐时，此时已没几位客人。最为显眼的是边缘的几位客人，作商旅打扮，他们面露难色，似乎在争论什么，其中一位客人指着桌上的报纸，大喊道，“都死人了，你还敢出去，不要命了！”&lt;/p&gt;
 &lt;p&gt;那位客人的言论引起了柳羽兴趣，柳羽上前打扰，询问发生了什么事情。那客人看了看柳羽，长叹一声，将桌上的报纸递给柳羽。&lt;/p&gt;
 &lt;p&gt;柳羽道声谢，发现柳风和咕咕已经择好位置，向服务员点菜。柳羽边走边看，但报纸的内容令他大吃一惊。&lt;/p&gt;
@@ -358,7 +3320,270 @@ He-Rui-Sa，高声祈请。以心血，子嗣延绵。&lt;/p&gt;
 &lt;p&gt;说完，柳羽将发抖的咕咕抱进怀里，沉声道，“我们目前仅知道那只邪鱼来自和国，除此什么都不知道。但是报纸提到了昨天的算命摊老板和那只鹦鹉，或许这就是我们的突破口。”&lt;/p&gt;
 &lt;p&gt;“羽哥，我明白了。”柳风并非莽撞的人，逐渐恢复了理性。&lt;/p&gt;
 &lt;p&gt;“先好好吃饭，然后去沿溪二街调查情况。”柳羽指了指报纸，“这个叫二珍的作家，或许会告诉我们一些重要消息。”&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;第二版稿 修订于2023-04-26&lt;/code&gt;&lt;/p&gt;
+
+        
+        &lt;div class=&#34;novel-end-mark&#34;&gt;
+            &lt;span&gt;§&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    
+    &lt;div class=&#34;novel-author-note&#34;&gt;
+        &lt;div class=&#34;note-label&#34;&gt;作者后言&lt;/div&gt;
+        &lt;div class=&#34;note-content&#34;&gt;
+            第二版稿 修订于2023-04-26
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/article&gt;
+
+&lt;style&gt;
+    @import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap&#39;);
+
+    .novel-container {
+         
+        --nv-bg-paper: #fdfbf7; 
+        --nv-ink-primary: #2c2c2c;
+        --nv-ink-secondary: #555555;
+        --nv-ink-tertiary: #999999;
+        
+        --nv-accent: #8b4513;  
+        
+        --nv-border: rgba(0,0,0,0.02);
+        --nv-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        --nv-divider: rgba(0,0,0,0.05);
+        
+        --nv-bg-summary: rgba(0,0,0,0.02);
+        --nv-bg-note: rgba(0,0,0,0.03);
+
+        position: relative;
+        background-color: var(--nv-bg-paper);
+        color: var(--nv-ink-primary);
+        padding: 60px 8%;
+        margin: 2rem 0;
+        box-shadow: var(--nv-shadow), 0 0 0 1px var(--nv-border);
+        border-radius: 4px;
+        font-family: &#39;Noto Serif SC&#39;, &#39;Songti SC&#39;, &#39;SimSun&#39;, serif; 
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-container {
+            --nv-bg-paper: #1c1b1a;  
+            --nv-ink-primary: #cfc8c0;  
+            --nv-ink-secondary: #a8a095;
+            --nv-ink-tertiary: #666055;
+            
+            --nv-accent: #cdb4db;  
+            
+            --nv-border: #33302e;
+            --nv-shadow: none;
+            --nv-divider: #33302e;
+            
+            --nv-bg-summary: rgba(255,255,255,0.05);
+            --nv-bg-note: #252423;
+        }
+    }
+
+    html[data-scheme=&#34;dark&#34;] .novel-container {
+        --nv-bg-paper: #1c1b1a;
+        --nv-ink-primary: #cfc8c0;
+        --nv-ink-secondary: #a8a095;
+        --nv-ink-tertiary: #666055;
+        
+        --nv-accent: #cdb4db;
+        
+        --nv-border: #33302e;
+        --nv-shadow: none;
+        --nv-divider: #33302e;
+        
+        --nv-bg-summary: rgba(255,255,255,0.05);
+        --nv-bg-note: #252423;
+    }
+    
+     
+    html[data-scheme=&#34;dark&#34;] .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .novel-content img { opacity: 0.85; filter: contrast(0.9); }
+    }
+
+
+     
+    .novel-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--nv-divider);
+        padding-bottom: 2rem;
+        transition: border-color 0.3s;
+    }
+    .novel-volume {
+        display: block;
+        font-family: inherit;
+        font-size: 1.3rem;
+        color: var(--nv-ink-tertiary);
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+    .novel-chapter-num {
+        display: block;
+        font-family: inherit; 
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--nv-ink-secondary);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s;
+    }
+    .novel-title {
+        font-size: 2.2rem;
+        margin: 0.5rem 0 1.5rem 0 !important;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--nv-ink-primary);
+        transition: color 0.3s;
+    }
+
+    .novel-meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.2rem;
+        color: var(--nv-ink-secondary);
+        font-family: inherit; 
+        opacity: 0.8;
+        transition: color 0.3s;
+    }
+    .novel-meta-item { display: flex; align-items: center; gap: 6px; }
+    .novel-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    .novel-summary {
+        margin-top: 25px;
+        font-style: italic;
+        color: var(--nv-ink-secondary);
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background: var(--nv-bg-summary);
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+     
+    .novel-content {
+        font-size: 16px; 
+        line-height: 1.8;
+        text-align: justify; 
+        color: var(--nv-ink-primary);  
+        transition: color 0.3s;
+    }
+
+    .novel-content p {
+        text-indent: 2em; 
+        margin-bottom: 1.2rem;
+    }
+
+     
+     
+    .novel-content p:has(img) {
+        text-indent: 0 !important;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     
+    .novel-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0,0.05); 
+        transition: opacity 0.3s, filter 0.3s;
+    }
+
+    .novel-content figure {
+        margin: 2rem 0;
+        text-align: center;
+        text-indent: 0 !important;
+        width: 100%;
+    }
+    
+    .novel-content figcaption {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: var(--nv-ink-secondary);
+        margin-top: 0.8em;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-content &gt; p:first-of-type:not(:has(img))::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.8;
+        margin-right: 0.1em;
+        margin-top: -0.1em;
+        color: var(--nv-accent);
+        font-family: &#39;Times New Roman&#39;, serif;
+        transition: color 0.3s;
+    }
+    .novel-content &gt; p:first-of-type {
+        text-indent: 0;
+    }
+
+    .novel-end-mark {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        color: var(--nv-ink-tertiary);
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+     
+    .novel-author-note {
+        background: var(--nv-bg-note);
+        padding: 20px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--nv-ink-secondary);
+        margin-top: 3rem;
+        border-left: 4px solid var(--nv-accent);
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .note-label {
+        font-weight: bold;
+        font-size: 1rem;
+        color: var(--nv-accent);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s;
+    }
+    .note-content p {
+        text-indent: 0; 
+        margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+        .novel-container { padding: 30px 15px; }
+        .novel-title { font-size: 1.4rem; }
+        .novel-content { 
+            font-size: 18px; 
+            text-align: left; 
+        } 
+    }
+&lt;/style&gt;
 </description>
         </item>
         
