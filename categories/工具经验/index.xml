@@ -274,7 +274,7 @@
 &lt;p&gt;可迁移性（Transferability）： 数据必须是通用的格式（Markdown、PDF、纯文本等）。&lt;/p&gt;
 &lt;p&gt;虽然核心论据未变，但随着技术的迭代（尤其是 Docker 容器化技术的普及和本地 AI 模型的轻量化），我所利用的软件还是有所变化。&lt;/p&gt;
 &lt;p&gt;因此，我想借这篇文章，以一个在读硕士研究生 / 文字工作者的视角，剥离掉协作功能（如 n8n 自动化流、团队协作 IDE 等），单纯地谈谈：一个人，一台电脑，如何构建一个不依赖外界、坚不可摧的「数字作坊」。从某种角度来说，我的「本地工作流」更像是一个纯粹的个人文字工作者如何安排、布置自己的「全天工作」。&lt;/p&gt;
-&lt;h2 id=&#34;一-办公工作流&#34;&gt;一 办公工作流
+&lt;h2 id=&#34;办公工作流&#34;&gt;办公工作流
 &lt;/h2&gt;&lt;p&gt;在我的数字版图中，「办公」并非指在公司上班，而是指维持我个人数字生活正常运转的基础设施，这包括了网页浏览、数据存储、云盘软件等。虽然我的软件不少，但大多数都不会打开。真正作为「入口」和「中枢」的，依然是那些具有强大的「集聚」效应的工具。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/20260107-Picture01.jpg&#34;
 	width=&#34;2640&#34;
@@ -307,17 +307,7 @@
 &lt;p&gt;在图1和图2中展示的众多软件里，Devonthink是绝对的核心。它是一个本地文件管理器，Devonthink原本支持OCR，我可以将各种文件放进去，尤其是在处理大量非结构化数据（如古籍扫描件、学术论文PDF、网页存档）时，它会将其OCR，我可以搜索所有文件及其文本。这种无需联网的本地化智能，保障了研究的隐私性与连贯性。See Also、Graph等功能则为文件、文本之间的联系进行了更为直观地展示。&lt;/p&gt;
 &lt;p&gt;我的浏览器软件很多，但是主力是Arc浏览器，Chrome、Edge、Safari等主要是以备不时之需。Arc浏览器的工作区（Spaces）功能，让我感觉很舒服。我可以建立学术、日常、娱乐等不同的工作区，让我能够更加专注于特定事物。&lt;/p&gt;
 &lt;p&gt;我原来的主力是Chrome，因为其中有许多书签，我一直没有找到很好的替代品。Arc并不太能够支持大量书签的处理，这使我陷入了进退维谷的境地。后来我发现&lt;a class=&#34;link&#34; href=&#34;https://github.com/helloxz/onenav&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;OneNav&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
-项目，通过用Docker搭建OneNav，然后将所有书签都导入进去，构建了一个独立的、标准化的导航索引库，将书签数据从浏览器端剥离。不论我使用何种浏览器，都可以应用这套导航索引库。分门别类，十分方便。&lt;/p&gt;
+    &gt;OneNav&lt;/a&gt;项目，通过用Docker搭建OneNav，然后将所有书签都导入进去，构建了一个独立的、标准化的导航索引库，将书签数据从浏览器端剥离。不论我使用何种浏览器，都可以应用这套导航索引库。分门别类，十分方便。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/20260107-Picture03.jpg&#34;
 	width=&#34;2604&#34;
 	height=&#34;1728&#34;
@@ -377,7 +367,7 @@
 		data-flex-basis=&#34;360px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;二-信息工作流&#34;&gt;二 信息工作流
+&lt;h2 id=&#34;信息工作流&#34;&gt;信息工作流
 &lt;/h2&gt;&lt;p&gt;第二个工作流是信息工作流。过去的一年，我经常推荐Follow（Folo）这款软件，认为它是目前最适合RSS阅读的软件。但是在2025年10月左右，Folo开始收费。&lt;/p&gt;
 &lt;p&gt;其实我很理解软件收费，也愿意付费，然而Folo较为高昂的订阅制收费确实令我望而却步。结合Folo那时候的更新并不符合我的审美取向，对原来签到虚拟币的弃置等诸多原因，我还是放弃使用Folo，转而继续使用Reeder，并且自行搭建Rsshub。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/20260107-Picture07.jpg&#34;
@@ -410,17 +400,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;从BiLi、Youtube等视频网站，再到电报、豆瓣、X等平台资讯，以及学术方面的CNKI期刊等，搭建Rsshub的Reeder都能够支持。虽然没有AI翻译等功能，但是已经能够满足我的需要。&lt;/p&gt;
 &lt;p&gt;除Reeder，我还搭建了&lt;a class=&#34;link&#34; href=&#34;https://github.com/ourongxing/newsnow&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;newsnow&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
-作为重要的新闻资讯来源。newsnow是Github上的开源项目，很方便就可以用Docker进行本地搭建。该软件能够以高密度的文本看板形式呈现全球资讯，很方便我在碎片化时间进行快速浏览，&lt;/p&gt;
+    &gt;newsnow&lt;/a&gt;作为重要的新闻资讯来源。newsnow是Github上的开源项目，很方便就可以用Docker进行本地搭建。该软件能够以高密度的文本看板形式呈现全球资讯，很方便我在碎片化时间进行快速浏览，&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/20260107-Picture09.jpg&#34;
 	width=&#34;2566&#34;
 	height=&#34;1724&#34;
@@ -436,7 +416,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;关于信息的收纳与整理，我个人的见解是：除非必要，否则不用在意，注意断舍离。之前我还经常将所看到的、颇为重要的信息以PDF形式进行保存。随着时间的流逝，我发现这毫无意义。有些朋友认为可以用AI工具辅助信息的收纳与整理，确实如此，但关键处在于要收纳与整理「重要信息」，而非全盘吸收，否则会被大量的信息「摧残」，进而不堪其扰，陷入摆烂状态。对此，其实我个人的观点是：对于重要信息（学业、职业、商业等各种相关），专门建立相应的笔记文件夹，并且要写日记，记录自己的感受感想。以此为基础，可以利用AI大模型等进行处理，建构个人的知识库。除此，其余信息均无记录必要。&lt;/p&gt;
-&lt;h2 id=&#34;三-生产工作流&#34;&gt;三 生产工作流
+&lt;h2 id=&#34;生产工作流&#34;&gt;生产工作流
 &lt;/h2&gt;&lt;p&gt;之后是涉及到阅读、创作、研究等流程的生产工作流。Anytype这一软件我曾撰写专文进行介绍，它主要用来记录我所投稿的期刊，里面记录着期刊的各种信息，辅助我进行投稿等。不同于传统笔记软件的文档逻辑，Anytype允许用户自定义「对象类型」。例如我创建了「期刊」模板，里面包含影响因子、期刊级别、审稿周期等各种类型。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/20260107-Picture10.jpg&#34;
 	width=&#34;2642&#34;
@@ -492,17 +472,7 @@
 &lt;/h2&gt;&lt;p&gt;综上所述，我认为这套通过剥离非必要的云端协作依赖，坚持以「本地化、稳定性、可迁移性」为核心锚点的工作流，是我反复尝试过后的「当下最优解」。&lt;/p&gt;
 &lt;p&gt;无论是用Docker搭建OneNav、RSSHub、newsnow等项目，还是使用Thunderbird、Tropy等开源软件，其目的都在于一个纯粹的目标：在一个AI技术、云服务大肆发展的数字世界中，每个人都有必要开辟出一块完全属于自己的、利于深度思考与知识生产的自治领地。 这便是对生产力祛魅的最深刻实践。&lt;/p&gt;
 &lt;p&gt;Thank &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/person-writing-on-white-paper-wcMysLw5ROM?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Cover of this article by Eugene Chystiakov&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
-&lt;/p&gt;
+    &gt;Cover of this article by Eugene Chystiakov&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -791,6 +761,8 @@
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-0&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -811,13 +783,12 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        &lt;ul&gt;
-&lt;li&gt;如果某本刊物评价较好，那么就将其加入个人的「期刊备选库」。&lt;/li&gt;
-&lt;li&gt;所谓「期刊备选库」是我专门创建收录评价较好或个人投稿过，体验不错期刊的数据库，里面会列有这本刊物的各种要求，以及我个人所做的分析等。我很建议每位研究生都要创建符合自己的「期刊备选库」，这对以后的研究生活很有帮助。&lt;/li&gt;
-&lt;li&gt;当我们就某篇论文搜集好相关的期刊后，就可以在中国知网等网站查询刊物的具体情况，例如栏目设置、刊发论文的页数情况（确定版面、字数等），尤其是查看近两年是否刊发有相关类型或选题的文章，从而选择一个最符合条件与要求的期刊进行投稿。&lt;/li&gt;
-&lt;li&gt;当我们初步建立好个人的「期刊备选库」后，朋友们会发现投稿是一件很简单的事情，当我们需要投稿时，就在备选库内寻找符合论文定位的刊物进行投稿，就不用再「大海捞针」。&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;p&gt;如果某本刊物评价较好，那么就将其加入个人的「期刊备选库」。&lt;/p&gt;
+&lt;p&gt;所谓「期刊备选库」是我专门创建收录评价较好或个人投稿过，体验不错期刊的数据库，里面会列有这本刊物的各种要求，以及我个人所做的分析等。我很建议每位研究生都要创建符合自己的「期刊备选库」，这对以后的研究生活很有帮助。&lt;/p&gt;
+&lt;p&gt;当我们就某篇论文搜集好相关的期刊后，就可以在中国知网等网站查询刊物的具体情况，例如栏目设置、刊发论文的页数情况（确定版面、字数等），尤其是查看近两年是否刊发有相关类型或选题的文章，从而选择一个最符合条件与要求的期刊进行投稿。&lt;/p&gt;
+&lt;p&gt;当我们初步建立好个人的「期刊备选库」后，朋友们会发现投稿是一件很简单的事情，当我们需要投稿时，就在备选库内寻找符合论文定位的刊物进行投稿，就不用再「大海捞针」。&lt;/p&gt;
 
     &lt;/div&gt;
 
@@ -935,7 +906,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -1006,10 +977,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -1090,7 +1075,6 @@
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -1448,17 +1432,7 @@
 &lt;p&gt;就国内美术专业类院校，很少有老师会讲述这些内容，而这些内容属于西方较为前沿的研究视角，对开拓美术视野具有重要用途。因此，我认为研一期间应该广泛涉猎相关研究，寻找自己感兴趣并具有价值的独特选题，这对后面创作论文具有重要作用。&lt;/p&gt;
 &lt;p&gt;关于开拓视野的途径，我建议多去浏览艺术类、文化类网站的资讯。这里我比较推荐如下网站：&lt;/p&gt;
 &lt;p&gt;（1）&lt;a class=&#34;link&#34; href=&#34;https://artouch.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;「典藏ARTouch」&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
- 《典藏ARTouch》由具20余年艺术媒体资历的“典藏艺术家庭”创设，整合艺文报导、艺术产业资讯、深度评论、线上展厅、podcast及影音频道，提供专业且多元的艺术文化内容。&lt;/p&gt;
+    &gt;「典藏ARTouch」&lt;/a&gt; 《典藏ARTouch》由具20余年艺术媒体资历的“典藏艺术家庭”创设，整合艺文报导、艺术产业资讯、深度评论、线上展厅、podcast及影音频道，提供专业且多元的艺术文化内容。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/20240303-Picture02.jpg&#34;
 	width=&#34;2496&#34;
 	height=&#34;1582&#34;
@@ -1474,17 +1448,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;（2）&lt;a class=&#34;link&#34; href=&#34;https://www.4columns.org/about&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;「4Columns」&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
- 4Columns是一个针对普通观众的艺术评论网站。从字面上看，它的标题指的是你每周都会在那里找到的内容：四个新专栏，每个专栏都有独特的声音和观点。它们共同提供了从电影到文学，从戏剧到视觉艺术的当代文化的复杂而引人入胜的视角。&lt;/p&gt;
+    &gt;「4Columns」&lt;/a&gt; 4Columns是一个针对普通观众的艺术评论网站。从字面上看，它的标题指的是你每周都会在那里找到的内容：四个新专栏，每个专栏都有独特的声音和观点。它们共同提供了从电影到文学，从戏剧到视觉艺术的当代文化的复杂而引人入胜的视角。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/20240303-Picture03.jpg&#34;
 	width=&#34;2510&#34;
 	height=&#34;1568&#34;
@@ -1500,17 +1464,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;（3）&lt;a class=&#34;link&#34; href=&#34;http://www.leapleapleap.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;「艺术界 LEAP」&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
- LEAP关注中国当代艺术以及更为广泛的文化议题，同时将艺术批评与文化研究的语境与国际艺术圈和学术领域相链接，打开话语维度。&lt;/p&gt;
+    &gt;「艺术界 LEAP」&lt;/a&gt; LEAP关注中国当代艺术以及更为广泛的文化议题，同时将艺术批评与文化研究的语境与国际艺术圈和学术领域相链接，打开话语维度。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/20240303-Picture04.jpg&#34;
 	width=&#34;2474&#34;
 	height=&#34;1556&#34;
@@ -1526,17 +1480,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;（4）&lt;a class=&#34;link&#34; href=&#34;https://www.quantamagazine.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;「Quanta Magazine」&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
- 通过公益新闻报道，阐明数学、物理、生物和计算机科学研究。&lt;/p&gt;
+    &gt;「Quanta Magazine」&lt;/a&gt; 通过公益新闻报道，阐明数学、物理、生物和计算机科学研究。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/20240303-Picture05.jpg&#34;
 	width=&#34;2458&#34;
 	height=&#34;1426&#34;
@@ -1556,17 +1500,7 @@
 &lt;p&gt;后来经过与老师交流，与朋友探讨，我发现并非文章质量糟糕，而是我的投稿方法不对。通过探索，我逐渐总结出一套较为稳定的论文投稿流程：&lt;/p&gt;
 &lt;p&gt;（1）论文定位。对于一篇论文，我应该先要有一个基本定位，即这篇论文的整体质量是「普刊」、「核心」还是「顶刊」，最直接的判断标准是「选题的创新程度」。如果有很多学者研究过这一问题，而这篇论文是对以往某一观点的重新思考，那么创新程度不会太高。如果是对以往观点的重要补充，并提出较为重要的学术观点，那么创新程度很高，就需要定位至「核心」、「顶刊」等。同时还要注意字数，大多数刊物不会刊发字数过长的论文，如果字数在2万以上，就要考虑相关专业的集刊或某些「以书代刊」的刊物。&lt;/p&gt;
 &lt;p&gt;（2）期刊定位。当我们对论文进行初步定位，就要在大量刊物内筛选符合论文基本要求的刊物，这里我比较推荐&lt;a class=&#34;link&#34; href=&#34;http://www.eshukan.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;「万维书刊网」&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
-，该网站使用完全免费，收录有包括知网、维普、万方、SCI、SSCI、AHCI等各大数据库的学术期刊，并附有各种信息，还有许多学友在此进行评论。&lt;/p&gt;
+    &gt;「万维书刊网」&lt;/a&gt;，该网站使用完全免费，收录有包括知网、维普、万方、SCI、SSCI、AHCI等各大数据库的学术期刊，并附有各种信息，还有许多学友在此进行评论。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/20240303-Picture06.jpg&#34;
 	width=&#34;1398&#34;
 	height=&#34;926&#34;
@@ -1842,17 +1776,7 @@
 &lt;h2 id=&#34;总结&#34;&gt;总结
 &lt;/h2&gt;&lt;p&gt;Anytype作为一款免费、支持中文的知识管理软件，同时支持本地存储，我认为它是目前最适合进行日常记录的轻量美观软件。在我看来，大多数人不是不愿意进行记录，而是缺乏时间进行记录，认为这是一件繁琐的事情。&lt;/p&gt;
 &lt;p&gt;Anytype这套体系为我们快速记录日常生活的方方面面提供了平台，尤其是 Anytype 推出了&lt;a class=&#34;link&#34; href=&#34;https://gallery.any.coop/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;「ANY Experience Gallery」&lt;/a&gt;
-
-    
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-        fill=&#34;currentColor&#34;&gt;
-&lt;/svg&gt;&lt;/span&gt;
-
-，可以直接在网站下载其他人制作好的模板，其中包括日记、习惯追踪、图书馆、闪卡、会议笔记管理、电影库、旅行计划、学习中心、食谱表等各种模板。虽然我并不提倡「 All in One 」，然而就日常记录方面， Anytype 完全能满足我的全部需求。&lt;/p&gt;
+    &gt;「ANY Experience Gallery」&lt;/a&gt;，可以直接在网站下载其他人制作好的模板，其中包括日记、习惯追踪、图书馆、闪卡、会议笔记管理、电影库、旅行计划、学习中心、食谱表等各种模板。虽然我并不提倡「 All in One 」，然而就日常记录方面， Anytype 完全能满足我的全部需求。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-Picture10.jpg&#34;
 	width=&#34;1268&#34;
 	height=&#34;880&#34;
@@ -7556,6 +7480,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-2&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -7580,10 +7506,12 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        Anytype 虽然初看起来很像 Notion，但是操作逻辑是不同的。他们的核心理念是对象（object）、类型（type）和关系（relation），层级关系是：对象 &amp;lt; 类型 &amp;lt; 关系。&lt;br&gt;
-也就是说，每新建的东西都是一个对象。每个对象都必须赋予一个类型，可以是页面、人、文章、目标、网页标签等等。我们可以新建对象的时候赋予一个类型，也可以在设置中设置默认的对象类型，满足我们快速记录同一种类型的对象。输入内容之后，我们可以为不同的对象建立关联。值得注意的是，对象也可以是视频和文件。&lt;br&gt;
-更聪明的是，我们可以自定义关系（relation）并赋予到任意对象之上，甚至是视频和文件。这样带来的最大的好处便是，我们可以快速地新建 object，减轻了记录内容的负担，也为我们的后续整理提供了便利。每一个 relation（property），不像 Notion 那样固定，不仅可以从 Library 中添加，也可以自定义。
+        &lt;p&gt;Anytype 虽然初看起来很像 Notion，但是操作逻辑是不同的。他们的核心理念是对象（object）、类型（type）和关系（relation），层级关系是：对象 &amp;lt; 类型 &amp;lt; 关系。&lt;/p&gt;
+&lt;p&gt;也就是说，每新建的东西都是一个对象。每个对象都必须赋予一个类型，可以是页面、人、文章、目标、网页标签等等。我们可以新建对象的时候赋予一个类型，也可以在设置中设置默认的对象类型，满足我们快速记录同一种类型的对象。输入内容之后，我们可以为不同的对象建立关联。值得注意的是，对象也可以是视频和文件。&lt;/p&gt;
+&lt;p&gt;更聪明的是，我们可以自定义关系（relation）并赋予到任意对象之上，甚至是视频和文件。这样带来的最大的好处便是，我们可以快速地新建 object，减轻了记录内容的负担，也为我们的后续整理提供了便利。每一个 relation（property），不像 Notion 那样固定，不仅可以从 Library 中添加，也可以自定义。&lt;/p&gt;
+
     &lt;/div&gt;
 
     
@@ -7700,7 +7628,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -7771,10 +7699,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -7855,7 +7797,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -8210,6 +8151,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -8230,13 +8173,12 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        &lt;ul&gt;
-&lt;li&gt;感受着那种心灵圆满无碍的感觉，李杨心神完全和天地融合，五条闪电光柱开始在李杨周围旋转了起来，而后竟然彼此开始融合，渐渐的，颜色开始趋于统一。&lt;/li&gt;
-&lt;li&gt;盘古开天辟地，混沌化五行。然而李杨此刻却是反过来。&lt;/li&gt;
-&lt;li&gt;片刻，五行雷电本源融合成一体，竟然变成了一道黑色的闪电，那黑色闪电直接飞入李杨的眉心，顿时那黑色闪电印记一阵颤动，而后发出刺眼的光华。&lt;/li&gt;
-&lt;li&gt;光华直接射向九天之上，混沌空间之内。&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;p&gt;感受着那种心灵圆满无碍的感觉，李杨心神完全和天地融合，五条闪电光柱开始在李杨周围旋转了起来，而后竟然彼此开始融合，渐渐的，颜色开始趋于统一。&lt;/p&gt;
+&lt;p&gt;盘古开天辟地，混沌化五行。然而李杨此刻却是反过来。&lt;/p&gt;
+&lt;p&gt;片刻，五行雷电本源融合成一体，竟然变成了一道黑色的闪电，那黑色闪电直接飞入李杨的眉心，顿时那黑色闪电印记一阵颤动，而后发出刺眼的光华。&lt;/p&gt;
+&lt;p&gt;光华直接射向九天之上，混沌空间之内。&lt;/p&gt;
 
     &lt;/div&gt;
 
@@ -8354,7 +8296,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -8425,10 +8367,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -8510,7 +8466,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
         
-        
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
         copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
@@ -8544,6 +8499,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-2&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -8564,6 +8521,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         皇帝不可能同时出现在不同的地方，在具体的实践上，也很难满足天下臣民都想一睹圣颜的夙愿。但御容肖像的出现，化解了这一千古难题，给皇权的扩展提供了仅靠皇帝的肉身无法实现的可复制性和可移动性。它打破了时空的限制，皇帝可以同时出现在任何一个他想要或需要出现的地方。隋文帝大概是最早想到利用自己的肖像来大规模地、系统化地打造皇帝与臣民神圣联系的统治者。他在位时，曾招募工匠铸造自己的等身塑像放置在佛寺之中，并宣称此举是为了“欲令率土之上，皆瞻日角；普天之下，咸识龙颜”（贺仁德：《大隋河东郡首山栖岩道场舍利塔之碑》）。此后，唐太宗、武则天、唐玄宗在这方面都有不少付诸实践的奇思妙想。著名的《大秦景教流行中国碑》记载，在长安的“大秦寺”里，“将帝写真，转模寺壁”，据说这幅教堂里的唐太宗画像，“天资泛彩，英朗景门，圣迹腾祥，永辉法界”。武则天则让人雕造了一尊玉石御像，试图命人护送她的这尊玉像前去五台山礼佛。唐玄宗更是下令，“天下州郡皆铸铜为玄宗真容”，并在全国各地的开元寺、玄元观等寺观中大量安放自己的御容（雷闻：《论唐代皇帝的图像与祭祀》）。
     &lt;/div&gt;
@@ -8682,7 +8640,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -8753,10 +8711,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -8838,7 +8810,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
         
-        
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
         copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
@@ -8870,6 +8841,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-3&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -8890,11 +8863,10 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        &lt;ul&gt;
-&lt;li&gt;这段内容讲述了古代中国皇帝如何利用御容肖像来扩展皇权、加强统治。由于皇帝无法同时出现在不同地方，而御容肖像的出现则提供了可复制性和可移动性，使皇帝可以在任何需要的时候以肖像的形式出现。隋文帝是最早想到利用肖像来加强神圣联系的统治者之一，他铸造了自己的等身塑像放置在佛寺中。此后唐太宗、武则天、唐玄宗等皇帝也有很多类似实践，包括将皇帝肖像转化为壁画、御像、铜像等形式，安放在各地的寺观中。这些御容肖像通过打破时空限制，加强了皇权的扩展和统治力量。【解释文本】&lt;/li&gt;
-&lt;li&gt;古代中国皇帝使用御容肖像扩展皇权和加强统治，因为皇帝无法同时出现在不同地方。御容肖像提供了可复制和可移动的方式来让皇帝在各地出现以肖像的形式。早期皇帝如隋文帝就使用等身塑像，以后唐朝皇帝也有御像、壁画和铜像等形式。这些肖像的出现加强了皇权和统治力量。【简化文本】&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;p&gt;这段内容讲述了古代中国皇帝如何利用御容肖像来扩展皇权、加强统治。由于皇帝无法同时出现在不同地方，而御容肖像的出现则提供了可复制性和可移动性，使皇帝可以在任何需要的时候以肖像的形式出现。隋文帝是最早想到利用肖像来加强神圣联系的统治者之一，他铸造了自己的等身塑像放置在佛寺中。此后唐太宗、武则天、唐玄宗等皇帝也有很多类似实践，包括将皇帝肖像转化为壁画、御像、铜像等形式，安放在各地的寺观中。这些御容肖像通过打破时空限制，加强了皇权的扩展和统治力量。【解释文本】&lt;/p&gt;
+&lt;p&gt;古代中国皇帝使用御容肖像扩展皇权和加强统治，因为皇帝无法同时出现在不同地方。御容肖像提供了可复制和可移动的方式来让皇帝在各地出现以肖像的形式。早期皇帝如隋文帝就使用等身塑像，以后唐朝皇帝也有御像、壁画和铜像等形式。这些肖像的出现加强了皇权和统治力量。【简化文本】&lt;/p&gt;
 
     &lt;/div&gt;
 
@@ -9005,7 +8977,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -9076,10 +9048,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -9160,7 +9146,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -9960,6 +9945,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -9984,7 +9971,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
-    &lt;div class=&#34;ec-content&#34;&gt;
+    
+    &lt;div class=&#34;ec-content no-indent&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;如今每天，我们都——&lt;/li&gt;
 &lt;li&gt;(1)发送了5亿条推文&lt;/li&gt;
@@ -10113,7 +10101,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -10184,10 +10172,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -10269,7 +10271,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
         
-        
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
         copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
@@ -10307,6 +10308,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-2&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -10327,7 +10330,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
-    &lt;div class=&#34;ec-content&#34;&gt;
+    
+    &lt;div class=&#34;ec-content no-indent&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;（1）【聚合】Filpboard、Researcher……&lt;/li&gt;
 &lt;li&gt;（2）【发现】每日阅览&lt;/li&gt;
@@ -10428,7 +10432,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -10499,10 +10503,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -10583,7 +10601,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -10857,6 +10874,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #e0a82e;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #e0a82e;&#34;&gt;“&lt;/div&gt;
@@ -10881,6 +10900,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         我们提高生产力的愿望可能会变成对生产力内容的有害成瘾：一种被称为生产力色情的现象。
     &lt;/div&gt;
@@ -10999,7 +11019,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -11070,10 +11090,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -11154,7 +11188,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 

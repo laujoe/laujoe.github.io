@@ -16,6 +16,7 @@
     <meta name="twitter:image" content='https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E8%A1%A8%E4%B8%8E%E6%9C%9F%E5%88%8A%E8%B5%84%E6%96%99%E5%BA%93/20240420-home.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+<link rel="stylesheet" href="/css/custom.css">
     </head>
     <body class="
     article-page
@@ -334,6 +335,9 @@
     
     <header class="article-category">
         
+            
+            
+            
             <a href="/categories/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C/" style="background-color: #2a9d8f; color: #fff;">
                 工具经验
             </a>
@@ -369,7 +373,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-04-20</time>
+                <time class="article-time--published" datetime='2024-04-20T00:00:00Z'>2024-04-20</time>
             </div>
         
 
@@ -424,6 +428,8 @@
 
 
 
+
+
 <div class="excerpt-card" id="excerpt-0" style="border-left-color: #d35400;">
     
     <div class="ec-bg-icon" style="color: #d35400;">“</div>
@@ -444,13 +450,12 @@
         </div>
     </div>
 
+    
     <div class="ec-content">
-        <ul>
-<li>如果某本刊物评价较好，那么就将其加入个人的「期刊备选库」。</li>
-<li>所谓「期刊备选库」是我专门创建收录评价较好或个人投稿过，体验不错期刊的数据库，里面会列有这本刊物的各种要求，以及我个人所做的分析等。我很建议每位研究生都要创建符合自己的「期刊备选库」，这对以后的研究生活很有帮助。</li>
-<li>当我们就某篇论文搜集好相关的期刊后，就可以在中国知网等网站查询刊物的具体情况，例如栏目设置、刊发论文的页数情况（确定版面、字数等），尤其是查看近两年是否刊发有相关类型或选题的文章，从而选择一个最符合条件与要求的期刊进行投稿。</li>
-<li>当我们初步建立好个人的「期刊备选库」后，朋友们会发现投稿是一件很简单的事情，当我们需要投稿时，就在备选库内寻找符合论文定位的刊物进行投稿，就不用再「大海捞针」。</li>
-</ul>
+        <p>如果某本刊物评价较好，那么就将其加入个人的「期刊备选库」。</p>
+<p>所谓「期刊备选库」是我专门创建收录评价较好或个人投稿过，体验不错期刊的数据库，里面会列有这本刊物的各种要求，以及我个人所做的分析等。我很建议每位研究生都要创建符合自己的「期刊备选库」，这对以后的研究生活很有帮助。</p>
+<p>当我们就某篇论文搜集好相关的期刊后，就可以在中国知网等网站查询刊物的具体情况，例如栏目设置、刊发论文的页数情况（确定版面、字数等），尤其是查看近两年是否刊发有相关类型或选题的文章，从而选择一个最符合条件与要求的期刊进行投稿。</p>
+<p>当我们初步建立好个人的「期刊备选库」后，朋友们会发现投稿是一件很简单的事情，当我们需要投稿时，就在备选库内寻找符合论文定位的刊物进行投稿，就不用再「大海捞针」。</p>
 
     </div>
 
@@ -568,7 +573,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -639,10 +644,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -724,7 +743,6 @@
         const iconCheck = copyBtn.querySelector('.icon-check');
         const content = card.querySelector('.ec-content');
         
-        
         const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
 
         copyBtn.addEventListener('click', () => {
@@ -778,7 +796,7 @@
     
 
     
-    <a href="https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/" class="qsl-card" target="_blank" rel="noopener">
+    <a href="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/" class="qsl-card" target="_blank" rel="noopener">
         <div class="qsl-visual">
             
                 <img src="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/20240303-home_hu_e212dbfc1816efd9.webp" alt="「工具经验」探索与研究——艺术学硕士的「成长路径」心得" class="qsl-image" loading="lazy" decoding="async">
@@ -1078,8 +1096,6 @@
 
     
 </article>
-
-
 
     
 
@@ -1644,7 +1660,7 @@
             
         
         发表了188篇文章 · 
-        总计1,932.26k字
+        总计1,932.03k字
     </section>
 
     
@@ -1907,8 +1923,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-    
-
 
 
     
@@ -1988,6 +2002,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -2276,5 +2291,32 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 </script>
 
-    </body>
+
+        
+        <div id="float-breadcrumb-plugin">
+            <div class="plugin-capsule">
+                
+                <a href="/" class="plugin-item" title="Home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                </a>
+                
+                <span class="plugin-sep">/</span>
+
+                
+                    
+                    <a href="/categories/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C/" class="plugin-item">
+                        <span>工具经验</span>
+                    </a>
+                
+
+                <span class="plugin-sep">/</span>
+
+                <span class="plugin-current">
+                    「工具经验」论文写作表与期刊资料库
+                </span>
+
+            </div>
+        </div>
+        
+        </body>
 </html>

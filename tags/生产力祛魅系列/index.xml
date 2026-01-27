@@ -3185,6 +3185,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-2&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -3209,10 +3211,12 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        Anytype 虽然初看起来很像 Notion，但是操作逻辑是不同的。他们的核心理念是对象（object）、类型（type）和关系（relation），层级关系是：对象 &amp;lt; 类型 &amp;lt; 关系。&lt;br&gt;
-也就是说，每新建的东西都是一个对象。每个对象都必须赋予一个类型，可以是页面、人、文章、目标、网页标签等等。我们可以新建对象的时候赋予一个类型，也可以在设置中设置默认的对象类型，满足我们快速记录同一种类型的对象。输入内容之后，我们可以为不同的对象建立关联。值得注意的是，对象也可以是视频和文件。&lt;br&gt;
-更聪明的是，我们可以自定义关系（relation）并赋予到任意对象之上，甚至是视频和文件。这样带来的最大的好处便是，我们可以快速地新建 object，减轻了记录内容的负担，也为我们的后续整理提供了便利。每一个 relation（property），不像 Notion 那样固定，不仅可以从 Library 中添加，也可以自定义。
+        &lt;p&gt;Anytype 虽然初看起来很像 Notion，但是操作逻辑是不同的。他们的核心理念是对象（object）、类型（type）和关系（relation），层级关系是：对象 &amp;lt; 类型 &amp;lt; 关系。&lt;/p&gt;
+&lt;p&gt;也就是说，每新建的东西都是一个对象。每个对象都必须赋予一个类型，可以是页面、人、文章、目标、网页标签等等。我们可以新建对象的时候赋予一个类型，也可以在设置中设置默认的对象类型，满足我们快速记录同一种类型的对象。输入内容之后，我们可以为不同的对象建立关联。值得注意的是，对象也可以是视频和文件。&lt;/p&gt;
+&lt;p&gt;更聪明的是，我们可以自定义关系（relation）并赋予到任意对象之上，甚至是视频和文件。这样带来的最大的好处便是，我们可以快速地新建 object，减轻了记录内容的负担，也为我们的后续整理提供了便利。每一个 relation（property），不像 Notion 那样固定，不仅可以从 Library 中添加，也可以自定义。&lt;/p&gt;
+
     &lt;/div&gt;
 
     
@@ -3329,7 +3333,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -3400,10 +3404,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -3484,7 +3502,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -3840,6 +3857,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -3864,7 +3883,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
-    &lt;div class=&#34;ec-content&#34;&gt;
+    
+    &lt;div class=&#34;ec-content no-indent&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;如今每天，我们都——&lt;/li&gt;
 &lt;li&gt;(1)发送了5亿条推文&lt;/li&gt;
@@ -3993,7 +4013,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -4064,10 +4084,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -4149,7 +4183,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
         
-        
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
         copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
@@ -4187,6 +4220,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-2&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -4207,7 +4242,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
-    &lt;div class=&#34;ec-content&#34;&gt;
+    
+    &lt;div class=&#34;ec-content no-indent&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;（1）【聚合】Filpboard、Researcher……&lt;/li&gt;
 &lt;li&gt;（2）【发现】每日阅览&lt;/li&gt;
@@ -4308,7 +4344,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -4379,10 +4415,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -4463,7 +4513,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -4737,6 +4786,8 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #e0a82e;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #e0a82e;&#34;&gt;“&lt;/div&gt;
@@ -4761,6 +4812,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         我们提高生产力的愿望可能会变成对生产力内容的有害成瘾：一种被称为生产力色情的现象。
     &lt;/div&gt;
@@ -4879,7 +4931,7 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -4950,10 +5002,24 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -5034,7 +5100,6 @@ Easydict这款软件是我一直在用的利器，它是一款免费开源软件
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 

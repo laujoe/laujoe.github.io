@@ -16,6 +16,7 @@
     <meta name="twitter:image" content='https://laujoe.github.io/p/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%8E%B0%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%BD%A2%E8%B1%A1%E7%9A%84%E8%89%BA%E6%9C%AF%E8%AF%A0%E9%87%8A%E5%9F%BA%E4%BA%8E%E6%9D%AD%E5%B7%9E%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B1%8A%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%AE%98%E6%96%B9%E6%B5%B7%E6%8A%A5%E7%9A%84%E6%8E%A2%E7%A9%B6/homepage.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+<link rel="stylesheet" href="/css/custom.css">
     </head>
     <body class="
     article-page
@@ -302,6 +303,9 @@
     
     <header class="article-category">
         
+            
+            
+            
             <a href="/categories/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6/" style="background-color: #2a9d8f; color: #fff;">
                 学术研究
             </a>
@@ -337,7 +341,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-06-01</time>
+                <time class="article-time--published" datetime='2024-06-01T00:00:00Z'>2024-06-01</time>
             </div>
         
 
@@ -774,6 +778,8 @@
 
 
 
+
+
 <div class="excerpt-card" id="excerpt-1" style="border-left-color: #2a9d8f;">
     
     <div class="ec-bg-icon" style="color: #2a9d8f;">“</div>
@@ -798,8 +804,9 @@
         </div>
     </div>
 
+    
     <div class="ec-content">
-        拙文《东亚道教文献的流传与衍变一基于《玉枢宝经》插图本的探究》初为本科学位论文之一章，为个人《玉枢宝经》研究系列第一篇。宗教典籍版本及其配图研究在大陆学界少有问津，研究之途可称坎坷万分。幸得本校范师、陈师提点，以及海内外高校、机构大家帮助，得以查核经籍、图像材料，其中不乏稀见而未得公开者。感激之情，溢于言表。拙文写成后因宗教选题，发表之旅不顺，曾心灰意冷。如今期刊版面可谓“洛阳纸贵&quot;，蒙《收藏家》期刊不弃，编辑部李老师对拙文多作肯定，不吝篇幅，终将拙文以示学界，望拙文能对学界研究有所助益，不负学界方家指点之谊。
+        一篇小文。
     </div>
 
     
@@ -889,7 +896,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -960,10 +967,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -1044,7 +1065,6 @@
         const iconCopy = copyBtn.querySelector('.icon-copy');
         const iconCheck = copyBtn.querySelector('.icon-check');
         const content = card.querySelector('.ec-content');
-        
         
         const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
 
@@ -1347,7 +1367,8 @@
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -1502,7 +1523,8 @@
     
     <div class="pdf-toolbar">
         <div class="pdf-window-controls">
-            <div class="win-btn win-close"></div>
+            
+            <div class="win-btn win-close" title="关闭/退出全屏"></div>
             <div class="win-btn win-min"></div>
             <div class="win-btn win-max"></div>
         </div>
@@ -1510,7 +1532,7 @@
         <div class="pdf-title">Preview</div>
 
         <div class="pdf-actions">
-            <div class="pdf-action-btn" title="全屏阅读 (ESC退出 / ←→翻页)" onclick="toggleFullScreen('pdf-viewer-e12dd731')">
+            <div class="pdf-action-btn" title="全屏阅读" onclick="toggleFullScreen('pdf-viewer-e12dd731')">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
             </div>
             
@@ -1687,6 +1709,17 @@
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector('#pdf-viewer-' + idSuffix + ' .win-close');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+            
+            if (document.getElementById('pdf-viewer-' + idSuffix).classList.contains('is-fullscreen')) {
+                exitFullScreen('pdf-viewer-' + idSuffix);
+            }
+        });
+    }
 
     document.getElementById('pdf-page-indicator-' + idSuffix).addEventListener('click', function() {
         var newPage = prompt("跳转到页码 (1-" + pdfDoc.numPages + "):", pageNum);
@@ -1722,6 +1755,9 @@
                 zoomOut();
             } else if (e.key === "0") {
                 fitToWidth(); 
+            } else if (e.key === "Escape") {
+                
+                exitFullScreen('pdf-viewer-' + idSuffix);
             }
         }
     });
@@ -1729,11 +1765,15 @@
     
     function handleFullScreenChange() {
         var card = document.getElementById('pdf-viewer-' + idSuffix);
-        if (!document.fullscreenElement && 
-            !document.webkitFullscreenElement && 
-            !document.mozFullScreenElement && 
-            !document.msFullscreenElement) {
-            if (card.classList.contains('is-fullscreen')) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen && card.classList.contains('is-fullscreen')) {
+            
+            if (!isIOS()) {
                 card.classList.remove('is-fullscreen');
             }
         }
@@ -1753,25 +1793,65 @@
 })();
 
 
+function isIOS() {
+  return [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector('[tabindex]');
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains('is-fullscreen')) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() => viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add('is-fullscreen');
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err => console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add('is-fullscreen');
-        setTimeout(() => viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove('is-fullscreen');
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove('is-fullscreen');
     }
 }
 </script>
@@ -1779,23 +1859,37 @@ function toggleFullScreen(elementId) {
 <style>
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -1830,8 +1924,6 @@ function toggleFullScreen(elementId) {
 
     
 </article>
-
-
 
     
 
@@ -2396,7 +2488,7 @@ function toggleFullScreen(elementId) {
             
         
         发表了188篇文章 · 
-        总计1,932.26k字
+        总计1,932.03k字
     </section>
 
     
@@ -2659,8 +2751,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-    
-
 
 
     
@@ -2740,6 +2830,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -3028,5 +3119,32 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 </script>
 
-    </body>
+
+        
+        <div id="float-breadcrumb-plugin">
+            <div class="plugin-capsule">
+                
+                <a href="/" class="plugin-item" title="Home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                </a>
+                
+                <span class="plugin-sep">/</span>
+
+                
+                    
+                    <a href="/categories/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6/" class="plugin-item">
+                        <span>学术研究</span>
+                    </a>
+                
+
+                <span class="plugin-sep">/</span>
+
+                <span class="plugin-current">
+                    「学术研究」现代中国形象的艺术诠释——基于杭州第十九届亚运会官方海报的探究
+                </span>
+
+            </div>
+        </div>
+        
+        </body>
 </html>

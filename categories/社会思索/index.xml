@@ -28,346 +28,571 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;论坛手册&#34;&gt;论坛手册
 &lt;/h2&gt;&lt;div class=&#34;hugo-gallery&#34; id=&#34;gallery-0&#34;&gt;
-    &lt;div class=&#34;gallery-viewport&#34;&gt;
-        &lt;div class=&#34;gallery-track&#34;&gt;
-            
-                
-                
-                
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image02.jpg&#34; alt=&#34;会议手册(1)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image03.jpg&#34; alt=&#34;会议手册(2)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image04.jpg&#34; alt=&#34;会议手册(3)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image05.jpg&#34; alt=&#34;会议手册(4)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image06.jpg&#34; alt=&#34;会议手册(5)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image07.jpg&#34; alt=&#34;会议手册(6)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image08.jpg&#34; alt=&#34;会议手册(7)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-                    &lt;div class=&#34;gallery-slide&#34;&gt;
-                        &lt;img src=&#34;20250118-image09.jpg&#34; alt=&#34;会议手册(8)&#34; loading=&#34;lazy&#34;&gt;
-                    &lt;/div&gt;
-                
-            
-        &lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;button class=&#34;gallery-btn prev&#34; aria-label=&#34;上一张&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;24&#34; height=&#34;24&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
-    &lt;/button&gt;
-    &lt;button class=&#34;gallery-btn next&#34; aria-label=&#34;下一张&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;24&#34; height=&#34;24&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
-    &lt;/button&gt;
+    &lt;div class=&#34;gallery-inline-layout&#34;&gt;
+        
+        &lt;div class=&#34;visual-column&#34;&gt;
+            &lt;div class=&#34;gallery-viewport&#34;&gt;
+                &lt;div class=&#34;gallery-track&#34;&gt;
+                    
+                        
+                        
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image02.jpg&#34;
+                                 data-src=&#34;20250118-image02.jpg&#34; 
+                                 data-alt=&#34;会议手册(1)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image02.jpg&#34; alt=&#34;会议手册(1)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image03.jpg&#34;
+                                 data-src=&#34;20250118-image03.jpg&#34; 
+                                 data-alt=&#34;会议手册(2)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image03.jpg&#34; alt=&#34;会议手册(2)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image04.jpg&#34;
+                                 data-src=&#34;20250118-image04.jpg&#34; 
+                                 data-alt=&#34;会议手册(3)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image04.jpg&#34; alt=&#34;会议手册(3)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image05.jpg&#34;
+                                 data-src=&#34;20250118-image05.jpg&#34; 
+                                 data-alt=&#34;会议手册(4)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image05.jpg&#34; alt=&#34;会议手册(4)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image06.jpg&#34;
+                                 data-src=&#34;20250118-image06.jpg&#34; 
+                                 data-alt=&#34;会议手册(5)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image06.jpg&#34; alt=&#34;会议手册(5)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image07.jpg&#34;
+                                 data-src=&#34;20250118-image07.jpg&#34; 
+                                 data-alt=&#34;会议手册(6)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image07.jpg&#34; alt=&#34;会议手册(6)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image08.jpg&#34;
+                                 data-src=&#34;20250118-image08.jpg&#34; 
+                                 data-alt=&#34;会议手册(7)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image08.jpg&#34; alt=&#34;会议手册(7)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div class=&#34;gallery-slide&#34; 
+                                 data-thumb=&#34;20250118-image09.jpg&#34;
+                                 data-src=&#34;20250118-image09.jpg&#34; 
+                                 data-alt=&#34;会议手册(8)&#34; 
+                                 data-desc=&#34;&#34;
+                                 data-link=&#34;&#34;&gt;
+                                &lt;img src=&#34;20250118-image09.jpg&#34; alt=&#34;会议手册(8)&#34; loading=&#34;lazy&#34;&gt;
+                            &lt;/div&gt;
+                        
+                    
+                &lt;/div&gt;
+            &lt;/div&gt;
 
-    &lt;div class=&#34;gallery-footer&#34;&gt;
-        &lt;div class=&#34;gallery-info&#34;&gt;
-            &lt;span class=&#34;gallery-caption&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;gallery-counter&#34;&gt;&lt;/span&gt;
+            &lt;button class=&#34;nav-btn prev-btn&#34; aria-label=&#34;Previous&#34;&gt;
+                &lt;svg width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;nav-btn next-btn&#34; aria-label=&#34;Next&#34;&gt;
+                &lt;svg width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+            &lt;/button&gt;
+            
+            &lt;div class=&#34;inline-counter&#34;&gt;1 / 1&lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&#34;gallery-dots&#34;&gt;&lt;/div&gt;
+
+        &lt;div class=&#34;info-column&#34;&gt;
+            &lt;div class=&#34;info-content-top&#34;&gt;
+                &lt;div class=&#34;info-header&#34;&gt;
+                    &lt;h3 class=&#34;gallery-title&#34;&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&#34;info-card&#34;&gt;
+                    &lt;div class=&#34;info-body&#34;&gt;
+                        &lt;p class=&#34;gallery-desc&#34;&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;info-footer&#34;&gt;
+                &lt;div class=&#34;gallery-thumbs&#34;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;gallery-lightbox&#34;&gt;
-        &lt;button class=&#34;lightbox-close&#34; aria-label=&#34;关闭&#34;&gt;×&lt;/button&gt;
-        
-        &lt;button class=&#34;lightbox-btn lb-prev&#34; aria-label=&#34;上一张&#34;&gt;
-            &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;30&#34; height=&#34;30&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
-        &lt;/button&gt;
-        &lt;button class=&#34;lightbox-btn lb-next&#34; aria-label=&#34;下一张&#34;&gt;
-            &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;30&#34; height=&#34;30&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
-        &lt;/button&gt;
-
-        &lt;img class=&#34;lightbox-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
-        &lt;div class=&#34;lightbox-caption&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;lb-toolbar&#34;&gt;
+            &lt;span class=&#34;lb-counter&#34;&gt;&lt;/span&gt;
+            &lt;div class=&#34;lb-actions&#34;&gt;
+                &lt;a class=&#34;lb-btn lb-link-btn&#34; href=&#34;#&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; title=&#34;打开链接/原图&#34;&gt;
+                    &lt;svg width=&#34;20&#34; height=&#34;20&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;&gt;&lt;/path&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;&gt;&lt;/polyline&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+                &lt;/a&gt;
+                &lt;button class=&#34;lb-btn lb-close-btn&#34; title=&#34;关闭&#34;&gt;
+                    &lt;svg width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;line x1=&#34;18&#34; y1=&#34;6&#34; x2=&#34;6&#34; y2=&#34;18&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;6&#34; y1=&#34;6&#34; x2=&#34;18&#34; y2=&#34;18&#34;&gt;&lt;/line&gt;&lt;/svg&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;lb-canvas&#34;&gt;
+            &lt;button class=&#34;lb-nav lb-prev&#34;&gt;
+                &lt;svg width=&#34;36&#34; height=&#34;36&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+            &lt;/button&gt;
+            &lt;div class=&#34;lb-img-wrapper&#34;&gt;
+                &lt;img class=&#34;lb-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
+            &lt;/div&gt;
+            &lt;button class=&#34;lb-nav lb-next&#34;&gt;
+                &lt;svg width=&#34;36&#34; height=&#34;36&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;&lt;/svg&gt;
+            &lt;/button&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;style&gt;
      
     .hugo-gallery {
+        --g-bg: #ffffff;
+        --g-border: #e0e0e0;
+        --g-visual-bg: #111;
+        --g-text-main: inherit; 
+        --g-text-sub: #555;
+        --g-card-bg: #f7f9fc;
+        --g-card-border: #3b82f6;
+        --g-thumb-active: #3b82f6;
+
         position: relative;
-        margin: 2rem 0;
-        background: #f0f0f0; 
-        border-radius: 8px;
+        margin: 2em 0;
+        background: var(--g-bg);
+        border: 1px solid var(--g-border);
+        font-family: inherit; 
+        box-sizing: border-box;
+    }
+    .hugo-gallery * { box-sizing: border-box; }
+
+     
+    [data-scheme=&#34;dark&#34;] .hugo-gallery,
+    html[data-theme=&#34;dark&#34;] .hugo-gallery,
+    body.dark .hugo-gallery {
+        --g-bg: #1e1e1e;
+        --g-border: #333;
+        --g-visual-bg: #000;
+        --g-text-sub: #aaa;
+        --g-card-bg: #252526;
+        --g-card-border: #60a5fa;
+        --g-thumb-active: #60a5fa;
+    }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme=&#34;light&#34;]) .hugo-gallery {
+            --g-bg: #1e1e1e;
+            --g-border: #333;
+            --g-visual-bg: #000;
+            --g-text-sub: #aaa;
+            --g-card-bg: #252526;
+            --g-card-border: #60a5fa;
+            --g-thumb-active: #60a5fa;
+        }
+    }
+
+     
+    .gallery-inline-layout {
+        display: grid;
+        grid-template-columns: 2fr 1.2fr; 
+        height: 550px; 
+    }
+
+     
+    .visual-column {
+        position: relative;
+        background: var(--g-visual-bg);
         overflow: hidden;
-        aspect-ratio: 3/2; 
-        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        border: 1px solid #e5e5e5;
+        display: flex; align-items: center; justify-content: center;
+    }
+    .gallery-viewport { width: 100%; height: 100%; cursor: zoom-in; }
+    .gallery-track { display: flex; height: 100%; transition: transform 0.3s ease; }
+    .gallery-slide { 
+        flex: 0 0 100%; width: 100%; height: 100%; 
+        display: flex; align-items: center; justify-content: center; 
+    }
+    .gallery-slide img { 
+        max-width: 100%; max-height: 100%; 
+        object-fit: contain; display: block; 
     }
 
-    .gallery-viewport { width: 100%; height: 100%; position: relative; cursor: zoom-in; }
-    .gallery-track { display: flex; height: 100%; width: 100%; transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
-    
-    .gallery-slide {
-        flex: 0 0 100%; width: 100%; height: 100%;
+    .nav-btn {
+        position: absolute; top: 50%; transform: translateY(-50%);
+        width: 40px; height: 40px;
+        background: rgba(255,255,255,0.9);
+        border: none; border-radius: 50%; 
+        cursor: pointer; color: #000;
         display: flex; align-items: center; justify-content: center;
-        background: #000;
+        opacity: 0; transition: opacity 0.2s; z-index: 10;
+    }
+    .visual-column:hover .nav-btn { opacity: 1; }
+    .prev-btn { left: 15px; }
+    .next-btn { right: 15px; }
+    .inline-counter {
+        position: absolute; top: 15px; right: 15px;
+        background: rgba(0,0,0,0.6); color: #fff;
+        padding: 4px 8px; border-radius: 4px;
+        font-size: 0.85em; pointer-events: none;
+    }
+
+     
+    .info-column {
+        display: flex; flex-direction: column;
+        padding: 25px;
+        background: var(--g-bg);
+        border-left: 1px solid var(--g-border);
+        overflow: hidden; 
+        color: var(--g-text-main);
+        justify-content: flex-start; 
+        height: 100%;  
+    }
+    
+    .info-content-top {
+         
+        flex: 1; 
+        display: flex; 
+        flex-direction: column;
+        min-height: 0;  
+        overflow: hidden;  
+    }
+
+    .info-header { margin-bottom: 20px; flex-shrink: 0; }
+    .gallery-title { margin: 0; line-height: 1.3; color: inherit; }
+
+    .info-card {
+         
+        flex: 1;
+        display: flex; flex-direction: column;
+        margin-bottom: 20px; background: var(--g-card-bg);
+        border-left: 4px solid var(--g-card-border);
+        border-radius: 0 4px 4px 0;
+        min-height: 0;  
+    }
+    .info-body {
+         
+        flex: 1;
+        overflow-y: auto; 
+        padding: 15px 20px; 
+        scrollbar-width: thin;
+    }
+    .gallery-desc { 
+        margin: 0; color: var(--g-text-sub); 
+        line-height: 1.6; white-space: pre-wrap; 
+    }
+    
+     
+    .info-footer { 
+        flex-shrink: 0; 
+        margin-top: auto; 
+        padding-top: 20px;
+    }
+    
+    .gallery-thumbs { 
+         
         position: relative;
+        display: flex; gap: 10px; flex-wrap: wrap; 
+        align-items: flex-start;
+        max-height: 130px; 
+        overflow-y: auto;
+        scrollbar-width: thin;
     }
-
-    .gallery-slide img {
-        max-width: 100%; max-height: 100%;
-        width: 100%; height: 100%; 
-        object-fit: contain; 
-        display: block; margin: 0 auto; 
-        user-select: none;
+    .hugo-gallery .gallery-thumbs .g-thumb {
+        width: 50px !important; height: 50px !important; 
+        min-width: 50px !important; min-height: 50px !important;
+        flex-shrink: 0; cursor: pointer; opacity: 0.6;
+        border: 2px solid transparent; border-radius: 6px; 
+        overflow: hidden; position: relative; background: #eee;
+        padding: 0 !important; margin: 0 !important;
     }
-
-     
-    .gallery-btn {
-        position: absolute; top: 50%; transform: translateY(-50%);
-        background: rgba(255, 255, 255, 0.15); 
-        border: 1px solid rgba(255,255,255,0.3);
-        width: 44px; height: 44px; border-radius: 50%; cursor: pointer;
-        display: flex; align-items: center; justify-content: center;
-        color: #fff; z-index: 10; transition: all 0.2s; 
-        backdrop-filter: blur(4px); opacity: 0; 
+    .hugo-gallery .gallery-thumbs .g-thumb img { 
+        width: 100% !important; height: 100% !important; 
+        object-fit: cover !important; display: block !important;
+        margin: 0 !important; padding: 0 !important; max-width: none !important;
     }
-    .hugo-gallery:hover .gallery-btn { opacity: 1; }
-    .gallery-btn:hover { background: rgba(255,255,255,0.9); color: #000; transform: translateY(-50%) scale(1.1); }
-    .gallery-btn.prev { left: 15px; } .gallery-btn.next { right: 15px; }
-
-     
-    .gallery-footer {
-        position: absolute; bottom: 0; left: 0; right: 0;
-        padding: 50px 20px 15px;
-        background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-        color: #fff; pointer-events: none; z-index: 5;
-        display: flex; flex-direction: column; align-items: center; gap: 8px;
+    .hugo-gallery .gallery-thumbs .g-thumb:hover { opacity: 0.9; }
+    .hugo-gallery .gallery-thumbs .g-thumb.active { 
+        opacity: 1; border-color: var(--g-thumb-active); 
+        box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
     }
-    .gallery-info { display: flex; gap: 10px; align-items: center; font-size: 14px; text-shadow: 0 1px 2px rgba(0,0,0,0.8); }
-    .gallery-counter { opacity: 0.7; font-size: 12px; background: rgba(255,255,255,0.2); padding: 1px 6px; border-radius: 4px; }
-    
-    .gallery-dots { display: flex; gap: 6px; pointer-events: auto; }
-    .gallery-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.4); cursor: pointer; transition: all 0.3s; }
-    .gallery-dot.active { background: #fff; transform: scale(1.4); }
-
-     
-    .gallery-lightbox {
-        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-        background: rgba(0,0,0,0.95); z-index: 9999;
-        display: flex; flex-direction: column; align-items: center; justify-content: center;
-        opacity: 0; pointer-events: none; transition: opacity 0.3s ease;
-    }
-    .gallery-lightbox.active { opacity: 1; pointer-events: auto; }
-    
-    .lightbox-img {
-        max-width: 90%; max-height: 80vh; 
-        object-fit: contain; box-shadow: 0 0 20px rgba(0,0,0,0.5);
-        transform: scale(0.9); transition: transform 0.3s;
-        user-select: none;
-    }
-    .gallery-lightbox.active .lightbox-img { transform: scale(1); }
-    
-    .lightbox-close {
-        position: absolute; top: 20px; right: 20px;
-        background: rgba(255,255,255,0.1); border: none; color: #fff; 
-        width: 40px; height: 40px; border-radius: 50%;
-        font-size: 24px; line-height: 1;
-        cursor: pointer; opacity: 0.7; transition: all 0.2s; z-index: 20;
-    }
-    .lightbox-close:hover { opacity: 1; background: rgba(255,255,255,0.3); }
-    
-    .lightbox-caption {
-        margin-top: 15px; color: #ccc; font-size: 16px; text-align: center;
-        max-width: 80%;
-    }
-
-     
-    .lightbox-btn {
-        position: absolute; top: 50%; transform: translateY(-50%);
-        background: rgba(255,255,255,0.1); border: none; color: #eee;
-        width: 60px; height: 60px; border-radius: 50%;
-        cursor: pointer; transition: all 0.2s; z-index: 15;
-        display: flex; align-items: center; justify-content: center;
-    }
-    .lightbox-btn:hover { background: rgba(255,255,255,0.3); color: #fff; transform: translateY(-50%) scale(1.1); }
-    .lb-prev { left: 30px; }
-    .lb-next { right: 30px; }
 
      
     @media (max-width: 768px) {
-        .lightbox-btn { width: 44px; height: 44px; background: transparent; }
-        .lb-prev { left: 10px; }
-        .lb-next { right: 10px; }
-        .lightbox-img { max-width: 100%; }
+        .gallery-inline-layout { grid-template-columns: 1fr; grid-template-rows: 60vw auto; height: auto; }
+        .visual-column { height: 100%; min-height: 250px; }
+        .info-column { border-left: none; border-top: 1px solid var(--g-border); height: 400px; padding: 20px; }
+        .info-card { background: transparent; border-left: none; padding-left: 0; }
+        .info-body { padding: 0; }
+        .info-footer { margin-top: auto; }
     }
+
+     
+    .gallery-lightbox {
+        position: fixed; inset: 0; z-index: 99999;
+        background: #000; display: none; flex-direction: column;
+        opacity: 0; transition: opacity 0.2s; user-select: none;
+    }
+    .gallery-lightbox.active { display: flex; opacity: 1; }
+    .lb-toolbar {
+        position: absolute; top: 0; left: 0; width: 100%; height: 60px;
+        display: flex; justify-content: space-between; align-items: center;
+        padding: 0 20px; z-index: 20; background: rgba(0,0,0,0.6);
+    }
+    .lb-counter { color: #ccc; font-size: 0.9em; }
+    .lb-actions { display: flex; gap: 15px; }
+    .lb-btn { background: transparent; border: none; color: #ddd; cursor: pointer; display: flex; align-items: center; }
+    .lb-btn:hover { color: #fff; }
+    .lb-canvas {
+        flex: 1; width: 100%; height: 100%; position: relative; overflow: hidden;
+        display: flex; align-items: center; justify-content: center;
+    }
+    .lb-img-wrapper { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+    .lb-img { max-width: 100%; max-height: 100%; object-fit: contain; transform-origin: center; will-change: transform; }
+    .lb-nav {
+        position: absolute; top: 50%; transform: translateY(-50%);
+        background: transparent; border: none; color: rgba(255,255,255,0.5);
+        padding: 20px; cursor: pointer; z-index: 10;
+    }
+    .lb-nav:hover { color: #fff; }
+    .lb-prev { left: 10px; } .lb-next { right: 10px; }
 &lt;/style&gt;
 
 &lt;script&gt;
     (function() {
         const galleryId = &#34;gallery-0&#34;;
-        const container = document.getElementById(galleryId);
-        if (!container) return;
+        const root = document.getElementById(galleryId);
+        if (!root) return;
 
-        const track = container.querySelector(&#39;.gallery-track&#39;);
-        const slides = track.querySelectorAll(&#39;.gallery-slide&#39;);
-        const totalSlides = slides.length;
-        
-        if (totalSlides === 0) return;
+        const track = root.querySelector(&#39;.gallery-track&#39;);
+        const slides = Array.from(track.querySelectorAll(&#39;.gallery-slide&#39;));
+        if (slides.length === 0) return;
 
-        const prevBtn = container.querySelector(&#39;.prev&#39;);
-        const nextBtn = container.querySelector(&#39;.next&#39;);
-        const captionDisplay = container.querySelector(&#39;.gallery-caption&#39;);
-        const counterDisplay = container.querySelector(&#39;.gallery-counter&#39;);
-        const dotsContainer = container.querySelector(&#39;.gallery-dots&#39;);
+        const titleEl = root.querySelector(&#39;.gallery-title&#39;);
+        const descEl = root.querySelector(&#39;.gallery-desc&#39;);
+        const counterEl = root.querySelector(&#39;.inline-counter&#39;);
+        const thumbsContainer = root.querySelector(&#39;.gallery-thumbs&#39;);
+        const infoCard = root.querySelector(&#39;.info-card&#39;);
 
+        const lb = root.querySelector(&#39;.gallery-lightbox&#39;);
+        const lbImg = lb.querySelector(&#39;.lb-img&#39;);
+        const lbCounter = lb.querySelector(&#39;.lb-counter&#39;);
+        const lbLinkBtn = lb.querySelector(&#39;.lb-link-btn&#39;); 
         
-        const lightbox = container.querySelector(&#39;.gallery-lightbox&#39;);
-        const lightboxImg = lightbox.querySelector(&#39;.lightbox-img&#39;);
-        const lightboxCaption = lightbox.querySelector(&#39;.lightbox-caption&#39;);
-        const lightboxClose = lightbox.querySelector(&#39;.lightbox-close&#39;);
-        
-        
-        const lbPrevBtn = lightbox.querySelector(&#39;.lb-prev&#39;);
-        const lbNextBtn = lightbox.querySelector(&#39;.lb-next&#39;);
-
-        
-        slides.forEach((_, i) =&gt; {
-            const dot = document.createElement(&#39;div&#39;);
-            dot.classList.add(&#39;gallery-dot&#39;);
-            if (i === 0) dot.classList.add(&#39;active&#39;);
-            dot.addEventListener(&#39;click&#39;, (e) =&gt; {
-                e.stopPropagation(); 
-                goToSlide(i);
-            });
-            dotsContainer.appendChild(dot);
-        });
-
         let currentIndex = 0;
+        const total = slides.length;
+        
+        let zoomLevel = 1; let panX = 0, panY = 0; 
+        let startX = 0, startY = 0; let initialPanX = 0, initialPanY = 0; 
+        let isDragging = false; let hasMoved = false; 
+        
+        slides.forEach((s, i) =&gt; {
+            const thumbSrc = s.dataset.thumb || s.querySelector(&#39;img&#39;).src;
+            const t = document.createElement(&#39;div&#39;);
+            t.className = i === 0 ? &#39;g-thumb active&#39; : &#39;g-thumb&#39;;
+            t.innerHTML = `&lt;img src=&#34;${thumbSrc}&#34; loading=&#34;lazy&#34;&gt;`;
+            t.onclick = (e) =&gt; { e.stopPropagation(); switchTo(i); };
+            thumbsContainer.appendChild(t);
+        });
+        const thumbs = thumbsContainer.querySelectorAll(&#39;.g-thumb&#39;);
 
-        function goToSlide(index) {
-            
-            if (index &lt; 0) index = totalSlides - 1;
-            if (index &gt;= totalSlides) index = 0;
-            
-            currentIndex = index;
+        
+        function safeScrollThumb(container, thumb) {
+            if (!container || !thumb) return;
             
             
-            track.style.transform = `translateX(${-100 * currentIndex}%)`;
-            
-            
-            const dots = dotsContainer.querySelectorAll(&#39;.gallery-dot&#39;);
-            dots.forEach(d =&gt; d.classList.remove(&#39;active&#39;));
-            if(dots[currentIndex]) dots[currentIndex].classList.add(&#39;active&#39;);
-            
-            const currentImg = slides[currentIndex].querySelector(&#39;img&#39;);
-            const altText = currentImg.alt || &#34;&#34;;
-            captionDisplay.textContent = altText;
-            counterDisplay.textContent = `${currentIndex + 1} / ${totalSlides}`;
+            const thumbTop = thumb.offsetTop;
+            const thumbHeight = thumb.offsetHeight;
+            const containerScrollTop = container.scrollTop;
+            const containerHeight = container.clientHeight;
 
             
-            if (lightbox.classList.contains(&#39;active&#39;)) {
-                updateLightboxImage();
+            if (thumbTop &lt; containerScrollTop) {
+                
+                container.scrollTop = thumbTop;
+            } else if (thumbTop + thumbHeight &gt; containerScrollTop + containerHeight) {
+                
+                container.scrollTop = thumbTop + thumbHeight - containerHeight;
             }
         }
 
-        
-        function updateLightboxImage() {
-            const currentImg = slides[currentIndex].querySelector(&#39;img&#39;);
+        function switchTo(index) {
+            if (index &lt; 0) index = total - 1;
+            if (index &gt;= total) index = 0;
+            currentIndex = index;
+
+            track.style.transform = `translateX(${-100 * index}%)`;
+            const s = slides[index];
             
-            lightboxImg.style.opacity = 0.5;
-            setTimeout(() =&gt; {
-                lightboxImg.src = currentImg.src;
-                lightboxImg.alt = currentImg.alt;
-                lightboxCaption.textContent = currentImg.alt;
-                lightboxImg.style.opacity = 1;
-            }, 100);
+            const title = s.dataset.alt || &#34;&#34;;
+            const desc = s.dataset.desc || &#34;&#34;;
+            
+            titleEl.textContent = title;
+            descEl.textContent = desc;
+            
+            titleEl.parentElement.style.display = title ? &#39;block&#39; : &#39;none&#39;;
+            if (desc) {
+                infoCard.style.display = &#39;flex&#39;;
+            } else {
+                infoCard.style.display = &#39;none&#39;;
+            }
+            
+            counterEl.textContent = `${index + 1} / ${total}`;
+
+            thumbs.forEach(t =&gt; t.classList.remove(&#39;active&#39;));
+            if (thumbs[index]) {
+                thumbs[index].classList.add(&#39;active&#39;);
+                safeScrollThumb(thumbsContainer, thumbs[index]);
+            }
+
+            if (lb.classList.contains(&#39;active&#39;)) {
+                updateLightboxImage(index);
+            }
         }
 
         function openLightbox() {
-            updateLightboxImage();
-            lightbox.classList.add(&#39;active&#39;);
+            updateLightboxImage(currentIndex);
+            lb.classList.add(&#39;active&#39;);
             document.body.style.overflow = &#39;hidden&#39;; 
         }
 
         function closeLightbox() {
-            lightbox.classList.remove(&#39;active&#39;);
+            lb.classList.remove(&#39;active&#39;);
             document.body.style.overflow = &#39;&#39;;
+            setTimeout(resetZoom, 200);
         }
 
-        
-        goToSlide(0);
+        function updateLightboxImage(index) {
+            resetZoom(); 
+            lbImg.style.opacity = 0.5;
+            const s = slides[index];
+            const targetLink = s.dataset.link || s.dataset.src;
+            lbLinkBtn.href = targetLink;
+            const tempImg = new Image();
+            tempImg.src = s.dataset.src;
+            tempImg.onload = () =&gt; {
+                lbImg.src = s.dataset.src;
+                lbImg.style.opacity = 1;
+            };
+            lbCounter.textContent = `${index + 1} / ${total}`;
+        }
 
-        
-        
-        if(prevBtn) prevBtn.addEventListener(&#39;click&#39;, (e) =&gt; { e.stopPropagation(); goToSlide(currentIndex - 1); });
-        if(nextBtn) nextBtn.addEventListener(&#39;click&#39;, (e) =&gt; { e.stopPropagation(); goToSlide(currentIndex + 1); });
+        function updateTransform() {
+            lbImg.style.transform = `translate(${panX}px, ${panY}px) scale(${zoomLevel})`;
+        }
 
-        
-        track.addEventListener(&#39;click&#39;, openLightbox);
-        
-        
-        lightboxClose.addEventListener(&#39;click&#39;, closeLightbox);
-        lightbox.addEventListener(&#39;click&#39;, (e) =&gt; {
-            
-            if(e.target === lightbox) closeLightbox();
+        function resetZoom() {
+            zoomLevel = 1; panX = 0; panY = 0;
+            lbImg.style.transform = &#39;&#39;;
+            lbImg.style.transition = &#39;transform 0.3s ease&#39;; 
+        }
+
+        lbImg.addEventListener(&#39;wheel&#39;, (e) =&gt; {
+            e.preventDefault();
+            const delta = e.deltaY * -0.01;
+            zoomLevel = Math.min(Math.max(1, zoomLevel + delta), 5); 
+            if (zoomLevel === 1) { panX = 0; panY = 0; }
+            lbImg.style.transition = &#39;none&#39;; 
+            updateTransform();
         });
 
-        
-        if(lbPrevBtn) lbPrevBtn.addEventListener(&#39;click&#39;, (e) =&gt; { e.stopPropagation(); goToSlide(currentIndex - 1); });
-        if(lbNextBtn) lbNextBtn.addEventListener(&#39;click&#39;, (e) =&gt; { e.stopPropagation(); goToSlide(currentIndex + 1); });
+        function onDragStart(e) {
+            if (zoomLevel &lt;= 1) return; 
+            e.preventDefault();
+            isDragging = true; hasMoved = false; 
+            startX = e.type.includes(&#39;mouse&#39;) ? e.pageX : e.touches[0].pageX;
+            startY = e.type.includes(&#39;mouse&#39;) ? e.pageY : e.touches[0].pageY;
+            initialPanX = panX; initialPanY = panY;
+            lbImg.style.transition = &#39;none&#39;; 
+        }
 
-        
+        function onDragMove(e) {
+            if (!isDragging) return;
+            e.preventDefault();
+            const currentX = e.type.includes(&#39;mouse&#39;) ? e.pageX : e.touches[0].pageX;
+            const currentY = e.type.includes(&#39;mouse&#39;) ? e.pageY : e.touches[0].pageY;
+            const diffX = currentX - startX; const diffY = currentY - startY;
+            if (Math.abs(diffX) &gt; 2 || Math.abs(diffY) &gt; 2) hasMoved = true;
+            panX = initialPanX + diffX; panY = initialPanY + diffY;
+            updateTransform();
+        }
+
+        function onDragEnd(e) {
+            if (!isDragging) return;
+            isDragging = false;
+            lbImg.style.transition = &#39;transform 0.1s linear&#39;; 
+        }
+
+        lbImg.addEventListener(&#39;click&#39;, (e) =&gt; {
+            e.stopPropagation();
+            if (hasMoved) { hasMoved = false; return; }
+            if (zoomLevel &gt; 1) { resetZoom(); } 
+            else { zoomLevel = 2.5; lbImg.style.transition = &#39;transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)&#39;; updateTransform(); }
+        });
+
+        lbImg.addEventListener(&#39;mousedown&#39;, onDragStart);
+        lbImg.addEventListener(&#39;touchstart&#39;, onDragStart);
+        window.addEventListener(&#39;mousemove&#39;, onDragMove);
+        window.addEventListener(&#39;touchmove&#39;, onDragMove, { passive: false });
+        window.addEventListener(&#39;mouseup&#39;, onDragEnd);
+        window.addEventListener(&#39;touchend&#39;, onDragEnd);
+
+        root.querySelector(&#39;.gallery-track&#39;).onclick = () =&gt; openLightbox();
+
+        const bindNav = (btn, dir) =&gt; {
+            btn.onclick = (e) =&gt; {
+                e.preventDefault(); e.stopImmediatePropagation(); 
+                switchTo(currentIndex + dir);
+            };
+        };
+
+        bindNav(root.querySelector(&#39;.prev-btn&#39;), -1);
+        bindNav(root.querySelector(&#39;.next-btn&#39;), 1);
+        bindNav(lb.querySelector(&#39;.lb-prev&#39;), -1);
+        bindNav(lb.querySelector(&#39;.lb-next&#39;), 1);
+
+        lb.querySelector(&#39;.lb-close-btn&#39;).onclick = (e) =&gt; { e.stopPropagation(); closeLightbox(); };
+        lbLinkBtn.onclick = (e) =&gt; { e.stopPropagation(); };
+
+        lb.onclick = (e) =&gt; {
+            if (e.target === lb || e.target.classList.contains(&#39;lb-canvas&#39;)) closeLightbox();
+        };
+
         document.addEventListener(&#39;keydown&#39;, (e) =&gt; {
-            
-            
-            const isLightboxActive = lightbox.classList.contains(&#39;active&#39;);
-            
-            if (isLightboxActive) {
-                if (e.key === &#39;ArrowLeft&#39;) goToSlide(currentIndex - 1);
-                if (e.key === &#39;ArrowRight&#39;) goToSlide(currentIndex + 1);
-                if (e.key === &#39;Escape&#39;) closeLightbox();
-            }
+            if (!lb.classList.contains(&#39;active&#39;)) return;
+            if (e.key === &#39;ArrowLeft&#39;) switchTo(currentIndex - 1);
+            if (e.key === &#39;ArrowRight&#39;) switchTo(currentIndex + 1);
+            if (e.key === &#39;Escape&#39;) closeLightbox();
         });
 
         
-        let startX = 0;
-        
-        
-        
-        container.addEventListener(&#39;touchstart&#39;, e =&gt; {
-            startX = e.changedTouches[0].screenX;
-        }, {passive:true});
-
-        
-        lightbox.addEventListener(&#39;touchstart&#39;, e =&gt; {
-            startX = e.changedTouches[0].screenX;
-        }, {passive:true});
-
-        function handleTouchEnd(e) {
-            const endX = e.changedTouches[0].screenX;
-            
-            if (endX &lt; startX - 50) goToSlide(currentIndex + 1); 
-            if (endX &gt; startX + 50) goToSlide(currentIndex - 1); 
-        }
-
-        container.addEventListener(&#39;touchend&#39;, handleTouchEnd, {passive:true});
-        lightbox.addEventListener(&#39;touchend&#39;, handleTouchEnd, {passive:true});
-
+        switchTo(0);
     })();
 &lt;/script&gt;
 &lt;h2 id=&#34;论坛信息&#34;&gt;论坛信息
 &lt;/h2&gt;
+
+
 
 
 
@@ -396,6 +621,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         &lt;p&gt;不论学界、业界还是日常生活，会议并非一个罕见词汇。然而大多数会议往往是专家学者或上司领导的「一言堂」，发声者为未发声者「代言」。因此，Soar Freely 新年交流会希望能够建立一个友好的交流平台：一个没有繁文缛节的天地，欢迎来自不同地域、具有不同背景的朋友们畅所欲言，分享自己的生活、经历乃至人生。因此，从园桌交流、文艺对谈，乃至主旨演讲，Soar Freely 新年交流会都不会设置具体议题，而是以宽广的概念引领交流自由发展，从而实现「思想的游牧」。&lt;/p&gt;
 &lt;p&gt;在科学技术如此发达，而人的感官又如此「落后」的信息时代，每个人都处于「信息茧房」。而通过交流，我们能够在某种意义上挣脱「舒适区」，去聆听「来自异域的声音」，或许这就是本次交流会的意义所在。&lt;/p&gt;
@@ -509,7 +735,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -580,10 +806,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -664,7 +904,6 @@
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 

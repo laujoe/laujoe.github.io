@@ -675,6 +675,8 @@
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -695,13 +697,12 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        &lt;ul&gt;
-&lt;li&gt;感受着那种心灵圆满无碍的感觉，李杨心神完全和天地融合，五条闪电光柱开始在李杨周围旋转了起来，而后竟然彼此开始融合，渐渐的，颜色开始趋于统一。&lt;/li&gt;
-&lt;li&gt;盘古开天辟地，混沌化五行。然而李杨此刻却是反过来。&lt;/li&gt;
-&lt;li&gt;片刻，五行雷电本源融合成一体，竟然变成了一道黑色的闪电，那黑色闪电直接飞入李杨的眉心，顿时那黑色闪电印记一阵颤动，而后发出刺眼的光华。&lt;/li&gt;
-&lt;li&gt;光华直接射向九天之上，混沌空间之内。&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;p&gt;感受着那种心灵圆满无碍的感觉，李杨心神完全和天地融合，五条闪电光柱开始在李杨周围旋转了起来，而后竟然彼此开始融合，渐渐的，颜色开始趋于统一。&lt;/p&gt;
+&lt;p&gt;盘古开天辟地，混沌化五行。然而李杨此刻却是反过来。&lt;/p&gt;
+&lt;p&gt;片刻，五行雷电本源融合成一体，竟然变成了一道黑色的闪电，那黑色闪电直接飞入李杨的眉心，顿时那黑色闪电印记一阵颤动，而后发出刺眼的光华。&lt;/p&gt;
+&lt;p&gt;光华直接射向九天之上，混沌空间之内。&lt;/p&gt;
 
     &lt;/div&gt;
 
@@ -819,7 +820,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -890,10 +891,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -975,7 +990,6 @@
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
         
-        
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
         copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
@@ -1009,6 +1023,8 @@
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-2&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -1029,6 +1045,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         皇帝不可能同时出现在不同的地方，在具体的实践上，也很难满足天下臣民都想一睹圣颜的夙愿。但御容肖像的出现，化解了这一千古难题，给皇权的扩展提供了仅靠皇帝的肉身无法实现的可复制性和可移动性。它打破了时空的限制，皇帝可以同时出现在任何一个他想要或需要出现的地方。隋文帝大概是最早想到利用自己的肖像来大规模地、系统化地打造皇帝与臣民神圣联系的统治者。他在位时，曾招募工匠铸造自己的等身塑像放置在佛寺之中，并宣称此举是为了“欲令率土之上，皆瞻日角；普天之下，咸识龙颜”（贺仁德：《大隋河东郡首山栖岩道场舍利塔之碑》）。此后，唐太宗、武则天、唐玄宗在这方面都有不少付诸实践的奇思妙想。著名的《大秦景教流行中国碑》记载，在长安的“大秦寺”里，“将帝写真，转模寺壁”，据说这幅教堂里的唐太宗画像，“天资泛彩，英朗景门，圣迹腾祥，永辉法界”。武则天则让人雕造了一尊玉石御像，试图命人护送她的这尊玉像前去五台山礼佛。唐玄宗更是下令，“天下州郡皆铸铜为玄宗真容”，并在全国各地的开元寺、玄元观等寺观中大量安放自己的御容（雷闻：《论唐代皇帝的图像与祭祀》）。
     &lt;/div&gt;
@@ -1147,7 +1164,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -1218,10 +1235,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -1303,7 +1334,6 @@
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
         
-        
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
         copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
@@ -1335,6 +1365,8 @@
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-3&#34; style=&#34;border-left-color: #d35400;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #d35400;&#34;&gt;“&lt;/div&gt;
@@ -1355,11 +1387,10 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        &lt;ul&gt;
-&lt;li&gt;这段内容讲述了古代中国皇帝如何利用御容肖像来扩展皇权、加强统治。由于皇帝无法同时出现在不同地方，而御容肖像的出现则提供了可复制性和可移动性，使皇帝可以在任何需要的时候以肖像的形式出现。隋文帝是最早想到利用肖像来加强神圣联系的统治者之一，他铸造了自己的等身塑像放置在佛寺中。此后唐太宗、武则天、唐玄宗等皇帝也有很多类似实践，包括将皇帝肖像转化为壁画、御像、铜像等形式，安放在各地的寺观中。这些御容肖像通过打破时空限制，加强了皇权的扩展和统治力量。【解释文本】&lt;/li&gt;
-&lt;li&gt;古代中国皇帝使用御容肖像扩展皇权和加强统治，因为皇帝无法同时出现在不同地方。御容肖像提供了可复制和可移动的方式来让皇帝在各地出现以肖像的形式。早期皇帝如隋文帝就使用等身塑像，以后唐朝皇帝也有御像、壁画和铜像等形式。这些肖像的出现加强了皇权和统治力量。【简化文本】&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;p&gt;这段内容讲述了古代中国皇帝如何利用御容肖像来扩展皇权、加强统治。由于皇帝无法同时出现在不同地方，而御容肖像的出现则提供了可复制性和可移动性，使皇帝可以在任何需要的时候以肖像的形式出现。隋文帝是最早想到利用肖像来加强神圣联系的统治者之一，他铸造了自己的等身塑像放置在佛寺中。此后唐太宗、武则天、唐玄宗等皇帝也有很多类似实践，包括将皇帝肖像转化为壁画、御像、铜像等形式，安放在各地的寺观中。这些御容肖像通过打破时空限制，加强了皇权的扩展和统治力量。【解释文本】&lt;/p&gt;
+&lt;p&gt;古代中国皇帝使用御容肖像扩展皇权和加强统治，因为皇帝无法同时出现在不同地方。御容肖像提供了可复制和可移动的方式来让皇帝在各地出现以肖像的形式。早期皇帝如隋文帝就使用等身塑像，以后唐朝皇帝也有御像、壁画和铜像等形式。这些肖像的出现加强了皇权和统治力量。【简化文本】&lt;/p&gt;
 
     &lt;/div&gt;
 
@@ -1470,7 +1501,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -1541,10 +1572,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -1625,7 +1670,6 @@
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 

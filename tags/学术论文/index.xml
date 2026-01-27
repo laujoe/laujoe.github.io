@@ -426,6 +426,8 @@
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -450,6 +452,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         此篇论文肇始于2023年12月的中山大学“人文•日出”论坛，当时仅是1篇略不成熟的3000字摘要。会议中潘大为老师等师友不吝赐教，使文章愈加完善。可惜会中抱恙，未有机会深入交流探讨。2024年5月重新梳理思路，全文初步完成。后来经范淑英导师、系内齐彬老师、单海兰老师等指点，使文章更为简练清爽。2025年9月，拙文终见“天日”，颇为感慨。感谢《医学与哲学》编辑部对拙作的建议与校正，其认真与专业态度令人钦佩。此文作为我2025年所发表的第1篇文章，也是学术生涯的第1篇核心论文，希望以此勉励自身不断进步。
     &lt;/div&gt;
@@ -541,7 +544,7 @@
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -612,10 +615,24 @@
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -696,7 +713,6 @@
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -999,7 +1015,8 @@
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -1154,7 +1171,8 @@
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -1162,7 +1180,7 @@
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-3a57abdb&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-3a57abdb&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -1339,6 +1357,17 @@
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -1374,6 +1403,9 @@
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -1381,11 +1413,15 @@
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -1405,25 +1441,65 @@
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -1431,23 +1507,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -1627,7 +1717,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -1635,7 +1726,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-371d24e1&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-371d24e1&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -1808,6 +1899,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -1843,6 +1945,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -1850,11 +1955,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -1874,25 +1983,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -1900,23 +2049,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -13037,6 +13200,8 @@ function toggleFullScreen(elementId) {
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -13061,6 +13226,7 @@ function toggleFullScreen(elementId) {
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         此篇论文大概半天时间完成，虽有创意，但是创新程度寥寥，科普向文章。同时要感谢《文史天地》编辑部效率之高，允蒙尘之文得以见日。
     &lt;/div&gt;
@@ -13152,7 +13318,7 @@ function toggleFullScreen(elementId) {
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -13223,10 +13389,24 @@ function toggleFullScreen(elementId) {
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -13307,7 +13487,6 @@ function toggleFullScreen(elementId) {
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -13610,7 +13789,8 @@ function toggleFullScreen(elementId) {
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -13765,7 +13945,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -13773,7 +13954,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-449b3c75&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-449b3c75&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -13950,6 +14131,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -13985,6 +14177,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -13992,11 +14187,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -14016,25 +14215,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -14042,23 +14281,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -14480,6 +14733,8 @@ function toggleFullScreen(elementId) {
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -14504,6 +14759,7 @@ function toggleFullScreen(elementId) {
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         去年聆听西沐教授授课所完成的课程作业，第一次涉猎艺术品市场的习作。感谢《金钥匙》编辑部不弃，允以发表，并给予七个版面。听说刊物明年原则上不再接受硕士生或博士生独作，如此看来还算坐上「最后一班车」。
     &lt;/div&gt;
@@ -14595,7 +14851,7 @@ function toggleFullScreen(elementId) {
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -14666,10 +14922,24 @@ function toggleFullScreen(elementId) {
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -14750,7 +15020,6 @@ function toggleFullScreen(elementId) {
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -15053,7 +15322,8 @@ function toggleFullScreen(elementId) {
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -15208,7 +15478,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -15216,7 +15487,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-17c86280&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-17c86280&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -15393,6 +15664,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -15428,6 +15710,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -15435,11 +15720,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -15459,25 +15748,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -15485,23 +15814,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -15929,6 +16272,8 @@ function toggleFullScreen(elementId) {
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -15953,6 +16298,7 @@ function toggleFullScreen(elementId) {
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         拙文《东亚道教文献的流传与衍变一基于《玉枢宝经》插图本的探究》初为本科学位论文之一章，为个人《玉枢宝经》研究系列第一篇。宗教典籍版本及其配图研究在大陆学界少有问津，研究之途可称坎坷万分。幸得本校范师、陈师提点，以及海内外高校、机构大家帮助，得以查核经籍、图像材料，其中不乏稀见而未得公开者。感激之情，溢于言表。拙文写成后因宗教选题，发表之旅不顺，曾心灰意冷。如今期刊版面可谓“洛阳纸贵&amp;quot;，蒙《收藏家》期刊不弃，编辑部李老师对拙文多作肯定，不吝篇幅，终将拙文以示学界，望拙文能对学界研究有所助益，不负学界方家指点之谊。
     &lt;/div&gt;
@@ -16044,7 +16390,7 @@ function toggleFullScreen(elementId) {
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -16115,10 +16461,24 @@ function toggleFullScreen(elementId) {
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -16199,7 +16559,6 @@ function toggleFullScreen(elementId) {
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -16502,7 +16861,8 @@ function toggleFullScreen(elementId) {
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -16657,7 +17017,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -16665,7 +17026,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-db723ed1&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-db723ed1&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -16842,6 +17203,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -16877,6 +17249,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -16884,11 +17259,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -16908,25 +17287,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -16934,23 +17353,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -17376,6 +17809,8 @@ function toggleFullScreen(elementId) {
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -17400,6 +17835,7 @@ function toggleFullScreen(elementId) {
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         说来惭愧，因上学期苟爱萍教授讲授《先秦美术专题研究》课程，才始对先秦美术有简单了解，并成此文。成文后，由衷感谢范师多次提点文章，教导我考古学知识，使文进一步精进。拙文完成后，《中国美术》编辑部以及主编高老师对拙作予以认可并多次修订，使本文愈加完善，在此表示诚挚感谢。
     &lt;/div&gt;
@@ -17491,7 +17927,7 @@ function toggleFullScreen(elementId) {
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -17562,10 +17998,24 @@ function toggleFullScreen(elementId) {
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -17646,7 +18096,6 @@ function toggleFullScreen(elementId) {
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -17949,7 +18398,8 @@ function toggleFullScreen(elementId) {
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -18104,7 +18554,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -18112,7 +18563,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-9dac47ba&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-9dac47ba&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -18289,6 +18740,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -18324,6 +18786,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -18331,11 +18796,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -18355,25 +18824,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -18381,23 +18890,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -18817,6 +19340,8 @@ function toggleFullScreen(elementId) {
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -18841,8 +19366,9 @@ function toggleFullScreen(elementId) {
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
-        拙文《东亚道教文献的流传与衍变一基于《玉枢宝经》插图本的探究》初为本科学位论文之一章，为个人《玉枢宝经》研究系列第一篇。宗教典籍版本及其配图研究在大陆学界少有问津，研究之途可称坎坷万分。幸得本校范师、陈师提点，以及海内外高校、机构大家帮助，得以查核经籍、图像材料，其中不乏稀见而未得公开者。感激之情，溢于言表。拙文写成后因宗教选题，发表之旅不顺，曾心灰意冷。如今期刊版面可谓“洛阳纸贵&amp;quot;，蒙《收藏家》期刊不弃，编辑部李老师对拙文多作肯定，不吝篇幅，终将拙文以示学界，望拙文能对学界研究有所助益，不负学界方家指点之谊。
+        一篇小文。
     &lt;/div&gt;
 
     
@@ -18932,7 +19458,7 @@ function toggleFullScreen(elementId) {
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -19003,10 +19529,24 @@ function toggleFullScreen(elementId) {
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -19087,7 +19627,6 @@ function toggleFullScreen(elementId) {
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -19390,7 +19929,8 @@ function toggleFullScreen(elementId) {
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -19545,7 +20085,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -19553,7 +20094,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-e12dd731&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-e12dd731&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -19730,6 +20271,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -19765,6 +20317,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -19772,11 +20327,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -19796,25 +20355,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -19822,23 +20421,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -20260,6 +20873,8 @@ function toggleFullScreen(elementId) {
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -20284,6 +20899,7 @@ function toggleFullScreen(elementId) {
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         感谢《东方艺术》刊物编辑部对拙文的认可。责任编辑王老师认真负责，使文章更加流畅完善。负责校对、审查等步骤的老师多次校查文章，纠正错讹。尤其感谢编辑部将拙文列作开篇并予以八个版面，实在是荣幸之至。作为人生第一篇见网的学术论文，这将激励我继续深耕学术沃田。
     &lt;/div&gt;
@@ -20375,7 +20991,7 @@ function toggleFullScreen(elementId) {
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -20446,10 +21062,24 @@ function toggleFullScreen(elementId) {
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -20530,7 +21160,6 @@ function toggleFullScreen(elementId) {
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -20833,7 +21462,8 @@ function toggleFullScreen(elementId) {
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -20988,7 +21618,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -20996,7 +21627,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-37ae375f&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-37ae375f&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -21173,6 +21804,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -21208,6 +21850,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -21215,11 +21860,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -21239,25 +21888,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -21265,23 +21954,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
@@ -21693,6 +22396,8 @@ function toggleFullScreen(elementId) {
 
 
 
+
+
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #2a9d8f;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #2a9d8f;&#34;&gt;“&lt;/div&gt;
@@ -21717,6 +22422,7 @@ function toggleFullScreen(elementId) {
         &lt;/div&gt;
     &lt;/div&gt;
 
+    
     &lt;div class=&#34;ec-content&#34;&gt;
         感谢郑州大学朱学友邀稿，以及郑大相关老师、同学的认可，允拙文刊发于郑州大学嵩阳书院主办刊物《嵩阳》第45期。该文创作于本科二年级，是外出考察所撰作业。文章遵循传统史学之版本、校勘方法，探究“鸵鸟”的“词源史”，故编辑同学误以为我目前主修“历史文献学”研究方向。该文创作时期较早，有不少遗漏之处，如今学业繁忙，缺乏心力修改，十分遗憾。不过其对“鸵鸟”称谓的探讨与梳理还算新颖，可供学界参考。
     &lt;/div&gt;
@@ -21808,7 +22514,7 @@ function toggleFullScreen(elementId) {
         right: 20px;
         font-size: 120px;
         font-family: serif;
-        opacity: var(--ec-bg-icon-opacity);  
+        opacity: var(--ec-bg-icon-opacity);
         pointer-events: none;
         line-height: 1;
         z-index: 0;
@@ -21879,10 +22585,24 @@ function toggleFullScreen(elementId) {
         margin-bottom: 15px;
         font-weight: 500;
         transition: color 0.3s;
+        text-align: justify;
+        text-indent: 2em; 
     }
     
-    .ec-content p { margin-bottom: 0; }
-    .ec-content p + p { margin-top: 0.8em; }
+    .ec-content p { 
+        margin-bottom: 0; 
+        text-indent: 2em !important; 
+    }
+    
+     
+    .ec-content.no-indent, 
+    .ec-content.no-indent p {
+        text-indent: 0 !important;
+    }
+    
+    .ec-content p + p { 
+        margin-top: 0.8em; 
+    }
 
      
     .ec-footer {
@@ -21963,7 +22683,6 @@ function toggleFullScreen(elementId) {
         const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
         const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
-        
         
         const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
 
@@ -22266,7 +22985,8 @@ function toggleFullScreen(elementId) {
     width: 80px;
   }
   .win-btn { width: 12px; height: 12px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
-  .win-close { background: #ff5f57; }
+  .win-close { background: #ff5f57; cursor: pointer; transition: transform 0.2s; }  
+  .win-close:hover { transform: scale(1.1); }
   .win-min { background: #febc2e; }
   .win-max { background: #28c840; }
 
@@ -22421,7 +23141,8 @@ function toggleFullScreen(elementId) {
     
     &lt;div class=&#34;pdf-toolbar&#34;&gt;
         &lt;div class=&#34;pdf-window-controls&#34;&gt;
-            &lt;div class=&#34;win-btn win-close&#34;&gt;&lt;/div&gt;
+            
+            &lt;div class=&#34;win-btn win-close&#34; title=&#34;关闭/退出全屏&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-min&#34;&gt;&lt;/div&gt;
             &lt;div class=&#34;win-btn win-max&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -22429,7 +23150,7 @@ function toggleFullScreen(elementId) {
         &lt;div class=&#34;pdf-title&#34;&gt;Preview&lt;/div&gt;
 
         &lt;div class=&#34;pdf-actions&#34;&gt;
-            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读 (ESC退出 / ←→翻页)&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-c91e4769&#39;)&#34;&gt;
+            &lt;div class=&#34;pdf-action-btn&#34; title=&#34;全屏阅读&#34; onclick=&#34;toggleFullScreen(&#39;pdf-viewer-c91e4769&#39;)&#34;&gt;
                 &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7&#34;/&gt;&lt;/svg&gt;
             &lt;/div&gt;
             
@@ -22606,6 +23327,17 @@ function toggleFullScreen(elementId) {
         pageNum++;
         queueRenderPage(pageNum);
     });
+    
+    
+    var closeBtn = document.querySelector(&#39;#pdf-viewer-&#39; + idSuffix + &#39; .win-close&#39;);
+    if (closeBtn) {
+        closeBtn.addEventListener(&#39;click&#39;, function() {
+            
+            if (document.getElementById(&#39;pdf-viewer-&#39; + idSuffix).classList.contains(&#39;is-fullscreen&#39;)) {
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
+            }
+        });
+    }
 
     document.getElementById(&#39;pdf-page-indicator-&#39; + idSuffix).addEventListener(&#39;click&#39;, function() {
         var newPage = prompt(&#34;跳转到页码 (1-&#34; + pdfDoc.numPages + &#34;):&#34;, pageNum);
@@ -22641,6 +23373,9 @@ function toggleFullScreen(elementId) {
                 zoomOut();
             } else if (e.key === &#34;0&#34;) {
                 fitToWidth(); 
+            } else if (e.key === &#34;Escape&#34;) {
+                
+                exitFullScreen(&#39;pdf-viewer-&#39; + idSuffix);
             }
         }
     });
@@ -22648,11 +23383,15 @@ function toggleFullScreen(elementId) {
     
     function handleFullScreenChange() {
         var card = document.getElementById(&#39;pdf-viewer-&#39; + idSuffix);
-        if (!document.fullscreenElement &amp;&amp; 
-            !document.webkitFullscreenElement &amp;&amp; 
-            !document.mozFullScreenElement &amp;&amp; 
-            !document.msFullscreenElement) {
-            if (card.classList.contains(&#39;is-fullscreen&#39;)) {
+        var isSystemFullscreen = document.fullscreenElement || 
+                                 document.webkitFullscreenElement || 
+                                 document.mozFullScreenElement || 
+                                 document.msFullscreenElement;
+        
+        
+        if (!isSystemFullscreen &amp;&amp; card.classList.contains(&#39;is-fullscreen&#39;)) {
+            
+            if (!isIOS()) {
                 card.classList.remove(&#39;is-fullscreen&#39;);
             }
         }
@@ -22672,25 +23411,65 @@ function toggleFullScreen(elementId) {
 })();
 
 
+function isIOS() {
+  return [
+    &#39;iPad Simulator&#39;,
+    &#39;iPhone Simulator&#39;,
+    &#39;iPod Simulator&#39;,
+    &#39;iPad&#39;,
+    &#39;iPhone&#39;,
+    &#39;iPod&#39;
+  ].includes(navigator.platform)
+  
+  || (navigator.userAgent.includes(&#34;Mac&#34;) &amp;&amp; &#34;ontouchend&#34; in document)
+}
+
+
 function toggleFullScreen(elementId) {
     var element = document.getElementById(elementId);
     var viewport = element.querySelector(&#39;[tabindex]&#39;);
 
-    if (!document.fullscreenElement) {
+    if (element.classList.contains(&#39;is-fullscreen&#39;)) {
+        exitFullScreen(elementId);
+    } else {
+        enterFullScreen(elementId);
+        
+        setTimeout(() =&gt; viewport.focus(), 100);
+    }
+}
+
+function enterFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.add(&#39;is-fullscreen&#39;);
+
+    
+    
+    if (!isIOS()) {
         if(element.requestFullscreen) {
-            element.requestFullscreen();
+            element.requestFullscreen().catch(err =&gt; console.log(err));
         } else if(element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
         } else if(element.msRequestFullscreen) {
             element.msRequestFullscreen();
         }
-        element.classList.add(&#39;is-fullscreen&#39;);
-        setTimeout(() =&gt; viewport.focus(), 100);
-    } else {
+    }
+}
+
+function exitFullScreen(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.remove(&#39;is-fullscreen&#39;);
+
+    
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
         if(document.exitFullscreen) {
             document.exitFullscreen();
+        } else if(document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if(document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if(document.msExitFullscreen) {
+            document.msExitFullscreen();
         }
-        element.classList.remove(&#39;is-fullscreen&#39;);
     }
 }
 &lt;/script&gt;
@@ -22698,23 +23477,37 @@ function toggleFullScreen(elementId) {
 &lt;style&gt;
      
     .pdf-viewer-card.is-fullscreen {
+         
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        
         border-radius: 0;
         margin: 0;
-        height: 100vh;
         max-height: none;
-        width: 100vw;
         background: #111;  
-        z-index: 9999;
+        z-index: 99999;  
     }
+
     .pdf-viewer-card.is-fullscreen #embed-pdf-viewport {
         background: #1a1a1a;
         height: 100%;
+         
+        -webkit-overflow-scrolling: touch; 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-toolbar {
         background: rgba(40, 40, 40, 0.9);
         color: #fff;
         border-bottom: none;
+         
+        padding-top: max(12px, env(safe-area-inset-top)); 
     }
+
     .pdf-viewer-card.is-fullscreen .pdf-title { color: #ddd; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn { color: #ccc; }
     .pdf-viewer-card.is-fullscreen .pdf-action-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
