@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>评测 on Lau Joe / Soar Freely</title>
-        <link>https://laujoe.github.io/tags/%E8%AF%84%E6%B5%8B/</link>
+        <link>https://www.laujoe.top/tags/%E8%AF%84%E6%B5%8B/</link>
         <description>Recent content in 评测 on Lau Joe / Soar Freely</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Lau Joe &amp; Soar Freely All rights reserved. 如需转载与引用，请注明文章链接及作者。</copyright>
-        <lastBuildDate>Sun, 11 Jan 2026 01:00:00 +0000</lastBuildDate><atom:link href="https://laujoe.github.io/tags/%E8%AF%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 11 Jan 2026 01:00:00 +0000</lastBuildDate><atom:link href="https://www.laujoe.top/tags/%E8%AF%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>「工具经验」未来可期的生产力工具：Lattics</title>
-        <link>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/</link>
+        <link>https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/</link>
         <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/</guid>
-        <description>&lt;img src="https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-home.jpg" alt="Featured image of post 「工具经验」未来可期的生产力工具：Lattics" /&gt;&lt;p&gt;作为重度工具评测爱好者，我很喜欢尝试使用各式各样的生产力、效率工具来改善我的生产力工作流。熟悉我的朋友应该了解，我并不喜欢「All in One」，而是主张引入各式各样的软件来顺应原本的工作流，某一软件的「弃置」并不会影响我的整体生产力工作流。&lt;/p&gt;
+        <guid>https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/</guid>
+        <description>&lt;img src="https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-home.jpg" alt="Featured image of post 「工具经验」未来可期的生产力工具：Lattics" /&gt;&lt;p&gt;作为重度工具评测爱好者，我很喜欢尝试使用各式各样的生产力、效率工具来改善我的生产力工作流。熟悉我的朋友应该了解，我并不喜欢「All in One」，而是主张引入各式各样的软件来顺应原本的工作流，某一软件的「弃置」并不会影响我的整体生产力工作流。&lt;/p&gt;
 &lt;p&gt;然而在评测 Lattics 时，我认为这是一款比较特殊的软件，它有不少值得深度优化的地方，但是它本身已经能够实现一套逻辑足以自恰的整理、创作工作流，然而又不会影响我的整体生产力工作流。因此，我希望从创作过程切入，讨论我所理解的 Lattics 。&lt;/p&gt;
 &lt;h2 id=&#34;未来可期的文件管理工具&#34;&gt;未来可期的文件管理工具
 &lt;/h2&gt;&lt;p&gt;Lattics 内置「了解 Lattics 」这一简约而不简单的导航文档，在其中介绍了「类脑式」的知识管理与写作以及 Lattics 功能概览两方面内容，为刚接触 Lattics 的新朋友介绍了如何基本入门 Lattics 。同时内置「报告」、「论文」、「读书笔记」、「短文」、「诗歌」、「小说」六种名称的「文件夹」，新朋友可以根据这六种文件夹来分别管理个人的文件，不过还有很多地方值得进一步优化。&lt;/p&gt;
 &lt;p&gt;以「论文」为例，我在其中放置了 Pdf 、 Word 、 Excel 以及一些图像，对于 Pdf 与一般格式的图像文件， Lattics 都支持软件内部查看，然而对于较为大型（测试时，我采用的是 860 M 的 Pdf 文件）的文件时， Lattics 还是不免有较长的延迟情况。同样为860 M 的 Pdf 文件，我用 Devonthink 打开所需时间为 1 秒，然而 Lattics 却需要 5 秒。&lt;/p&gt;
 &lt;p&gt;除此， Word 、 Excel 文件还不支持软件内部查看，还需要通过外部软件进行查阅，这使得文件管理稍显效率低下。然而这些问题都能够通过后续更新进行优化、解决，目前已经足够支撑轻度的日常写作，而对于更多文件格式的支持会提高 Lattics 文件管理的上限，使其更具有普适性。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01.jpg&#34;
 	width=&#34;2400&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01_hu_f61ee2832585d745.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01_hu_c133aca9e72a9c37.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01_hu_f61ee2832585d745.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture01_hu_c133aca9e72a9c37.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 01&#34;
@@ -46,10 +46,10 @@
 &lt;p&gt;从「文章」内图片可以导出这一情况，我们能够发现 Lattics 本身支持图片的导入导出，然而在进行具体文件的导出时，导出逻辑有所缺失——即它仅将「文章」导出，而将其他附件（主要是使用者导入的特殊格式文件）有所忽略。这样一来，便会造成体验时的割裂感，即我导入的文件（外来）与内置「文章」是两种运用逻辑，这两者并不能顺利的融洽为一。关于改进方式，我的建议是理顺导出逻辑，并且给予使用者一定的自由度——使用者可以根据选项自由选择是否将哪项、哪类导入文件同「文章」一齐导出。&lt;/p&gt;
 &lt;p&gt;在这里需要提到 Lattics 的思维导图功能（官方将其称作创作可视化），它的思维导图支持思维、情节、鸟瞰三种形式，适合不同情境下的具体运用。并且思维导图可以随意调整文件（包括上下层级、先后顺序），并会实时改变文件夹的目录状态。其中的文件还能够增加强调色，甚至还有自动布局功能，使管理更为方便。&lt;/p&gt;
 &lt;p&gt;这套思维导图功能十分好用，然而这里的问题与前者相似，都是缺乏外置导入文件与内置「文章」（卡片）的融洽结合。思维导图有「内容筛选」这一选项，然而其中仅有「文章」、「卡片」、「标签」三者，在我看来，开发者可以加入更多选项，将外置导入文件囊括进去。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02.jpg&#34;
 	width=&#34;1558&#34;
 	height=&#34;1530&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02_hu_cea621eac5167a3b.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02_hu_86906182180fb306.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02_hu_cea621eac5167a3b.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture02_hu_86906182180fb306.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 02&#34;
@@ -66,10 +66,10 @@
 &lt;p&gt;我认为 Lattics 有三套主要的写作工具。&lt;/p&gt;
 &lt;p&gt;其一为「卡片」，使用者可以在「卡片库」写作各种各样的「卡片」，然后穿插在不同「文章」中。我个人认为这些「卡片」完全可以作为「灵感源泉」，当外出或者是阅读时，头脑突然闪过一些奇思妙想，就可以在卡片库中创作卡片，晚上将这些卡片重新梳理、复盘，或者撰写成短文。或是将「卡片库」当成「论文资料库」，例如我为了写作一篇论文翻阅了大量资料，我完全可以将这些资料的核心精华制作成卡片，然后在写作时随时阅览，或是添加至相关文章。因此，「卡片库」是一个适用于各种场景的「个人灵感库」，能够承载不同使用者的需求。&lt;/p&gt;
 &lt;p&gt;第二套写作工具为「图文分栏」（或文文分栏），我认为这很适合自媒体以及喜欢图文分享的朋友进行创作，或者是进行日记记录。以我为例，我有做日记的习惯（目前在 Obsidian 写日记），而 Lattics 这套颇为自由的图文分栏就可以让我将日常拍摄的照片以较为精致的方式展现出来，而后导出图片或 Pdf 格式，存储至 Devonthink 。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03.jpg&#34;
 	width=&#34;1452&#34;
 	height=&#34;1540&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03_hu_e5c77f4c6408828b.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03_hu_73be5b35d56927d6.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03_hu_e5c77f4c6408828b.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture03_hu_73be5b35d56927d6.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 03&#34;
@@ -82,10 +82,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;还有一些自媒体用户或喜欢分享日常生活的朋友，以图文分栏形式记录生活、分享心得体会都是不错的途径。从专业学习角度来看， Lattics 的「图文分栏」也可以用来学习，例如我的学科专业为艺术学理论，平时需要阅览大量图片，而相关专业学生就可以用图文分栏形式摘录图片，写作相关的心得体会，进行专业学习。&lt;/p&gt;
 &lt;p&gt;第三套写作工具为「文章」，主要体现在「文章」中进行「块状」写作，即文章中的段落、图像、表格、代码、数学公式等内容都可以作为一个个「块」，这些「块」可以自由地进行拖拽移动，在文章内任意调整位置。这种块状写作并不少见，例如 Notion 、 Anytype 等软件均支持块状写作。然而 Lattics 这种块状写作更为丝滑，配合「卡片库」具有 1 + 1 大于 2 的效果。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04.jpg&#34;
 	width=&#34;1008&#34;
 	height=&#34;1176&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04_hu_575a11b46a76ac05.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04_hu_9078333f42736b50.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04_hu_575a11b46a76ac05.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%9C%AA%E6%9D%A5%E5%8F%AF%E6%9C%9F%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7lattics/20231227-Picture04_hu_9078333f42736b50.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Picture 04&#34;
@@ -110,17 +110,17 @@
         </item>
         <item>
         <title>「工具经验」可见用心，但仍有美中不足——Nuphy Air60 V1测评</title>
-        <link>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/</link>
+        <link>https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/</link>
         <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/</guid>
-        <description>&lt;img src="https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-home.jpg" alt="Featured image of post 「工具经验」可见用心，但仍有美中不足——Nuphy Air60 V1测评" /&gt;&lt;p&gt;感谢Nuphy厂商的乔乔赠送 Air60 V1键盘以供测试，自8月4日周五收到键盘，至今约有一周时间。经过这段时间的使用，我对这款键盘有些想法与体会，在此撰文简要论述。&lt;/p&gt;
+        <guid>https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/</guid>
+        <description>&lt;img src="https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-home.jpg" alt="Featured image of post 「工具经验」可见用心，但仍有美中不足——Nuphy Air60 V1测评" /&gt;&lt;p&gt;感谢Nuphy厂商的乔乔赠送 Air60 V1键盘以供测试，自8月4日周五收到键盘，至今约有一周时间。经过这段时间的使用，我对这款键盘有些想法与体会，在此撰文简要论述。&lt;/p&gt;
 &lt;p&gt;在讨论Air60 V1以前，我先简单为各位介绍我目前在使用的办公设备。键盘是罗技的ERGO K860，一款人体工程学键盘，它很贴心地在键盘标识处注明opt、cmd等Apple 按键标识，能够较好满足我双持的需求。鼠标是罗技的ERGO M575，一款轨迹球鼠标。我的主力办公设备是Macbook M1 Pro，便携办公是ipad 2020，这两款设备基本支持我的办公设备。&lt;/p&gt;
 &lt;p&gt;图示为开箱过程，不得不称赞Nuphy确实用心。内含三颗可自由更换的蓝色、红色、棕色轴体，以及一把键盘拆卸工具，除此还有键帽、贴纸、数据线、脚垫、接收器等等，可谓是一应俱全。海报看板娘的设计亦颇为用心，颇具趣味。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture01.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture01.jpg&#34;
 	width=&#34;3448&#34;
 	height=&#34;1380&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture01_hu_4dcb493acb2e3490.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture01_hu_d99f37a23a65089b.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture01_hu_4dcb493acb2e3490.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture01_hu_d99f37a23a65089b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;开箱(1)&#34;
@@ -130,10 +130,10 @@
 		data-flex-grow=&#34;249&#34;
 		data-flex-basis=&#34;599px&#34;
 	
-&gt;  &lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture02.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture02.jpg&#34;
 	width=&#34;3582&#34;
 	height=&#34;1386&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture02_hu_c691f80eeb60e055.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture02_hu_c2afeb4058deb2e8.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture02_hu_c691f80eeb60e055.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E5%8F%AF%E8%A7%81%E7%94%A8%E5%BF%83%E4%BD%86%E4%BB%8D%E6%9C%89%E7%BE%8E%E4%B8%AD%E4%B8%8D%E8%B6%B3nuphy-air60-v1%E6%B5%8B%E8%AF%84/20230811-Picture02_hu_c2afeb4058deb2e8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;开箱(2)&#34;
@@ -159,11 +159,11 @@
         </item>
         <item>
         <title>「工具经验」数数最近的新鲜效率工具：Rendevoz、AFFiNE、Memo、Google Bard</title>
-        <link>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/</link>
+        <link>https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/</link>
         <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/</guid>
-        <description>&lt;img src="https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-home.jpg" alt="Featured image of post 「工具经验」数数最近的新鲜效率工具：Rendevoz、AFFiNE、Memo、Google Bard" /&gt;&lt;p&gt;虽然我已经形成了一套颇为固定的办公、知识工作流，但我依然经常关注新兴的效率软件。尤其是在人工智能技术浪潮来临的现代社会，许多效率软件都主打「Ai加持」，在功能上有所创新。因此，这篇文章主要谈谈我最近关注的效率软件，希望为各位朋友提供借鉴。&lt;/p&gt;
+        <guid>https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/</guid>
+        <description>&lt;img src="https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-home.jpg" alt="Featured image of post 「工具经验」数数最近的新鲜效率工具：Rendevoz、AFFiNE、Memo、Google Bard" /&gt;&lt;p&gt;虽然我已经形成了一套颇为固定的办公、知识工作流，但我依然经常关注新兴的效率软件。尤其是在人工智能技术浪潮来临的现代社会，许多效率软件都主打「Ai加持」，在功能上有所创新。因此，这篇文章主要谈谈我最近关注的效率软件，希望为各位朋友提供借鉴。&lt;/p&gt;
 &lt;h2 id=&#34;rendevoz&#34;&gt;Rendevoz
 &lt;/h2&gt;
 
@@ -537,10 +537,10 @@
     }
 &lt;/style&gt;
 &lt;p&gt;在具体使用过程中，我发现该软件的亮点与不足，接下来分而论之。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture01.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture01.jpg&#34;
 	width=&#34;1070&#34;
 	height=&#34;851&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture01_hu_a2e7919922c44692.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture01_hu_b1a3678490af3486.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture01_hu_a2e7919922c44692.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture01_hu_b1a3678490af3486.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;官方演示「可视化查看知识间的关联」&#34;
@@ -553,10 +553,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;亮点&#34;&gt;亮点
 &lt;/h3&gt;&lt;p&gt;当我第一次见到这款软件时，他给我最直观的感受是「质性研究软件」与「双链笔记软件」的结合体。对我而言，这款软件很适合「专题研究」以及「专业学习」。例如备考教师资格证，我能够将相关的PDF、网课视频放至其中。尤其是视频的播放与笔记，让我想起前段时间在sspai进行宣传的「VideoNotes」。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture02.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture02.jpg&#34;
 	width=&#34;2858&#34;
 	height=&#34;1542&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture02_hu_5728d25b08bdeb67.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture02_hu_298188d4bbc4e590.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture02_hu_5728d25b08bdeb67.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture02_hu_298188d4bbc4e590.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;个人演示「视频功能」（1）&#34;
@@ -566,10 +566,10 @@
 		data-flex-grow=&#34;185&#34;
 		data-flex-basis=&#34;444px&#34;
 	
-&gt;  &lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture03.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture03.jpg&#34;
 	width=&#34;2858&#34;
 	height=&#34;1542&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture03_hu_65c2f85ff6dd0353.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture03_hu_828129731f52935b.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture03_hu_65c2f85ff6dd0353.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture03_hu_828129731f52935b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;个人演示「视频功能」（2）&#34;
@@ -581,10 +581,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在看视频时，我能够添加截图、章节与标注，并且将标注添加至笔记。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture04.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture04.jpg&#34;
 	width=&#34;2580&#34;
 	height=&#34;1444&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture04_hu_b21a07f3b55bdec1.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture04_hu_d0d3b7d317b3eda0.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture04_hu_b21a07f3b55bdec1.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture04_hu_d0d3b7d317b3eda0.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;官方演示「视频标注及笔记创作」&#34;
@@ -601,10 +601,10 @@
 &lt;p&gt;其二，目前尚未添加「建立多个数据库」这类功能，也就是所有文件全部呈现于单一数据库。因此，如果我希望通过Rendevoz进行两个不太相同的专题，这两个专题的资料就会混在一起，从而不利于聚焦。【开发者在群内回应，该功能会在日后添加。】&lt;/p&gt;
 &lt;p&gt;其三，目前并不能进行「跨软件交际」这一功能。例如我在Apple图库，Devonthink等其他软件拖动图片或者PDF到Rendevoz内，Rendevoz并不能读取这些文件。然而Obsidian、Goodnotes、Omnioutliner等软件已经支持这种跨软件交际。&lt;/p&gt;
 &lt;p&gt;其四，Rendevoz的PDF阅读体验薄弱。例如我在Devonthink里打开一个PDF文件（默认打开方式是预览），MacOS13已经支持自动识别图片里的文字，因此，我可以十分便捷地进行制、粘贴乃至翻译等操作。尤其是在Devonthink打开文档，我可以将选中的文字以各种操作。然而Rendevoz内的文档并不能提供这些操作，尤其是其将「翻译」作为一个付费点，而我已经有「Easydict」与MacOS系统默认翻译，完全足够创作所需。因此，目前的Rendevoz很难融入我的工作流。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture05.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture05.jpg&#34;
 	width=&#34;2060&#34;
 	height=&#34;1470&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture05_hu_b1e0eeb0fa434a59.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture05_hu_d03f53d6c8bfc4af.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture05_hu_b1e0eeb0fa434a59.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture05_hu_d03f53d6c8bfc4af.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Devonthink」的相关操作&#34;
@@ -616,10 +616,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;其五，官方群内有一位朋友就「双链」方面提供建议，颇具道理，转引于此。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture06.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture06.jpg&#34;
 	width=&#34;1920&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture06_hu_98e072754aa46b06.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture06_hu_b1e6705b3605fbff.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture06_hu_98e072754aa46b06.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture06_hu_b1e6705b3605fbff.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「官方群友的建议」&#34;
@@ -1004,10 +1004,10 @@
 &lt;/style&gt;
 &lt;h3 id=&#34;亮点-1&#34;&gt;亮点
 &lt;/h3&gt;&lt;p&gt;其一，AFFiNE有所谓「Workspace」（工作区）的概念，用户可以根据需要创建任意工作区来进行工作，从而划分不同专题的具体研究。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture07.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture07.jpg&#34;
 	width=&#34;2000&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture07_hu_1bfb4c27264ab917.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture07_hu_bcc2d87cc2967722.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture07_hu_1bfb4c27264ab917.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture07_hu_bcc2d87cc2967722.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「AFFiNE」的「Workspace」展示&#34;
@@ -1019,10 +1019,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;其二，AFFiNE具有两种视图，一种是「Markdown视图」，通过内置的Markdown编辑器进行文字输入。还有一种就是「可视化视图」，能够将Markdown的文字、图片直接转化为白板上的可视化内容。尤其是支持动图等格式，使AFFiNE的适用性更为广泛。尤其是可以在白板上随意图画，使笔记更为自由。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture08.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture08.jpg&#34;
 	width=&#34;2806&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture08_hu_d054f9b888006855.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture08_hu_5b64bc2c9cf26e91.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture08_hu_d054f9b888006855.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture08_hu_5b64bc2c9cf26e91.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;官方演示-「AFFiNE」的「Markdown视图」&#34;
@@ -1032,10 +1032,10 @@
 		data-flex-grow=&#34;175&#34;
 		data-flex-basis=&#34;420px&#34;
 	
-&gt;  &lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture09.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture09.jpg&#34;
 	width=&#34;2244&#34;
 	height=&#34;1566&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture09_hu_4341db2ac7fbc312.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture09_hu_8755ce000fe961b.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture09_hu_4341db2ac7fbc312.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture09_hu_8755ce000fe961b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;官方演示-「AFFiNE」的「可视化视图」&#34;
@@ -1045,10 +1045,10 @@
 		data-flex-grow=&#34;143&#34;
 		data-flex-basis=&#34;343px&#34;
 	
-&gt;  &lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture10.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture10.jpg&#34;
 	width=&#34;2806&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture10_hu_b6bd20eaf84516ad.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture10_hu_c4917d1ae6aa60ac.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture10_hu_b6bd20eaf84516ad.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture10_hu_c4917d1ae6aa60ac.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;个人演示-「AFFiNE」的「Markdown视图」&#34;
@@ -1060,10 +1060,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;其三：目前对中文搜索的支持较好，我在两个文档内有「考古」字眼，通过全局搜索可以索引到。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture11.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture11.jpg&#34;
 	width=&#34;3024&#34;
 	height=&#34;1684&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture11_hu_ee28d9cbff21cbff.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture11_hu_7acb9a5c2f5289aa.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture11_hu_ee28d9cbff21cbff.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture11_hu_7acb9a5c2f5289aa.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「AFFiNE」的搜索功能&#34;
@@ -1446,10 +1446,10 @@
 &lt;/style&gt;
 &lt;h3 id=&#34;亮点-2&#34;&gt;亮点
 &lt;/h3&gt;&lt;p&gt;其一，Memo软件内部提供Youtube、Podcast的下载窗口。如图所示，我将一首歌曲的Youtube链接复制在下载窗口，很快就出现相关信息及转换状况，能够帮助我一键转换。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture12.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture12.jpg&#34;
 	width=&#34;2266&#34;
 	height=&#34;1426&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture12_hu_c9f105dbcd00b962.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture12_hu_276765f24d3d2136.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture12_hu_c9f105dbcd00b962.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture12_hu_276765f24d3d2136.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;资源链接方式&#34;
@@ -1461,10 +1461,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;其二，官方目前仅开放资源链接、本地媒体转换两种方式。然而在未来会开放录制、博客剪辑等功能。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture13.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture13.jpg&#34;
 	width=&#34;1916&#34;
 	height=&#34;672&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture13_hu_5f9e5ff7497dc75b.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture13_hu_dc002abcb42c156e.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture13_hu_5f9e5ff7497dc75b.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture13_hu_dc002abcb42c156e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;目前开放的两种转换方式&#34;
@@ -1481,10 +1481,10 @@
 &lt;p&gt;测试歌曲「法老-我想」时长4分14秒，Tiny模型用时19秒，Large模型用时4分4秒。通过MacOS的「活动监视器」，两种模型在运行时的能耗都在「6000-9000」（一般来说，腾讯会议的能耗为900-1200，炉石传说的能耗为700-1200）。笔者所用的电脑为Mac M1 Pro（8+14），在模型运行时将散热风扇转速调至最高，整体温度仍然在85~90度之间。&lt;/p&gt;
 &lt;p&gt;综合同段时间的歌词准确率，我发现两种模型几乎确实存在较大差别。Large模型基本能识别每一句歌词，而Tiny识别的歌词更像是「短语」，准确率并不高，甚至可以用「灾难」来形容。&lt;/p&gt;
 &lt;p&gt;然而如果我们以Large这种识别率较准确的模型进行音频识别，无疑会对电脑有较大压力。尤其是长时段的会议录音，动辄一两个小时。因此，Memo还是应进一步优化模型，并降低负荷。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture14.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture14.jpg&#34;
 	width=&#34;2400&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture14_hu_27fcbcd7b75225c0.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture14_hu_5c59253725b209ff.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture14_hu_27fcbcd7b75225c0.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture14_hu_5c59253725b209ff.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Large」模型效果演示&#34;
@@ -1494,10 +1494,10 @@
 		data-flex-grow=&#34;150&#34;
 		data-flex-basis=&#34;360px&#34;
 	
-&gt;  &lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture15.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture15.jpg&#34;
 	width=&#34;2400&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture15_hu_ce9634450542c07c.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture15_hu_b765d00fa947db65.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture15_hu_ce9634450542c07c.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture15_hu_b765d00fa947db65.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Tiny」模型效果演示&#34;
@@ -1872,10 +1872,10 @@
     }
 &lt;/style&gt;
 &lt;p&gt;我以「改写龟兔赛跑这一故事」这一问题分别问与Google Bard、ChatGPT。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture16.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture16.jpg&#34;
 	width=&#34;2202&#34;
 	height=&#34;912&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture16_hu_7c9edc5b095cc437.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture16_hu_e01b6204d5ef0e73.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture16_hu_7c9edc5b095cc437.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture16_hu_e01b6204d5ef0e73.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Google Bard」演示（1）&#34;
@@ -1887,10 +1887,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;如图所示，Google Bard并未抓住问题的重点「改写」，而是就「龟兔赛跑」这一故事进行叙述。我阅览其他草稿，发现其都是围绕「龟兔赛跑」进行讲解。之后我让Google Bard「进行故事改写，在其中增加另外角色」，然而其结果依然不佳。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture17.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture17.jpg&#34;
 	width=&#34;2152&#34;
 	height=&#34;934&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture17_hu_2e6cfa43b1df13f7.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture17_hu_7dd0d5125893a53b.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture17_hu_2e6cfa43b1df13f7.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture17_hu_7dd0d5125893a53b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Google Bard」演示（2）&#34;
@@ -1902,10 +1902,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;之后我以相同的问题询问ChatGPT（Edge搭载的New Bing），New Bing两次向我提问。在第一个问题中，它向我确认「故事主题」，从而确定基调。第二个问题则是询问我添加何种生物，并且该生物的性格。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture18.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture18.jpg&#34;
 	width=&#34;698&#34;
 	height=&#34;914&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture18_hu_ff575c38e231a084.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture18_hu_ae01b9319171a4fe.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture18_hu_ff575c38e231a084.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture18_hu_ae01b9319171a4fe.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Google Bard」演示（1）&#34;
@@ -1915,10 +1915,10 @@
 		data-flex-grow=&#34;76&#34;
 		data-flex-basis=&#34;183px&#34;
 	
-&gt;  &lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture19.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture19.jpg&#34;
 	width=&#34;684&#34;
 	height=&#34;1152&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture19_hu_5c43a10cc5dcf897.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture19_hu_36fbacf9c1daa022.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture19_hu_5c43a10cc5dcf897.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture19_hu_36fbacf9c1daa022.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Google Bard」演示（2）&#34;
@@ -1928,10 +1928,10 @@
 		data-flex-grow=&#34;59&#34;
 		data-flex-basis=&#34;142px&#34;
 	
-&gt;  &lt;img src=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture20.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture20.jpg&#34;
 	width=&#34;688&#34;
 	height=&#34;1010&#34;
-	srcset=&#34;https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture20_hu_d562f7c46a020bda.jpg 480w, https://laujoe.github.io/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture20_hu_83b252a3e1d1abba.jpg 1024w&#34;
+	srcset=&#34;https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture20_hu_d562f7c46a020bda.jpg 480w, https://www.laujoe.top/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%95%B0%E6%95%B0%E6%9C%80%E8%BF%91%E7%9A%84%E6%96%B0%E9%B2%9C%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7rendevozaffinememogoogle-bard/20230715-Picture20_hu_83b252a3e1d1abba.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「Google Bard」演示（3）&#34;
