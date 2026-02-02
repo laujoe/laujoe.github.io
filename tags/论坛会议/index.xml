@@ -596,7 +596,6 @@
 
 
 
-
 &lt;div class=&#34;excerpt-card&#34; id=&#34;excerpt-1&#34; style=&#34;border-left-color: #e0a82e;&#34;&gt;
     
     &lt;div class=&#34;ec-bg-icon&#34; style=&#34;color: #e0a82e;&#34;&gt;“&lt;/div&gt;
@@ -610,8 +609,18 @@
             
         &lt;/div&gt;
         
-        
         &lt;div class=&#34;ec-actions&#34;&gt;
+            &lt;button class=&#34;ec-btn translate-btn&#34; aria-label=&#34;翻译内容&#34; title=&#34;点击翻译&#34; style=&#34;display:none;&#34;&gt;
+                &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;18&#34; height=&#34;18&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+                    &lt;path d=&#34;M5 8l6 6&#34;&gt;&lt;/path&gt;
+                    &lt;path d=&#34;M4 14h6l2-2h8&#34;&gt;&lt;/path&gt;
+                    &lt;path d=&#34;M2 5h12&#34;&gt;&lt;/path&gt;
+                    &lt;path d=&#34;M7 2h1&#34;&gt;&lt;/path&gt;
+                    &lt;path d=&#34;M22 22l-5-10-5 10&#34;&gt;&lt;/path&gt;
+                    &lt;path d=&#34;M14 18h6&#34;&gt;&lt;/path&gt;
+                &lt;/svg&gt;
+            &lt;/button&gt;
+
             
             
             &lt;button class=&#34;ec-btn copy-btn&#34; aria-label=&#34;复制摘抄&#34; title=&#34;复制内容&#34;&gt;
@@ -621,11 +630,16 @@
         &lt;/div&gt;
     &lt;/div&gt;
 
-    
     &lt;div class=&#34;ec-content&#34;&gt;
         &lt;p&gt;不论学界、业界还是日常生活，会议并非一个罕见词汇。然而大多数会议往往是专家学者或上司领导的「一言堂」，发声者为未发声者「代言」。因此，Soar Freely 新年交流会希望能够建立一个友好的交流平台：一个没有繁文缛节的天地，欢迎来自不同地域、具有不同背景的朋友们畅所欲言，分享自己的生活、经历乃至人生。因此，从园桌交流、文艺对谈，乃至主旨演讲，Soar Freely 新年交流会都不会设置具体议题，而是以宽广的概念引领交流自由发展，从而实现「思想的游牧」。&lt;/p&gt;
 &lt;p&gt;在科学技术如此发达，而人的感官又如此「落后」的信息时代，每个人都处于「信息茧房」。而通过交流，我们能够在某种意义上挣脱「舒适区」，去聆听「来自异域的声音」，或许这就是本次交流会的意义所在。&lt;/p&gt;
 
+    &lt;/div&gt;
+
+    &lt;div class=&#34;ec-translation&#34; style=&#34;display: none;&#34;&gt;
+        &lt;div class=&#34;ec-trans-loading&#34;&gt;正在翻译...&lt;/div&gt;
+        &lt;div class=&#34;ec-trans-text&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;ec-trans-source&#34;&gt;&lt;/div&gt; 
     &lt;/div&gt;
 
     
@@ -633,7 +647,6 @@
         &lt;div class=&#34;ec-line&#34;&gt;&lt;/div&gt;
         &lt;div class=&#34;ec-meta-row&#34;&gt;
             &lt;div class=&#34;ec-info-left&#34;&gt;
-                
                 
                     &lt;span class=&#34;ec-item&#34;&gt;
                         &lt;svg class=&#34;ec-icon-small&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;14&#34; height=&#34;14&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; fill=&#34;none&#34;&gt;&lt;path d=&#34;M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;7&#34; r=&#34;4&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;
@@ -644,7 +657,6 @@
                 
 
                 
-                
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -652,22 +664,19 @@
 &lt;/div&gt;
 
 &lt;style&gt;
+     
     .excerpt-card {
-         
         --ec-bg-card: #fcfcfc;
         --ec-border: #e1e4e8;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.04);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.08);
-        
         --ec-text-content: #1a1a1a;
         --ec-text-meta: #666666;
         --ec-line: #eaecef;
-        
         --ec-btn-bg: rgba(0,0,0,0.03);
         --ec-btn-text: #999999;
         --ec-btn-hover-bg: rgba(0,0,0,0.08);
         --ec-btn-hover-text: #333333;
-        
         --ec-bg-icon-opacity: 0.06;
         --ec-link-hover: #0366d6;
         
@@ -685,23 +694,19 @@
         font-family: inherit;
     }
 
-     
     @media (prefers-color-scheme: dark) {
         :root:not([data-scheme=&#34;light&#34;]) .excerpt-card {
             --ec-bg-card: #1e1e1e;
             --ec-border: #333333;
             --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
             --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-            
             --ec-text-content: #f0f0f0;
             --ec-text-meta: #aaaaaa;
             --ec-line: #333333;
-            
             --ec-btn-bg: rgba(255,255,255,0.05);
             --ec-btn-text: #777777;
             --ec-btn-hover-bg: rgba(255,255,255,0.15);
             --ec-btn-hover-text: #ffffff;
-            
             --ec-bg-icon-opacity: 0.04;
         }
     }
@@ -711,16 +716,13 @@
         --ec-border: #333333;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-        
         --ec-text-content: #f0f0f0;
         --ec-text-meta: #aaaaaa;
         --ec-line: #333333;
-        
         --ec-btn-bg: rgba(255,255,255,0.05);
         --ec-btn-text: #777777;
         --ec-btn-hover-bg: rgba(255,255,255,0.15);
         --ec-btn-hover-text: #ffffff;
-        
         --ec-bg-icon-opacity: 0.04;
     }
 
@@ -741,7 +743,6 @@
         z-index: 0;
     }
 
-     
     .ec-header {
         display: flex;
         justify-content: space-between;
@@ -753,7 +754,6 @@
     }
 
     .ec-tags { display: flex; gap: 8px; }
-
     .ec-tag {
         font-size: 12px;
         font-weight: 700;
@@ -763,12 +763,7 @@
         letter-spacing: 0.5px;
     }
 
-     
-    .ec-actions {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-    }
+    .ec-actions { display: flex; gap: 8px; align-items: center; }
 
     .ec-btn {
         background: var(--ec-btn-bg);
@@ -789,12 +784,15 @@
         color: var(--ec-btn-hover-text);
         transform: translateY(-1px);
     }
+    .ec-btn.active {
+        color: var(--ec-link-hover);
+        background: rgba(3, 102, 214, 0.1);
+    }
     .ec-btn.copy-btn.copied {
         color: #28a745 !important;
         background: rgba(40, 167, 69, 0.1);
     }
 
-     
     .ec-content {
         position: relative;
         z-index: 1;
@@ -809,84 +807,42 @@
         text-align: justify;
         text-indent: 2em; 
     }
-    
-    .ec-content p { 
-        margin-bottom: 0; 
-        text-indent: 2em !important; 
-    }
-    
-     
-    .ec-content.no-indent, 
-    .ec-content.no-indent p {
-        text-indent: 0 !important;
-    }
-    
-    .ec-content p + p { 
-        margin-top: 0.8em; 
-    }
+    .ec-content p { margin-bottom: 0; text-indent: 2em !important; }
+    .ec-content.no-indent, .ec-content.no-indent p { text-indent: 0 !important; }
+    .ec-content p + p { margin-top: 0.8em; }
 
-     
-    .ec-footer {
-        position: relative;
-        z-index: 1;
-        margin-top: 30px;
-    }
-
-    .ec-line {
-        height: 1px;
-        background: var(--ec-line);
-        margin-bottom: 12px;
-        width: 100%;
-        transition: background 0.3s;
-    }
-
-    .ec-meta-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 15px;
-        font-size: 14px;
+    .ec-translation {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px dashed var(--ec-line);
+        font-size: 1.5rem; 
+        line-height: 1.6;
         color: var(--ec-text-meta);
-        transition: color 0.3s;
+    }
+    .ec-trans-loading {
+        font-size: 0.9rem;
+        color: #999;
+        font-style: italic;
+    }
+    .ec-trans-source {
+        font-size: 0.8rem;
+        color: #ccc;
+        margin-top: 8px;
+        text-align: right;
     }
 
-    .ec-info-left {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    .ec-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
+    .ec-footer { position: relative; z-index: 1; margin-top: 30px; }
+    .ec-line { height: 1px; background: var(--ec-line); margin-bottom: 12px; width: 100%; transition: background 0.3s; }
+    .ec-meta-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; font-size: 14px; color: var(--ec-text-meta); transition: color 0.3s; }
+    .ec-info-left { display: flex; align-items: center; gap: 15px; flex-wrap: wrap; }
+    .ec-item { display: flex; align-items: center; gap: 6px; }
     .ec-icon-small { opacity: 0.7; }
-
-     
-    .ec-link-text {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px dashed transparent;
-        transition: all 0.2s;
-    }
-    .ec-link-text:hover {
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: var(--hover-color, var(--ec-link-hover));
-    }
-    .ec-link-text.linked { 
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: rgba(0,0,0,0.15);
-    }
+    .ec-link-text { color: inherit; text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.2s; }
+    .ec-link-text:hover { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: var(--hover-color, var(--ec-link-hover)); }
+    .ec-link-text.linked { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: rgba(0,0,0,0.15); }
 
     @media (max-width: 600px) {
-        .ec-content {
-            font-size: 1.4rem;
-            line-height: 1.6;
-        }
+        .ec-content { font-size: 1.4rem; line-height: 1.6; }
         .excerpt-card { padding: 20px 24px; }
         .ec-meta-row { flex-direction: column; align-items: flex-start; gap: 8px; }
     }
@@ -898,36 +854,288 @@
         const card = document.getElementById(cardId);
         if (!card) return;
 
-        const copyBtn = card.querySelector(&#39;.copy-btn&#39;);
-        if(!copyBtn) return; 
-
-        const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
-        const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
         const content = card.querySelector(&#39;.ec-content&#39;);
+        const translateBtn = card.querySelector(&#39;.translate-btn&#39;);
+        const translationContainer = card.querySelector(&#39;.ec-translation&#39;);
+        const transText = card.querySelector(&#39;.ec-trans-text&#39;);
+        const transLoading = card.querySelector(&#39;.ec-trans-loading&#39;);
+        const transSource = card.querySelector(&#39;.ec-trans-source&#39;);
         
-        const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
-
-        copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
-            let textToCopy = content.innerText.trim();
-            if (authorText) {
-                textToCopy += `\n\n—— ${authorText}`;
+        
+        
+        
+        
+        const fastProviders = [
+            
+            {
+                name: &#34;Google&#34;,
+                translate: async (text, lang) =&gt; {
+                    const sl = lang === &#39;auto&#39; ? &#39;auto&#39; : lang;
+                    const u = `https://translate.googleapis.com/translate_a/single?client=gtx&amp;sl=${sl}&amp;tl=zh-CN&amp;dt=t&amp;q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error(&#34;Google Fail&#34;);
+                    const data = await res.json();
+                    return data[0].map(x =&gt; x[0]).join(&#39;&#39;);
+                }
+            },
+            
+            {
+                name: &#34;Google(2)&#34;,
+                translate: async (text, lang) =&gt; {
+                    const sl = lang === &#39;auto&#39; ? &#39;auto&#39; : lang;
+                    const u = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&amp;sl=${sl}&amp;tl=zh-CN&amp;q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error(&#34;Google2 Fail&#34;);
+                    const data = await res.json();
+                    return data[0].map(x =&gt; x).join(&#39;&#39;);
+                }
+            },
+            
+            {
+                name: &#34;Microsoft&#34;,
+                translate: async (text, lang) =&gt; {
+                    
+                    const authRes = await fetch(&#34;https://edge.microsoft.com/translate/auth&#34;);
+                    if (!authRes.ok) throw new Error(&#34;MS Auth Fail&#34;);
+                    const token = await authRes.text();
+                    
+                    const u = `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&amp;to=zh-Hans&amp;textType=plain`;
+                    const res = await fetch(u, {
+                        method: &#34;POST&#34;,
+                        headers: { &#34;Authorization&#34;: &#34;Bearer &#34; + token, &#34;Content-Type&#34;: &#34;application/json&#34; },
+                        body: JSON.stringify([{Text: text}])
+                    });
+                    const data = await res.json();
+                    return data[0].translations[0].text;
+                }
+            },
+            
+            {
+                name: &#34;Lingva&#34;,
+                translate: async (text, lang) =&gt; {
+                    const sl = lang === &#39;auto&#39; ? &#39;auto&#39; : lang;
+                    const res = await fetch(`https://lingva.ml/api/v1/${sl}/zh/${encodeURIComponent(text)}`);
+                    const data = await res.json();
+                    return data.translation;
+                }
+            },
+            
+            {
+                name: &#34;Simply&#34;,
+                translate: async (text, lang) =&gt; {
+                    const sl = lang === &#39;auto&#39; ? &#39;auto&#39; : lang;
+                    const u = `https://simplytranslate.org/api/translate/?engine=google&amp;from=${sl}&amp;to=zh-CN&amp;text=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    const data = await res.json();
+                    return data.translated_text;
+                }
             }
+        ];
 
-            navigator.clipboard.writeText(textToCopy).then(() =&gt; {
-                iconCopy.style.display = &#39;none&#39;;
-                iconCheck.style.display = &#39;block&#39;;
-                copyBtn.classList.add(&#39;copied&#39;);
+        
+        const backupProviders = [
+            {
+                name: &#34;Youdao (Proxy)&#34;,
+                translate: async (text) =&gt; {
+                    const u = `http://fanyi.youdao.com/translate?&amp;doctype=json&amp;type=AUTO&amp;i=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.translateResult.map(p =&gt; p.map(s =&gt; s.tgt).join(&#34;&#34;)).join(&#34;\n&#34;);
+                }
+            },
+            {
+                name: &#34;Iciba (Proxy)&#34;,
+                translate: async (text) =&gt; {
+                    const u = `http://fy.iciba.com/ajax.php?a=fy&amp;f=auto&amp;t=zh&amp;w=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.content.out.replace(/&lt;br\/&gt;/g, &#34;\n&#34;);
+                }
+            },
+            {
+                name: &#34;LibreTranslate&#34;,
+                translate: async (text) =&gt; {
+                    const res = await fetch(&#34;https://de.libretranslate.com/translate&#34;, {
+                        method: &#34;POST&#34;,
+                        body: JSON.stringify({ q: text, source: &#34;auto&#34;, target: &#34;zh&#34;, format: &#34;text&#34; }),
+                        headers: { &#34;Content-Type&#34;: &#34;application/json&#34; }
+                    });
+                    const data = await res.json();
+                    return data.translatedText;
+                }
+            },
+            {
+                name: &#34;MyMemory&#34;,
+                translate: async (text, lang) =&gt; {
+                    const sl = lang === &#39;auto&#39; ? &#39;en&#39; : lang;
+                    const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&amp;langpair=${sl}|zh-CN`);
+                    const data = await res.json();
+                    if(data.responseStatus === 200) return data.responseData.translatedText;
+                    throw new Error(&#34;MyMemory Limit&#34;);
+                }
+            },
+            {
+                name: &#34;Baidu (Simple)&#34;,
+                translate: async (text) =&gt; {
+                    const u = `https://fanyi.baidu.com/sug?kw=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    if(inner.data &amp;&amp; inner.data.length &gt; 0) return inner.data[0].v;
+                    throw new Error(&#34;Baidu Fail&#34;);
+                }
+            }
+        ];
 
-                setTimeout(() =&gt; {
-                    iconCopy.style.display = &#39;block&#39;;
-                    iconCheck.style.display = &#39;none&#39;;
-                    copyBtn.classList.remove(&#39;copied&#39;);
-                }, 2000);
-            }).catch(err =&gt; {
-                console.error(&#39;复制失败:&#39;, err);
-                alert(&#34;复制失败，请手动复制&#34;);
+        
+
+        function detectSourceLang(str) {
+            if (/[\u3040-\u30ff]/.test(str)) return &#39;ja&#39;;
+            if (/[\uac00-\ud7af]/.test(str)) return &#39;ko&#39;;
+            if (/[\u0400-\u04ff]/.test(str)) return &#39;ru&#39;;
+            return &#39;auto&#39;; 
+        }
+
+        
+        function raceProviders(providerList, text, lang) {
+            return Promise.any(providerList.map(p =&gt; {
+                
+                return p.translate(text, lang)
+                    .then(res =&gt; {
+                        if(!res) throw new Error(&#34;Empty result&#34;);
+                        return { text: res, provider: p.name };
+                    });
+            }));
+        }
+
+        
+        async function fetchTranslationFast(fullText) {
+            const CHUNK_SIZE = 450; 
+            const chunks = [];
+            let i = 0;
+            while (i &lt; fullText.length) {
+                let end = i + CHUNK_SIZE;
+                if (end &gt;= fullText.length) {
+                    chunks.push(fullText.slice(i));
+                    break;
+                }
+                let lastSpace = fullText.lastIndexOf(&#39; &#39;, end);
+                if (lastSpace &gt; i) {
+                    chunks.push(fullText.slice(i, lastSpace));
+                    i = lastSpace + 1;
+                } else {
+                    chunks.push(fullText.slice(i, end));
+                    i = end;
+                }
+            }
+            
+            const lang = detectSourceLang(fullText);
+            
+            
+            let finalResult = &#34;&#34;;
+            let winningProvider = &#34;&#34;;
+
+            for (const chunk of chunks) {
+                let result = null;
+
+                
+                try {
+                    const raceResult = await raceProviders(fastProviders, chunk, lang);
+                    result = raceResult.text;
+                    winningProvider = raceResult.provider;
+                } catch (e) {
+                    console.warn(&#34;第一梯队全军覆没，尝试备用线路...&#34;);
+                }
+
+                
+                if (!result) {
+                    for (const bp of backupProviders) {
+                        try {
+                            result = await bp.translate(chunk, lang);
+                            winningProvider = bp.name;
+                            break; 
+                        } catch (e) {}
+                    }
+                }
+
+                if (!result) throw new Error(&#34;所有接口均失败&#34;);
+                finalResult += result + &#34; &#34;;
+            }
+            
+            return { text: finalResult, provider: winningProvider };
+        }
+
+
+        
+        if (content &amp;&amp; translateBtn) {
+            const text = content.innerText.trim();
+            const totalLength = text.length;
+            const zhMatch = text.match(/[\u4e00-\u9fa5]/g);
+            const zhLength = zhMatch ? zhMatch.length : 0;
+            const nonZhRatio = totalLength &gt; 0 ? (1 - (zhLength / totalLength)) : 0;
+
+            if (nonZhRatio &gt; 0.6) {
+                translateBtn.style.display = &#39;flex&#39;;
+                
+                translateBtn.addEventListener(&#39;click&#39;, function(e) {
+                    e.preventDefault();
+                    
+                    if (translationContainer.style.display === &#39;none&#39;) {
+                        translationContainer.style.display = &#39;block&#39;;
+                        translateBtn.classList.add(&#39;active&#39;);
+
+                        if (transText.innerText.trim().length &gt; 0) return;
+
+                        transLoading.style.display = &#39;block&#39;;
+                        transLoading.innerText = &#34;🚀 正在全速翻译中...&#34;;
+                        transSource.innerText = &#34;&#34;;
+                        
+                        fetchTranslationFast(text)
+                            .then(result =&gt; {
+                                transText.innerText = result.text;
+                                transSource.innerText = `⚡ 翻译完成 via ${result.provider}`;
+                                transLoading.style.display = &#39;none&#39;;
+                            })
+                            .catch(err =&gt; {
+                                transLoading.innerText = &#34;翻译失败：网络可能存在严重阻断，所有接口均超时。&#34;;
+                                console.error(err);
+                            });
+
+                    } else {
+                        translationContainer.style.display = &#39;none&#39;;
+                        translateBtn.classList.remove(&#39;active&#39;);
+                    }
+                });
+            }
+        }
+
+        const copyBtn = card.querySelector(&#39;.copy-btn&#39;);
+        if(copyBtn) {
+            const iconCopy = copyBtn.querySelector(&#39;.icon-copy&#39;);
+            const iconCheck = copyBtn.querySelector(&#39;.icon-check&#39;);
+            const authorText = card.querySelector(&#39;.ec-info-left&#39;) ? card.querySelector(&#39;.ec-info-left&#39;).innerText.replace(/\s+/g, &#39; &#39;).trim() : &#34;&#34;;
+
+            copyBtn.addEventListener(&#39;click&#39;, () =&gt; {
+                let textToCopy = content.innerText.trim();
+                if (authorText) {
+                    textToCopy += `\n\n—— ${authorText}`;
+                }
+                navigator.clipboard.writeText(textToCopy).then(() =&gt; {
+                    iconCopy.style.display = &#39;none&#39;;
+                    iconCheck.style.display = &#39;block&#39;;
+                    copyBtn.classList.add(&#39;copied&#39;);
+                    setTimeout(() =&gt; {
+                        iconCopy.style.display = &#39;block&#39;;
+                        iconCheck.style.display = &#39;none&#39;;
+                        copyBtn.classList.remove(&#39;copied&#39;);
+                    }, 2000);
+                }).catch(err =&gt; {
+                    alert(&#34;复制失败，请手动复制&#34;);
+                });
             });
-        });
+        }
     })();
 &lt;/script&gt;
  &lt;div class=&#34;hugo-info-card&#34; style=&#34;--theme-color: #e63946;&#34;&gt;

@@ -20,13 +20,18 @@
 
 
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zhuque-fangsong-web@latest/style.css" />
 
         <style>
              
+             
             html body, html body * {
-                font-family: "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
+                font-family: "EB Garamond", "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
             }
             
              
@@ -962,8 +967,10 @@
         
             
         
-        发表了47篇文章 · 
-        总计1,047.27k字
+            
+        
+        发表了48篇文章 · 
+        总计998.16k字
     </section>
 
     
@@ -1588,7 +1595,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div id="float-breadcrumb-plugin">
             <div class="plugin-capsule">
                 <a href="/" class="plugin-item" title="Home">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
                 </a>
                 <span class="plugin-sep">/</span>
                 
@@ -1604,5 +1611,33 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
         
-        </body>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            const contentArea = document.querySelector('.main') || document.body;
+            
+            
+            const walker = document.createTreeWalker(
+                contentArea,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            let node;
+            
+            
+            const regex = /([a-zA-Z0-9])\s*，(?=[a-zA-Z0-9\s])/g;
+
+            while (node = walker.nextNode()) {
+                if (node.nodeValue && node.nodeValue.includes('，')) {
+                    
+                    node.nodeValue = node.nodeValue.replace(regex, '$1, ');
+                }
+            }
+        });
+        </script>
+
+    </body>
 </html>

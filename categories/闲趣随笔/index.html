@@ -10,7 +10,7 @@
 <meta property='og:description' content="有意无意的思想「游牧」，以漫谈为主。">
 <meta property='og:url' content='https://www.laujoe.top/categories/%E9%97%B2%E8%B6%A3%E9%9A%8F%E7%AC%94/'>
 <meta property='og:site_name' content='Lau Joe / Soar Freely'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-01-31T01:00:00&#43;00:00 '/><meta property='og:image' content='https://www.laujoe.top/categories/%E9%97%B2%E8%B6%A3%E9%9A%8F%E7%AC%94/saad-chaudhry-cYpqYxGeqts-unsplash.jpg' />
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-02-02T00:00:00&#43;00:00 '/><meta property='og:image' content='https://www.laujoe.top/categories/%E9%97%B2%E8%B6%A3%E9%9A%8F%E7%AC%94/saad-chaudhry-cYpqYxGeqts-unsplash.jpg' />
 <meta name="twitter:title" content="闲趣随笔">
 <meta name="twitter:description" content="有意无意的思想「游牧」，以漫谈为主。"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://www.laujoe.top/categories/%E9%97%B2%E8%B6%A3%E9%9A%8F%E7%AC%94/saad-chaudhry-cYpqYxGeqts-unsplash.jpg' /><link rel="alternate" type="application/rss&#43;xml" href="https://www.laujoe.top/categories/%E9%97%B2%E8%B6%A3%E9%9A%8F%E7%AC%94/index.xml">
@@ -20,13 +20,18 @@
 
 
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zhuque-fangsong-web@latest/style.css" />
 
         <style>
              
+             
             html body, html body * {
-                font-family: "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
+                font-family: "EB Garamond", "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
             }
             
              
@@ -418,7 +423,7 @@
                     <a href="/archives/#2026">
                         
                             <span class="year">2026</span>
-                            <span class="count">1</span>
+                            <span class="count">2</span>
                         
                     </a> 
                 </div>
@@ -469,8 +474,8 @@
 
      <div class="category-label">
          
-             <a href="/categories/sf%E5%91%A8%E5%88%8A/" class="font_size_27">
-                 SF周刊<span class="category-count">27</span>
+             <a href="/categories/sf%E5%91%A8%E5%88%8A/" class="font_size_28">
+                 SF周刊<span class="category-count">28</span>
              </a>
          
              <a href="/categories/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C/" class="font_size_18">
@@ -645,8 +650,10 @@
         
             
         
-        发表了47篇文章 · 
-        总计1,047.27k字
+            
+        
+        发表了48篇文章 · 
+        总计998.16k字
     </section>
 
     
@@ -1189,5 +1196,33 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
         
-        </body>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            const contentArea = document.querySelector('.main') || document.body;
+            
+            
+            const walker = document.createTreeWalker(
+                contentArea,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            let node;
+            
+            
+            const regex = /([a-zA-Z0-9])\s*，(?=[a-zA-Z0-9\s])/g;
+
+            while (node = walker.nextNode()) {
+                if (node.nodeValue && node.nodeValue.includes('，')) {
+                    
+                    node.nodeValue = node.nodeValue.replace(regex, '$1, ');
+                }
+            }
+        });
+        </script>
+
+    </body>
 </html>

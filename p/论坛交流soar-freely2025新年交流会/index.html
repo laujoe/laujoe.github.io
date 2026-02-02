@@ -20,13 +20,18 @@
 
 
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zhuque-fangsong-web@latest/style.css" />
 
         <style>
              
+             
             html body, html body * {
-                font-family: "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
+                font-family: "EB Garamond", "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
             }
             
              
@@ -1059,7 +1064,6 @@
 
 
 
-
 <div class="excerpt-card" id="excerpt-1" style="border-left-color: #e0a82e;">
     
     <div class="ec-bg-icon" style="color: #e0a82e;">“</div>
@@ -1073,8 +1077,18 @@
             
         </div>
         
-        
         <div class="ec-actions">
+            <button class="ec-btn translate-btn" aria-label="翻译内容" title="点击翻译" style="display:none;">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 8l6 6"></path>
+                    <path d="M4 14h6l2-2h8"></path>
+                    <path d="M2 5h12"></path>
+                    <path d="M7 2h1"></path>
+                    <path d="M22 22l-5-10-5 10"></path>
+                    <path d="M14 18h6"></path>
+                </svg>
+            </button>
+
             
             
             <button class="ec-btn copy-btn" aria-label="复制摘抄" title="复制内容">
@@ -1084,11 +1098,16 @@
         </div>
     </div>
 
-    
     <div class="ec-content">
         <p>不论学界、业界还是日常生活，会议并非一个罕见词汇。然而大多数会议往往是专家学者或上司领导的「一言堂」，发声者为未发声者「代言」。因此，Soar Freely 新年交流会希望能够建立一个友好的交流平台：一个没有繁文缛节的天地，欢迎来自不同地域、具有不同背景的朋友们畅所欲言，分享自己的生活、经历乃至人生。因此，从园桌交流、文艺对谈，乃至主旨演讲，Soar Freely 新年交流会都不会设置具体议题，而是以宽广的概念引领交流自由发展，从而实现「思想的游牧」。</p>
 <p>在科学技术如此发达，而人的感官又如此「落后」的信息时代，每个人都处于「信息茧房」。而通过交流，我们能够在某种意义上挣脱「舒适区」，去聆听「来自异域的声音」，或许这就是本次交流会的意义所在。</p>
 
+    </div>
+
+    <div class="ec-translation" style="display: none;">
+        <div class="ec-trans-loading">正在翻译...</div>
+        <div class="ec-trans-text"></div>
+        <div class="ec-trans-source"></div> 
     </div>
 
     
@@ -1096,7 +1115,6 @@
         <div class="ec-line"></div>
         <div class="ec-meta-row">
             <div class="ec-info-left">
-                
                 
                     <span class="ec-item">
                         <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -1107,7 +1125,6 @@
                 
 
                 
-                
             </div>
         </div>
     </div>
@@ -1115,22 +1132,19 @@
 </div>
 
 <style>
+     
     .excerpt-card {
-         
         --ec-bg-card: #fcfcfc;
         --ec-border: #e1e4e8;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.04);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.08);
-        
         --ec-text-content: #1a1a1a;
         --ec-text-meta: #666666;
         --ec-line: #eaecef;
-        
         --ec-btn-bg: rgba(0,0,0,0.03);
         --ec-btn-text: #999999;
         --ec-btn-hover-bg: rgba(0,0,0,0.08);
         --ec-btn-hover-text: #333333;
-        
         --ec-bg-icon-opacity: 0.06;
         --ec-link-hover: #0366d6;
         
@@ -1148,23 +1162,19 @@
         font-family: inherit;
     }
 
-     
     @media (prefers-color-scheme: dark) {
         :root:not([data-scheme="light"]) .excerpt-card {
             --ec-bg-card: #1e1e1e;
             --ec-border: #333333;
             --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
             --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-            
             --ec-text-content: #f0f0f0;
             --ec-text-meta: #aaaaaa;
             --ec-line: #333333;
-            
             --ec-btn-bg: rgba(255,255,255,0.05);
             --ec-btn-text: #777777;
             --ec-btn-hover-bg: rgba(255,255,255,0.15);
             --ec-btn-hover-text: #ffffff;
-            
             --ec-bg-icon-opacity: 0.04;
         }
     }
@@ -1174,16 +1184,13 @@
         --ec-border: #333333;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-        
         --ec-text-content: #f0f0f0;
         --ec-text-meta: #aaaaaa;
         --ec-line: #333333;
-        
         --ec-btn-bg: rgba(255,255,255,0.05);
         --ec-btn-text: #777777;
         --ec-btn-hover-bg: rgba(255,255,255,0.15);
         --ec-btn-hover-text: #ffffff;
-        
         --ec-bg-icon-opacity: 0.04;
     }
 
@@ -1204,7 +1211,6 @@
         z-index: 0;
     }
 
-     
     .ec-header {
         display: flex;
         justify-content: space-between;
@@ -1216,7 +1222,6 @@
     }
 
     .ec-tags { display: flex; gap: 8px; }
-
     .ec-tag {
         font-size: 12px;
         font-weight: 700;
@@ -1226,12 +1231,7 @@
         letter-spacing: 0.5px;
     }
 
-     
-    .ec-actions {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-    }
+    .ec-actions { display: flex; gap: 8px; align-items: center; }
 
     .ec-btn {
         background: var(--ec-btn-bg);
@@ -1252,12 +1252,15 @@
         color: var(--ec-btn-hover-text);
         transform: translateY(-1px);
     }
+    .ec-btn.active {
+        color: var(--ec-link-hover);
+        background: rgba(3, 102, 214, 0.1);
+    }
     .ec-btn.copy-btn.copied {
         color: #28a745 !important;
         background: rgba(40, 167, 69, 0.1);
     }
 
-     
     .ec-content {
         position: relative;
         z-index: 1;
@@ -1272,84 +1275,42 @@
         text-align: justify;
         text-indent: 2em; 
     }
-    
-    .ec-content p { 
-        margin-bottom: 0; 
-        text-indent: 2em !important; 
-    }
-    
-     
-    .ec-content.no-indent, 
-    .ec-content.no-indent p {
-        text-indent: 0 !important;
-    }
-    
-    .ec-content p + p { 
-        margin-top: 0.8em; 
-    }
+    .ec-content p { margin-bottom: 0; text-indent: 2em !important; }
+    .ec-content.no-indent, .ec-content.no-indent p { text-indent: 0 !important; }
+    .ec-content p + p { margin-top: 0.8em; }
 
-     
-    .ec-footer {
-        position: relative;
-        z-index: 1;
-        margin-top: 30px;
-    }
-
-    .ec-line {
-        height: 1px;
-        background: var(--ec-line);
-        margin-bottom: 12px;
-        width: 100%;
-        transition: background 0.3s;
-    }
-
-    .ec-meta-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 15px;
-        font-size: 14px;
+    .ec-translation {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px dashed var(--ec-line);
+        font-size: 1.5rem; 
+        line-height: 1.6;
         color: var(--ec-text-meta);
-        transition: color 0.3s;
+    }
+    .ec-trans-loading {
+        font-size: 0.9rem;
+        color: #999;
+        font-style: italic;
+    }
+    .ec-trans-source {
+        font-size: 0.8rem;
+        color: #ccc;
+        margin-top: 8px;
+        text-align: right;
     }
 
-    .ec-info-left {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    .ec-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
+    .ec-footer { position: relative; z-index: 1; margin-top: 30px; }
+    .ec-line { height: 1px; background: var(--ec-line); margin-bottom: 12px; width: 100%; transition: background 0.3s; }
+    .ec-meta-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; font-size: 14px; color: var(--ec-text-meta); transition: color 0.3s; }
+    .ec-info-left { display: flex; align-items: center; gap: 15px; flex-wrap: wrap; }
+    .ec-item { display: flex; align-items: center; gap: 6px; }
     .ec-icon-small { opacity: 0.7; }
-
-     
-    .ec-link-text {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px dashed transparent;
-        transition: all 0.2s;
-    }
-    .ec-link-text:hover {
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: var(--hover-color, var(--ec-link-hover));
-    }
-    .ec-link-text.linked { 
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: rgba(0,0,0,0.15);
-    }
+    .ec-link-text { color: inherit; text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.2s; }
+    .ec-link-text:hover { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: var(--hover-color, var(--ec-link-hover)); }
+    .ec-link-text.linked { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: rgba(0,0,0,0.15); }
 
     @media (max-width: 600px) {
-        .ec-content {
-            font-size: 1.4rem;
-            line-height: 1.6;
-        }
+        .ec-content { font-size: 1.4rem; line-height: 1.6; }
         .excerpt-card { padding: 20px 24px; }
         .ec-meta-row { flex-direction: column; align-items: flex-start; gap: 8px; }
     }
@@ -1361,36 +1322,288 @@
         const card = document.getElementById(cardId);
         if (!card) return;
 
-        const copyBtn = card.querySelector('.copy-btn');
-        if(!copyBtn) return; 
-
-        const iconCopy = copyBtn.querySelector('.icon-copy');
-        const iconCheck = copyBtn.querySelector('.icon-check');
         const content = card.querySelector('.ec-content');
+        const translateBtn = card.querySelector('.translate-btn');
+        const translationContainer = card.querySelector('.ec-translation');
+        const transText = card.querySelector('.ec-trans-text');
+        const transLoading = card.querySelector('.ec-trans-loading');
+        const transSource = card.querySelector('.ec-trans-source');
         
-        const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
-
-        copyBtn.addEventListener('click', () => {
-            let textToCopy = content.innerText.trim();
-            if (authorText) {
-                textToCopy += `\n\n—— ${authorText}`;
+        
+        
+        
+        
+        const fastProviders = [
+            
+            {
+                name: "Google",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=zh-CN&dt=t&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x[0]).join('');
+                }
+            },
+            
+            {
+                name: "Google(2)",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${sl}&tl=zh-CN&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google2 Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x).join('');
+                }
+            },
+            
+            {
+                name: "Microsoft",
+                translate: async (text, lang) => {
+                    
+                    const authRes = await fetch("https://edge.microsoft.com/translate/auth");
+                    if (!authRes.ok) throw new Error("MS Auth Fail");
+                    const token = await authRes.text();
+                    
+                    const u = `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=zh-Hans&textType=plain`;
+                    const res = await fetch(u, {
+                        method: "POST",
+                        headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json" },
+                        body: JSON.stringify([{Text: text}])
+                    });
+                    const data = await res.json();
+                    return data[0].translations[0].text;
+                }
+            },
+            
+            {
+                name: "Lingva",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const res = await fetch(`https://lingva.ml/api/v1/${sl}/zh/${encodeURIComponent(text)}`);
+                    const data = await res.json();
+                    return data.translation;
+                }
+            },
+            
+            {
+                name: "Simply",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://simplytranslate.org/api/translate/?engine=google&from=${sl}&to=zh-CN&text=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    const data = await res.json();
+                    return data.translated_text;
+                }
             }
+        ];
 
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                iconCopy.style.display = 'none';
-                iconCheck.style.display = 'block';
-                copyBtn.classList.add('copied');
+        
+        const backupProviders = [
+            {
+                name: "Youdao (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.translateResult.map(p => p.map(s => s.tgt).join("")).join("\n");
+                }
+            },
+            {
+                name: "Iciba (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fy.iciba.com/ajax.php?a=fy&f=auto&t=zh&w=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.content.out.replace(/<br\/>/g, "\n");
+                }
+            },
+            {
+                name: "LibreTranslate",
+                translate: async (text) => {
+                    const res = await fetch("https://de.libretranslate.com/translate", {
+                        method: "POST",
+                        body: JSON.stringify({ q: text, source: "auto", target: "zh", format: "text" }),
+                        headers: { "Content-Type": "application/json" }
+                    });
+                    const data = await res.json();
+                    return data.translatedText;
+                }
+            },
+            {
+                name: "MyMemory",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'en' : lang;
+                    const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${sl}|zh-CN`);
+                    const data = await res.json();
+                    if(data.responseStatus === 200) return data.responseData.translatedText;
+                    throw new Error("MyMemory Limit");
+                }
+            },
+            {
+                name: "Baidu (Simple)",
+                translate: async (text) => {
+                    const u = `https://fanyi.baidu.com/sug?kw=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    if(inner.data && inner.data.length > 0) return inner.data[0].v;
+                    throw new Error("Baidu Fail");
+                }
+            }
+        ];
 
-                setTimeout(() => {
-                    iconCopy.style.display = 'block';
-                    iconCheck.style.display = 'none';
-                    copyBtn.classList.remove('copied');
-                }, 2000);
-            }).catch(err => {
-                console.error('复制失败:', err);
-                alert("复制失败，请手动复制");
+        
+
+        function detectSourceLang(str) {
+            if (/[\u3040-\u30ff]/.test(str)) return 'ja';
+            if (/[\uac00-\ud7af]/.test(str)) return 'ko';
+            if (/[\u0400-\u04ff]/.test(str)) return 'ru';
+            return 'auto'; 
+        }
+
+        
+        function raceProviders(providerList, text, lang) {
+            return Promise.any(providerList.map(p => {
+                
+                return p.translate(text, lang)
+                    .then(res => {
+                        if(!res) throw new Error("Empty result");
+                        return { text: res, provider: p.name };
+                    });
+            }));
+        }
+
+        
+        async function fetchTranslationFast(fullText) {
+            const CHUNK_SIZE = 450; 
+            const chunks = [];
+            let i = 0;
+            while (i < fullText.length) {
+                let end = i + CHUNK_SIZE;
+                if (end >= fullText.length) {
+                    chunks.push(fullText.slice(i));
+                    break;
+                }
+                let lastSpace = fullText.lastIndexOf(' ', end);
+                if (lastSpace > i) {
+                    chunks.push(fullText.slice(i, lastSpace));
+                    i = lastSpace + 1;
+                } else {
+                    chunks.push(fullText.slice(i, end));
+                    i = end;
+                }
+            }
+            
+            const lang = detectSourceLang(fullText);
+            
+            
+            let finalResult = "";
+            let winningProvider = "";
+
+            for (const chunk of chunks) {
+                let result = null;
+
+                
+                try {
+                    const raceResult = await raceProviders(fastProviders, chunk, lang);
+                    result = raceResult.text;
+                    winningProvider = raceResult.provider;
+                } catch (e) {
+                    console.warn("第一梯队全军覆没，尝试备用线路...");
+                }
+
+                
+                if (!result) {
+                    for (const bp of backupProviders) {
+                        try {
+                            result = await bp.translate(chunk, lang);
+                            winningProvider = bp.name;
+                            break; 
+                        } catch (e) {}
+                    }
+                }
+
+                if (!result) throw new Error("所有接口均失败");
+                finalResult += result + " ";
+            }
+            
+            return { text: finalResult, provider: winningProvider };
+        }
+
+
+        
+        if (content && translateBtn) {
+            const text = content.innerText.trim();
+            const totalLength = text.length;
+            const zhMatch = text.match(/[\u4e00-\u9fa5]/g);
+            const zhLength = zhMatch ? zhMatch.length : 0;
+            const nonZhRatio = totalLength > 0 ? (1 - (zhLength / totalLength)) : 0;
+
+            if (nonZhRatio > 0.6) {
+                translateBtn.style.display = 'flex';
+                
+                translateBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    if (translationContainer.style.display === 'none') {
+                        translationContainer.style.display = 'block';
+                        translateBtn.classList.add('active');
+
+                        if (transText.innerText.trim().length > 0) return;
+
+                        transLoading.style.display = 'block';
+                        transLoading.innerText = "🚀 正在全速翻译中...";
+                        transSource.innerText = "";
+                        
+                        fetchTranslationFast(text)
+                            .then(result => {
+                                transText.innerText = result.text;
+                                transSource.innerText = `⚡ 翻译完成 via ${result.provider}`;
+                                transLoading.style.display = 'none';
+                            })
+                            .catch(err => {
+                                transLoading.innerText = "翻译失败：网络可能存在严重阻断，所有接口均超时。";
+                                console.error(err);
+                            });
+
+                    } else {
+                        translationContainer.style.display = 'none';
+                        translateBtn.classList.remove('active');
+                    }
+                });
+            }
+        }
+
+        const copyBtn = card.querySelector('.copy-btn');
+        if(copyBtn) {
+            const iconCopy = copyBtn.querySelector('.icon-copy');
+            const iconCheck = copyBtn.querySelector('.icon-check');
+            const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
+
+            copyBtn.addEventListener('click', () => {
+                let textToCopy = content.innerText.trim();
+                if (authorText) {
+                    textToCopy += `\n\n—— ${authorText}`;
+                }
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    iconCopy.style.display = 'none';
+                    iconCheck.style.display = 'block';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        iconCopy.style.display = 'block';
+                        iconCheck.style.display = 'none';
+                        copyBtn.classList.remove('copied');
+                    }, 2000);
+                }).catch(err => {
+                    alert("复制失败，请手动复制");
+                });
             });
-        });
+        }
     })();
 </script>
  <div class="hugo-info-card" style="--theme-color: #e63946;">
@@ -1759,8 +1972,10 @@
         
             
         
-        发表了47篇文章 · 
-        总计1,047.27k字
+            
+        
+        发表了48篇文章 · 
+        总计998.16k字
     </section>
 
     
@@ -2385,7 +2600,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div id="float-breadcrumb-plugin">
             <div class="plugin-capsule">
                 <a href="/" class="plugin-item" title="Home">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
                 </a>
                 <span class="plugin-sep">/</span>
                 
@@ -2401,5 +2616,33 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
         
-        </body>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            const contentArea = document.querySelector('.main') || document.body;
+            
+            
+            const walker = document.createTreeWalker(
+                contentArea,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            let node;
+            
+            
+            const regex = /([a-zA-Z0-9])\s*，(?=[a-zA-Z0-9\s])/g;
+
+            while (node = walker.nextNode()) {
+                if (node.nodeValue && node.nodeValue.includes('，')) {
+                    
+                    node.nodeValue = node.nodeValue.replace(regex, '$1, ');
+                }
+            }
+        });
+        </script>
+
+    </body>
 </html>

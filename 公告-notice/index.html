@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="I'm Soar Freely, and you're welcome to get to know me.">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Soar Freely's Notice.">
 <title>公告 | Notice</title>
 
 <link rel='canonical' href='https://www.laujoe.top/%E5%85%AC%E5%91%8A-notice/'>
 
 <link rel="stylesheet" href="/scss/style.min.15f5fff58b2529c782e67743bc7a8daf752f115314aeb092035e3def872b3a73.css"><meta property='og:title' content="公告 | Notice">
-<meta property='og:description' content="I'm Soar Freely, and you're welcome to get to know me.">
+<meta property='og:description' content="Soar Freely's Notice.">
 <meta property='og:url' content='https://www.laujoe.top/%E5%85%AC%E5%91%8A-notice/'>
 <meta property='og:site_name' content='Lau Joe / Soar Freely'>
 <meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2023-07-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-01-31T01:00:00&#43;00:00'/><meta property='og:image' content='https://www.laujoe.top/%E5%85%AC%E5%91%8A-notice/homepage.jpg' />
 <meta name="twitter:title" content="公告 | Notice">
-<meta name="twitter:description" content="I'm Soar Freely, and you're welcome to get to know me."><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Soar Freely's Notice."><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://www.laujoe.top/%E5%85%AC%E5%91%8A-notice/homepage.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
@@ -20,13 +20,18 @@
 
 
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zhuque-fangsong-web@latest/style.css" />
 
         <style>
              
+             
             html body, html body * {
-                font-family: "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
+                font-family: "EB Garamond", "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
             }
             
              
@@ -417,7 +422,7 @@
     
         
         <h3 class="article-subtitle">
-            I&#39;m Soar Freely, and you&#39;re welcome to get to know me.
+            Soar Freely&#39;s Notice.
         </h3>
         
     </div>
@@ -1345,8 +1350,10 @@
         
             
         
-        发表了47篇文章 · 
-        总计1,047.27k字
+            
+        
+        发表了48篇文章 · 
+        总计998.16k字
     </section>
 
     
@@ -1971,7 +1978,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div id="float-breadcrumb-plugin">
             <div class="plugin-capsule">
                 <a href="/" class="plugin-item" title="Home">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
                 </a>
                 <span class="plugin-sep">/</span>
                 
@@ -1986,5 +1993,33 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
         
-        </body>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            const contentArea = document.querySelector('.main') || document.body;
+            
+            
+            const walker = document.createTreeWalker(
+                contentArea,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            let node;
+            
+            
+            const regex = /([a-zA-Z0-9])\s*，(?=[a-zA-Z0-9\s])/g;
+
+            while (node = walker.nextNode()) {
+                if (node.nodeValue && node.nodeValue.includes('，')) {
+                    
+                    node.nodeValue = node.nodeValue.replace(regex, '$1, ');
+                }
+            }
+        });
+        </script>
+
+    </body>
 </html>

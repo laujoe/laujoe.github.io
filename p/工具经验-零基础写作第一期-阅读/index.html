@@ -20,13 +20,18 @@
 
 
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zhuque-fangsong-web@latest/style.css" />
 
         <style>
              
+             
             html body, html body * {
-                font-family: "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
+                font-family: "EB Garamond", "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
             }
             
              
@@ -486,6 +491,15 @@
 
 
 
+ 
+   
+
+
+
+
+
+
+
 
 
 
@@ -495,21 +509,40 @@
     
     
     
-    
+
     
         
+        
+        
+        
+        
+        
             
+        
+
+        
+        
             
-            
+        
+
+        
+        
+        
+        
             
                 
                 
+                
+                    
+                    
                 
             
         
     
 
-    
+
+
+
     <a href="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85%E4%B8%80%E4%BD%8D%E7%A4%BE%E7%A7%91%E5%B7%A5%E4%BD%9C%E8%80%85%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%B7%A5%E4%BD%9C%E6%B5%81-%E7%AC%AC%E4%B8%80%E8%8A%82%E6%80%BB%E8%A7%88/" class="qsl-card" target="_blank" rel="noopener">
         <div class="qsl-visual">
             
@@ -520,19 +553,17 @@
         <div class="qsl-content">
             <div class="qsl-meta">
                 <span class="qsl-badge">关联阅读</span>
+                
                 <span class="qsl-date">2023.02.19</span>
+                
             </div>
             
             <h4 class="qsl-title">
                 「工具经验-生产力祛魅」——一位社科工作者如何重塑工作流 第一节：总览
             </h4>
             
-            
             <div class="qsl-summary">
-                
-                    
-                    第一篇文章，我将对目前所完善的工作流进行介绍，而后面的文章则针对不同的工作流阐述我个人的心得与技巧。
-                
+                第一篇文章，我将对目前所完善的工作流进行介绍，而后面的文章则针对不同的工作流阐述我个人的心得与技巧。
             </div>
             
             <span class="qsl-arrow">
@@ -544,6 +575,7 @@
 
 
 <style>
+     
     .qsl-card {
          
         --qsl-bg-card: #ffffff;
@@ -750,7 +782,6 @@
 
 
 
-
 <div class="excerpt-card" id="excerpt-1" style="border-left-color: #d35400;">
     
     <div class="ec-bg-icon" style="color: #d35400;">“</div>
@@ -760,8 +791,18 @@
             
         </div>
         
-        
         <div class="ec-actions">
+            <button class="ec-btn translate-btn" aria-label="翻译内容" title="点击翻译" style="display:none;">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 8l6 6"></path>
+                    <path d="M4 14h6l2-2h8"></path>
+                    <path d="M2 5h12"></path>
+                    <path d="M7 2h1"></path>
+                    <path d="M22 22l-5-10-5 10"></path>
+                    <path d="M14 18h6"></path>
+                </svg>
+            </button>
+
             
             
             <button class="ec-btn copy-btn" aria-label="复制摘抄" title="复制内容">
@@ -771,7 +812,6 @@
         </div>
     </div>
 
-    
     <div class="ec-content">
         <p>感受着那种心灵圆满无碍的感觉，李杨心神完全和天地融合，五条闪电光柱开始在李杨周围旋转了起来，而后竟然彼此开始融合，渐渐的，颜色开始趋于统一。</p>
 <p>盘古开天辟地，混沌化五行。然而李杨此刻却是反过来。</p>
@@ -780,12 +820,17 @@
 
     </div>
 
+    <div class="ec-translation" style="display: none;">
+        <div class="ec-trans-loading">正在翻译...</div>
+        <div class="ec-trans-text"></div>
+        <div class="ec-trans-source"></div> 
+    </div>
+
     
     <div class="ec-footer">
         <div class="ec-line"></div>
         <div class="ec-meta-row">
             <div class="ec-info-left">
-                
                 
                     <span class="ec-item">
                         <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -795,7 +840,6 @@
                     </span>
                 
 
-                
                 
                     <span class="ec-item">
                         <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
@@ -811,22 +855,19 @@
 </div>
 
 <style>
+     
     .excerpt-card {
-         
         --ec-bg-card: #fcfcfc;
         --ec-border: #e1e4e8;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.04);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.08);
-        
         --ec-text-content: #1a1a1a;
         --ec-text-meta: #666666;
         --ec-line: #eaecef;
-        
         --ec-btn-bg: rgba(0,0,0,0.03);
         --ec-btn-text: #999999;
         --ec-btn-hover-bg: rgba(0,0,0,0.08);
         --ec-btn-hover-text: #333333;
-        
         --ec-bg-icon-opacity: 0.06;
         --ec-link-hover: #0366d6;
         
@@ -844,23 +885,19 @@
         font-family: inherit;
     }
 
-     
     @media (prefers-color-scheme: dark) {
         :root:not([data-scheme="light"]) .excerpt-card {
             --ec-bg-card: #1e1e1e;
             --ec-border: #333333;
             --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
             --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-            
             --ec-text-content: #f0f0f0;
             --ec-text-meta: #aaaaaa;
             --ec-line: #333333;
-            
             --ec-btn-bg: rgba(255,255,255,0.05);
             --ec-btn-text: #777777;
             --ec-btn-hover-bg: rgba(255,255,255,0.15);
             --ec-btn-hover-text: #ffffff;
-            
             --ec-bg-icon-opacity: 0.04;
         }
     }
@@ -870,16 +907,13 @@
         --ec-border: #333333;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-        
         --ec-text-content: #f0f0f0;
         --ec-text-meta: #aaaaaa;
         --ec-line: #333333;
-        
         --ec-btn-bg: rgba(255,255,255,0.05);
         --ec-btn-text: #777777;
         --ec-btn-hover-bg: rgba(255,255,255,0.15);
         --ec-btn-hover-text: #ffffff;
-        
         --ec-bg-icon-opacity: 0.04;
     }
 
@@ -900,7 +934,6 @@
         z-index: 0;
     }
 
-     
     .ec-header {
         display: flex;
         justify-content: space-between;
@@ -912,7 +945,6 @@
     }
 
     .ec-tags { display: flex; gap: 8px; }
-
     .ec-tag {
         font-size: 12px;
         font-weight: 700;
@@ -922,12 +954,7 @@
         letter-spacing: 0.5px;
     }
 
-     
-    .ec-actions {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-    }
+    .ec-actions { display: flex; gap: 8px; align-items: center; }
 
     .ec-btn {
         background: var(--ec-btn-bg);
@@ -948,12 +975,15 @@
         color: var(--ec-btn-hover-text);
         transform: translateY(-1px);
     }
+    .ec-btn.active {
+        color: var(--ec-link-hover);
+        background: rgba(3, 102, 214, 0.1);
+    }
     .ec-btn.copy-btn.copied {
         color: #28a745 !important;
         background: rgba(40, 167, 69, 0.1);
     }
 
-     
     .ec-content {
         position: relative;
         z-index: 1;
@@ -968,84 +998,42 @@
         text-align: justify;
         text-indent: 2em; 
     }
-    
-    .ec-content p { 
-        margin-bottom: 0; 
-        text-indent: 2em !important; 
-    }
-    
-     
-    .ec-content.no-indent, 
-    .ec-content.no-indent p {
-        text-indent: 0 !important;
-    }
-    
-    .ec-content p + p { 
-        margin-top: 0.8em; 
-    }
+    .ec-content p { margin-bottom: 0; text-indent: 2em !important; }
+    .ec-content.no-indent, .ec-content.no-indent p { text-indent: 0 !important; }
+    .ec-content p + p { margin-top: 0.8em; }
 
-     
-    .ec-footer {
-        position: relative;
-        z-index: 1;
-        margin-top: 30px;
-    }
-
-    .ec-line {
-        height: 1px;
-        background: var(--ec-line);
-        margin-bottom: 12px;
-        width: 100%;
-        transition: background 0.3s;
-    }
-
-    .ec-meta-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 15px;
-        font-size: 14px;
+    .ec-translation {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px dashed var(--ec-line);
+        font-size: 1.5rem; 
+        line-height: 1.6;
         color: var(--ec-text-meta);
-        transition: color 0.3s;
+    }
+    .ec-trans-loading {
+        font-size: 0.9rem;
+        color: #999;
+        font-style: italic;
+    }
+    .ec-trans-source {
+        font-size: 0.8rem;
+        color: #ccc;
+        margin-top: 8px;
+        text-align: right;
     }
 
-    .ec-info-left {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    .ec-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
+    .ec-footer { position: relative; z-index: 1; margin-top: 30px; }
+    .ec-line { height: 1px; background: var(--ec-line); margin-bottom: 12px; width: 100%; transition: background 0.3s; }
+    .ec-meta-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; font-size: 14px; color: var(--ec-text-meta); transition: color 0.3s; }
+    .ec-info-left { display: flex; align-items: center; gap: 15px; flex-wrap: wrap; }
+    .ec-item { display: flex; align-items: center; gap: 6px; }
     .ec-icon-small { opacity: 0.7; }
-
-     
-    .ec-link-text {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px dashed transparent;
-        transition: all 0.2s;
-    }
-    .ec-link-text:hover {
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: var(--hover-color, var(--ec-link-hover));
-    }
-    .ec-link-text.linked { 
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: rgba(0,0,0,0.15);
-    }
+    .ec-link-text { color: inherit; text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.2s; }
+    .ec-link-text:hover { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: var(--hover-color, var(--ec-link-hover)); }
+    .ec-link-text.linked { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: rgba(0,0,0,0.15); }
 
     @media (max-width: 600px) {
-        .ec-content {
-            font-size: 1.4rem;
-            line-height: 1.6;
-        }
+        .ec-content { font-size: 1.4rem; line-height: 1.6; }
         .excerpt-card { padding: 20px 24px; }
         .ec-meta-row { flex-direction: column; align-items: flex-start; gap: 8px; }
     }
@@ -1057,42 +1045,293 @@
         const card = document.getElementById(cardId);
         if (!card) return;
 
-        const copyBtn = card.querySelector('.copy-btn');
-        if(!copyBtn) return; 
-
-        const iconCopy = copyBtn.querySelector('.icon-copy');
-        const iconCheck = copyBtn.querySelector('.icon-check');
         const content = card.querySelector('.ec-content');
+        const translateBtn = card.querySelector('.translate-btn');
+        const translationContainer = card.querySelector('.ec-translation');
+        const transText = card.querySelector('.ec-trans-text');
+        const transLoading = card.querySelector('.ec-trans-loading');
+        const transSource = card.querySelector('.ec-trans-source');
         
-        const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
-
-        copyBtn.addEventListener('click', () => {
-            let textToCopy = content.innerText.trim();
-            if (authorText) {
-                textToCopy += `\n\n—— ${authorText}`;
+        
+        
+        
+        
+        const fastProviders = [
+            
+            {
+                name: "Google",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=zh-CN&dt=t&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x[0]).join('');
+                }
+            },
+            
+            {
+                name: "Google(2)",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${sl}&tl=zh-CN&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google2 Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x).join('');
+                }
+            },
+            
+            {
+                name: "Microsoft",
+                translate: async (text, lang) => {
+                    
+                    const authRes = await fetch("https://edge.microsoft.com/translate/auth");
+                    if (!authRes.ok) throw new Error("MS Auth Fail");
+                    const token = await authRes.text();
+                    
+                    const u = `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=zh-Hans&textType=plain`;
+                    const res = await fetch(u, {
+                        method: "POST",
+                        headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json" },
+                        body: JSON.stringify([{Text: text}])
+                    });
+                    const data = await res.json();
+                    return data[0].translations[0].text;
+                }
+            },
+            
+            {
+                name: "Lingva",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const res = await fetch(`https://lingva.ml/api/v1/${sl}/zh/${encodeURIComponent(text)}`);
+                    const data = await res.json();
+                    return data.translation;
+                }
+            },
+            
+            {
+                name: "Simply",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://simplytranslate.org/api/translate/?engine=google&from=${sl}&to=zh-CN&text=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    const data = await res.json();
+                    return data.translated_text;
+                }
             }
+        ];
 
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                iconCopy.style.display = 'none';
-                iconCheck.style.display = 'block';
-                copyBtn.classList.add('copied');
+        
+        const backupProviders = [
+            {
+                name: "Youdao (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.translateResult.map(p => p.map(s => s.tgt).join("")).join("\n");
+                }
+            },
+            {
+                name: "Iciba (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fy.iciba.com/ajax.php?a=fy&f=auto&t=zh&w=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.content.out.replace(/<br\/>/g, "\n");
+                }
+            },
+            {
+                name: "LibreTranslate",
+                translate: async (text) => {
+                    const res = await fetch("https://de.libretranslate.com/translate", {
+                        method: "POST",
+                        body: JSON.stringify({ q: text, source: "auto", target: "zh", format: "text" }),
+                        headers: { "Content-Type": "application/json" }
+                    });
+                    const data = await res.json();
+                    return data.translatedText;
+                }
+            },
+            {
+                name: "MyMemory",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'en' : lang;
+                    const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${sl}|zh-CN`);
+                    const data = await res.json();
+                    if(data.responseStatus === 200) return data.responseData.translatedText;
+                    throw new Error("MyMemory Limit");
+                }
+            },
+            {
+                name: "Baidu (Simple)",
+                translate: async (text) => {
+                    const u = `https://fanyi.baidu.com/sug?kw=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    if(inner.data && inner.data.length > 0) return inner.data[0].v;
+                    throw new Error("Baidu Fail");
+                }
+            }
+        ];
 
-                setTimeout(() => {
-                    iconCopy.style.display = 'block';
-                    iconCheck.style.display = 'none';
-                    copyBtn.classList.remove('copied');
-                }, 2000);
-            }).catch(err => {
-                console.error('复制失败:', err);
-                alert("复制失败，请手动复制");
+        
+
+        function detectSourceLang(str) {
+            if (/[\u3040-\u30ff]/.test(str)) return 'ja';
+            if (/[\uac00-\ud7af]/.test(str)) return 'ko';
+            if (/[\u0400-\u04ff]/.test(str)) return 'ru';
+            return 'auto'; 
+        }
+
+        
+        function raceProviders(providerList, text, lang) {
+            return Promise.any(providerList.map(p => {
+                
+                return p.translate(text, lang)
+                    .then(res => {
+                        if(!res) throw new Error("Empty result");
+                        return { text: res, provider: p.name };
+                    });
+            }));
+        }
+
+        
+        async function fetchTranslationFast(fullText) {
+            const CHUNK_SIZE = 450; 
+            const chunks = [];
+            let i = 0;
+            while (i < fullText.length) {
+                let end = i + CHUNK_SIZE;
+                if (end >= fullText.length) {
+                    chunks.push(fullText.slice(i));
+                    break;
+                }
+                let lastSpace = fullText.lastIndexOf(' ', end);
+                if (lastSpace > i) {
+                    chunks.push(fullText.slice(i, lastSpace));
+                    i = lastSpace + 1;
+                } else {
+                    chunks.push(fullText.slice(i, end));
+                    i = end;
+                }
+            }
+            
+            const lang = detectSourceLang(fullText);
+            
+            
+            let finalResult = "";
+            let winningProvider = "";
+
+            for (const chunk of chunks) {
+                let result = null;
+
+                
+                try {
+                    const raceResult = await raceProviders(fastProviders, chunk, lang);
+                    result = raceResult.text;
+                    winningProvider = raceResult.provider;
+                } catch (e) {
+                    console.warn("第一梯队全军覆没，尝试备用线路...");
+                }
+
+                
+                if (!result) {
+                    for (const bp of backupProviders) {
+                        try {
+                            result = await bp.translate(chunk, lang);
+                            winningProvider = bp.name;
+                            break; 
+                        } catch (e) {}
+                    }
+                }
+
+                if (!result) throw new Error("所有接口均失败");
+                finalResult += result + " ";
+            }
+            
+            return { text: finalResult, provider: winningProvider };
+        }
+
+
+        
+        if (content && translateBtn) {
+            const text = content.innerText.trim();
+            const totalLength = text.length;
+            const zhMatch = text.match(/[\u4e00-\u9fa5]/g);
+            const zhLength = zhMatch ? zhMatch.length : 0;
+            const nonZhRatio = totalLength > 0 ? (1 - (zhLength / totalLength)) : 0;
+
+            if (nonZhRatio > 0.6) {
+                translateBtn.style.display = 'flex';
+                
+                translateBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    if (translationContainer.style.display === 'none') {
+                        translationContainer.style.display = 'block';
+                        translateBtn.classList.add('active');
+
+                        if (transText.innerText.trim().length > 0) return;
+
+                        transLoading.style.display = 'block';
+                        transLoading.innerText = "🚀 正在全速翻译中...";
+                        transSource.innerText = "";
+                        
+                        fetchTranslationFast(text)
+                            .then(result => {
+                                transText.innerText = result.text;
+                                transSource.innerText = `⚡ 翻译完成 via ${result.provider}`;
+                                transLoading.style.display = 'none';
+                            })
+                            .catch(err => {
+                                transLoading.innerText = "翻译失败：网络可能存在严重阻断，所有接口均超时。";
+                                console.error(err);
+                            });
+
+                    } else {
+                        translationContainer.style.display = 'none';
+                        translateBtn.classList.remove('active');
+                    }
+                });
+            }
+        }
+
+        const copyBtn = card.querySelector('.copy-btn');
+        if(copyBtn) {
+            const iconCopy = copyBtn.querySelector('.icon-copy');
+            const iconCheck = copyBtn.querySelector('.icon-check');
+            const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
+
+            copyBtn.addEventListener('click', () => {
+                let textToCopy = content.innerText.trim();
+                if (authorText) {
+                    textToCopy += `\n\n—— ${authorText}`;
+                }
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    iconCopy.style.display = 'none';
+                    iconCheck.style.display = 'block';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        iconCopy.style.display = 'block';
+                        iconCheck.style.display = 'none';
+                        copyBtn.classList.remove('copied');
+                    }, 2000);
+                }).catch(err => {
+                    alert("复制失败，请手动复制");
+                });
             });
-        });
+        }
     })();
 </script>
 <p>因为网文小说的具体情节往往随剧情逻辑而发展，因此所引网文内容主要是景象描写。这段文字是「我吃西红柿」所著《寸芒》结局处的情节，讲述主角李杨突破至高境界。我们不必用语文阅读理解类的刻板方式去研读这段话，只需要放松情绪，轻松阅读。
 网文小说不同于文学名著、学术文献等较为深刻的材料，它往往通俗易懂，而读者只要随着作者所构建的「第二世界」随心所欲的想象，其实就已经完成了网文小说的「文学」价值。而我在阅读这段文字时，我会幻想李杨所体验的「心灵圆满无碍」是怎样一种感觉，是与大自然翩翩起舞的感觉吗？还是超脱原有意志，站在更高维度去俯瞰生灵（似乎像是「天地不仁，以万物为刍狗」的体验）？如果说文学名著是将人世间的诸多情绪予文字形式而深刻揭露，那么网文小说就是帮助人们自由想象的羽翼，不必对它有多么深刻的理解，只需要放纵自己的想象，沉浸体验在那个光怪陆离的神奇世界，放空思维。</p>
 <p>我之所以在这里列举网文，是因为想要说明任何阅读材料都有一定的特殊价值。不必以严苛的要求分出三六九等，而是要针对不同的材料进行不同的理解认知，从而使自己得到成长与进步。在讲解完网文后，我将列出一段颇具学理性的文字，帮助各位如何更好地理解“学术性”：</p>
-
 
 
 
@@ -1108,8 +1347,18 @@
             
         </div>
         
-        
         <div class="ec-actions">
+            <button class="ec-btn translate-btn" aria-label="翻译内容" title="点击翻译" style="display:none;">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 8l6 6"></path>
+                    <path d="M4 14h6l2-2h8"></path>
+                    <path d="M2 5h12"></path>
+                    <path d="M7 2h1"></path>
+                    <path d="M22 22l-5-10-5 10"></path>
+                    <path d="M14 18h6"></path>
+                </svg>
+            </button>
+
             
             
             <button class="ec-btn copy-btn" aria-label="复制摘抄" title="复制内容">
@@ -1119,9 +1368,14 @@
         </div>
     </div>
 
-    
     <div class="ec-content">
         皇帝不可能同时出现在不同的地方，在具体的实践上，也很难满足天下臣民都想一睹圣颜的夙愿。但御容肖像的出现，化解了这一千古难题，给皇权的扩展提供了仅靠皇帝的肉身无法实现的可复制性和可移动性。它打破了时空的限制，皇帝可以同时出现在任何一个他想要或需要出现的地方。隋文帝大概是最早想到利用自己的肖像来大规模地、系统化地打造皇帝与臣民神圣联系的统治者。他在位时，曾招募工匠铸造自己的等身塑像放置在佛寺之中，并宣称此举是为了“欲令率土之上，皆瞻日角；普天之下，咸识龙颜”（贺仁德：《大隋河东郡首山栖岩道场舍利塔之碑》）。此后，唐太宗、武则天、唐玄宗在这方面都有不少付诸实践的奇思妙想。著名的《大秦景教流行中国碑》记载，在长安的“大秦寺”里，“将帝写真，转模寺壁”，据说这幅教堂里的唐太宗画像，“天资泛彩，英朗景门，圣迹腾祥，永辉法界”。武则天则让人雕造了一尊玉石御像，试图命人护送她的这尊玉像前去五台山礼佛。唐玄宗更是下令，“天下州郡皆铸铜为玄宗真容”，并在全国各地的开元寺、玄元观等寺观中大量安放自己的御容（雷闻：《论唐代皇帝的图像与祭祀》）。
+    </div>
+
+    <div class="ec-translation" style="display: none;">
+        <div class="ec-trans-loading">正在翻译...</div>
+        <div class="ec-trans-text"></div>
+        <div class="ec-trans-source"></div> 
     </div>
 
     
@@ -1129,7 +1383,6 @@
         <div class="ec-line"></div>
         <div class="ec-meta-row">
             <div class="ec-info-left">
-                
                 
                     <span class="ec-item">
                         <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -1139,7 +1392,6 @@
                     </span>
                 
 
-                
                 
                     <span class="ec-item">
                         <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
@@ -1155,22 +1407,19 @@
 </div>
 
 <style>
+     
     .excerpt-card {
-         
         --ec-bg-card: #fcfcfc;
         --ec-border: #e1e4e8;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.04);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.08);
-        
         --ec-text-content: #1a1a1a;
         --ec-text-meta: #666666;
         --ec-line: #eaecef;
-        
         --ec-btn-bg: rgba(0,0,0,0.03);
         --ec-btn-text: #999999;
         --ec-btn-hover-bg: rgba(0,0,0,0.08);
         --ec-btn-hover-text: #333333;
-        
         --ec-bg-icon-opacity: 0.06;
         --ec-link-hover: #0366d6;
         
@@ -1188,23 +1437,19 @@
         font-family: inherit;
     }
 
-     
     @media (prefers-color-scheme: dark) {
         :root:not([data-scheme="light"]) .excerpt-card {
             --ec-bg-card: #1e1e1e;
             --ec-border: #333333;
             --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
             --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-            
             --ec-text-content: #f0f0f0;
             --ec-text-meta: #aaaaaa;
             --ec-line: #333333;
-            
             --ec-btn-bg: rgba(255,255,255,0.05);
             --ec-btn-text: #777777;
             --ec-btn-hover-bg: rgba(255,255,255,0.15);
             --ec-btn-hover-text: #ffffff;
-            
             --ec-bg-icon-opacity: 0.04;
         }
     }
@@ -1214,16 +1459,13 @@
         --ec-border: #333333;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-        
         --ec-text-content: #f0f0f0;
         --ec-text-meta: #aaaaaa;
         --ec-line: #333333;
-        
         --ec-btn-bg: rgba(255,255,255,0.05);
         --ec-btn-text: #777777;
         --ec-btn-hover-bg: rgba(255,255,255,0.15);
         --ec-btn-hover-text: #ffffff;
-        
         --ec-bg-icon-opacity: 0.04;
     }
 
@@ -1244,7 +1486,6 @@
         z-index: 0;
     }
 
-     
     .ec-header {
         display: flex;
         justify-content: space-between;
@@ -1256,7 +1497,6 @@
     }
 
     .ec-tags { display: flex; gap: 8px; }
-
     .ec-tag {
         font-size: 12px;
         font-weight: 700;
@@ -1266,12 +1506,7 @@
         letter-spacing: 0.5px;
     }
 
-     
-    .ec-actions {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-    }
+    .ec-actions { display: flex; gap: 8px; align-items: center; }
 
     .ec-btn {
         background: var(--ec-btn-bg);
@@ -1292,12 +1527,15 @@
         color: var(--ec-btn-hover-text);
         transform: translateY(-1px);
     }
+    .ec-btn.active {
+        color: var(--ec-link-hover);
+        background: rgba(3, 102, 214, 0.1);
+    }
     .ec-btn.copy-btn.copied {
         color: #28a745 !important;
         background: rgba(40, 167, 69, 0.1);
     }
 
-     
     .ec-content {
         position: relative;
         z-index: 1;
@@ -1312,84 +1550,42 @@
         text-align: justify;
         text-indent: 2em; 
     }
-    
-    .ec-content p { 
-        margin-bottom: 0; 
-        text-indent: 2em !important; 
-    }
-    
-     
-    .ec-content.no-indent, 
-    .ec-content.no-indent p {
-        text-indent: 0 !important;
-    }
-    
-    .ec-content p + p { 
-        margin-top: 0.8em; 
-    }
+    .ec-content p { margin-bottom: 0; text-indent: 2em !important; }
+    .ec-content.no-indent, .ec-content.no-indent p { text-indent: 0 !important; }
+    .ec-content p + p { margin-top: 0.8em; }
 
-     
-    .ec-footer {
-        position: relative;
-        z-index: 1;
-        margin-top: 30px;
-    }
-
-    .ec-line {
-        height: 1px;
-        background: var(--ec-line);
-        margin-bottom: 12px;
-        width: 100%;
-        transition: background 0.3s;
-    }
-
-    .ec-meta-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 15px;
-        font-size: 14px;
+    .ec-translation {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px dashed var(--ec-line);
+        font-size: 1.5rem; 
+        line-height: 1.6;
         color: var(--ec-text-meta);
-        transition: color 0.3s;
+    }
+    .ec-trans-loading {
+        font-size: 0.9rem;
+        color: #999;
+        font-style: italic;
+    }
+    .ec-trans-source {
+        font-size: 0.8rem;
+        color: #ccc;
+        margin-top: 8px;
+        text-align: right;
     }
 
-    .ec-info-left {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    .ec-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
+    .ec-footer { position: relative; z-index: 1; margin-top: 30px; }
+    .ec-line { height: 1px; background: var(--ec-line); margin-bottom: 12px; width: 100%; transition: background 0.3s; }
+    .ec-meta-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; font-size: 14px; color: var(--ec-text-meta); transition: color 0.3s; }
+    .ec-info-left { display: flex; align-items: center; gap: 15px; flex-wrap: wrap; }
+    .ec-item { display: flex; align-items: center; gap: 6px; }
     .ec-icon-small { opacity: 0.7; }
-
-     
-    .ec-link-text {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px dashed transparent;
-        transition: all 0.2s;
-    }
-    .ec-link-text:hover {
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: var(--hover-color, var(--ec-link-hover));
-    }
-    .ec-link-text.linked { 
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: rgba(0,0,0,0.15);
-    }
+    .ec-link-text { color: inherit; text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.2s; }
+    .ec-link-text:hover { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: var(--hover-color, var(--ec-link-hover)); }
+    .ec-link-text.linked { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: rgba(0,0,0,0.15); }
 
     @media (max-width: 600px) {
-        .ec-content {
-            font-size: 1.4rem;
-            line-height: 1.6;
-        }
+        .ec-content { font-size: 1.4rem; line-height: 1.6; }
         .excerpt-card { padding: 20px 24px; }
         .ec-meta-row { flex-direction: column; align-items: flex-start; gap: 8px; }
     }
@@ -1401,40 +1597,291 @@
         const card = document.getElementById(cardId);
         if (!card) return;
 
-        const copyBtn = card.querySelector('.copy-btn');
-        if(!copyBtn) return; 
-
-        const iconCopy = copyBtn.querySelector('.icon-copy');
-        const iconCheck = copyBtn.querySelector('.icon-check');
         const content = card.querySelector('.ec-content');
+        const translateBtn = card.querySelector('.translate-btn');
+        const translationContainer = card.querySelector('.ec-translation');
+        const transText = card.querySelector('.ec-trans-text');
+        const transLoading = card.querySelector('.ec-trans-loading');
+        const transSource = card.querySelector('.ec-trans-source');
         
-        const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
-
-        copyBtn.addEventListener('click', () => {
-            let textToCopy = content.innerText.trim();
-            if (authorText) {
-                textToCopy += `\n\n—— ${authorText}`;
+        
+        
+        
+        
+        const fastProviders = [
+            
+            {
+                name: "Google",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=zh-CN&dt=t&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x[0]).join('');
+                }
+            },
+            
+            {
+                name: "Google(2)",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${sl}&tl=zh-CN&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google2 Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x).join('');
+                }
+            },
+            
+            {
+                name: "Microsoft",
+                translate: async (text, lang) => {
+                    
+                    const authRes = await fetch("https://edge.microsoft.com/translate/auth");
+                    if (!authRes.ok) throw new Error("MS Auth Fail");
+                    const token = await authRes.text();
+                    
+                    const u = `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=zh-Hans&textType=plain`;
+                    const res = await fetch(u, {
+                        method: "POST",
+                        headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json" },
+                        body: JSON.stringify([{Text: text}])
+                    });
+                    const data = await res.json();
+                    return data[0].translations[0].text;
+                }
+            },
+            
+            {
+                name: "Lingva",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const res = await fetch(`https://lingva.ml/api/v1/${sl}/zh/${encodeURIComponent(text)}`);
+                    const data = await res.json();
+                    return data.translation;
+                }
+            },
+            
+            {
+                name: "Simply",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://simplytranslate.org/api/translate/?engine=google&from=${sl}&to=zh-CN&text=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    const data = await res.json();
+                    return data.translated_text;
+                }
             }
+        ];
 
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                iconCopy.style.display = 'none';
-                iconCheck.style.display = 'block';
-                copyBtn.classList.add('copied');
+        
+        const backupProviders = [
+            {
+                name: "Youdao (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.translateResult.map(p => p.map(s => s.tgt).join("")).join("\n");
+                }
+            },
+            {
+                name: "Iciba (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fy.iciba.com/ajax.php?a=fy&f=auto&t=zh&w=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.content.out.replace(/<br\/>/g, "\n");
+                }
+            },
+            {
+                name: "LibreTranslate",
+                translate: async (text) => {
+                    const res = await fetch("https://de.libretranslate.com/translate", {
+                        method: "POST",
+                        body: JSON.stringify({ q: text, source: "auto", target: "zh", format: "text" }),
+                        headers: { "Content-Type": "application/json" }
+                    });
+                    const data = await res.json();
+                    return data.translatedText;
+                }
+            },
+            {
+                name: "MyMemory",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'en' : lang;
+                    const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${sl}|zh-CN`);
+                    const data = await res.json();
+                    if(data.responseStatus === 200) return data.responseData.translatedText;
+                    throw new Error("MyMemory Limit");
+                }
+            },
+            {
+                name: "Baidu (Simple)",
+                translate: async (text) => {
+                    const u = `https://fanyi.baidu.com/sug?kw=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    if(inner.data && inner.data.length > 0) return inner.data[0].v;
+                    throw new Error("Baidu Fail");
+                }
+            }
+        ];
 
-                setTimeout(() => {
-                    iconCopy.style.display = 'block';
-                    iconCheck.style.display = 'none';
-                    copyBtn.classList.remove('copied');
-                }, 2000);
-            }).catch(err => {
-                console.error('复制失败:', err);
-                alert("复制失败，请手动复制");
+        
+
+        function detectSourceLang(str) {
+            if (/[\u3040-\u30ff]/.test(str)) return 'ja';
+            if (/[\uac00-\ud7af]/.test(str)) return 'ko';
+            if (/[\u0400-\u04ff]/.test(str)) return 'ru';
+            return 'auto'; 
+        }
+
+        
+        function raceProviders(providerList, text, lang) {
+            return Promise.any(providerList.map(p => {
+                
+                return p.translate(text, lang)
+                    .then(res => {
+                        if(!res) throw new Error("Empty result");
+                        return { text: res, provider: p.name };
+                    });
+            }));
+        }
+
+        
+        async function fetchTranslationFast(fullText) {
+            const CHUNK_SIZE = 450; 
+            const chunks = [];
+            let i = 0;
+            while (i < fullText.length) {
+                let end = i + CHUNK_SIZE;
+                if (end >= fullText.length) {
+                    chunks.push(fullText.slice(i));
+                    break;
+                }
+                let lastSpace = fullText.lastIndexOf(' ', end);
+                if (lastSpace > i) {
+                    chunks.push(fullText.slice(i, lastSpace));
+                    i = lastSpace + 1;
+                } else {
+                    chunks.push(fullText.slice(i, end));
+                    i = end;
+                }
+            }
+            
+            const lang = detectSourceLang(fullText);
+            
+            
+            let finalResult = "";
+            let winningProvider = "";
+
+            for (const chunk of chunks) {
+                let result = null;
+
+                
+                try {
+                    const raceResult = await raceProviders(fastProviders, chunk, lang);
+                    result = raceResult.text;
+                    winningProvider = raceResult.provider;
+                } catch (e) {
+                    console.warn("第一梯队全军覆没，尝试备用线路...");
+                }
+
+                
+                if (!result) {
+                    for (const bp of backupProviders) {
+                        try {
+                            result = await bp.translate(chunk, lang);
+                            winningProvider = bp.name;
+                            break; 
+                        } catch (e) {}
+                    }
+                }
+
+                if (!result) throw new Error("所有接口均失败");
+                finalResult += result + " ";
+            }
+            
+            return { text: finalResult, provider: winningProvider };
+        }
+
+
+        
+        if (content && translateBtn) {
+            const text = content.innerText.trim();
+            const totalLength = text.length;
+            const zhMatch = text.match(/[\u4e00-\u9fa5]/g);
+            const zhLength = zhMatch ? zhMatch.length : 0;
+            const nonZhRatio = totalLength > 0 ? (1 - (zhLength / totalLength)) : 0;
+
+            if (nonZhRatio > 0.6) {
+                translateBtn.style.display = 'flex';
+                
+                translateBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    if (translationContainer.style.display === 'none') {
+                        translationContainer.style.display = 'block';
+                        translateBtn.classList.add('active');
+
+                        if (transText.innerText.trim().length > 0) return;
+
+                        transLoading.style.display = 'block';
+                        transLoading.innerText = "🚀 正在全速翻译中...";
+                        transSource.innerText = "";
+                        
+                        fetchTranslationFast(text)
+                            .then(result => {
+                                transText.innerText = result.text;
+                                transSource.innerText = `⚡ 翻译完成 via ${result.provider}`;
+                                transLoading.style.display = 'none';
+                            })
+                            .catch(err => {
+                                transLoading.innerText = "翻译失败：网络可能存在严重阻断，所有接口均超时。";
+                                console.error(err);
+                            });
+
+                    } else {
+                        translationContainer.style.display = 'none';
+                        translateBtn.classList.remove('active');
+                    }
+                });
+            }
+        }
+
+        const copyBtn = card.querySelector('.copy-btn');
+        if(copyBtn) {
+            const iconCopy = copyBtn.querySelector('.icon-copy');
+            const iconCheck = copyBtn.querySelector('.icon-check');
+            const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
+
+            copyBtn.addEventListener('click', () => {
+                let textToCopy = content.innerText.trim();
+                if (authorText) {
+                    textToCopy += `\n\n—— ${authorText}`;
+                }
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    iconCopy.style.display = 'none';
+                    iconCheck.style.display = 'block';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        iconCopy.style.display = 'block';
+                        iconCheck.style.display = 'none';
+                        copyBtn.classList.remove('copied');
+                    }, 2000);
+                }).catch(err => {
+                    alert("复制失败，请手动复制");
+                });
             });
-        });
+        }
     })();
 </script>
 <p>这段文字主要讲述古代皇帝如何通过“肖像”来巩固统治秩序。有些朋友可能看见古代文献引用就头痛，其实不妨删繁就简，将引用文献删去，阅读文章主体，提炼文章主旨，最终用简单的三、四句话较为完善地复述这一大段文本。当然，Ai的发展为我们提供了“投机取巧”的机会，ChatGPT可以帮助我们迅速解释、简化这段文本。如果我们需要进行论文创作，需要阅读大量的文献，Ai可以帮助我们迅速简化文献，提炼核心主旨。但在日常生活中，阅读还是需要自己投入身心。</p>
-
 
 
 
@@ -1450,8 +1897,18 @@
             
         </div>
         
-        
         <div class="ec-actions">
+            <button class="ec-btn translate-btn" aria-label="翻译内容" title="点击翻译" style="display:none;">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 8l6 6"></path>
+                    <path d="M4 14h6l2-2h8"></path>
+                    <path d="M2 5h12"></path>
+                    <path d="M7 2h1"></path>
+                    <path d="M22 22l-5-10-5 10"></path>
+                    <path d="M14 18h6"></path>
+                </svg>
+            </button>
+
             
             
             <button class="ec-btn copy-btn" aria-label="复制摘抄" title="复制内容">
@@ -1461,11 +1918,16 @@
         </div>
     </div>
 
-    
     <div class="ec-content">
         <p>这段内容讲述了古代中国皇帝如何利用御容肖像来扩展皇权、加强统治。由于皇帝无法同时出现在不同地方，而御容肖像的出现则提供了可复制性和可移动性，使皇帝可以在任何需要的时候以肖像的形式出现。隋文帝是最早想到利用肖像来加强神圣联系的统治者之一，他铸造了自己的等身塑像放置在佛寺中。此后唐太宗、武则天、唐玄宗等皇帝也有很多类似实践，包括将皇帝肖像转化为壁画、御像、铜像等形式，安放在各地的寺观中。这些御容肖像通过打破时空限制，加强了皇权的扩展和统治力量。【解释文本】</p>
 <p>古代中国皇帝使用御容肖像扩展皇权和加强统治，因为皇帝无法同时出现在不同地方。御容肖像提供了可复制和可移动的方式来让皇帝在各地出现以肖像的形式。早期皇帝如隋文帝就使用等身塑像，以后唐朝皇帝也有御像、壁画和铜像等形式。这些肖像的出现加强了皇权和统治力量。【简化文本】</p>
 
+    </div>
+
+    <div class="ec-translation" style="display: none;">
+        <div class="ec-trans-loading">正在翻译...</div>
+        <div class="ec-trans-text"></div>
+        <div class="ec-trans-source"></div> 
     </div>
 
     
@@ -1473,7 +1935,6 @@
         <div class="ec-line"></div>
         <div class="ec-meta-row">
             <div class="ec-info-left">
-                
                 
                     <span class="ec-item">
                         <svg class="ec-icon-small" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -1484,7 +1945,6 @@
                 
 
                 
-                
             </div>
         </div>
     </div>
@@ -1492,22 +1952,19 @@
 </div>
 
 <style>
+     
     .excerpt-card {
-         
         --ec-bg-card: #fcfcfc;
         --ec-border: #e1e4e8;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.04);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.08);
-        
         --ec-text-content: #1a1a1a;
         --ec-text-meta: #666666;
         --ec-line: #eaecef;
-        
         --ec-btn-bg: rgba(0,0,0,0.03);
         --ec-btn-text: #999999;
         --ec-btn-hover-bg: rgba(0,0,0,0.08);
         --ec-btn-hover-text: #333333;
-        
         --ec-bg-icon-opacity: 0.06;
         --ec-link-hover: #0366d6;
         
@@ -1525,23 +1982,19 @@
         font-family: inherit;
     }
 
-     
     @media (prefers-color-scheme: dark) {
         :root:not([data-scheme="light"]) .excerpt-card {
             --ec-bg-card: #1e1e1e;
             --ec-border: #333333;
             --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
             --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-            
             --ec-text-content: #f0f0f0;
             --ec-text-meta: #aaaaaa;
             --ec-line: #333333;
-            
             --ec-btn-bg: rgba(255,255,255,0.05);
             --ec-btn-text: #777777;
             --ec-btn-hover-bg: rgba(255,255,255,0.15);
             --ec-btn-hover-text: #ffffff;
-            
             --ec-bg-icon-opacity: 0.04;
         }
     }
@@ -1551,16 +2004,13 @@
         --ec-border: #333333;
         --ec-shadow: 0 8px 24px rgba(0,0,0,0.2);
         --ec-shadow-hover: 0 12px 35px rgba(0,0,0,0.4);
-        
         --ec-text-content: #f0f0f0;
         --ec-text-meta: #aaaaaa;
         --ec-line: #333333;
-        
         --ec-btn-bg: rgba(255,255,255,0.05);
         --ec-btn-text: #777777;
         --ec-btn-hover-bg: rgba(255,255,255,0.15);
         --ec-btn-hover-text: #ffffff;
-        
         --ec-bg-icon-opacity: 0.04;
     }
 
@@ -1581,7 +2031,6 @@
         z-index: 0;
     }
 
-     
     .ec-header {
         display: flex;
         justify-content: space-between;
@@ -1593,7 +2042,6 @@
     }
 
     .ec-tags { display: flex; gap: 8px; }
-
     .ec-tag {
         font-size: 12px;
         font-weight: 700;
@@ -1603,12 +2051,7 @@
         letter-spacing: 0.5px;
     }
 
-     
-    .ec-actions {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-    }
+    .ec-actions { display: flex; gap: 8px; align-items: center; }
 
     .ec-btn {
         background: var(--ec-btn-bg);
@@ -1629,12 +2072,15 @@
         color: var(--ec-btn-hover-text);
         transform: translateY(-1px);
     }
+    .ec-btn.active {
+        color: var(--ec-link-hover);
+        background: rgba(3, 102, 214, 0.1);
+    }
     .ec-btn.copy-btn.copied {
         color: #28a745 !important;
         background: rgba(40, 167, 69, 0.1);
     }
 
-     
     .ec-content {
         position: relative;
         z-index: 1;
@@ -1649,84 +2095,42 @@
         text-align: justify;
         text-indent: 2em; 
     }
-    
-    .ec-content p { 
-        margin-bottom: 0; 
-        text-indent: 2em !important; 
-    }
-    
-     
-    .ec-content.no-indent, 
-    .ec-content.no-indent p {
-        text-indent: 0 !important;
-    }
-    
-    .ec-content p + p { 
-        margin-top: 0.8em; 
-    }
+    .ec-content p { margin-bottom: 0; text-indent: 2em !important; }
+    .ec-content.no-indent, .ec-content.no-indent p { text-indent: 0 !important; }
+    .ec-content p + p { margin-top: 0.8em; }
 
-     
-    .ec-footer {
-        position: relative;
-        z-index: 1;
-        margin-top: 30px;
-    }
-
-    .ec-line {
-        height: 1px;
-        background: var(--ec-line);
-        margin-bottom: 12px;
-        width: 100%;
-        transition: background 0.3s;
-    }
-
-    .ec-meta-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 15px;
-        font-size: 14px;
+    .ec-translation {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px dashed var(--ec-line);
+        font-size: 1.5rem; 
+        line-height: 1.6;
         color: var(--ec-text-meta);
-        transition: color 0.3s;
+    }
+    .ec-trans-loading {
+        font-size: 0.9rem;
+        color: #999;
+        font-style: italic;
+    }
+    .ec-trans-source {
+        font-size: 0.8rem;
+        color: #ccc;
+        margin-top: 8px;
+        text-align: right;
     }
 
-    .ec-info-left {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    .ec-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
+    .ec-footer { position: relative; z-index: 1; margin-top: 30px; }
+    .ec-line { height: 1px; background: var(--ec-line); margin-bottom: 12px; width: 100%; transition: background 0.3s; }
+    .ec-meta-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; font-size: 14px; color: var(--ec-text-meta); transition: color 0.3s; }
+    .ec-info-left { display: flex; align-items: center; gap: 15px; flex-wrap: wrap; }
+    .ec-item { display: flex; align-items: center; gap: 6px; }
     .ec-icon-small { opacity: 0.7; }
-
-     
-    .ec-link-text {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px dashed transparent;
-        transition: all 0.2s;
-    }
-    .ec-link-text:hover {
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: var(--hover-color, var(--ec-link-hover));
-    }
-    .ec-link-text.linked { 
-        color: var(--hover-color, var(--ec-link-hover));
-        border-bottom-color: rgba(0,0,0,0.15);
-    }
+    .ec-link-text { color: inherit; text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.2s; }
+    .ec-link-text:hover { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: var(--hover-color, var(--ec-link-hover)); }
+    .ec-link-text.linked { color: var(--hover-color, var(--ec-link-hover)); border-bottom-color: rgba(0,0,0,0.15); }
 
     @media (max-width: 600px) {
-        .ec-content {
-            font-size: 1.4rem;
-            line-height: 1.6;
-        }
+        .ec-content { font-size: 1.4rem; line-height: 1.6; }
         .excerpt-card { padding: 20px 24px; }
         .ec-meta-row { flex-direction: column; align-items: flex-start; gap: 8px; }
     }
@@ -1738,36 +2142,288 @@
         const card = document.getElementById(cardId);
         if (!card) return;
 
-        const copyBtn = card.querySelector('.copy-btn');
-        if(!copyBtn) return; 
-
-        const iconCopy = copyBtn.querySelector('.icon-copy');
-        const iconCheck = copyBtn.querySelector('.icon-check');
         const content = card.querySelector('.ec-content');
+        const translateBtn = card.querySelector('.translate-btn');
+        const translationContainer = card.querySelector('.ec-translation');
+        const transText = card.querySelector('.ec-trans-text');
+        const transLoading = card.querySelector('.ec-trans-loading');
+        const transSource = card.querySelector('.ec-trans-source');
         
-        const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
-
-        copyBtn.addEventListener('click', () => {
-            let textToCopy = content.innerText.trim();
-            if (authorText) {
-                textToCopy += `\n\n—— ${authorText}`;
+        
+        
+        
+        
+        const fastProviders = [
+            
+            {
+                name: "Google",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=zh-CN&dt=t&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x[0]).join('');
+                }
+            },
+            
+            {
+                name: "Google(2)",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${sl}&tl=zh-CN&q=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    if(!res.ok) throw new Error("Google2 Fail");
+                    const data = await res.json();
+                    return data[0].map(x => x).join('');
+                }
+            },
+            
+            {
+                name: "Microsoft",
+                translate: async (text, lang) => {
+                    
+                    const authRes = await fetch("https://edge.microsoft.com/translate/auth");
+                    if (!authRes.ok) throw new Error("MS Auth Fail");
+                    const token = await authRes.text();
+                    
+                    const u = `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=zh-Hans&textType=plain`;
+                    const res = await fetch(u, {
+                        method: "POST",
+                        headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json" },
+                        body: JSON.stringify([{Text: text}])
+                    });
+                    const data = await res.json();
+                    return data[0].translations[0].text;
+                }
+            },
+            
+            {
+                name: "Lingva",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const res = await fetch(`https://lingva.ml/api/v1/${sl}/zh/${encodeURIComponent(text)}`);
+                    const data = await res.json();
+                    return data.translation;
+                }
+            },
+            
+            {
+                name: "Simply",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'auto' : lang;
+                    const u = `https://simplytranslate.org/api/translate/?engine=google&from=${sl}&to=zh-CN&text=${encodeURIComponent(text)}`;
+                    const res = await fetch(u);
+                    const data = await res.json();
+                    return data.translated_text;
+                }
             }
+        ];
 
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                iconCopy.style.display = 'none';
-                iconCheck.style.display = 'block';
-                copyBtn.classList.add('copied');
+        
+        const backupProviders = [
+            {
+                name: "Youdao (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.translateResult.map(p => p.map(s => s.tgt).join("")).join("\n");
+                }
+            },
+            {
+                name: "Iciba (Proxy)",
+                translate: async (text) => {
+                    const u = `http://fy.iciba.com/ajax.php?a=fy&f=auto&t=zh&w=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    return inner.content.out.replace(/<br\/>/g, "\n");
+                }
+            },
+            {
+                name: "LibreTranslate",
+                translate: async (text) => {
+                    const res = await fetch("https://de.libretranslate.com/translate", {
+                        method: "POST",
+                        body: JSON.stringify({ q: text, source: "auto", target: "zh", format: "text" }),
+                        headers: { "Content-Type": "application/json" }
+                    });
+                    const data = await res.json();
+                    return data.translatedText;
+                }
+            },
+            {
+                name: "MyMemory",
+                translate: async (text, lang) => {
+                    const sl = lang === 'auto' ? 'en' : lang;
+                    const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${sl}|zh-CN`);
+                    const data = await res.json();
+                    if(data.responseStatus === 200) return data.responseData.translatedText;
+                    throw new Error("MyMemory Limit");
+                }
+            },
+            {
+                name: "Baidu (Simple)",
+                translate: async (text) => {
+                    const u = `https://fanyi.baidu.com/sug?kw=${encodeURIComponent(text)}`;
+                    const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`);
+                    const data = await res.json();
+                    const inner = JSON.parse(data.contents);
+                    if(inner.data && inner.data.length > 0) return inner.data[0].v;
+                    throw new Error("Baidu Fail");
+                }
+            }
+        ];
 
-                setTimeout(() => {
-                    iconCopy.style.display = 'block';
-                    iconCheck.style.display = 'none';
-                    copyBtn.classList.remove('copied');
-                }, 2000);
-            }).catch(err => {
-                console.error('复制失败:', err);
-                alert("复制失败，请手动复制");
+        
+
+        function detectSourceLang(str) {
+            if (/[\u3040-\u30ff]/.test(str)) return 'ja';
+            if (/[\uac00-\ud7af]/.test(str)) return 'ko';
+            if (/[\u0400-\u04ff]/.test(str)) return 'ru';
+            return 'auto'; 
+        }
+
+        
+        function raceProviders(providerList, text, lang) {
+            return Promise.any(providerList.map(p => {
+                
+                return p.translate(text, lang)
+                    .then(res => {
+                        if(!res) throw new Error("Empty result");
+                        return { text: res, provider: p.name };
+                    });
+            }));
+        }
+
+        
+        async function fetchTranslationFast(fullText) {
+            const CHUNK_SIZE = 450; 
+            const chunks = [];
+            let i = 0;
+            while (i < fullText.length) {
+                let end = i + CHUNK_SIZE;
+                if (end >= fullText.length) {
+                    chunks.push(fullText.slice(i));
+                    break;
+                }
+                let lastSpace = fullText.lastIndexOf(' ', end);
+                if (lastSpace > i) {
+                    chunks.push(fullText.slice(i, lastSpace));
+                    i = lastSpace + 1;
+                } else {
+                    chunks.push(fullText.slice(i, end));
+                    i = end;
+                }
+            }
+            
+            const lang = detectSourceLang(fullText);
+            
+            
+            let finalResult = "";
+            let winningProvider = "";
+
+            for (const chunk of chunks) {
+                let result = null;
+
+                
+                try {
+                    const raceResult = await raceProviders(fastProviders, chunk, lang);
+                    result = raceResult.text;
+                    winningProvider = raceResult.provider;
+                } catch (e) {
+                    console.warn("第一梯队全军覆没，尝试备用线路...");
+                }
+
+                
+                if (!result) {
+                    for (const bp of backupProviders) {
+                        try {
+                            result = await bp.translate(chunk, lang);
+                            winningProvider = bp.name;
+                            break; 
+                        } catch (e) {}
+                    }
+                }
+
+                if (!result) throw new Error("所有接口均失败");
+                finalResult += result + " ";
+            }
+            
+            return { text: finalResult, provider: winningProvider };
+        }
+
+
+        
+        if (content && translateBtn) {
+            const text = content.innerText.trim();
+            const totalLength = text.length;
+            const zhMatch = text.match(/[\u4e00-\u9fa5]/g);
+            const zhLength = zhMatch ? zhMatch.length : 0;
+            const nonZhRatio = totalLength > 0 ? (1 - (zhLength / totalLength)) : 0;
+
+            if (nonZhRatio > 0.6) {
+                translateBtn.style.display = 'flex';
+                
+                translateBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    if (translationContainer.style.display === 'none') {
+                        translationContainer.style.display = 'block';
+                        translateBtn.classList.add('active');
+
+                        if (transText.innerText.trim().length > 0) return;
+
+                        transLoading.style.display = 'block';
+                        transLoading.innerText = "🚀 正在全速翻译中...";
+                        transSource.innerText = "";
+                        
+                        fetchTranslationFast(text)
+                            .then(result => {
+                                transText.innerText = result.text;
+                                transSource.innerText = `⚡ 翻译完成 via ${result.provider}`;
+                                transLoading.style.display = 'none';
+                            })
+                            .catch(err => {
+                                transLoading.innerText = "翻译失败：网络可能存在严重阻断，所有接口均超时。";
+                                console.error(err);
+                            });
+
+                    } else {
+                        translationContainer.style.display = 'none';
+                        translateBtn.classList.remove('active');
+                    }
+                });
+            }
+        }
+
+        const copyBtn = card.querySelector('.copy-btn');
+        if(copyBtn) {
+            const iconCopy = copyBtn.querySelector('.icon-copy');
+            const iconCheck = copyBtn.querySelector('.icon-check');
+            const authorText = card.querySelector('.ec-info-left') ? card.querySelector('.ec-info-left').innerText.replace(/\s+/g, ' ').trim() : "";
+
+            copyBtn.addEventListener('click', () => {
+                let textToCopy = content.innerText.trim();
+                if (authorText) {
+                    textToCopy += `\n\n—— ${authorText}`;
+                }
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    iconCopy.style.display = 'none';
+                    iconCheck.style.display = 'block';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        iconCopy.style.display = 'block';
+                        iconCheck.style.display = 'none';
+                        copyBtn.classList.remove('copied');
+                    }, 2000);
+                }).catch(err => {
+                    alert("复制失败，请手动复制");
+                });
             });
-        });
+        }
     })();
 </script>
 <p>就这段文本，朋友们可以深入思考，这能够帮助我们树立问题意识。例如这段文本主要论述皇帝利用御容肖像巩固统治，那么是否还有其他方式或手段帮助巩固统治呢？我会想起西汉开国皇帝刘邦在丰西芒砀山泽斩蛇起义之事，在刘邦斩蛇之后，有一老妇人为蛇痛哭，说“白帝之子被赤帝之子所杀害”。此件颇具神异的故事其实便为刘邦增添了神话色彩，助其巩固统治。</p>
@@ -2166,8 +2822,10 @@
         
             
         
-        发表了47篇文章 · 
-        总计1,047.27k字
+            
+        
+        发表了48篇文章 · 
+        总计998.16k字
     </section>
 
     
@@ -2792,7 +3450,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div id="float-breadcrumb-plugin">
             <div class="plugin-capsule">
                 <a href="/" class="plugin-item" title="Home">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
                 </a>
                 <span class="plugin-sep">/</span>
                 
@@ -2808,5 +3466,33 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
         
-        </body>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            const contentArea = document.querySelector('.main') || document.body;
+            
+            
+            const walker = document.createTreeWalker(
+                contentArea,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            let node;
+            
+            
+            const regex = /([a-zA-Z0-9])\s*，(?=[a-zA-Z0-9\s])/g;
+
+            while (node = walker.nextNode()) {
+                if (node.nodeValue && node.nodeValue.includes('，')) {
+                    
+                    node.nodeValue = node.nodeValue.replace(regex, '$1, ');
+                }
+            }
+        });
+        </script>
+
+    </body>
 </html>
