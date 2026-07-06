@@ -1,0 +1,2764 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="我开发了一个软件Article-Tool，是为解决复杂而细碎的学术管理需求而设计的本地化软件。">
+<title>「自制软件」Article-Tool：我个人制作的学术工作台软件</title>
+
+<link rel='canonical' href='https://www.laujoe.top/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/'>
+
+<link rel="stylesheet" href="/scss/style.min.808c7b9dd5a581777366bdf2890d819d0d721e3fae54f0d48d0135fcae7c862b.css"><meta property='og:title' content="「自制软件」Article-Tool：我个人制作的学术工作台软件">
+<meta property='og:description' content="我开发了一个软件Article-Tool，是为解决复杂而细碎的学术管理需求而设计的本地化软件。">
+<meta property='og:url' content='https://www.laujoe.top/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/'>
+<meta property='og:site_name' content='Lau Joe / Soar Freely'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='学术工具' /><meta property='article:tag' content='个人工作流' /><meta property='article:published_time' content='2026-06-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-06-23T00:00:00&#43;00:00'/><meta property='og:image' content='https://www.laujoe.top/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-home.jpg' />
+<meta name="twitter:title" content="「自制软件」Article-Tool：我个人制作的学术工作台软件">
+<meta name="twitter:description" content="我开发了一个软件Article-Tool，是为解决复杂而细碎的学术管理需求而设计的本地化软件。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.laujoe.top/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-home.jpg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zhuque-fangsong-web@latest/style.css" />
+
+        <style>
+             
+             
+            html body, html body * {
+                font-family: "EB Garamond", "Zhuque Fangsong", "FangSong", "STFangsong", serif !important;
+            }
+            
+             
+            code, pre, kbd, samp, .chroma, .chroma code, .chroma span {
+                font-family: "JetBrains Mono", "Fira Code", monospace !important;
+            }
+            
+             
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: 600 !important;
+            }
+        </style>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_fbdc3b3e61be125f.png" width="300"
+                            height="450" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Lau Joe / Soar Freely</a></h1>
+            <h2 class="site-description">纵浪大化中，不喜亦不惧。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://blog.laujoe.top/'
+                        target="_blank"
+                        title="Lau Joe 学术主页"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="icomoon-ignore">
+</g>
+<path d="M31.514 11.177l-15.514-7.467-15.514 7.467 2.186 1.318v11.529h1.066v-10.886l3.199 1.929v13.223h18.126v-13.219l6.451-3.894zM16 4.893l13.275 6.39-13.267 8.008-13.282-8.009 13.274-6.39zM23.997 27.224h-15.994v-11.514l8.005 4.827 7.989-4.823v11.51z" fill="#000000">
+
+</path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='mailto:quintuple0935@163.com'
+                        target="_blank"
+                        title="Mail"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mailbox"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 21v-6.5a3.5 3.5 0 0 0 -7 0v6.5h18v-6a4 4 0 0 0 -4 -4h-10.5" /><path d="M12 11v-8h4l2 2l-2 2h-4" /><path d="M6 15h1" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://sspai.com/u/ha9qwsa0/updates'
+                        target="_blank"
+                        title="少数派"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-math-pi"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 20v-16" /><path d="M17 4v16" /><path d="M20 4h-16" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://mp.weixin.qq.com/s/80ap1Uew0Ci0rUnfPJLDGA'
+                        target="_blank"
+                        title="微信公众号"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-wechat"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z" /><path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233" /><path d="M10 8h.01" /><path d="M7 8h.01" /><path d="M15 14h.01" /><path d="M18 14h.01" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.5315 11.5857L20.75 10.9605V21.25H22C22.4142 21.25 22.75 21.5858 22.75 22C22.75 22.4143 22.4142 22.75 22 22.75H2.00003C1.58581 22.75 1.25003 22.4143 1.25003 22C1.25003 21.5858 1.58581 21.25 2.00003 21.25H3.25003V10.9605L2.46855 11.5857C2.1451 11.8445 1.67313 11.792 1.41438 11.4686C1.15562 11.1451 1.20806 10.6731 1.53151 10.4144L9.65742 3.91366C11.027 2.818 12.9731 2.818 14.3426 3.91366L22.4685 10.4144C22.792 10.6731 22.8444 11.1451 22.5857 11.4686C22.3269 11.792 21.855 11.8445 21.5315 11.5857ZM12 6.75004C10.4812 6.75004 9.25003 7.98126 9.25003 9.50004C9.25003 11.0188 10.4812 12.25 12 12.25C13.5188 12.25 14.75 11.0188 14.75 9.50004C14.75 7.98126 13.5188 6.75004 12 6.75004ZM13.7459 13.3116C13.2871 13.25 12.7143 13.25 12.0494 13.25H11.9507C11.2858 13.25 10.7129 13.25 10.2542 13.3116C9.76255 13.3777 9.29128 13.5268 8.90904 13.9091C8.52679 14.2913 8.37773 14.7626 8.31163 15.2542C8.24996 15.7129 8.24999 16.2858 8.25003 16.9507L8.25003 21.25H9.75003H14.25H15.75L15.75 16.9507L15.75 16.8271C15.7498 16.2146 15.7462 15.6843 15.6884 15.2542C15.6223 14.7626 15.4733 14.2913 15.091 13.9091C14.7088 13.5268 14.2375 13.3777 13.7459 13.3116Z" fill="#1C274C"/>
+<g opacity="0.5">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.75 9.5C10.75 8.80964 11.3096 8.25 12 8.25C12.6904 8.25 13.25 8.80964 13.25 9.5C13.25 10.1904 12.6904 10.75 12 10.75C11.3096 10.75 10.75 10.1904 10.75 9.5Z" fill="#1C274C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.75 9.5C10.75 8.80964 11.3096 8.25 12 8.25C12.6904 8.25 13.25 8.80964 13.25 9.5C13.25 10.1904 12.6904 10.75 12 10.75C11.3096 10.75 10.75 10.1904 10.75 9.5Z" fill="#1C274C"/>
+</g>
+<path opacity="0.5" d="M12.0494 13.25C12.7142 13.25 13.2871 13.2499 13.7458 13.3116C14.2375 13.3777 14.7087 13.5268 15.091 13.909C15.4732 14.2913 15.6223 14.7625 15.6884 15.2542C15.7462 15.6842 15.7498 16.2146 15.75 16.827L15.75 21.25H8.25L8.25 16.9506C8.24997 16.2858 8.24993 15.7129 8.31161 15.2542C8.37771 14.7625 8.52677 14.2913 8.90901 13.909C9.29126 13.5268 9.76252 13.3777 10.2542 13.3116C10.7129 13.2499 11.2858 13.25 11.9506 13.25H12.0494Z" fill="#1C274C"/>
+<path opacity="0.5" d="M16 3H18.5C18.7761 3 19 3.22386 19 3.5L19 7.63955L15.5 4.83955V3.5C15.5 3.22386 15.7239 3 16 3Z" fill="#1C274C"/>
+</svg>
+                
+                <span>主页 | Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<path fill="#F9EBB2" d="M8,32h12c2.211,0,4,1.789,4,4v4h16v-4c0-2.211,1.789-4,4-4h12V8H8V32z"/>
+	<g>
+		<path fill="#394240" d="M60,0H4C1.789,0,0,1.789,0,4v56c0,2.211,1.789,4,4,4h56c2.211,0,4-1.789,4-4V4C64,1.789,62.211,0,60,0z
+			 M56,56H8V40h8v4c0,2.211,1.789,4,4,4h24c2.211,0,4-1.789,4-4v-4h8V56z M56,32H44c-2.211,0-4,1.789-4,4v4H24v-4
+			c0-2.211-1.789-4-4-4H8V8h48V32z"/>
+		<path fill="#394240" d="M20,24h24c2.211,0,4-1.789,4-4s-1.789-4-4-4H20c-2.211,0-4,1.789-4,4S17.789,24,20,24z"/>
+	</g>
+	<path fill="#506C7F" d="M8,56h48V40h-8v4c0,2.211-1.789,4-4,4H20c-2.211,0-4-1.789-4-4v-4H8V56z"/>
+</g>
+</svg>
+                
+                <span>归档 | Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="search-a" d="M11.7099609,0.572509766 C9.46940104,1.29012044 7.99951172,3.05419922 7.30029297,5.86474609 C6.25146484,10.0805664 4.95166016,10.6181641 0.719970703,9.11865234 C2.23974609,11.9257813 5.32006836,13.0512695 7.30029297,13.0512695 C9.28051758,13.0512695 14.4091797,10.2941895 13.8215332,5.0534668 C13.3114421,3.52709961 12.6075846,2.03344727 11.7099609,0.572509766 Z"/>
+    <path id="search-c" d="M14.1791377,12.7701494 L19.7100661,18.3101411 C20.0966446,18.6967197 20.0966446,19.3234875 19.7100661,19.7100661 C19.3234875,20.0966446 18.6967197,20.0966446 18.3101411,19.7100661 L12.7803471,14.1712106 C11.4385246,15.2160226 9.75152329,15.8383427 7.91917136,15.8383427 C3.54553379,15.8383427 0,12.2928089 0,7.91917136 C0,3.54553379 3.54553379,0 7.91917136,0 C12.2928089,0 15.8383427,3.54553379 15.8383427,7.91917136 C15.8383427,9.74688445 15.2191696,11.4299819 14.1791377,12.7701494 Z M7.91917136,13.8585499 C11.1993995,13.8585499 13.8585499,11.1993995 13.8585499,7.91917136 C13.8585499,4.63894318 11.1993995,1.97979284 7.91917136,1.97979284 C4.63894318,1.97979284 1.97979284,4.63894318 1.97979284,7.91917136 C1.97979284,11.1993995 4.63894318,13.8585499 7.91917136,13.8585499 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(2 2)">
+    <g transform="translate(1 2)">
+      <mask id="search-b" fill="#ffffff">
+        <use xlink:href="#search-a"/>
+      </mask>
+      <use fill="#D8D8D8" xlink:href="#search-a"/>
+      <g fill="#FFA0A0" mask="url(#search-b)">
+        <rect width="24" height="24" transform="translate(-3 -4)"/>
+      </g>
+    </g>
+    <mask id="search-d" fill="#ffffff">
+      <use xlink:href="#search-c"/>
+    </mask>
+    <use fill="#000000" fill-rule="nonzero" xlink:href="#search-c"/>
+    <g fill="#7600FF" mask="url(#search-d)">
+      <rect width="24" height="24" transform="translate(-2 -2)"/>
+    </g>
+  </g>
+</svg>
+                
+                <span>搜索 | Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E-about/' >
+                
+                
+                
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="webprofile"  viewBox="0 0 214.4463 219.8223" enable-background="new 0 0 214.4463 219.8223" xml:space="preserve" width="512" height="512">
+<g>
+	<path fill="#D0E8FF" d="M65.3286,180.9961c-1.832-0.4062-3.1348-2.0312-3.1348-3.9062v-10.5859   c0-1.7578,1.1465-3.3086,2.8262-3.8242c10.2012-3.1328,18.0234-11.5352,20.4121-21.9258c0.2129-0.9297,0.752-1.75,1.5156-2.3203   c2.0625-1.5273,3.2461-3.8711,3.2461-6.4336c0-2.9844-1.6406-5.6992-4.2832-7.0898c-0.8418-0.4414-1.498-1.168-1.8516-2.0508   C79.4731,111.4023,68.5356,104,56.1938,104s-23.2793,7.4023-27.8652,18.8594c-0.3535,0.8828-1.0098,1.6094-1.8516,2.0508   c-2.6426,1.3906-4.2832,4.1055-4.2832,7.0898c0,2.5625,1.1836,4.9062,3.2461,6.4336c0.7637,0.5703,1.3027,1.3906,1.5156,2.3203   c2.3887,10.3906,10.2109,18.793,20.4121,21.9258c1.6797,0.5156,2.8262,2.0664,2.8262,3.8242v10.5859   c0,1.875-1.3027,3.5-3.1348,3.9062c-14.1875,3.1445-25.6992,13.5-30.4766,27.0039h79.2227   C91.0278,194.4961,79.5161,184.1406,65.3286,180.9961z"/>
+	<path fill="#1C71DA" d="M126.1938,0.4053V0h-8c-46.3184,0-84,37.6836-84,84h2.3535h5.6465h25.0159   c-0.0142,0.7883-0.0745,1.5579-0.0745,2.3516c0,2.2109,1.791,4,4,4s4-1.7891,4-4c0-0.7937,0.0549-1.5637,0.0696-2.3516h42.989v76   c-2.209,0-4,1.7891-4,4s1.791,4,4,4c46.3184,0,84-37.6836,84-84C202.1938,40.3838,168.7705,4.45,126.1938,0.4053z M193.7639,76   h-24.9685c-2.3882-29.981-14.9585-54.8906-31.9978-65.6011C167.2146,18.0957,190.4099,44.0981,193.7639,76z M160.7764,76h-34.5825   V14.0312C144.1689,19.8376,158.1919,44.7942,160.7764,76z M42.6238,76c3.354-31.9019,26.5493-57.9043,56.9663-65.6011   C82.5508,21.1094,69.9805,46.019,67.5923,76H42.6238z M75.6113,76c2.9578-35.7122,20.8997-63.293,42.5825-63.293V76H75.6113z    M126.1938,84h34.989c0.0146,0.7878,0.0696,1.5579,0.0696,2.3516c0,35.9294-15.1299,65.886-35.0586,72.324V84z M146.1306,154.6111   c13.9058-14.603,23.1218-39.7273,23.1218-68.2595c0-0.7937-0.0603-1.5632-0.0745-2.3516h25.0159   C194.1938,116.0366,174.2395,143.4485,146.1306,154.6111z"/>
+	<path fill="#1C71DA" d="M70.1938,173.9883v-4.6523c11.1016-4.4023,19.5801-13.8633,22.6973-25.4375   c3.3438-3.0195,5.3027-7.3633,5.3027-11.8984c0-5.4531-2.7422-10.4609-7.25-13.3984C84.8501,104.8242,71.3579,96,56.1938,96   s-28.6562,8.8242-34.75,22.6016c-4.5078,2.9375-7.25,7.9453-7.25,13.3984c0,4.5352,1.959,8.8789,5.3027,11.8984   c3.1172,11.5742,11.5957,21.0352,22.6973,25.4375v4.6523c-17.373,5.0625-30.8672,19.332-34.8145,37.1445   c-0.2637,1.1875,0.0254,2.4258,0.7852,3.3711S10.0708,216,11.2837,216h89.8203c1.2129,0,2.3594-0.5508,3.1191-1.4961   s1.0488-2.1836,0.7852-3.3711C101.061,193.3203,87.5669,179.0508,70.1938,173.9883z M16.5825,208   c4.7773-13.5039,16.2891-23.8594,30.4766-27.0039c1.832-0.4062,3.1348-2.0312,3.1348-3.9062v-10.5859   c0-1.7578-1.1465-3.3086-2.8262-3.8242c-10.2012-3.1328-18.0234-11.5352-20.4121-21.9258c-0.2129-0.9297-0.752-1.75-1.5156-2.3203   c-2.0625-1.5273-3.2461-3.8711-3.2461-6.4336c0-2.9844,1.6406-5.6992,4.2832-7.0898c0.8418-0.4414,1.498-1.168,1.8516-2.0508   C32.9146,111.4023,43.8521,104,56.1938,104s23.2793,7.4023,27.8652,18.8594c0.3535,0.8828,1.0098,1.6094,1.8516,2.0508   c2.6426,1.3906,4.2832,4.1055,4.2832,7.0898c0,2.5625-1.1836,4.9062-3.2461,6.4336c-0.7637,0.5703-1.3027,1.3906-1.5156,2.3203   c-2.3887,10.3906-10.2109,18.793-20.4121,21.9258c-1.6797,0.5156-2.8262,2.0664-2.8262,3.8242v10.5859   c0,1.875,1.3027,3.5,3.1348,3.9062c14.1875,3.1445,25.6992,13.5,30.4766,27.0039H16.5825z"/>
+</g>
+<path fill="#FF5D5D" d="M154.4463,219.8223c-1.0239,0-2.0474-0.3906-2.8286-1.1719l-14.1421-14.1416  c-1.562-1.5615-1.562-4.0947,0-5.6562c1.5625-1.5625,4.0947-1.5625,5.6572,0l14.1421,14.1416c1.562,1.5615,1.562,4.0947,0,5.6562  C156.4937,219.4316,155.4702,219.8223,154.4463,219.8223z"/>
+<path fill="#FF5D5D" d="M140.3042,219.8223c-1.0239,0-2.0474-0.3906-2.8286-1.1719c-1.562-1.5615-1.562-4.0947,0-5.6562  l14.1421-14.1416c1.563-1.5615,4.0952-1.5615,5.6572,0s1.562,4.0947,0,5.6562l-14.1421,14.1416  C142.3516,219.4316,141.3276,219.8223,140.3042,219.8223z"/>
+<path fill="#00D40B" d="M200.4463,171.8223c-7.7197,0-14-6.2803-14-14s6.2803-14,14-14s14,6.2803,14,14  S208.166,171.8223,200.4463,171.8223z M200.4463,151.8223c-3.3086,0-6,2.6914-6,6s2.6914,6,6,6s6-2.6914,6-6  S203.7549,151.8223,200.4463,151.8223z"/>
+<path fill="#FFC504" d="M15.314,42.4492c-1.0234,0-2.0474-0.3906-2.8281-1.1719L1.1719,29.9639C0.4214,29.2139,0,28.1963,0,27.1357  s0.4214-2.0781,1.1719-2.8281l11.314-11.3135c1.5625-1.5625,4.0952-1.5615,5.6567,0l11.3135,11.3135  c1.562,1.5615,1.562,4.0947,0,5.6562L18.1426,41.2773C17.3613,42.0586,16.3374,42.4492,15.314,42.4492z M9.6567,27.1357  l5.6572,5.6562l5.6567-5.6562l-5.6567-5.6562L9.6567,27.1357z"/>
+</svg>
+                
+                <span>关于 | About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%AC%E5%91%8A-notice/' >
+                
+                
+                
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M899.984 19.873h-3.452c-26.123 0-47.296 21.172-47.296 47.296v888.508c0 26.127 21.173 47.298 47.296 47.298h3.452c26.119 0 47.297-21.171 47.297-47.298V67.169c0-26.124-21.177-47.296-47.297-47.296z" fill="#4A5699" /><path d="M132.643 19.873h-3.449c-26.12 0-47.296 21.172-47.296 47.296v888.508c0 26.127 21.177 47.298 47.296 47.298h3.449c26.123 0 47.299-21.171 47.299-47.298V67.169c0-26.124-21.176-47.296-47.299-47.296z" fill="#C45FA0" /><path d="M899.463 19.873H129.194c-26.12 0-47.296 21.172-47.296 47.296v3.377c0 26.12 21.177 47.299 47.296 47.299h770.269c26.123 0 47.296-21.179 47.296-47.299v-3.377c0-26.124-21.173-47.296-47.296-47.296z" fill="#6277BA" /><path d="M899.463 905.006H129.194c-26.12 0-47.296 21.17-47.296 47.29v3.381c0 26.127 21.177 47.298 47.296 47.298h770.269c26.123 0 47.296-21.171 47.296-47.298v-3.381c0-26.12-21.173-47.29-47.296-47.29z" fill="#C45FA0" /><path d="M717.962 543.153H542.047c-26.121 0-47.298 21.175-47.298 47.297v3.724c0 26.123 21.177 47.293 47.298 47.293h175.915c26.121 0 47.297-21.17 47.297-47.293v-3.724c0-26.122-21.176-47.297-47.297-47.297z" fill="#E5594F" /><path d="M689.268 198.849H513.355c-26.122 0-47.298 21.175-47.298 47.297v3.722c0 26.12 21.176 47.297 47.298 47.297h175.912c26.122 0 47.298-21.177 47.298-47.297v-3.722c0-26.122-21.175-47.297-47.297-47.297z" fill="#F0D043" /><path d="M757.789 353.081H261.17c-26.121 0-47.297 21.172-47.297 47.296v3.377c0 26.121 21.177 47.299 47.297 47.299h496.619c26.121 0 47.296-21.178 47.296-47.299v-3.377c0-26.125-21.175-47.296-47.296-47.296z" fill="#E5594F" /><path d="M762.638 726.225h-496.62c-26.12 0-47.294 21.18-47.294 47.301v3.377c0 26.12 21.174 47.3 47.294 47.3h496.62c26.122 0 47.296-21.18 47.296-47.3v-3.377c0-26.122-21.174-47.301-47.296-47.301z" fill="#6277BA" /><path d="M355.734 543.328H281.41c-26.122 0-47.297 21.17-47.297 47.293v3.378c0 26.118 21.175 47.297 47.297 47.297h74.324c26.123 0 47.296-21.179 47.296-47.297v-3.378c0-26.123-21.174-47.293-47.296-47.293z" fill="#F39A2B" /><path d="M334.85 248.006m-48.986 0a48.986 48.986 0 1 0 97.972 0 48.986 48.986 0 1 0-97.972 0Z" fill="#F39A2B" /></svg>
+                
+                <span>公告 | Notice</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5-links/' >
+                
+                
+                
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" id="meteor-icon-kit__solid-link" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.17197 18.3639C9.75776 17.7781 10.7075 17.7781 11.2933 18.3639C11.8791 18.9497 11.8791 19.8994 11.2933 20.4852L9.87908 21.8994C7.73119 24.0473 4.24879 24.0473 2.1009 21.8994C-0.0469807 19.7515 -0.0469807 16.2691 2.1009 14.1212L7.05065 9.17148C9.19853 7.0236 12.6809 7.0236 14.8288 9.17148C15.4146 9.75727 15.4146 10.707 14.8288 11.2928C14.243 11.8786 13.2933 11.8786 12.7075 11.2928C11.7312 10.3165 10.1483 10.3165 9.17197 11.2928L4.22222 16.2425C3.24591 17.2189 3.24591 18.8018 4.22222 19.7781C5.19853 20.7544 6.78145 20.7544 7.75776 19.7781L9.17197 18.3639ZM14.8288 5.63595C14.243 6.22174 13.2933 6.22174 12.7075 5.63595C12.1217 5.05016 12.1217 4.10041 12.7075 3.51463L14.1217 2.10041C16.2696 -0.047469 19.752 -0.047469 21.8999 2.10041C24.0478 4.2483 24.0478 7.73071 21.8999 9.87859L16.9501 14.8283C14.8023 16.9762 11.3199 16.9762 9.17197 14.8283C8.58618 14.2425 8.58618 13.2928 9.17197 12.707C9.75776 12.1212 10.7075 12.1212 11.2933 12.707C12.2696 13.6833 13.8525 13.6833 14.8288 12.707L19.7786 7.75727C20.7549 6.78096 20.7549 5.19805 19.7786 4.22174C18.8023 3.24542 17.2193 3.24542 16.243 4.22174L14.8288 5.63595Z" fill="#758CA3"/></svg>
+                
+                <span>链接 | Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#软件整体定位不是资料表而是学术投稿工作台">软件整体定位：不是“资料表”，而是学术投稿工作台</a>
+      <ol>
+        <li><a href="#仪表盘一眼看清当前学术工作状态">仪表盘：一眼看清当前学术工作状态</a></li>
+        <li><a href="#日程系统把学术任务放进时间轴">日程系统：把学术任务放进时间轴</a></li>
+        <li><a href="#期刊库建立个人化投稿目标数据库">期刊库：建立个人化投稿目标数据库</a></li>
+        <li><a href="#稿件库管理从选题到投稿的完整写作过程">稿件库：管理从选题到投稿的完整写作过程</a></li>
+        <li><a href="#已刊论文库让发表成果和原稿过程不断裂">已刊论文库：让发表成果和原稿过程不断裂</a></li>
+        <li><a href="#ai-报告把本地资料转化为阶段分析">AI 报告：把本地资料转化为阶段分析</a></li>
+      </ol>
+    </li>
+    <li><a href="#具有针对性的独特设计">具有针对性的独特设计</a>
+      <ol>
+        <li><a href="#字段体系让软件适应用户而不是用户迁就软件">字段体系：让软件适应用户，而不是用户迁就软件</a></li>
+        <li><a href="#api-连接支持本地模型与兼容-openai-接口">API 连接：支持本地模型与兼容 OpenAI 接口</a></li>
+        <li><a href="#ai-实时监测让-ai-任务可见可取消可重试">AI 实时监测：让 AI 任务可见、可取消、可重试</a></li>
+        <li><a href="#界面与个性化让工作台具有个人气质">界面与个性化：让工作台具有个人气质</a></li>
+      </ol>
+    </li>
+    <li><a href="#适用场景">适用场景</a></li>
+    <li><a href="#软件费用情况">软件费用情况</a></li>
+    <li><a href="#软件下载地址">软件下载地址</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/">
+                <img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-home_hu_e91b569e5fbeff2a.jpg"
+                        srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-home_hu_e91b569e5fbeff2a.jpg 800w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-home_hu_e2e1fba28b079adc.jpg 1600w"
+                        width="800" 
+                        height="533" 
+                        loading="lazy"
+                        alt="Featured image of post 「自制软件」Article-Tool：我个人制作的学术工作台软件" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C/" style="background-color: #2a9d8f; color: #fff;">
+                工具经验
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/">「自制软件」Article-Tool：我个人制作的学术工作台软件</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            我开发了一个软件Article-Tool，是为解决复杂而细碎的学术管理需求而设计的本地化软件。
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2026-06-23T00:00:00Z'>2026-06-23</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 15 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="前言">前言
+</h2><p>作为博士生，在我学术研究与论文写作过程中，真正耗费精力的往往不只是写作本身。我需要同时管理期刊信息、稿件进度、投稿记录、审稿节点、已刊成果、日程安排、附件材料等。期刊是否适合投稿，稿件当前处于哪个阶段，某篇文章投过哪些刊物，哪些任务即将逾期，哪些资料需要补充，哪些已刊论文还能追溯原稿信息——这些内容分散在表格、文档、聊天记录、文件夹和个人记忆里，时间一长，就很容易失控。</p>
+<p>为此，我开发了一个软件Article-Tool，是为解决这种复杂而细碎的学术管理需求而设计的本地化软件。它不是一个简单的期刊表格，也不是单纯的待办清单，而是把期刊库、稿件库、已刊论文库、日程、AI 报告、附件、备份、个性化设置等能力整合在一起的综合工作台。它以研究者的实际工作流为中心，将选题、写作、投稿、审稿、转投、发表、归档、复盘等过程纳入同一个系统中，让学术生产过程变得更加清晰、连续和可追踪。</p>
+<p>软件强调本地保存、本地可控、结构灵活和 AI 加持。它既可以作为日常论文管理工具，也可以作为个人学术资料库、投稿记录系统、研究计划中心和阶段复盘助手使用。对于小说、诗歌等投稿流程，此软件仍然灵活自如。</p>
+<h2 id="软件整体定位不是资料表而是学术投稿工作台">软件整体定位：不是“资料表”，而是学术投稿工作台
+</h2><p>Article-Tool 的核心定位可以概括为：围绕期刊、稿件、已刊论文和日程任务，建立一个本地化、可自定义、可追溯、可 AI 分析的学术工作系统。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture01.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture01_hu_6cace0a20c7780df.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture01_hu_69f59de436b25f14.png 1024w"
+	loading="lazy"
+	
+		alt="Article-Tool 界面"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>传统管理方式通常有几个问题。第一，期刊资料和稿件资料分离。一个表格记录期刊，一个文档记录论文，一个日历记录任务，之间没有稳定关联。第二，投稿过程缺乏连续记录。某篇稿件何时投了哪家期刊、是否退稿、是否返修、转投依据是什么，往往散落在邮件和备忘录中。第三，已发表论文归档后与原稿脱节。发表信息保存了，但原稿阶段的关键词、目标期刊、写作记录、投稿流程可能丢失。第四，研究者很难快速做阶段复盘。要知道自己有多少可投期刊、多少稿件待推进、哪些任务逾期，需要重新翻找大量资料。第五，AI 工具虽然有帮助，但如果不能接入自己的完整本地资料库，生成的建议就容易泛泛而谈。</p>
+<p>Article-Tool 的设计思路正好针对这些痛点。它把期刊、稿件、已刊论文作为三个互相关联的核心资料库，把日程作为时间轴，把投稿流程作为行动记录，把字段系统作为个性化结构，把 AI 报告作为复盘与辅助决策工具，把本地数据层作为安全底座。这样，用户不只是「存资料」，而是在软件里构建一套属于自己的学术工作流。软件左侧导航包含几个主要页面：仪表盘、日程、期刊库、稿件库、已刊论文库、AI 报告和设置中心。这些页面不是孤立存在的，而是互相联通的。</p>
+<h3 id="仪表盘一眼看清当前学术工作状态">仪表盘：一眼看清当前学术工作状态
+</h3><p>仪表盘是软件的总控页面。它负责把分散在各个资料库和日程中的信息压缩成一个清晰的工作概览。</p>
+<p>仪表盘顶部显示软件当前的整体统计，包括日程数量、期刊库数量、稿件库数量和已刊论文库数量。对于长期积累资料的用户来说，这种统计能快速反映资料库规模，也能帮助用户判断当前工作重点。例如，如果稿件很多但可投期刊较少，就说明需要补充期刊储备；如果期刊库很充实但稿件推进缓慢，就说明重点应放在写作计划上；如果日程中逾期任务较多，就需要优先处理时间风险。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture02.png"
+	width="2368"
+	height="568"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture02_hu_d4af1a55ece1ade2.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture02_hu_59166712b05f630b.png 1024w"
+	loading="lazy"
+	
+		alt="仪表盘-总览"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="416"
+		data-flex-basis="1000px"
+	
+></p>
+<p>仪表盘中的「近期日程」模块会展示当前和未来需要处理的任务。任务可以来自日程页，也可以从具体期刊、稿件或已刊论文详情页中添加。这样用户不需要进入每个对象页面，也能在仪表盘看到近期需要推进的事项。任务支持完成、编辑、删除和延期等操作，能够帮助用户快速整理当天或近期的工作。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture03.png"
+	width="2370"
+	height="738"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture03_hu_bf9e772b5c281958.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture03_hu_63999b5084963176.png 1024w"
+	loading="lazy"
+	
+		alt="仪表盘-近期日程"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="321"
+		data-flex-basis="770px"
+	
+></p>
+<p>「建议行为」是仪表盘的重要增强功能。它包含本地建议和 AI 建议两种模式。本地建议根据资料库中已有数据自动分析，例如哪些任务逾期、哪些稿件处于待投稿状态、哪些期刊资料还需要补充、哪些投稿流程停滞过久。AI 建议则可以在配置 API 后进一步增强，让模型基于当前资料库生成更具体的行动建议。这个功能让仪表盘不只是静态展示数据，而是主动提醒用户下一步可以做什么。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture04.png"
+	width="2374"
+	height="1396"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture04_hu_d232c9780ec4a623.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture04_hu_98c4d2dad5b1b48a.png 1024w"
+	loading="lazy"
+	
+		alt="仪表盘-建议行为"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="408px"
+	
+></p>
+<p>「投稿动态」模块会汇总稿件和已刊论文中的投稿流程记录，展示近期投稿、审稿、返修、转投或复盘动态。它相当于一个投稿过程的时间预览，让用户不用打开每篇稿件，也能了解最近发生了哪些关键动作。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture05.png"
+	width="2414"
+	height="386"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture05_hu_f39c93b27fb7a1bd.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture05_hu_ae533092deafe188.png 1024w"
+	loading="lazy"
+	
+		alt="仪表盘-总览"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="625"
+		data-flex-basis="1500px"
+	
+></p>
+<p>仪表盘还支持全局搜索。当用户在顶部搜索框中输入关键词，系统会在不同资料库、字段、内容块和流程中寻找相关内容，并根据匹配结果展示。用户可以按范围筛选，例如全部、页面、期刊库、稿件库、已刊论文库、日程等。搜索结果可以直接跳转到对应页面或对象详情页。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture06.png"
+	width="1520"
+	height="940"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture06_hu_112d79af4549e888.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture06_hu_72ef5734eecdd4b5.png 1024w"
+	loading="lazy"
+	
+		alt="全局搜索"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="161"
+		data-flex-basis="388px"
+	
+></p>
+<h3 id="日程系统把学术任务放进时间轴">日程系统：把学术任务放进时间轴
+</h3><p>日程页面是软件的时间管理中心。它采用月历视图展示任务，并结合右侧或下方工作区显示选中日期的具体任务列表。用户可以在某一天添加任务，也可以从对象详情页直接添加与某个期刊、稿件或已刊论文相关联的任务。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture07.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture07_hu_61dd8533ea531711.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture07_hu_c7fddbad27cfc494.png 1024w"
+	loading="lazy"
+	
+		alt="图7：日程 界面"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>任务包含日期、标题、类型、优先级、备注和关联对象等信息。优先级支持高、中、低，软件会根据优先级和日期进行排序。任务可以标记完成，也可以恢复未完成状态。对于延期事项，软件提供快捷的延期操作，例如将任务向后顺延一天或多天。任务也可以被删除或重新编辑。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture08.png"
+	width="1110"
+	height="1434"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture08_hu_b368f19f488dba49.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture08_hu_8f7dc9ae660b9ed5.png 1024w"
+	loading="lazy"
+	
+		alt="日程-编辑任务界面"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="77"
+		data-flex-basis="185px"
+	
+></p>
+<p>日程页面支持月份切换，可以查看上月、下月，也可以一键回到今天。软件内置日期选择器，用户可以快速定位到某个具体日期。日期选择器不仅显示日期，还会提示所选日期是否已有任务。日历中的每一天会显示任务预览，如果某天任务过多，会以“更多”的方式提示，避免界面过度拥挤。</p>
+<p>任务与资料库对象之间可以建立关联。例如，某个任务可以关联到一篇稿件，表示这篇稿件需要修改摘要；也可以关联到某个期刊，表示需要核查投稿要求；也可以关联到某篇已刊论文，表示需要补充 DOI 或引用格式。关联后的任务会出现在对应对象详情页的“相关日程”区域中，实现资料和行动的双向连接。</p>
+<p>日程系统还支持拖拽式任务调整。用户可以将任务拖到新的日期，从而快速重排计划。这种设计非常适合学术写作中频繁变化的现实场景：审稿回复延迟、材料没准备好、临时会议插入、投稿计划改变，都可以通过拖动和延期快速调整。</p>
+<h3 id="期刊库建立个人化投稿目标数据库">期刊库：建立个人化投稿目标数据库
+</h3><p>期刊库是软件的核心资料库之一，用于保存、整理、评估和筛选可投期刊。默认字段包括主办单位、投稿情况、刊物级别、收录情况、研究方向、刊物评价、刊期、相关链接和投稿难度等。这些字段覆盖了投稿决策中最常用的信息。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture09.png"
+	width="1220"
+	height="1418"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture09_hu_cd979f62f02ac00f.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture09_hu_6d9dca564f9038bd.png 1024w"
+	loading="lazy"
+	
+		alt="期刊库-主页面（期刊属性，部分）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="86"
+		data-flex-basis="206px"
+	
+></p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture10.png"
+	width="778"
+	height="1600"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture10_hu_322bc7904c822b66.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture10_hu_19ab75357209ec0c.png 1024w"
+	loading="lazy"
+	
+		alt="期刊库-主页面（期刊属性，全部）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="48"
+		data-flex-basis="116px"
+	
+></p>
+<p>期刊库支持表格视图和卡片视图。表格视图适合批量浏览和对比字段；卡片视图适合更视觉化地查看期刊重点信息。用户可以切换视图，也可以控制哪些字段在表格中显示，哪些字段在卡片中显示。表格还支持「最适排版」，系统会根据当前表格内容重新计算列宽，让信息展示更舒服。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture11.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture11_hu_8c0cb7fbb639511f.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture11_hu_beb8231e7c9becdb.png 1024w"
+	loading="lazy"
+	
+		alt="期刊库 界面-表格视图"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture12.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture12_hu_bb9c19ed7cfe14f3.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture12_hu_89a1c0564e7ded51.png 1024w"
+	loading="lazy"
+	
+		alt="期刊库 界面-卡片视图"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>期刊详情页不仅展示字段属性，还包含内容块、附件、最近修改记录和关联信息。用户可以为某个期刊添加正文块、提示块、引用/心得、清单和标签块，用于记录更复杂的材料。例如可以添加「投稿须知摘要」「近期栏目观察」「适合选题列表」「投稿经验」等内容。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture13.png"
+	width="1344"
+	height="976"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture13_hu_27c49eb531407102.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture13_hu_84989db1610d9e2c.png 1024w"
+	loading="lazy"
+	
+		alt="期刊库-主页面（内容块）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="330px"
+	
+></p>
+<p>期刊详情页还支持「适配分析」分页面。系统会根据期刊资料、研究方向、内容块以及与该期刊相关联的稿件或已刊论文，生成本地论文构思建议。配置 AI 后，还可以生成 AI 增强版论文构思。每条构思会包含论文题目、适配度、构思说明、风险提醒和下一步建议。这个功能让期刊库不再只是被动记录期刊，而是可以反向启发选题。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture14.png"
+	width="1346"
+	height="1410"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture14_hu_30e255943a10d5b7.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture14_hu_421303e328afef53.png 1024w"
+	loading="lazy"
+	
+		alt="期刊库-主页面（适配分析）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="95"
+		data-flex-basis="229px"
+	
+></p>
+<h3 id="稿件库管理从选题到投稿的完整写作过程">稿件库：管理从选题到投稿的完整写作过程
+</h3><p>稿件库用于管理正在构思、写作、打磨、待投稿、投稿中或已发表的论文。默认字段包括写作状态、关键词/方向、目标刊物、字数和优先级。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture15.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture15_hu_c6fb0831875abeec.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture15_hu_61d90d1402d1f364.png 1024w"
+	loading="lazy"
+	
+		alt="稿件库 界面"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>稿件详情页具有多个分页面：稿件属性、投稿建议、投稿流程和内容块。稿件属性用于管理结构化字段；投稿建议用于分析稿件适合投稿哪些期刊；投稿流程用于记录投稿、退稿、返修、转投等过程；内容块用于保存正文相关资料、写作计划、摘要、修改意见、参考线索等。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture16.png"
+	width="1340"
+	height="1424"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture16_hu_9b2683ed965ebde0.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture16_hu_52b09507fea289f3.png 1024w"
+	loading="lazy"
+	
+		alt="稿件库-主页面（稿件属性）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="94"
+		data-flex-basis="225px"
+	
+></p>
+<p>投稿建议功能是稿件库的亮点之一。它会根据稿件关键词、目标刊物、字段内容和期刊库信息，生成本地投稿建议。建议中会列出可能匹配的期刊、适配理由、注意事项和资料缺口。如果配置了 AI，还可以进行 AI 增强，让模型基于完整上下文生成更细致的投稿判断。建议项中可以直接打开对应期刊，方便用户进一步查看期刊资料。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture17.png"
+	width="1342"
+	height="1320"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture17_hu_62b916f220adc276.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture17_hu_9847ea2465b86c43.png 1024w"
+	loading="lazy"
+	
+		alt="稿件库-主页面（投稿建议）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="244px"
+	
+></p>
+<p>投稿流程功能用于记录稿件真实投稿轨迹。用户可以为稿件新增投稿期刊，系统会按期刊形成流程分组。每个投稿流程可以记录日期、类型、标题、内容、标签和图标。例如可以记录「初投」「退稿」「返修」「录用」「转投」「我的意见」「综合复盘」等。流程按期刊分栏，用户可以看到某篇稿件对某个期刊的完整互动过程。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture18.png"
+	width="1346"
+	height="1306"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture18_hu_37b0d5692a241b55.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture18_hu_3364bac01a69d9af.png 1024w"
+	loading="lazy"
+	
+		alt="稿件库-主页面（投稿流程）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="103"
+		data-flex-basis="247px"
+	
+></p>
+<p>系统还支持「综合复盘」。当一篇稿件经历多轮投稿或需要重新判断策略时，用户可以打开综合复盘，记录整体判断、转投策略和后续修改计划。这个设计很贴近实际写作，因为投稿失败不只是一个结果，更重要的是复盘原因：选题不合、篇幅不符、理论不足、材料薄弱，还是期刊风格不匹配。</p>
+<p>稿件库还提供「转入已刊库」功能。当一篇稿件发表后，用户可以将它归档到已刊论文库。转入时，系统会保留原稿信息、投稿流程和相关字段快照，避免发表后丢失写作过程。这个功能让稿件从“正在推进”自然进入“成果归档”。</p>
+<h3 id="已刊论文库让发表成果和原稿过程不断裂">已刊论文库：让发表成果和原稿过程不断裂
+</h3><p>已刊论文库用于管理已经发表、待见刊、校样或已收录的论文。默认字段包括发表期刊、年份、状态、DOI/链接和引用格式。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture19.png"
+	width="1344"
+	height="1426"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture19_hu_6c8ec729d18a8fd1.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture19_hu_b8cb65ee4053f963.png 1024w"
+	loading="lazy"
+	
+		alt="已刊论文库-主页面（见刊属性）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="94"
+		data-flex-basis="226px"
+	
+></p>
+<p>已刊论文详情页比普通成果表更强大，因为它不仅保存「见刊属性」，还可以保留「稿件属性」。当稿件从稿件库转入已刊论文库时，系统会创建原稿快照，包括当时的稿件字段、属性和投稿流程。这意味着论文发表后，用户仍然可以追溯它在写作阶段的关键词、目标刊物、优先级、字数、流程记录和内容块。</p>
+<p>已刊论文库还支持「转回稿件库」。如果某条记录需要重新作为稿件处理，或者用户误将稿件归档为已刊论文，可以将其转回稿件库。转回时，系统会尽量恢复原稿字段和流程，并重新关联任务和附件。这种库间移动能力体现了软件对真实工作流的理解：学术成果管理不是单向的，数据需要可恢复、可调整、可追溯。</p>
+<p>需要注意的是，Article-Tool 的一个关键设计是「期刊关联」。稿件库中的目标刊物字段、已刊论文库中的发表期刊字段，都是与期刊库建立真实关系的字段。用户选择的不是普通文本，而是期刊库中的对象。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture20.png"
+	width="2096"
+	height="386"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture20_hu_f05ea800a97d8b9d.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture20_hu_392ff544b19bca9f.png 1024w"
+	loading="lazy"
+	
+		alt="期刊关联"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="543"
+		data-flex-basis="1303px"
+	
+></p>
+<p>这种设计带来几个好处。第一，减少重复录入。期刊名称、链接、评价、方向等信息只需要在期刊库维护一次。第二，便于跳转。用户可以从稿件或已刊论文直接打开关联期刊。第三，便于反向查看。期刊详情页可以显示有哪些稿件或已刊论文关联到它。第四，便于 AI 分析。系统可以把期刊资料和相关稿件、已刊成果一起作为上下文，让建议更具体。</p>
+<p>软件还包含期刊链接适配与迁移逻辑，可以处理旧数据中用期刊名称保存的情况，尽量迁移到新的 ID 关联方式。这样即使软件结构迭代，用户过去的数据也能继续可用。</p>
+<h3 id="ai-报告把本地资料转化为阶段分析">AI 报告：把本地资料转化为阶段分析
+</h3><p>AI 报告是软件中最具扩展性的功能之一。它可以基于期刊库、稿件库、已刊论文库、日程任务和投稿流程，生成结构化分析报告。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture21.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture21_hu_7ab4f9277c2390ef.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture21_hu_61533d147b228dba.png 1024w"
+	loading="lazy"
+	
+		alt="AI报告-AI报告预览"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>软件内置三类报告模板：综合分析报告、写作进度追踪和周期复盘报告。</p>
+<p>综合分析报告适合做阶段性总览。它会分析期刊储备、可投状态、稿件进度、已刊成果、待办任务和下一步建议。对于月末、学期末、项目节点或年度总结来说，这类报告很实用。</p>
+<p>写作进度追踪聚焦稿件。它会分析每篇稿件当前状态、目标期刊、投稿记录、审稿动态、卡点和下一阶段写作计划。对于同时推进多篇论文的用户来说，这能帮助重新排序工作重心。</p>
+<p>周期复盘报告按时间范围整理成果、问题和计划，适合直接用于工作汇报、个人复盘或项目记录。它会突出周期内完成事项、成果亮点、进行中事项、风险和下一周期安排。</p>
+<p>AI 报告支持选择时间范围。系统会根据用户选择的周期整理数据，而不是无差别地把全部资料丢给模型。报告生成后会在页面中以 Markdown 渲染显示，用户可以复制内容，也可以稍后从历史记录中载入。</p>
+<p>报告历史会自动保存到本地，最多保留 40 份。每份历史记录包含模板名称、日期、周期、模型和内容摘要。用户可以预览、导出、载入或删除历史报告。导出功能可以把某份报告保存成文件，方便长期归档。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture22.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture22_hu_c5a69b6d60334996.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture22_hu_a73d816177284719.png 1024w"
+	loading="lazy"
+	
+		alt="AI报告-历史记录"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>AI 报告还支持模板提示词编辑。默认模板可以微调，自定义模板可以新增、编辑和删除。每个模板包含系统提示词和用户提示词。用户可以根据自己的写作习惯调整报告风格，例如更偏正式汇报、更偏行动清单、更偏学术分析，或者更适合复制到周报中。</p>
+<h2 id="具有针对性的独特设计">具有针对性的独特设计
+</h2><h3 id="字段体系让软件适应用户而不是用户迁就软件">字段体系：让软件适应用户，而不是用户迁就软件
+</h3><p>Article-Tool 的字段系统非常灵活。软件默认提供三大资料库的字段，但用户可以在设置中心中增删、改名、排序、改类型、改颜色、设置选项，并控制字段显示。</p>
+<p>字段类型包括文本、多选、单选、数字、日期、链接、评分和期刊关联。不同字段类型对应不同输入方式和展示形式。在设置中心的字段体系页面，用户可以看到每个资料库的字段列表。每个字段可以设置名称、类型、颜色、选项和可见性。字段顺序可以上移或下移，影响表格和详情页展示顺序。用户还可以控制全部字段显示或隐藏，也可以单独控制卡片视图中哪些字段出现。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture23.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture23_hu_8841b936c06278a4.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture23_hu_dced875ef1fffa59.png 1024w"
+	loading="lazy"
+	
+		alt="设置中心-字段体系"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>对于单选和多选字段，软件提供选项管理。用户可以新增选项，删除选项，也可以搜索选项。删除某个字段选项时，系统会同步清理对象中的对应值，避免出现无效数据。用户在对象中输入新的标签时，系统也会自动把它同步进字段选项，形成动态维护机制。</p>
+<p>字段体系还与已刊论文的原稿快照联动。如果用户给稿件库新增字段，系统会同步给已刊论文中保存的原稿快照，保证已发表论文仍能保留与稿件库一致的结构。如果删除稿件字段，也会从已刊论文的原稿快照中同步移除。这个细节体现了软件对长期数据一致性的重视。</p>
+<h3 id="api-连接支持本地模型与兼容-openai-接口">API 连接：支持本地模型与兼容 OpenAI 接口
+</h3><p>设置中心中的 API 连接页面负责配置 AI 服务。软件支持 Ollama 本地模型、OpenAI / 兼容 API、DeepSeek 和自定义兼容 API。</p>
+<p>API 连接页面可以填写服务类型、配置名称、API 地址、模型名称和 API Key。API Key 可以隐藏或显示。软件支持模型列表获取，连接测试成功后可以保存配置预设。用户可以保存多个配置，例如「DeepSeek 写作」「OpenAI 报告」等，并在需要时切换。</p>
+<p>连接测试会访问模型列表接口，并给出连接状态。如果 API Key 错误、模型不存在、网络超时、额度不足或服务异常，软件会给出对应提示。AI 请求由本地后端代理转发，避免前端直接访问时遇到跨域或接口兼容问题。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture24.png"
+	width="3024"
+	height="1774"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture24_hu_b6cd02d59698d236.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture24_hu_3d30eb567262ada5.png 1024w"
+	loading="lazy"
+	
+		alt="设置中心-API连接"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<h3 id="ai-实时监测让-ai-任务可见可取消可重试">AI 实时监测：让 AI 任务可见、可取消、可重试
+</h3><p>软件包含 AI 实时监测功能。它会在侧边区域或弹窗中显示 AI 任务状态，例如 AI 报告生成、仪表盘 AI 建议、投稿建议增强、期刊适配分析等。</p>
+<p>监测面板可以显示任务来源、目标对象、当前状态、进度、错误信息和运行记录。用户可以打开某个 AI 任务对应的对象页面，也可以取消任务、重试任务或复制错误信息。这让 AI 功能不再像黑箱，而是有一个可观察、可控制的任务中心。</p>
+<p>当 AI 任务成功时，系统会记录成功状态；当失败时，会显示失败原因并保留本地建议。比如投稿建议 AI 增强失败，用户仍然可以查看本地建议，不会因为 AI 不可用而完全中断工作。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture25.png"
+	width="1660"
+	height="1390"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture25_hu_420eeea3e9443c7e.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture25_hu_a026c76a2967860a.png 1024w"
+	loading="lazy"
+	
+		alt="AI实时监测"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="119"
+		data-flex-basis="286px"
+	
+></p>
+<h3 id="界面与个性化让工作台具有个人气质">界面与个性化：让工作台具有个人气质
+</h3><p>软件提供丰富的界面设置。用户可以调整软件背景、中文字体、英文字体、字段内容字体、显示密度、强调色、页面名称、页面封面和页面描述。</p>
+<p>显示密度支持紧凑、标准和宽松。紧凑适合数据量大、需要高信息密度的用户；宽松适合视觉阅读和长期浏览；标准则是平衡方案。</p>
+<p>每个页面的名称和描述也可以自定义。比如用户可以把「稿件库」改成「文学刊物库」，把「已刊论文库」改成「已发表文学作品库」，把「日程」改成「写作计划」。页面顶部描述可以直接编辑，作为个人工作提醒或页面说明。</p>
+<p>Logo 也可以切换。软件内置多个品牌 Logo，用户可以点击切换显示。这些个性化设置让软件不像冷冰冰的管理系统，而更像一个可长期陪伴的私人学术工作台。</p>
+<p><img src="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture26.png"
+	width="2632"
+	height="1346"
+	srcset="/p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture26_hu_d9064fa6d0a4fb25.png 480w, /p/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6article-tool%E6%88%91%E4%B8%AA%E4%BA%BA%E5%88%B6%E4%BD%9C%E7%9A%84%E5%AD%A6%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%8F%B0%E8%BD%AF%E4%BB%B6/20260623-Picture26_hu_dc73ad785798883a.png 1024w"
+	loading="lazy"
+	
+		alt="设置中心-界面与资料库设置"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="195"
+		data-flex-basis="469px"
+	
+></p>
+<h2 id="适用场景">适用场景
+</h2><p>Article-Tool 适合多类用户。</p>
+<p>对于研究生，它可以帮助管理课程论文、学位论文、投稿论文和目标期刊。研究生常常同时面对写作训练、投稿尝试和毕业要求，软件可以把选题、目标期刊、写作状态和导师反馈集中管理。</p>
+<p>对于青年教师，它可以作为论文生产和成果归档系统。青年教师往往需要同时推进多篇论文、项目成果和职称成果，软件的稿件库、已刊论文库和周期复盘报告非常适合这种场景。</p>
+<p>对于科研团队，它可以作为小型投稿管理工作台。团队成员可以统一维护期刊信息、稿件状态和投稿流程，减少重复踩坑。</p>
+<p>对于独立研究者，它可以作为个人学术知识库和行动管理系统。期刊库记录长期观察，稿件库记录写作计划，已刊库记录成果，AI 报告辅助复盘。</p>
+<p>对于需要频繁投稿（例如文学爱好者等）的人，软件尤其有价值。因为它能记录每一次投稿尝试，帮助用户从失败和成功中积累经验，而不是每次都从零开始判断。</p>
+<h2 id="软件费用情况">软件费用情况
+</h2><p>本软件由我独立开发与维护，也是开发者第一次独立开发并分发软件。它最初主要为个人自用而生，后续开放给有相似需求的用户使用。目前收费的初步目的，是尽量覆盖代码开发、授权服务与分发服务器等持续成本。</p>
+<p>如果收入能够覆盖开发与分发成本，软件将持续维护和更新；如果后续成本过高、难以为继，开发者可能停止在线服务与后续更新。</p>
+<p>即使停止维护，所有已付费用户（不论月付或买断）仍可永久本地使用已获得的版本；但届时将不再承诺继续提供新功能、在线服务或后续更新。</p>
+<p>建议先使用免费版确认工作流是否适合，再选择月付或买断。用户购买后，不接受任何退款请求。</p>
+<p>软件采用两档收费制度，10元/月，39.9元/买断。目前软件支持Windows、Mac（不会上App Store）双端。</p>
+
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+        
+        
+        
+        
+        
+        
+            
+        
+
+        
+        
+            
+        
+
+        
+        
+        
+        
+    
+
+
+
+
+    <a href="/" class="qsl-card" target="_blank" rel="noopener">
+        <div class="qsl-visual">
+            
+                <div class="qsl-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                </div>
+            
+        </div>
+
+        <div class="qsl-content">
+            <div class="qsl-meta">
+                <span class="qsl-badge">关联阅读</span>
+                
+                <span class="qsl-date">2026.06.23</span>
+                
+            </div>
+            
+            <h4 class="qsl-title">
+                爱发电付款方式
+            </h4>
+            
+            <div class="qsl-summary">
+                付款方式（1）
+            </div>
+            
+            <span class="qsl-arrow">
+                阅读全文 &rarr;
+            </span>
+        </div>
+    </a>
+
+
+
+<style>
+     
+    .qsl-card {
+         
+        --qsl-bg-card: #ffffff;
+        --qsl-bg-visual: #f8f9fa;
+        
+        --qsl-border: rgba(0,0,0,0.08);
+        --qsl-border-visual: rgba(0,0,0,0.04);
+        
+        --qsl-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.08);
+        
+        --qsl-text-title: #2d3748;
+        --qsl-text-summary: #718096;
+        --qsl-text-date: #999999;
+        
+        --qsl-icon-color: #cbd5e0;
+        
+        --qsl-badge-bg: rgba(58, 123, 213, 0.1);
+        --qsl-badge-text: #3a7bd5;
+        
+        --qsl-highlight: #3a7bd5;
+
+        display: flex;
+        align-items: stretch;
+        background: var(--qsl-bg-card);
+        border: 1px solid var(--qsl-border);
+        border-radius: 12px;
+        text-decoration: none !important;
+        margin: 2rem 0;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s, background 0.3s;
+        font-family: inherit;
+        box-shadow: var(--qsl-shadow);
+        color: inherit;
+        height: 160px;  
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme="light"]) .qsl-card {
+            --qsl-bg-card: #1e1e1e;
+            --qsl-bg-visual: #252525;
+            
+            --qsl-border: #333333;
+            --qsl-border-visual: #333333;
+            
+            --qsl-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.4);
+            
+            --qsl-text-title: #f0f0f0;
+            --qsl-text-summary: #a0aec0;
+            --qsl-text-date: #888888;
+            
+            --qsl-icon-color: #555555;
+            
+            --qsl-badge-bg: rgba(99, 179, 237, 0.15);
+            --qsl-badge-text: #63b3ed;
+            
+            --qsl-highlight: #63b3ed;
+        }
+    }
+
+    html[data-scheme="dark"] .qsl-card {
+        --qsl-bg-card: #1e1e1e;
+        --qsl-bg-visual: #252525;
+        
+        --qsl-border: #333333;
+        --qsl-border-visual: #333333;
+        
+        --qsl-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.4);
+        
+        --qsl-text-title: #f0f0f0;
+        --qsl-text-summary: #a0aec0;
+        --qsl-text-date: #888888;
+        
+        --qsl-icon-color: #555555;
+        
+        --qsl-badge-bg: rgba(99, 179, 237, 0.15);
+        --qsl-badge-text: #63b3ed;
+        
+        --qsl-highlight: #63b3ed;
+    }
+
+    .qsl-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--qsl-shadow-hover);
+        border-color: var(--qsl-highlight);
+    }
+
+    .qsl-visual {
+        width: 140px; 
+        flex-shrink: 0;
+        background: var(--qsl-bg-visual);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid var(--qsl-border-visual);
+        position: relative;
+        overflow: hidden;
+        transition: background 0.3s, border-color 0.3s;
+    }
+
+    .qsl-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+    .qsl-card:hover .qsl-image { transform: scale(1.05); }
+
+    .qsl-icon-box { color: var(--qsl-icon-color); transition: color 0.3s; }
+    .qsl-card:hover .qsl-icon-box { color: var(--qsl-highlight); }
+    .qsl-icon-box svg { width: 40px; height: 40px; }
+
+    .qsl-content {
+        padding: 16px 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        min-width: 0;
+    }
+
+    .qsl-meta {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .qsl-badge {
+        background: var(--qsl-badge-bg);
+        color: var(--qsl-badge-text);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    .qsl-date { color: var(--qsl-text-date); transition: color 0.3s; }
+
+    .qsl-title {
+        margin: 0;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--qsl-text-title);
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: color 0.3s;
+    }
+    .qsl-card:hover .qsl-title { color: var(--qsl-highlight); }
+
+    .qsl-summary {
+        font-size: 1.3rem;
+        color: var(--qsl-text-summary);
+        line-height: 1.5;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: color 0.3s;
+    }
+
+    .qsl-arrow {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--qsl-highlight);
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.2s ease;
+        margin-top: auto; 
+    }
+    .qsl-card:hover .qsl-arrow {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    @media (max-width: 600px) {
+        .qsl-card { flex-direction: column; height: auto; }
+        .qsl-visual { width: 100%; height: 140px; border-right: none; border-bottom: 1px solid var(--qsl-border-visual); }
+        .qsl-content { padding: 15px; gap: 10px; }
+        .qsl-arrow { opacity: 1; transform: none; display: block; margin-top: 5px; }
+    }
+</style>
+<h2 id="软件下载地址">软件下载地址
+</h2>
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+        
+        
+        
+        
+        
+        
+            
+        
+
+        
+        
+            
+        
+
+        
+        
+        
+        
+    
+
+
+
+
+    <a href="/" class="qsl-card" target="_blank" rel="noopener">
+        <div class="qsl-visual">
+            
+                <div class="qsl-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                </div>
+            
+        </div>
+
+        <div class="qsl-content">
+            <div class="qsl-meta">
+                <span class="qsl-badge">关联阅读</span>
+                
+                <span class="qsl-date">2026.06.23</span>
+                
+            </div>
+            
+            <h4 class="qsl-title">
+                蓝奏云下载链接
+            </h4>
+            
+            <div class="qsl-summary">
+                EXE、DMG下载链接
+            </div>
+            
+            <span class="qsl-arrow">
+                阅读全文 &rarr;
+            </span>
+        </div>
+    </a>
+
+
+
+<style>
+     
+    .qsl-card {
+         
+        --qsl-bg-card: #ffffff;
+        --qsl-bg-visual: #f8f9fa;
+        
+        --qsl-border: rgba(0,0,0,0.08);
+        --qsl-border-visual: rgba(0,0,0,0.04);
+        
+        --qsl-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.08);
+        
+        --qsl-text-title: #2d3748;
+        --qsl-text-summary: #718096;
+        --qsl-text-date: #999999;
+        
+        --qsl-icon-color: #cbd5e0;
+        
+        --qsl-badge-bg: rgba(58, 123, 213, 0.1);
+        --qsl-badge-text: #3a7bd5;
+        
+        --qsl-highlight: #3a7bd5;
+
+        display: flex;
+        align-items: stretch;
+        background: var(--qsl-bg-card);
+        border: 1px solid var(--qsl-border);
+        border-radius: 12px;
+        text-decoration: none !important;
+        margin: 2rem 0;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s, background 0.3s;
+        font-family: inherit;
+        box-shadow: var(--qsl-shadow);
+        color: inherit;
+        height: 160px;  
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme="light"]) .qsl-card {
+            --qsl-bg-card: #1e1e1e;
+            --qsl-bg-visual: #252525;
+            
+            --qsl-border: #333333;
+            --qsl-border-visual: #333333;
+            
+            --qsl-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.4);
+            
+            --qsl-text-title: #f0f0f0;
+            --qsl-text-summary: #a0aec0;
+            --qsl-text-date: #888888;
+            
+            --qsl-icon-color: #555555;
+            
+            --qsl-badge-bg: rgba(99, 179, 237, 0.15);
+            --qsl-badge-text: #63b3ed;
+            
+            --qsl-highlight: #63b3ed;
+        }
+    }
+
+    html[data-scheme="dark"] .qsl-card {
+        --qsl-bg-card: #1e1e1e;
+        --qsl-bg-visual: #252525;
+        
+        --qsl-border: #333333;
+        --qsl-border-visual: #333333;
+        
+        --qsl-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.4);
+        
+        --qsl-text-title: #f0f0f0;
+        --qsl-text-summary: #a0aec0;
+        --qsl-text-date: #888888;
+        
+        --qsl-icon-color: #555555;
+        
+        --qsl-badge-bg: rgba(99, 179, 237, 0.15);
+        --qsl-badge-text: #63b3ed;
+        
+        --qsl-highlight: #63b3ed;
+    }
+
+    .qsl-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--qsl-shadow-hover);
+        border-color: var(--qsl-highlight);
+    }
+
+    .qsl-visual {
+        width: 140px; 
+        flex-shrink: 0;
+        background: var(--qsl-bg-visual);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid var(--qsl-border-visual);
+        position: relative;
+        overflow: hidden;
+        transition: background 0.3s, border-color 0.3s;
+    }
+
+    .qsl-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+    .qsl-card:hover .qsl-image { transform: scale(1.05); }
+
+    .qsl-icon-box { color: var(--qsl-icon-color); transition: color 0.3s; }
+    .qsl-card:hover .qsl-icon-box { color: var(--qsl-highlight); }
+    .qsl-icon-box svg { width: 40px; height: 40px; }
+
+    .qsl-content {
+        padding: 16px 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        min-width: 0;
+    }
+
+    .qsl-meta {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .qsl-badge {
+        background: var(--qsl-badge-bg);
+        color: var(--qsl-badge-text);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    .qsl-date { color: var(--qsl-text-date); transition: color 0.3s; }
+
+    .qsl-title {
+        margin: 0;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--qsl-text-title);
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: color 0.3s;
+    }
+    .qsl-card:hover .qsl-title { color: var(--qsl-highlight); }
+
+    .qsl-summary {
+        font-size: 1.3rem;
+        color: var(--qsl-text-summary);
+        line-height: 1.5;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: color 0.3s;
+    }
+
+    .qsl-arrow {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--qsl-highlight);
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.2s ease;
+        margin-top: auto; 
+    }
+    .qsl-card:hover .qsl-arrow {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    @media (max-width: 600px) {
+        .qsl-card { flex-direction: column; height: auto; }
+        .qsl-visual { width: 100%; height: 140px; border-right: none; border-bottom: 1px solid var(--qsl-border-visual); }
+        .qsl-content { padding: 15px; gap: 10px; }
+        .qsl-arrow { opacity: 1; transform: none; display: block; margin-top: 5px; }
+    }
+</style>
+
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+        
+        
+        
+        
+        
+        
+            
+        
+
+        
+        
+            
+        
+
+        
+        
+        
+        
+    
+
+
+
+
+    <a href="/" class="qsl-card" target="_blank" rel="noopener">
+        <div class="qsl-visual">
+            
+                <div class="qsl-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                </div>
+            
+        </div>
+
+        <div class="qsl-content">
+            <div class="qsl-meta">
+                <span class="qsl-badge">关联阅读</span>
+                
+                <span class="qsl-date">2026.06.23</span>
+                
+            </div>
+            
+            <h4 class="qsl-title">
+                百度云下载链接
+            </h4>
+            
+            <div class="qsl-summary">
+                EXE、DMG下载链接
+            </div>
+            
+            <span class="qsl-arrow">
+                阅读全文 &rarr;
+            </span>
+        </div>
+    </a>
+
+
+
+<style>
+     
+    .qsl-card {
+         
+        --qsl-bg-card: #ffffff;
+        --qsl-bg-visual: #f8f9fa;
+        
+        --qsl-border: rgba(0,0,0,0.08);
+        --qsl-border-visual: rgba(0,0,0,0.04);
+        
+        --qsl-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.08);
+        
+        --qsl-text-title: #2d3748;
+        --qsl-text-summary: #718096;
+        --qsl-text-date: #999999;
+        
+        --qsl-icon-color: #cbd5e0;
+        
+        --qsl-badge-bg: rgba(58, 123, 213, 0.1);
+        --qsl-badge-text: #3a7bd5;
+        
+        --qsl-highlight: #3a7bd5;
+
+        display: flex;
+        align-items: stretch;
+        background: var(--qsl-bg-card);
+        border: 1px solid var(--qsl-border);
+        border-radius: 12px;
+        text-decoration: none !important;
+        margin: 2rem 0;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s, background 0.3s;
+        font-family: inherit;
+        box-shadow: var(--qsl-shadow);
+        color: inherit;
+        height: 160px;  
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-scheme="light"]) .qsl-card {
+            --qsl-bg-card: #1e1e1e;
+            --qsl-bg-visual: #252525;
+            
+            --qsl-border: #333333;
+            --qsl-border-visual: #333333;
+            
+            --qsl-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.4);
+            
+            --qsl-text-title: #f0f0f0;
+            --qsl-text-summary: #a0aec0;
+            --qsl-text-date: #888888;
+            
+            --qsl-icon-color: #555555;
+            
+            --qsl-badge-bg: rgba(99, 179, 237, 0.15);
+            --qsl-badge-text: #63b3ed;
+            
+            --qsl-highlight: #63b3ed;
+        }
+    }
+
+    html[data-scheme="dark"] .qsl-card {
+        --qsl-bg-card: #1e1e1e;
+        --qsl-bg-visual: #252525;
+        
+        --qsl-border: #333333;
+        --qsl-border-visual: #333333;
+        
+        --qsl-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        --qsl-shadow-hover: 0 12px 25px rgba(0,0,0,0.4);
+        
+        --qsl-text-title: #f0f0f0;
+        --qsl-text-summary: #a0aec0;
+        --qsl-text-date: #888888;
+        
+        --qsl-icon-color: #555555;
+        
+        --qsl-badge-bg: rgba(99, 179, 237, 0.15);
+        --qsl-badge-text: #63b3ed;
+        
+        --qsl-highlight: #63b3ed;
+    }
+
+    .qsl-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--qsl-shadow-hover);
+        border-color: var(--qsl-highlight);
+    }
+
+    .qsl-visual {
+        width: 140px; 
+        flex-shrink: 0;
+        background: var(--qsl-bg-visual);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid var(--qsl-border-visual);
+        position: relative;
+        overflow: hidden;
+        transition: background 0.3s, border-color 0.3s;
+    }
+
+    .qsl-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+    .qsl-card:hover .qsl-image { transform: scale(1.05); }
+
+    .qsl-icon-box { color: var(--qsl-icon-color); transition: color 0.3s; }
+    .qsl-card:hover .qsl-icon-box { color: var(--qsl-highlight); }
+    .qsl-icon-box svg { width: 40px; height: 40px; }
+
+    .qsl-content {
+        padding: 16px 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        min-width: 0;
+    }
+
+    .qsl-meta {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .qsl-badge {
+        background: var(--qsl-badge-bg);
+        color: var(--qsl-badge-text);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    .qsl-date { color: var(--qsl-text-date); transition: color 0.3s; }
+
+    .qsl-title {
+        margin: 0;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--qsl-text-title);
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: color 0.3s;
+    }
+    .qsl-card:hover .qsl-title { color: var(--qsl-highlight); }
+
+    .qsl-summary {
+        font-size: 1.3rem;
+        color: var(--qsl-text-summary);
+        line-height: 1.5;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: color 0.3s;
+    }
+
+    .qsl-arrow {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--qsl-highlight);
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.2s ease;
+        margin-top: auto; 
+    }
+    .qsl-card:hover .qsl-arrow {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    @media (max-width: 600px) {
+        .qsl-card { flex-direction: column; height: auto; }
+        .qsl-visual { width: 100%; height: 140px; border-right: none; border-bottom: 1px solid var(--qsl-border-visual); }
+        .qsl-content { padding: 15px; gap: 10px; }
+        .qsl-arrow { opacity: 1; transform: none; display: block; margin-top: 5px; }
+    }
+</style>
+<h2 id="总结">总结
+</h2><p>Article-Tool 是一款围绕学术投稿实际流程设计的本地化软件。它以期刊库、稿件库和已刊论文库为核心，以日程和投稿流程为时间线，以字段系统和内容块为资料结构，以附件和快照为数据保障，以 AI 报告、投稿建议和期刊适配分析为智能增强。</p>
+<p>它适合那些不满足于简单表格、希望长期沉淀投稿经验、希望把写作计划和成果归档统一管理的用户。它也适合重视本地数据安全、希望自主选择 AI 服务、希望软件能够根据个人习惯灵活调整的研究者。</p>
+<p>在学术工作中，真正困难的不是某一次写作，而是持续写作、持续投稿、持续复盘、持续积累。Article-Tool 的意义就在于，它为这种持续性提供了一个稳定的容器。它把零散信息变成资料库，把待办事项变成时间轴，把投稿经历变成流程记录，把发表成果变成可追溯档案，把 AI 从临时问答变成嵌入式助手。对于长期从事论文写作和期刊投稿的人来说，这样的软件不是一个普通工具，而是一张可以不断扩展的个人学术地图。</p>
+<p>Thank <a class="link" href="https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-505eectW54k"  target="_blank" rel="noopener"
+    >Cover of this article by Thought Catalog</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%AD%A6%E6%9C%AF%E5%B7%A5%E5%85%B7/">学术工具</a>
+        
+            <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%B7%A5%E4%BD%9C%E6%B5%81/">个人工作流</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Lau Joe &amp; Soar Freely All rights reserved.</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%A5%9B%E9%AD%85-2026%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%A8%B3%E5%AE%9A%E5%8F%AF%E8%BF%81%E7%A7%BB%E7%9A%84%E6%95%B0%E5%AD%97%E5%A0%A1%E5%9E%92/20260107-home.d68403449121f5f8acc0ff138dddfdb8_hu_671e7a3721eb862f.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「工具经验」生产力祛魅 2026：构建一个“本地、稳定、可迁移”的数字堡垒"
+                        
+                        data-hash="md5-1oQDRJEh9fiswP8Tjd39uA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「工具经验」生产力祛魅 2026：构建一个“本地、稳定、可迁移”的数字堡垒</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E8%A1%A8%E4%B8%8E%E6%9C%9F%E5%88%8A%E8%B5%84%E6%96%99%E5%BA%93/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E8%A1%A8%E4%B8%8E%E6%9C%9F%E5%88%8A%E8%B5%84%E6%96%99%E5%BA%93/20240420-home.615905efe08524e371973de3aa64202a_hu_ba4ece525e19c5e0.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「工具经验」论文写作表与期刊资料库"
+                        
+                        data-hash="md5-YVkF7&#43;CFJONxlz3jqmQgKg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「工具经验」论文写作表与期刊资料库</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%8E%A2%E7%B4%A2%E4%B8%8E%E7%A0%94%E7%A9%B6%E8%89%BA%E6%9C%AF%E5%AD%A6%E7%A1%95%E5%A3%AB%E7%9A%84%E6%88%90%E9%95%BF%E8%B7%AF%E5%BE%84%E5%BF%83%E5%BE%97/20240303-home.6c147f6dcf733c90cd9f96ec370afca5_hu_467c0d313c2b01e2.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「工具经验」探索与研究——艺术学硕士的「成长路径」心得"
+                        
+                        data-hash="md5-bBR/bc9zPJDNn5bsNwr8pQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「工具经验」探索与研究——艺术学硕士的「成长路径」心得</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C%E6%91%86%E8%84%B1%E8%B4%9F%E6%8B%85%E8%BF%8E%E6%8E%A5%E8%BD%BB%E9%87%8F%E7%BE%8E%E8%A7%82%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E6%88%91%E5%A6%82%E4%BD%95%E8%BF%90%E7%94%A8anytype%E7%AE%A1%E7%90%86%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/20240125-home.d02118a9e119f9e0e7f910b1b1109b3d_hu_a3b5eb4970df2e74.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「工具经验」摆脱负担，迎接轻量美观的知识管理：我如何运用Anytype管理日常记录"
+                        
+                        data-hash="md5-0CEYqeEZ&#43;eDn&#43;RCxsRCbPQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「工具经验」摆脱负担，迎接轻量美观的知识管理：我如何运用Anytype管理日常记录</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%86%99%E4%BD%9C%E7%AC%AC%E4%BA%8C%E6%9C%9F-%E4%BF%A1%E6%81%AF/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C-%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%86%99%E4%BD%9C%E7%AC%AC%E4%BA%8C%E6%9C%9F-%E4%BF%A1%E6%81%AF/20231009-home.b820d53ebede719361187344b3dfffec_hu_2ba4a363d9e875aa.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「工具经验-零基础写作」——第二期 信息"
+                        
+                        data-hash="md5-uCDVPr7ecZNhGHNEs9//7A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「工具经验-零基础写作」——第二期 信息</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://github.elemecdn.com/@waline/emojis@1.2.0/tieba/","https://github.elemecdn.com/@waline/emojis@1.2.0/bilibili/","https://github.elemecdn.com/@waline/emojis@1.2.0/qq/","https://github.elemecdn.com/@waline/emojis@1.1.0/weibo"],"locale":{"admin":"博主","placeholder":"🎉 欢迎留下您的评论。"},"pageview":true,"requiredMeta":["name","email"],"serverURL":"https://waline.laujoe.top/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2025 - 
+        
+        2026 Lau Joe &amp; Soar Freely All rights reserved. 如需转载与引用，请注明文章链接及作者。
+    </section>
+    
+     
+    <section class="running-time">
+        本网站已正常运行
+        <span id="runningdays" class="running-days"></span>
+    </section>    
+
+    
+    <section class="totalcount">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        发表了49篇文章 · 
+        总计1,005.65k字
+    </section>
+
+    
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    
+    const containerSelector = '.article-content';
+    
+    
+    
+    const regex1 = /([\u4e00-\u9fa5])([a-zA-Z0-9])/g;  
+    const regex2 = /([a-zA-Z0-9])([\u4e00-\u9fa5])/g;  
+
+    
+    function addSpaceToNode(node) {
+      
+      if (node.nodeType === 3) {
+        let text = node.data;
+        
+        if (text && /[\u4e00-\u9fa5]/.test(text) && /[a-zA-Z0-9]/.test(text)) {
+          
+          let newText = text.replace(regex1, '$1 $2').replace(regex2, '$1 $2');
+          if (newText !== text) {
+            node.data = newText;
+          }
+        }
+      } 
+      
+      else if (node.nodeType === 1) {
+        const tagName = node.tagName.toLowerCase();
+        if (tagName !== 'script' && tagName !== 'style' && tagName !== 'code' && tagName !== 'pre') {
+          
+          for (let i = node.childNodes.length - 1; i >= 0; i--) {
+            addSpaceToNode(node.childNodes[i]);
+          }
+        }
+      }
+    }
+
+    
+    const container = document.querySelector(containerSelector);
+    if (container) {
+      console.log('正在执行纯文本加空格优化...');
+      addSpaceToNode(container);
+      console.log('执行完毕，无副作用模式。');
+    }
+  });
+</script>
+
+<div class="quote-container">
+    <div class="quote-content">
+        <span class="quote-icon">“</span>
+        <p id="quote-text">正在提取思想碎片...</p>
+        <p id="quote-author" class="quote-author"></p>
+    </div>
+    
+    <div class="quote-actions">
+        <button id="copy-btn" title="复制到剪贴板" class="action-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        </button>
+        <button id="refresh-btn" title="换一句" class="action-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"></path><path d="M1 20v-6h6"></path><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+        </button>
+    </div>
+</div>
+
+<style>
+    .quote-container {
+        position: relative;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.6);  
+        border-radius: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        font-family: 'Georgia', 'Noto Serif SC', serif;  
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        .quote-container {
+            background: rgba(30, 30, 30, 0.6);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: #e0e0e0;
+        }
+    }
+
+    .quote-container:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .quote-icon {
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        font-size: 4rem;
+        color: rgba(0, 0, 0, 0.1);
+        font-family: sans-serif;
+        line-height: 1;
+    }
+
+    .quote-content {
+        text-align: center;
+        margin-bottom: 1rem;
+        opacity: 0;  
+        transition: opacity 0.5s ease;
+    }
+
+    .quote-content.visible {
+        opacity: 1;
+    }
+
+    #quote-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 0 0 0.5rem 0;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+    }
+
+    .quote-author {
+        font-size: 0.9rem;
+        color: #888;
+        font-style: italic;
+        margin: 0;
+    }
+
+    .quote-author::before {
+        content: "—— ";
+    }
+
+    .quote-actions {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+    }
+
+    .quote-container:hover .quote-actions {
+        opacity: 1;
+    }
+
+    .action-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+        border-radius: 50%;
+        color: inherit;
+        transition: background 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .action-btn:hover {
+        background: rgba(0, 0, 0, 0.05);
+        color: #007bff;  
+    }
+
+    .action-btn:active {
+        transform: scale(0.95);
+    }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    
+    
+    const localQuotes = [
+        { text: "未经审视的人生是不值得过的。", author: "苏格拉底《申辩篇》" },
+        { text: "人不能两次踏进同一条河流。", author: "赫拉克利特《残篇》" },
+        { text: "我思故我在。", author: "笛卡尔《谈谈方法》" },
+        { text: "人只不过是一根芦苇，是自然界最脆弱的东西，但他是一根能思想的芦苇。", author: "帕斯卡《思想录》" },
+        { text: "位我上者，灿烂星空；道德律令，在我心中。", author: "康德《实践理性批判》" },
+        { text: "密涅瓦的猫头鹰要等到黄昏到来，才会起飞。", author: "黑格尔《法哲学原理》" },
+        { text: "人生就像钟摆，在痛苦和无聊之间摇摆。", author: "叔本华《作为意志和表象的世界》" },
+        { text: "那些杀不死我的，必将使我更强大。", author: "尼采《偶像的黄昏》" },
+        { text: "语言是存在的家园。", author: "海德格尔《关于人道主义的信》" },
+        { text: "我语言的界限，即我世界的界限。", author: "维特根斯坦《逻辑哲学论》" },
+        { text: "他人即地狱。", author: "萨特《禁闭》" },
+        { text: "必须想象西西弗斯是幸福的。", author: "加缪《西西弗神话》" },
+        { text: "人是生而自由的，却无往不在枷锁之中。", author: "卢梭《社会契约论》" },
+        { text: "知识就是力量。", author: "培根《沉思录》" },
+        { text: "平庸之恶（恶的平庸性）。", author: "汉娜·阿伦特《艾希曼在耶路撒冷》" },
+        { text: "哲学家们只是用不同的方式解释世界，而问题在于改变世界。", author: "马克思《关于费尔巴哈的提纲》" },
+        { text: "理性是，并且也应该是情感的奴隶。", author: "休谟《人性论》" },
+        { text: "这个世界的问题在于，聪明人充满疑惑，而傻瓜们坚信不疑。", author: "罗素《愚蠢的胜利》" },
+        { text: "人是天生的政治动物。", author: "亚里士多德《政治学》" },
+        { text: "我们以为自己是在观察大自然，其实只是在观察我们对大自然的提问方法。", author: "海森堡《物理学与哲学》" },
+        { text: "你的心灵拥有力量，而非外在的事件。意识到这一点，你将找到力量。", author: "马可·奥勒留《沉思录》" },
+        { text: "知是行之始，行是知之成。", author: "王阳明《传习录》" },
+        { text: "天地不仁，以万物为刍狗。", author: "老子《道德经》" },
+        { text: "相濡以沫，不如相忘于江湖。", author: "庄子《大宗师》" },
+        { text: "学而不思则罔，思而不学则殆。", author: "孔子《论语》" },
+        { text: "我步入丛林，因为我希望活得深刻，吸取生命中所有的精华。", author: "梭罗《瓦尔登湖》" },
+        { text: "生活只有向后看才能理解，但必须向前看才能生活。", author: "克尔凯郭尔《日记》" },
+        { text: "自由人最少想到死，他的智慧不是关于死的默念，而是关于生的沉思。", author: "斯宾诺莎《伦理学》" },
+        { text: "没有一座文明的丰碑，不是野蛮的见证。", author: "本雅明《历史哲学论纲》" },
+        { text: "在错误的生活中，不存在正确的生活方式。", author: "阿多诺《最低限度的道德》" }
+    ];
+
+
+    const quoteText = document.getElementById('quote-text');
+    const quoteAuthor = document.getElementById('quote-author');
+    const contentDiv = document.querySelector('.quote-content');
+    const refreshBtn = document.getElementById('refresh-btn');
+    const copyBtn = document.getElementById('copy-btn');
+
+    
+    function getRandomQuote() {
+        const randomIndex = Math.floor(Math.random() * localQuotes.length);
+        return localQuotes[randomIndex];
+    }
+
+    
+    function updateQuote() {
+        
+        contentDiv.classList.remove('visible');
+        
+        setTimeout(() => {
+            const quote = getRandomQuote();
+            quoteText.textContent = quote.text;
+            quoteAuthor.textContent = quote.author;
+            
+            contentDiv.classList.add('visible');
+        }, 300); 
+    }
+
+    
+    function copyQuote() {
+        const textToCopy = `${quoteText.textContent} —— ${quoteAuthor.textContent}`;
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            
+            const originalIcon = copyBtn.innerHTML;
+            copyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="color:green"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+            setTimeout(() => {
+                copyBtn.innerHTML = originalIcon;
+            }, 2000);
+        }).catch(err => {
+            console.error('无法复制', err);
+        });
+    }
+
+    
+    refreshBtn.addEventListener('click', updateQuote);
+    copyBtn.addEventListener('click', copyQuote);
+
+    
+    setTimeout(updateQuote, 100);
+});
+</script>
+
+</footer>
+
+
+
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script type="text/javascript" src="/ts/main.0cfc05a2fb3e93f4fdb0c9e18b6a4c98cb32316def8db6fc5b2a1522bc17af8c.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+  <div id="particles-js"></div>
+
+  <script src=https://www.laujoe.top/background/particles.min.js></script>
+  <script>
+    particlesJS.load('particles-js', "https://www.laujoe.top/background/particlesjs-config.json", function() {
+      console.log('particles.js loaded - callback');
+    });
+  </script>
+  
+  <style>
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+    }
+  </style>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 55px;
+    width: 55px;
+    height: 55px;
+    border-radius: 7px;
+    background-color: rgba(64, 158, 255, 0.5);
+    box-shadow: var(--shadow-l2);
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+  }
+
+  #back-to-top:before {
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    top: 0;
+    transform: rotate(135deg);
+    height: 10px;
+    width: 10px;
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover:before {
+    border-color: #2674e0;
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      font-size: 10px;
+    }
+  }
+
+   
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 20px;
+      right: 40px;
+    }
+  }
+
+   
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 20px;
+      right: 55px;
+    }
+  }
+
+   
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      visibility: hidden;
+    }
+  }
+</style>
+
+
+<script>
+  function backToTop() {
+    document.documentElement.scrollIntoView({
+      behavior: 'smooth',
+    })
+  }
+
+  window.onload = function () {
+    let scrollTop =
+      this.document.documentElement.scrollTop || this.document.body.scrollTop
+    let totopBtn = this.document.getElementById('back-to-top')
+    if (scrollTop > 0) {
+      totopBtn.style.display = 'inline'
+    } else {
+      totopBtn.style.display = 'none'
+    }
+  }
+
+  window.onscroll = function () {
+    let scrollTop =
+      this.document.documentElement.scrollTop || this.document.body.scrollTop
+    let totopBtn = this.document.getElementById('back-to-top')
+    if (scrollTop < 200) {
+      totopBtn.style.display = 'none'
+    } else {
+      totopBtn.style.display = 'inline'
+      totopBtn.addEventListener('click', backToTop, false)
+    }
+  }
+</script>
+
+
+<script>
+  let s1 = '2025-2-15'; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+ 
+  
+  let diffInMilliseconds = s2.getTime() - s1.getTime();
+  let totalDays = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
+ 
+  
+  let years = s2.getFullYear() - s1.getFullYear();
+  let months = s2.getMonth() - s1.getMonth();
+  let days = s2.getDate() - s1.getDate();
+ 
+  
+  if (days < 0) {
+    months -= 1;
+    let prevMonth = new Date(s2.getFullYear(), s2.getMonth(), 0); 
+    days += prevMonth.getDate();
+  }
+  if (months < 0) {
+    years -= 1;
+    months += 12;
+  }
+ 
+  
+  let result = `${years}年${months}月${days}天`;
+  document.getElementById('runningdays').innerHTML = result;
+ </script>
+ 
+
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+
+<div id="aplayer"></div>
+
+<script>
+    const home = "https://www.laujoe.top/"
+    console . log(home)
+    const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      lrcType: 2,
+      autoplay: false,
+      listMaxHeight: '140px',
+      audio: [
+        {
+            name: 'Merry Christmas Mr. Lawrence',
+            artist: '坂本龙一',
+            url: home +  'music/坂本龙一-Merry-Christmas-Mr. Lawrence/song.mp3',
+            cover: home + 'music/坂本龙一-Merry-Christmas-Mr. Lawrence/cover.jpg',
+            lrc: home + 'music/坂本龙一-Merry-Christmas-Mr. Lawrence/lyric.lrc',
+        },
+        
+        {
+            name: 'EXA SCALE',
+            artist: 'SPiCYSOL',
+            url: home +  'music/SPiCYSOL-EXA-SCALE/song.mp3',
+            cover: home + 'music/SPiCYSOL-EXA-SCALE/cover.jpg',
+            lrc: home + 'music/SPiCYSOL-EXA-SCALE/lyric.lrc',
+        },
+
+        {
+            name: 'Sex On Fire',
+            artist: 'SPiCYSOL',
+            url: home +  'music/SPiCYSOL-Sex-On-Fire/song.mp3',
+            cover: home + 'music/SPiCYSOL-Sex-On-Fire/cover.jpg',
+            lrc: home + 'music/SPiCYSOL-Sex-On-Fire/lyric.lrc',
+        },
+
+        {
+            name: 'Coconut Tree (SUI Sessions)',
+            artist: 'Ching G Squad',
+            url: home +  'music/Coconut-Tree/song.mp3',
+            cover: home + 'music/Coconut-Tree/cover.jpg',
+            lrc: home + 'music/Coconut-Tree/lyric.lrc',
+        },
+
+        {
+            name: 'Feel Alive',
+            artist: '王以太',
+            url: home +  'music/王以太-Feel Alive删减/song.mp3',
+            cover: home + 'music/王以太-Feel Alive删减/cover.jpg',
+            lrc: home + 'music/王以太-Feel Alive删减/lyric.lrc',
+        },
+
+        {
+            name: 'Say You Love Me',
+            artist: '西原健一郎 feat.Tamala',
+            url: home +  'music/西原健一郎-Say-You-Love-Me-feat.Tamala/song.mp3',
+            cover: home + 'music/西原健一郎-Say-You-Love-Me-feat.Tamala/cover.jpg',
+            lrc: home + 'music/西原健一郎-Say-You-Love-Me-feat.Tamala/lyric.lrc',
+        }
+    ]
+});
+
+
+    
+
+    window.onbeforeunload = () => {
+        
+        const playInfo = {
+            index: ap.list.index,
+            currentTime: ap.audio.currentTime,
+            paused: ap.paused
+        };
+        localStorage.setItem("playInfo", JSON.stringify(playInfo));
+    };
+
+    
+
+    window.onload = () => {
+        
+        const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+        if (!playInfo) {
+            return;
+        }
+        
+        ap.list.switch(playInfo.index);
+        
+        setTimeout(() => {
+            
+            ap.seek(playInfo.currentTime);
+            
+            if (!playInfo.paused) {
+                ap.play()
+            }
+        }, 500);
+    };
+</script>
+
+
+
+
+        
+        <div id="float-breadcrumb-plugin">
+            <div class="plugin-capsule">
+                <a href="/" class="plugin-item" title="Home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                </a>
+                <span class="plugin-sep">/</span>
+                
+                    
+                    <a href="/categories/%E5%B7%A5%E5%85%B7%E7%BB%8F%E9%AA%8C/" class="plugin-item">
+                        <span>工具经验</span>
+                    </a>
+                
+                <span class="plugin-sep">/</span>
+                <span class="plugin-current">
+                    「自制软件」Article-Tool：我个人制作的学术工作台软件
+                </span>
+            </div>
+        </div>
+        
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            const contentArea = document.querySelector('.main') || document.body;
+            
+            
+            const walker = document.createTreeWalker(
+                contentArea,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            let node;
+            
+            
+            const regex = /([a-zA-Z0-9])\s*，(?=[a-zA-Z0-9\s])/g;
+
+            while (node = walker.nextNode()) {
+                if (node.nodeValue && node.nodeValue.includes('，')) {
+                    
+                    node.nodeValue = node.nodeValue.replace(regex, '$1, ');
+                }
+            }
+        });
+        </script>
+
+    </body>
+</html>
